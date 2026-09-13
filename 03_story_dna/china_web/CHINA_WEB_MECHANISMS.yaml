@@ -1,0 +1,60 @@
+# CHINA_WEB_MECHANISMS.yaml — 中国网文跨书机制库
+# 依据: 5 本 STORY_DNA_REPORT (2026-09-13)
+# 证据警告: 全部 MISSING_SOURCE — 类型机制 MEDIUM, 本书特异性 LOW-MEDIUM; 执行质量未验证
+# 缩写: CYS=我真没想重生啊, DF=大奉打更人, ZS=斩神, SRI=十日终焉, DCS=都重生了谁谈恋爱啊
+
+industrial_consensus:  # 5/5 命中的网文工业化共识
+  - mechanism: Container + Trump-Card Dual Timetable
+    appears_in: [CYS, DF, ZS, SRI, DCS]
+    underlying_psychology: "可无限更换的单元容器(案件/游戏/神话/遗憾/商机)供血高频爽点; 主角身份/世界真相作全书底牌维持长线——百万字续航的核心架构"
+    minimum_components: [标准化单元容器, 容器间不变的主角引擎, 全书级底牌]
+    optional_components: [容器与底牌的层级绑定(破案即开图), 底牌兑付的层级拆分]
+    failure_modes: ["容器同质化(只换皮不换玩法)", "底牌兑付过早", "三层冲突同时空档"]
+    transformations: {都市: 项目制职场, 悬疑: 案件制, 爱情: 对象制, 玄幻: 副本制, 科幻: 任务制}
+    originality_risk: LOW
+    video_potential: 9
+  - mechanism: Checklist-as-Structure
+    appears_in: [CYS(遗憾), DCS(风口), ZS(神话), DF(案件排期), 人生海海(证人, 跨组)]
+    underlying_psychology: "可枚举清单同时充当章节地图/体量规划文档/读者期待管理器"
+    minimum_components: [一份内容上成立的枚举清单]
+    optional_components: [清单项的时代/层级排序, 清单项之间的耦合]
+    failure_modes: ["清单项质量方差大", "清单过早耗尽"]
+    originality_risk: LOW
+    video_potential: 7
+  - mechanism: Internalized Cheat Code (金手指内化)
+    appears_in: [CYS(记忆), DF(思维方式), ZS(神话联结), SRI(智力), DCS(记忆)]
+    underlying_psychology: "2020s 头部网文共识: 金手指必须在人物内部(可被尊重), 而非外部系统发放(廉价)——能力自带正当性"
+    minimum_components: [能力的人物内来源, 能力的边界或代价]
+    failure_modes: ["无边界内化能力=爽点通胀", "能力与人格脱钩"]
+    originality_risk: LOW
+    video_potential: 5
+  - mechanism: Institution-Takeover Arc
+    appears_in: [DF(接管), SRI(玩弄), ZS(对抗)]
+    note: "网文版制度反派的独特处理: 允许主角最终接管/戏弄制度——与文学组(被动承受)和 GLOBAL 组(生存抵抗)的根本差异"
+    originality_risk: LOW
+    video_potential: 7
+
+signature_micro_mechanisms:
+  - {mechanism: Cross-Space Anonymous Chat, appears_in: [DF], note: "15 本中唯一的主角间社交系统发明——匿名身份谜题+信息差交易市场", originality_risk: MEDIUM, video_potential: 9}
+  - {mechanism: Modern-Mind-Transfer Comedy, appears_in: [DF], note: "穿越金手指=思维方式; 爽点与笑点共用一装置; 吐槽兼任 groundedness 转译器", originality_risk: LOW, video_potential: 8}
+  - {mechanism: Humor-as-Maintenance System, appears_in: [DF], note: "玩梗层=升级流百万字的防疲劳电池", originality_risk: LOW, video_potential: 6}
+  - {mechanism: Case-as-Chapel (容器四任务化), appears_in: [DF], note: "单元容器同时供血爽点/开图/人物/伏笔", originality_risk: LOW, video_potential: 8}
+  - {mechanism: Rule-as-Text Weaponization, appears_in: [SRI], note: "杀机藏在规则条文字缝里——重读规则即入坑", originality_risk: LOW, video_potential: 9}
+  - {mechanism: Meta-Game Container, appears_in: [SRI], note: "每轮容器换叙事语法而不仅换皮——抗疲劳最高等级", originality_risk: LOW, video_potential: 8}
+  - {mechanism: Dual-Amnesia Opening, appears_in: [SRI], note: "世界与自我双重无知——信息获取双倍奖励", originality_risk: LOW, video_potential: 7}
+  - {mechanism: Ensemble-as-Schools, appears_in: [SRI], note: "按方法论而非性格区分群像", originality_risk: LOW, video_potential: 7}
+  - {mechanism: Myth-Database Renewal, appears_in: [ZS], note: "公版神话=免费无限的角色/敌人/战力三合数据库", originality_risk: LOW, video_potential: 8}
+  - {mechanism: Patient-as-Character-Card, appears_in: [ZS], note: "隐藏身份卡池群像——集卡游戏性, IP化最优", originality_risk: LOW, video_potential: 8}
+  - {mechanism: Asylum-of-Gods Inversion, appears_in: [ZS], note: "秘密守在社会信任度最低处——颠倒即悬念", originality_risk: MEDIUM, video_potential: 7}
+  - {mechanism: Unidirectional Devotion, appears_in: [CYS], note: "我认识你一辈子, 你才认识我一天——信息差浪漫最大化", originality_risk: LOW, video_potential: 8}
+  - {mechanism: Domesticated Foresight, appears_in: [CYS, DCS], note: "金手指压制到生活尺度——克制即差异化", originality_risk: LOW, video_potential: 6}
+  - {mechanism: Middle-Aged Soul in Young Body, appears_in: [CYS], note: "心理年龄完整保留——错位即喜剧与温柔", originality_risk: LOW, video_potential: 7}
+  - {mechanism: Manifesto-Title Contract, appears_in: [DCS], note: "书名=主角宣言, 正文=宣言的反面", originality_risk: LOW, video_potential: 7}
+  - {mechanism: Reverse-Supply Romance, appears_in: [DCS], note: "形式否定恋爱, 内容加倍供给——宣言即阻力装置", originality_risk: LOW, video_potential: 8}
+  - {mechanism: Era-Arbitrage Checklist, appears_in: [DCS], note: "风口清单=章节地图(清单即结构的经济版)", originality_risk: LOW, video_potential: 6}
+
+meta_conclusions:
+  - "网文本质=容器工程学: 可更换单元容器+不变主角引擎+逐层开采的内容数据库——可移植任何题材原创长篇"
+  - "金手指进化方向: 内化与克制(系统→思维→纯智力); 文学版同构法则=额尔古纳河守恒律"
+  - "清单即结构是 15 本中第二强公约数(物件清单第一)——可直接落地的写作工程方法"
+  - "网文组结构对 AI 视频适配度最高(单元分集+可独立传播的反转切片+公版美术题材)——原创 AI 视频 IP 应: 网文组结构+GLOBAL 公约数"

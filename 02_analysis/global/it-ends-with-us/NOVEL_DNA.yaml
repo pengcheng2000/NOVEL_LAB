@@ -1,0 +1,115 @@
+# NOVEL_DNA.yaml — It Ends with Us
+# Phase 3 Evidence-Bounded Edition. 空值二分: not_applicable(确认不适用) / deferred_full_source(待全文)
+source_meta:
+  source_status: PARTIAL_SOURCE
+  text_coverage: "Chapter 1 full (official excerpt)"
+  evidence_profile: "TEXTUAL(Ch1) + PRIMARY(publisher) + SECONDARY(high-consistency public plot data)"
+  confidence_baseline: "opening=HIGH; full-book loops=MEDIUM; chapter-level detail=LOW"
+  analysis_date: 2026-09-13
+
+basic_info:
+  title: It Ends with Us
+  author: Colleen Hoover
+  original_language: English
+  genre: Contemporary Romance / Women's Fiction
+  publication_period: 2016 (Atria); TikTok resurgence 2021
+  popularity_context: "TikTok #BookTok phenomenon; one of the best-selling novels of the 2020s"
+  adaptation_status: "Film 2024 (Blake Lively)"
+
+one_line_core:
+  premise: "Florist Lily falls for a perfect neurosurgeon who gradually reenacts the abusive marriage she swore never to repeat."
+  core_fantasy: "Not being loved by a perfect man — having the strength to leave one."
+  central_question: "Will Lily recognize the repetition before she becomes her mother?"  # confidence: MEDIUM (secondary)
+  reader_promise: "Fall in love, see clearly, break the cycle — catharsis, not suspense."
+  confidence: MEDIUM
+
+protagonist_system:
+  starting_status: "23, new grad, opening a flower shop in Boston, father just buried, mother a domestic-abuse survivor"
+  desire: "To be loved AND to build a life unlike her parents'"
+  fear: "Becoming her mother"
+  weakness: "High tolerance for love-as-harm explanations (childhood-trained)"
+  contradiction: "Despises her mother for staying while walking into her own staying"
+  special_advantage: "Trauma-honed honesty and ability to see through masks (Ch1 textual)"
+  relatability: "Self-made, under-capitalized, family-trauma background for core female readership"
+  wish_fulfillment: "Dual: elite-male devotion (surface) / final sovereignty over one's own life (deep)"
+  character_arc: deferred_full_source
+  evidence: TEXTUAL(Ch1)+SECONDARY
+
+reader_addiction_loop:
+  primary_loop:
+    name: "Fall-and-Crack Loop"
+    shape: "love token -> red flag -> partially-valid rationalization -> deeper token -> bigger flag"
+    why_repeatable: "flags escalate as intimacy deepens; each rationalization is harder to sustain"
+    confidence: MEDIUM
+  secondary_loop:
+    name: "Atlas past-timeline counterpoint"
+    shape: "present happiness interleaved with past rescue/first love"
+    confidence: MEDIUM
+  long_term_loop:
+    name: "Generational mirror (mother as preview of Lily's choices)"
+    confidence: MEDIUM
+
+reward_engine:
+  primary_rewards: [romance, emotional_payoff]
+  secondary_rewards: [competence_flantasy_note_flowershop_business_progression]
+  signature_inversion: "Reward-Trap Inversion: each genre milestone (commitment/engagement) doubles as strongest danger evidence"
+  reward_frequency: deferred_full_source
+  confidence: MEDIUM
+
+relationship_engine:
+  ryle_x_lily:
+    attraction_mechanism: "symmetric deep self-disclosure (sanctioned confession game, Ch1)"
+    hook: "relationship starts at high watermark; every step tests whether it survives reality"
+    evidence: TEXTUAL(Ch1) for mechanism / SECONDARY for trajectory
+  atlas_x_lily:
+    attraction_mechanism: "unfinished first love + rescue debt"
+    function: "his existence refutes Ryle's narrative legitimacy"
+    confidence: MEDIUM
+  triangulation: "Ryle(present love) / Atlas(past love) / father(wrong love template) — every choice scored in all three frames"
+
+conflict_engine:
+  obstacle_generation: "endogenous — danger is embedded in the love object; conflict scales with intimacy, not with external enemies"
+  story_renewal_engine: "each cycle adds a new exit-cost (business entanglement, marriage, pregnancy) so leaving gets harder as feeling gets deeper"
+  confidence: MEDIUM
+
+groundedness:
+  ch1_anchors: [startup capital pressure, med-school vs arts class gap, Boston apartment, funeral bills]
+  function: "realism removes the reader's escape hatch of 'it's just an exaggerated genre world' — abuse hits at full force"
+  score_note: "high for opening (textual); full-book score deferred"
+  confidence: HIGH
+
+distinctive_mechanisms:
+  - name: Threat-to-Characterization Open
+    evidence_scope: Chapter 1
+    confidence: HIGH
+  - name: Sanctioned Confession Ladder
+    evidence_scope: Chapter 1
+    confidence: HIGH
+  - name: Peak Interruption
+    evidence_scope: Chapter 1
+    confidence: HIGH
+  - name: Double-Negation Hook
+    evidence_scope: Chapter 1
+    confidence: HIGH
+  - name: Reward-Trap Inversion
+    principle: "turn the genre's biggest reward moment into its biggest cost moment; genre reflex is the misdirection tool"
+    confidence: MEDIUM
+  - name: Generational Mirror Engine
+    principle: "the path the protagonist despises most becomes her future mirror; louder the early condemnation, stronger the payoff"
+    confidence: MEDIUM
+  - name: Partially-Valid Rationalization
+    principle: "the best cover for harm is not a lie but nine parts truth to one part falsehood"
+    confidence: MEDIUM
+  - name: Interrupted-Inheritance Closure
+    principle: "proving the cycle is broken should DELAY the new reward, not immediately grant it"
+    confidence: LOW
+
+originality_tiers:
+  green: [all transferable principles above, reward inversion, generational mirror]
+  yellow: ["survivor-daughter x neurosurgeon x first-love triangle occupational config", "naked truths phrasing", "anti-eulogy scene shape"]
+  red: [character names (Lily Bloom/Ryle Kincaid/Atlas Corrigan), "'It ends with us' generational hand-down phrasing", "flower shop + surname Bloom double meaning", specific abuse-event chain]
+
+video_adaptation:
+  ai_video_value: 7
+  rationale: "low VFX, dialogue-driven two-handers, real locations = AI-generation friendly; risk is long-range emotional continuity"
+  most_transferable_without_ip: ["Reward-Trap Inversion", "Generational Mirror Engine"]

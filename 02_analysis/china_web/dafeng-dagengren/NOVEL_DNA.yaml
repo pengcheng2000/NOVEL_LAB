@@ -1,0 +1,80 @@
+# NOVEL_DNA.yaml — 大奉打更人
+source_meta:
+  source_status: MISSING_SOURCE
+  text_coverage: 0%
+  evidence_profile: "RELIABLE_SECONDARY(起点白金作品, public material abundant) + COMMUNITY_INTERPRETATION(high-consensus genre features) + MODEL_INFERENCE"
+  confidence_baseline: "genre mechanics=MEDIUM-HIGH; plot detail=MEDIUM-LOW"
+  analysis_date: 2026-09-13
+
+basic_info:
+  title: 大奉打更人
+  author: 卖报小郎君
+  original_language: Chinese
+  genre: 玄幻探案 / 古代穿越 / 幽默流
+  publication_period: 2020-2022 (起点中文网), 380万字/952章 完本
+  popularity_context: "玄幻探案流开山作之一; 起点历史级人气; 多形态改编"
+  adaptation_status: "TV series aired; audio dramas; comics"
+
+one_line_core:
+  premise: "A modern office worker transmigrates into an ancient dynasty's watchman corps (a brocade-guard-like agency) and rises from a criminal-family grunt by solving cases with modern reasoning — in a world of sages, sorcerers, and gods."
+  core_fantasy: "downscaled rationality — modern thinking as a scarce superpower + the pleasure of being lucid inside an absurd world"
+  central_question: "case-level: whodunit; book-level: what is the dynasty's hidden truth"  # confidence: MEDIUM
+  reader_promise: "three concurrent channels: case-solving thrill, rank-climbing power, sustained meme comedy"
+
+protagonist_system:
+  starting_position: "bottom-tier watchman + whole family awaiting conviction — case-solving and survival are the same task (opening pressure integrated with plot engine)"
+  desire: "survive -> protect family -> (late-stage upgrade) protect what's worth protecting"
+  special_advantage: "modern knowledge + reasoning methodology (NOT a system cheat — the advantage is a way of thinking, giving payoffs intellectual legitimacy)"
+  weakness: "commoner birth — origin as original sin in a clan-dominated world (same structure as Violet's family label in FW)"
+  contradiction: "wage-slave mentality x world-saving responsibility — snark is the personality, duty is the core"
+  relatability: "worker-POV throughout; ancient bureaucracy as hologram of the modern workplace (comedy edition of 长安的荔枝's mapping)"
+
+reader_addiction_loop:
+  primary_loop:
+    name: "Case-Solving Loop"
+    shape: "bizarre case + deadline/suspicion -> entry with bottom-tier info disadvantage -> modern-method break -> reveal with reversal -> status/resources payout -> bigger case tied to a higher world layer"
+    why_repeatable: "cases are standardized episodic containers; case tier locked to world tier — solving a case IS opening the map"
+    confidence: MEDIUM-HIGH
+  secondary_loop:
+    name: "rank progression (martial rank + official rank dual progress bar)"
+  third_loop:
+    name: "dishu (earth-book) anonymous cross-space chat — identity-guessing social suspense + standing info-gap trading floor"
+    note: "the book's most famous invention"
+
+reward_engine:
+  primary_rewards: [mystery_case_reversal, power_dual_progress, face_slap_recurring]
+  secondary_rewards: [humor_as_stable_channel, family_rare_high_density]
+  signature_structure: "dual tempo — unit cases pay off in 3-10 chapters (high frequency) + world-truth line over 100+ chapters (long hook)"
+  confidence: MEDIUM-HIGH
+
+relationship_engine:
+  female_lines: "each bond tied to a faction/system — relationships as political map"
+  brothers_line: "workplace war-buddy comedy layer"
+  core_relation: "protagonist x the institution — from crushed by it to becoming it (web-novel version of Institution-as-Antagonist: takeover allowed)"
+
+conflict_engine:
+  obstacle_generation: "three-layer villain stack by timescale: chapter (case) / volume (court factions) / book (transcendent enemies) — near/mid/far conflict always co-present"
+  story_renewal_engine: "new case = new map = new system (Confucian/sorcerer/gu/Buddhist opened one by one) — map-opening renewal refreshes rules, powers, cast"
+  confidence: MEDIUM-HIGH
+
+groundedness:
+  strategy: "worker-POV modern mapping (yamen=company, rank=job grade, patrol=shift) + market-street material detail + snark as translator of ancient rules into workplace common sense"
+  note: "the humor layer doubles as groundedness translator — the book's most economical dual-function design"
+  confidence: MEDIUM-HIGH
+
+distinctive_mechanisms:
+  - {name: Modern-Mind-Transfer Comedy, principle: "make the cheat code a way of thinking, not a system — payoffs gain intellectual legitimacy, snark gains structural legitimacy; comedy and catharsis share one device", confidence: HIGH}
+  - {name: Case-as-Chapel, principle: "episodic containers should do four jobs at once (payoff/map/cast/foreshadow) — container multitasking determines long-form efficiency", confidence: MEDIUM-HIGH}
+  - {name: Cross-Space Anonymous Chat, principle: "install an anonymous social layer across factions — readers get a permanent identity-guessing game and info trading auto-generates plot", confidence: HIGH}
+  - {name: Tri-Tempo Conflict Stack, principle: "maintain chapter/volume/book-tier conflicts simultaneously — any empty layer is a drop-off point", confidence: MEDIUM-HIGH}
+  - {name: Humor-as-Maintenance System, principle: "the meme layer is not style but an anti-fatigue battery for million-character progression", confidence: MEDIUM}
+
+originality_tiers:
+  green: [all principles above]
+  yellow: ["watchman-corps + dishu-chat + tax-silver-case-opening combo (bound to this book)", "卖报小郎君 meme-dense voice"]
+  red: [许七安/大奉/打更人衙门 names, dishu-fragment specific setting, signature scene chains]
+
+video_adaptation:
+  ai_video_value: 8
+  rationale: "case-per-episode structure is the ideal serialization shape; proven multi-format adaptation; risk = translation loss of the meme-dense voice"
+  most_transferable_without_ip: [Cross-Space Anonymous Chat (natively suited to interactive/bullet-comment media), Case-as-Chapel]

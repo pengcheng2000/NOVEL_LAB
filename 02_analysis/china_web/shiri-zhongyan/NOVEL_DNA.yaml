@@ -1,0 +1,75 @@
+# NOVEL_DNA.yaml — 十日终焉
+source_meta:
+  source_status: MISSING_SOURCE
+  text_coverage: 0%
+  evidence_profile: "RELIABLE_SECONDARY(market facts: 2024 番茄年度榜TOP1/影响力榜/200万册) + COMMUNITY_INTERPRETATION(genre consensus) + MODEL_INFERENCE"
+  confidence_baseline: "genre mechanics=MEDIUM; specific setting/character detail=LOW ('十日' mechanism details vary across retellings — no assertions made here)"
+  analysis_date: 2026-09-13
+  note: "this file analyzes structural positions only; execution quality (the book's core reputation) is unassessed without text"
+
+basic_info:
+  title: 十日终焉
+  author: 杀虫队队员
+  original_language: Chinese
+  genre: 无限流 / 死亡游戏 / 高智商博弈
+  publication_period: 2023-2025 (番茄小说), 320万字/1496章 完结
+  popularity_context: "2024 番茄年度巅峰榜 TOP1; 中国网络文学影响力榜; 实体销量 200 万册; 完结不到一年"
+  adaptation_status: "多形态开发公开报道"
+
+one_line_core:
+  premise: "An amnesiac wakes in a place where everyone must play lethal games with explicit rules — survive by out-thinking the game, then out-thinking whoever built the place."
+  core_fantasy: "intelligence as the only currency — a world where rules play people is inverted into people playing rules"
+  central_question: "three nested: how to break this game (unit) / what is this place (world) / who am I (self — the amnesia card)"  # confidence: MEDIUM
+  reader_promise: "rule-crack epiphanies + high-stakes tension + unusually strong ensemble emotion (community consensus)"
+
+protagonist_system:
+  starting_position: "amnesia + bottom entry — double information deficit (world rules unknown, self unknown); protagonist and reader learn from zero together"
+  special_advantage: "intellect — the cheat code is inside the skull, no system needed"
+  contradiction: "cold strategist x loyal companion — will calculate everything to win, and lose the optimal solution for teammates"
+  relatability: "the clever person under rules — heroic projection of readers who hunt loopholes in KPI/housing-price systems daily"
+
+reader_addiction_loop:
+  primary_loop:
+    name: "Death-Game Loop"
+    shape: "rules announced -> break-window analysis (reader reasons in parallel — participatory) -> execution (alliance/betrayal/info-war) -> result (validates or overturns the reader's own solution) -> reward/intel/identity-fragment payout -> higher-order game"
+    why_repeatable: "rule games are infinitely re-skinnable containers; each round's rules are themselves the novelty"
+    confidence: MEDIUM
+  secondary_loop:
+    name: "Ensemble-bond loop — the emotion supply line (community consensus: unusually strong, the differentiator over ordinary infinite-flow)"
+  long_term_loop: {name: "truth of the place + protagonist identity (the amnesia trump card)"}
+
+reward_engine:
+  primary_rewards: [mystery_rule_crack_epiphany, emotional_payoff_ensemble]
+  secondary_rewards: [power_in_game_resources, social_recognition_peer_respect]
+  signature_structure: "infinite flow = the purest unit+longline dual timetable (full payoff loop per game; identity card pays at book scale)"
+  confidence: MEDIUM
+
+relationship_engine:
+  alliances: "gamified relations — trust as strategic resource, betrayal as in-rule action; every step oscillates between calculation and sincerity"
+  ensemble: "each high-IQ character personifies one school of play (aggressive/calculating/intuitive/rules-lawyer) — characters as schools, optimal for ensemble"
+
+conflict_engine:
+  obstacle_generation: "game schedule (institutionalized death calendar, FW-military-college homolog) + player-vs-player zero-sum + the hidden designer (final layer)"
+  story_renewal_engine: "new game = new rules = new narrative grammar (mystery/cooperation/betrayal/psych-war rotated) — the highest anti-fatigue tier of episodic design"
+  confidence: MEDIUM
+
+groundedness:
+  strategy: "rules as reality mirror — game rules poeticize workplace/social rules (elimination, allocation, info asymmetry, taking sides); readers recognize their daily life inside the death games"
+  confidence: MEDIUM
+
+distinctive_mechanisms:
+  - {name: Rule-as-Text Weaponization, principle: "publish complete rule text with lethality hidden between the lines — the moment of rereading rules is the hook moment (reading itself dramatized, cf. 长安的荔枝's 荔枝煎->鲜 trap)", confidence: MEDIUM}
+  - {name: Dual-Amnesia Opening, principle: "strip both world-knowledge and self-knowledge — every acquisition is a double reward; identity payoff defers indefinitely under survival pressure", confidence: MEDIUM}
+  - {name: Meta-Game Container, principle: "rotate narrative grammar, not just subject skin, per unit — genre carousel inside one work", confidence: MEDIUM}
+  - {name: Ensemble-as-Schools, principle: "differentiate ensemble by problem-solving methodology, not personality tags — every team-up is a school-of-thought reaction", confidence: MEDIUM}
+  - {name: Calculable-Bond Relationship, principle: "expose the economics of trust, then break it — emotion pays out exactly when calculation fails and sincerity appears", confidence: MEDIUM-LOW}
+
+originality_tiers:
+  green: [all principles above]
+  yellow: ["终焉之地 + 十日 + death-game combo (bound to this book)", "'十日' as named mechanism"]
+  red: [齐夏 name, specific setting chains and main-line reversal chains (listed defensively)"]
+
+video_adaptation:
+  ai_video_value: 8
+  rationale: "'rules announced -> audience guesses -> reversal' is a native short-video completion-rate structure; one game per episode; 2M print copies validate demand"
+  most_transferable_without_ip: [Rule-as-Text Weaponization, Meta-Game Container]

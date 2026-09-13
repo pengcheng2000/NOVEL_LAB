@@ -1,0 +1,92 @@
+# NOVEL_DNA.yaml — The Midnight Library
+source_meta:
+  source_status: PARTIAL_SOURCE (depth-limited)
+  text_coverage: "~1.5 pages Ch1 (Chinese translation; style degraded) + full 72-entry TOC (strong structural evidence)"
+  evidence_profile: "TEXTUAL(trial+TOC) + PRIMARY(publisher) + SECONDARY(high-consistency public plot data)"
+  confidence_baseline: "structure=MEDIUM-HIGH (TOC evidence); scene-level/voice=LOW-MEDIUM (translation)"
+  analysis_date: 2026-09-13
+
+basic_info:
+  title: The Midnight Library
+  author: Matt Haig
+  original_language: English
+  genre: Philosophical fiction / healing fantasy
+  publication_period: 2020 (Canongate/Viking)
+  popularity_context: "Global bestseller; GMA Book Club; 'It's a Wonderful Life for the modern age' positioning"
+  adaptation_status: "Film rights acquired (announced)"
+
+one_line_core:
+  premise: "On the worst night of her life, 35-year-old Nora Seed wakes in a library between life and death where each book is a life she could have lived."
+  core_fantasy: "Life re-selection (do-over) — but inverted: not 'another life is better' but 'trying all lives, then reconciling with this one'"
+  central_question: "If you could undo every regret, would you still choose your own life?"
+  reader_promise: "One new life to try on per arc; healing through accumulated small epiphanies"
+
+protagonist_system:
+  starting_status: "35, small-town England, music dream abandoned, unemployed record-shop clerk, estranged brother, cat just died, mother dead — a complete inventory of failure"
+  desire: "Escape (surface); 'which step went wrong' (deep)"
+  fear: "Confirmation that her life could have been better and she failed it"
+  weakness: "Depressive attribution bias — neutral events read as personal failures (Ch1 chess-game contrast with Mrs. Elm)"
+  special_advantage: "none (not a power-fantasy engine) — the guide Mrs. Elm is the advantage"
+  relatability: "30-something 'missed everything' anxiety — the most common contemporary denominator; fill-in-your-own regrets list"
+  contradiction: "She tried to die, yet her engagement inside each trial life proves she wants to live — the contradiction IS the book's argument"
+
+reader_addiction_loop:
+  primary_loop:
+    name: "Life-Fitting-Room Loop"
+    shape: "pick a 'what if' -> enter life with skills/relations instantly inherited -> initial wonder (fantasy payoff) -> crack appears (each life has its own regrets) -> disillusion/exit -> one new cognition banked -> next book"
+    why_repeatable: "parallel lives are an infinite scenario generator (life-type sequence visible in TOC); episodic shell + serialized inner progression toward the ending insight"
+    confidence: HIGH
+  secondary_loop:
+    name: "Regret-repricing loop (each life reprices one item on her regret list)"
+    confidence: MEDIUM
+  long_term_loop:
+    name: "the library's own mystery (mechanics, Mrs. Elm, why her)"
+    confidence: MEDIUM
+
+reward_engine:
+  primary_rewards: [experiential_life_sampling, mystery_per_life]
+  secondary_rewards: [emotional_payoff_ending]
+  signature_structure: "reward-decay: each life's payoff moment doubles as its failure point; reader's pleasure threshold deliberately retrained toward theme"
+  confidence: MEDIUM
+
+relationship_engine:
+  nora_x_mrs_elm:
+    mechanism: "guide with personal memory of teenage Nora — warm authority; the only relationship anchor across all parallel lives"
+    confidence: HIGH
+  nora_x_brother_joe:
+    mechanism: "core regret item; biggest single-life motivation and biggest final reconciliation"
+    confidence: MEDIUM
+  preinstalled_relations:
+    mechanism: "each life ships with relatives/lovers who know a her she doesn't know — 'people who know you, don't know you' as built-in high-density scenes"
+    confidence: MEDIUM
+  engine_note: "relationships get repriced across lives — are bonds a function of conditions or of persons?"
+
+conflict_engine:
+  obstacle_generation: "each life has conflict preinstalled in its success (cost embedded in achievement) + library-rule constraints (time pressure, no staying)"
+  story_renewal_engine: "life-type rotation (visible in TOC: rock-star arc, glaciologist arc, vineyard arc); TOC shows deliberate convergence in the final quarter (迷失在图书馆 -> 完美人生 -> 苏醒 -> 终局)"
+  confidence: HIGH(structure)/MEDIUM(detail)
+
+groundedness:
+  ch1_anchors: [Bedford school library afternoons, mother taping her ear as a baby (object-level regret origin), exam anxiety]
+  fantasy_entry: "mechanism borrows real-life library experience entirely; Ch1 chess game doubles as mechanism metaphor"
+  note: "regrets sourced from the most common ordinary life junctures — groundedness is the precondition of healing credibility"
+  confidence: HIGH
+
+distinctive_mechanisms:
+  - {name: Life-Fitting Room, principle: "structure the do-over fantasy as an enumerable episodic container; systematic disappointment inside the container IS the theme's argument — episodic structure and thematic proof fully isomorphic", confidence: HIGH}
+  - {name: Instant-Inheritance Entry, principle: "maximize do-over pleasure: experience having, not earning; cost = borrowed memories expose themselves in details", confidence: MEDIUM}
+  - {name: Regret Repricing, principle: "let the protagonist live each 'what if' to its real conclusion — conversion by experience, not by sermon", confidence: MEDIUM}
+  - {name: Dual-Anchor Guide, principle: "the mechanism's explainer should share history with the protagonist — rules handover and emotional top-up in the same scene", confidence: MEDIUM}
+  - {name: Object-Titled Micro-Chapters, principle: "concrete-noun chapter titles pre-install curiosity; ultra-short chapters give a healing book page-turning speed", confidence: HIGH}
+  - {name: Reward-Decay Training, principle: "systematically retrain the reader's payoff threshold, migrating page-turn energy from reward to theme", confidence: MEDIUM}
+  - {name: Fable-Premise Reality-Anchor, principle: "the more abstract the premise, the more concrete the opening anchors — pay for height with density", confidence: HIGH}
+
+originality_tiers:
+  green: [all principles above]
+  yellow: ["library-between-life-and-death + librarian guide + book-of-regrets imagery stack (highly identified)", "try-all-lives-then-choose-yours healing conclusion path"]
+  red: [The Midnight Library/Nora Seed/Mrs. Elm/Bedford names, Plath epigraph usage, specific life inventory (rockstar/Svalbard glaciologist/etc.)]
+
+video_adaptation:
+  ai_video_value: 9
+  rationale: "infinite parallel worlds + one-life-per-episode structure + each life a distinct visual style = practically purpose-built for AI-generated video pipelines (batch stylized scenes)"
+  most_transferable_without_ip: [Life-Fitting Room (in a different enumerable container — restaurant/fitting room/game save), Object-Titled Micro-Chapters, Fable-Premise Reality-Anchor]

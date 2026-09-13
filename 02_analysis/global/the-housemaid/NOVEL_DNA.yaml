@@ -1,0 +1,85 @@
+# NOVEL_DNA.yaml — The Housemaid
+source_meta:
+  source_status: METADATA_ONLY
+  text_coverage: "0% — no narrative text available"
+  evidence_profile: "PRIMARY(official publisher copy — the core evidence; copy is a deliberately designed mechanism preview) + SECONDARY(market facts) + MODEL_INFERENCE(genre mechanics, all flagged)"
+  confidence_baseline: "copy-structure analysis=MEDIUM-HIGH; execution quality=LOW (unread)"
+  analysis_date: 2026-09-13
+  warning: "no plot-level claim in this file is verified against the novel text"
+
+basic_info:
+  title: The Housemaid
+  author: Freida McFadden
+  original_language: English
+  genre: Psychological/domestic thriller
+  publication_period: 2022 (Bookouture)
+  popularity_context: "No.1 NYT & Sunday Times; 5M+ copies; viral via social media hooks; BookTok-era thriller phenomenon"
+  adaptation_status: "Film (Sydney Sweeney, Amanda Seyfried)"
+
+one_line_core:
+  premise: "A woman with a hidden past takes a maid job in a wealthy family whose secrets are more dangerous than hers — and the door to her attic room locks only from the outside."
+  core_fantasy: "class-crossing proximity + 'you think she's prey; she's also a hunter'"
+  central_question: "Which secret detonates first — the family's or hers?"  # confidence: MEDIUM (copy-derived)
+  reader_promise: "suffocation escalation + the counter-strike promised by the copy's last line"
+
+protagonist_system:
+  starting_status: "bottom-tier restarter — needs the job, the room, and identity cover; exit cost near-infinite ('last chance')"
+  note: "low bargaining power IS the thriller pressure: can't report, can't quit, can't complain"
+  hidden_trump: "her past ('what I'm capable of') — the underdog's concealed fang fantasy"
+  relatability: "universal memory of employer-employee power asymmetry (exploitation, surveillance, house rules)"
+  confidence: LOW-MEDIUM
+
+reader_addiction_loop:
+  primary_loop:
+    name: "Suffocation-Escalation Loop"
+    shape: "subtle abnormal signal -> self-doubt (malice or paranoia?) -> half-confirmation -> one more exit route closed -> bigger signal"
+    why_repeatable: "gaslighting makes every signal deniable — the same event supports two readings, forcing constant reinterpretation"
+    confidence: LOW-MEDIUM
+  secondary_loop:
+    name: "Double-secret collision — every step toward their secret exposes hers (dual countdown)"
+    confidence: LOW-MEDIUM
+  long_term_loop:
+    name: "'What is she capable of' — the narrator's past as the biggest delayed reveal"
+    confidence: LOW-MEDIUM
+
+reward_engine:
+  primary_rewards: [mystery_ladder, emotional_payoff_counterstrike]
+  secondary_rewards: [class_tourism_domestic_detail_consumption]
+  buildup_to_payoff: "copy pre-announces two payoff tokens: white dress (mid-book transgression), outward-locking door (late-book imprisonment)"
+  confidence: LOW-MEDIUM
+
+relationship_engine:
+  maid_x_nina:
+    mechanism: "asymmetric war — employer holds rule-making power; maid holds only information and patience; reversibility pre-sold"
+    confidence: MEDIUM
+  maid_x_andrew:
+    mechanism: "attraction line as triangle pressure — escape route and new danger simultaneously"
+    confidence: MEDIUM
+  engine_note: "workplace power relations packed into domestic space — the fireability of employment x the inescapability of home"
+
+conflict_engine:
+  obstacle_generation: "spatial (outward-locking door) + regulatory (house rules as unilateral legislation) + relational (closeness with the husband auto-justifies escalation)"
+  story_renewal_engine: "layer-by-layer revelation — each family layer peeled refreshes the threat model without new locations"
+  confidence: LOW-MEDIUM
+
+groundedness:
+  anchors: [eating alone in the top-floor room, mess made to be cleaned, employer's unilateral control over domestic space]
+  note: "domestic-thriller groundedness = materiality of domestic labor — whose room, whose lock, whose closet, who may eat where: space-use rights as the class scale"
+  confidence: MEDIUM
+
+distinctive_mechanisms:
+  - {name: Double-Secret Escalation, principle: "secrets held at opposite ends of a power gap — the weak's secret is a weapon, the strong's secret is a vital flaw; the gap itself appreciates both", confidence: MEDIUM}
+  - {name: Deniable Malice, principle: "keep every harmful act within the 'could be善意' range — the unprovability of oppression oppresses more than the oppression", confidence: MEDIUM}
+  - {name: Architecture-as-Weapon, principle: "one verifiable spatial fact (door direction, lock side) carries the entire threat — physical detail is 10x more credible than psychological description", confidence: MEDIUM-HIGH}
+  - {name: Transgression-Token, principle: "give the protagonist one object above her station as a one-shot button — touching it triggers the punishment routine, no explanation needed", confidence: MEDIUM}
+  - {name: Normalcy-Amplified Abnormality, principle: "present horror inside the syntax of routine checklists; reader-discovered anomaly is scarier than author-flagged anomaly", confidence: MEDIUM}
+
+originality_tiers:
+  green: [all principles above]
+  yellow: ["maid x rich family x double-secret x imprisonment config (current high-recognition domestic thriller stack)", "attic-door imagery combo"]
+  red: [Nina/Andrew Winchester & Millie names, "'Welcome to the family' opening formula", "white dress + attic door imagery chain", "the specific twist chain (listed defensively, unverified)"]
+
+video_adaptation:
+  ai_video_value: 7
+  rationale: "single-location, low VFX, strong single-image scenes, dialogue-driven; the book's own copy-first viral marketing is natively short-video shaped"
+  most_transferable_without_ip: [Architecture-as-Weapon, Transgression-Token, Normalcy-Amplified Abnormality]

@@ -1,0 +1,23 @@
+# 换行统一：仓库内文本一律 LF，跨 Mac / Windows 协作由 Git 自动处理
+* text=auto
+
+# 明确文本类型
+*.md    text
+*.txt   text
+*.json  text
+*.yaml  text
+*.yml   text
+*.py    text
+*.toml  text
+*.sh    text eol=lf
+*.swift text
+
+# 二进制类型（不参与换行转换与 diff）
+*.png   binary
+*.jpg   binary
+*.gif   binary
+*.woff  binary
+*.woff2 binary
+*.epub  binary
+*.pdf   binary
+*.mobi  binary

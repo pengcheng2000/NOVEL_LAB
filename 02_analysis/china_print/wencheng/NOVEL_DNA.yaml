@@ -1,0 +1,75 @@
+# NOVEL_DNA.yaml — 文城
+source_meta:
+  source_status: MISSING_SOURCE
+  text_coverage: 0%
+  evidence_profile: "RELIABLE_SECONDARY(余华 2021 novel; reviews/interviews consistent) + MODEL_INFERENCE"
+  confidence_baseline: LOW-MEDIUM
+  analysis_date: 2026-09-13
+
+basic_info:
+  title: 文城
+  author: 余华
+  original_language: Chinese
+  genre: 时代悲剧 / 文学小说
+  publication_period: 2021 (北京十月文艺)
+  popularity_context: "余华八年长篇回归之作; 首月销量现象级; 争议与热度并存"
+  adaptation_status: "公开报道影视化推进"
+
+one_line_core:
+  premise: "In early-Republican China, a northern landowner's son carries the baby girl his runaway wife left behind, searching for a place called 'Wencheng' — a place she invented, which he comes to believe is the town he settles and dies in."
+  core_fantasy: "Searching for someone who left you — love as a lifetime unilateral obligation"
+  central_question: "Will he ever understand why Xiaomei left? (Answer withheld to the supplement)"  # confidence: MEDIUM
+  reader_promise: "dull ache — goodness fully honored yet fate-unrewarded"
+
+protagonist_system:
+  starting_status: "wealthy northern farm heir; honest, taciturn, master carpenter — the honest-man build whose only weakness is trust"
+  desire: "find Xiaomei; give her (and himself) a whole family"
+  special_advantage: "craft and credit — the 'dumb capital' he lives on in Xizhen"
+  contradiction: "keeping a promise built on a lie for a lifetime — the deceived man's faithfulness"
+  wish_fulfillment: "carrying the blame of being deceived oneself; Chinese-style silent fatherhood"
+
+reader_addiction_loop:
+  primary_loop:
+    name: "Mistaken-Anchorage Loop"
+    shape: "clue points to Xiaomei maybe-here -> he puts down roots waiting (each clue missing the last link) -> life accumulates (deeper roots, higher exit cost) -> era violence interrupts"
+    why_repeatable: "tension = widening gap between shrinking physical search radius and growing emotional radius"
+    confidence: MEDIUM
+  long_term_loop:
+    name: "Xiaomei's truth deferred to the 'supplement' — the reader learns the lie's internal structure last"
+    confidence: MEDIUM
+
+reward_engine:
+  primary_rewards: [emotional_payoff_friendship_fatherhood, mystery_payoff_in_supplement]
+  character: "anti-爽文 — satisfaction fully deferred to post-hoc re-valuation of events"
+  confidence: MEDIUM
+
+relationship_engine:
+  lin_xiangfu_x_xiaomei: "asymmetric devotion; the deceiver is herself trapped (husband/family/era) — the swindler as tragic figure"
+  lin_xiangfu_x_chen_yongliang: "modern myth of male loyalty — the waiting line's main engine"
+  promise_displacement: "the promise object slides from the woman to the daughter she left — the book's most moving redirect"
+
+conflict_engine:
+  obstacle_generation: "era violence (banditry, war, snowstorm) + the waiting paradox (confirming Xizhen is Wencheng would prove she'll never come)"
+  story_renewal_engine: "rotation of natural disasters, bandit raids, and ensemble-line switching"
+  confidence: MEDIUM
+
+groundedness:
+  strategy: "Republican-era Jiangnan material inventories — fate's full weight placed on daily-object lists (same Object-List Realism as LiC, serving tragedy not comedy)"
+  confidence: MEDIUM
+
+distinctive_mechanisms:
+  - {name: Fictive-Destination Quest, principle: "materialize the obsession's target from a person into a place — places cannot refuse, lie, or leave again; the quest gains legitimacy and epic scale", confidence: MEDIUM}
+  - {name: Reader-Knows-Place Gap, principle: "let the reader know earlier that the destination doesn't exist — every effort converts into poignancy instead of hope (information gap run in reverse)", confidence: MEDIUM}
+  - {name: Displaced Promise, principle: "when the promise's target vanishes, slide it onto the relic/orphan — the obsession gets a second life", confidence: MEDIUM}
+  - {name: Supplement-Side Reveal, principle: "after the ending, replay the whole book from the deceiver's POV — truth reorders meaning without changing facts; one narrative = two consumptions", confidence: MEDIUM}
+  - {name: Kindness-under-Fate, principle: "all goodness honored as goodness, none of it changing fate — moral return fully decoupled from fate's return", confidence: MEDIUM}
+
+originality_tiers:
+  green: [all principles above]
+  yellow: ["wife-search x carrying-daughter-south x Republican Jiangnan x deferred swindle-truth stack"]
+  red: [林祥福/小美/陈永良/溪镇/文城 names, "'文城·补' supplement structure", "Xiaomei's death chain"]
+
+video_adaptation:
+  ai_video_value: 6
+  rationale: "period art-friendly, strong single images (baby in arms going south, snow rituals), but long-range emotional accumulation slices poorly for short video"
+  most_transferable_without_ip: [Fictive-Destination Quest, Reader-Knows-Place Gap]

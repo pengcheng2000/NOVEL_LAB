@@ -1,0 +1,76 @@
+# NOVEL_DNA.yaml — 繁花
+source_meta:
+  source_status: MISSING_SOURCE
+  text_coverage: 0%
+  evidence_profile: "RELIABLE_SECONDARY(茅奖作品+王家卫剧版使公开资料极充分) + MODEL_INFERENCE"
+  confidence_baseline: LOW-MEDIUM
+  analysis_date: 2026-09-13
+
+basic_info:
+  title: 繁花
+  author: 金宇澄
+  original_language: Chinese (Shanghainese-inflected)
+  genre: 方言市井文学 / 城市史诗
+  publication_period: 2013 (上海文艺); 茅盾文学奖 2015
+  popularity_context: "文学圈口碑作; 2023 王家卫剧版使其成为大众现象"
+  adaptation_status: "TV series 2023 (王家卫) — 爆款"
+
+one_line_core:
+  premise: "Three Shanghai men — bourgeois-born Abao, military-family Husheng, working-class Xiaomao — carry two timelines (60s-70s childhood, 80s-90s adulthood) of dinners, affairs, and deals, assembling a city's fifty years."
+  core_fantasy: "city-insider credential — understanding the Shanghai of subtexts, lanes, and dinner tables"
+  central_question: "none — the long-line tension is where the era will take these people (uncertainty, not suspense)"  # confidence: MEDIUM
+  reader_promise: "gossip-chain consumption + retro-Shanghai desire spectacle + desolation inside the bustle"
+
+protagonist_system:
+  structure: "class-sampling trio — three protagonists as three strata of the same time-space (fell bourgeois / military cadre / working class): three physicals of one city"
+  dual_timeline_split: "childhood line holds fear without desire (era crushing families); adulthood line holds desire without roots (money/sex/face)"
+  relatability: "identity consumption for Shanghai readers; urban-life imagination for others"
+
+reader_addiction_loop:
+  primary_loop:
+    name: "Dinner-Gossip Relay Loop"
+    shape: "a dinner table -> gossip raises a person/affair -> narrative cuts to that thread (huaben-style pivot) -> back to the table, new topic"
+    why_repeatable: "huaben 'listen to the next chapter' structure — every gossip thread is a built-in chapter hook; the chain never breaks"
+    confidence: MEDIUM
+  secondary_loop:
+    name: "Dual-era echo — details in one timeline echo in the other; the READER draws the connecting lines (participatory narrative)"
+    confidence: MEDIUM
+  note: "proves mass success can bypass addiction design entirely — but is nearly unreplicable (the series broke out via Wong Kar-wai's visual rewrite)"
+
+reward_engine:
+  primary_rewards: [marketplace_spectacle_90s, language_pleasure_dialect_note_non_transferable]
+  secondary_rewards: [dual-line_puzzle_connection, class_rise_and_fall_drama]
+  character: "no 爽点, no suspense engine"
+  confidence: MEDIUM
+
+relationship_engine:
+  note: "relationships are scenic, not structural — dinner companions / affairs / business partners as apertures onto society"
+  romance_mechanism: "Shanghai-style desire expressed entirely via implication and silence ('不响' as relationship grammar)"
+  principle: "relationship density instead of relationship depth"
+
+conflict_engine:
+  obstacle_generation: "the era (Cultural Revolution confiscations, 90s wild capital) never strikes protagonists directly — it rewrites everyone's positions around them; conflict ambient-ized"
+  story_renewal_engine: "gossip-thread relay (outward toward society — same relay as 人生海海's witness relay, but pointing at social surface, not truth)"
+  confidence: MEDIUM
+
+groundedness:
+  strategy: "groundedness AS content: lanes, rationed vegetables, stock-subscription vouchers, Huanghe Road restaurants, stamps, sewing machines — object-list realism, city edition"
+  note: "'in the silent city, objects speak more than people' — a core reason for the Mao Dun prize"
+  confidence: HIGH
+
+distinctive_mechanisms:
+  - {name: Non-Answer Motif, principle: "repeat one neutral phrase (不响) a thousand times until it upgrades from word to worldview — every occurrence is a blank the reader fills (participatory emotion engine)", confidence: HIGH}
+  - {name: Huaben Relay, principle: "use in-scene characters' talk ABOUT others as the legal channel for scene transitions and exposition — gossip is freight-free exposition", confidence: MEDIUM}
+  - {name: Class-Sampling Trio, principle: "cast the ensemble by stratum quota, not personality complement — completeness of the social cross-section beats drama", confidence: MEDIUM}
+  - {name: Dual-Era Echo Structure, principle: "two timelines connected by detail-echoes, not causal suspense — the reader holds the connecting pen; echo density replaces suspense density", confidence: MEDIUM}
+  - {name: Object-Biography Cityscape, principle: "write the city's chronicle in replaced objects and consumptions, not events — more credible and more nostalgic than a timeline of headlines", confidence: MEDIUM}
+
+originality_tiers:
+  green: [all principles above]
+  yellow: ["Shanghainese dialogue as language asset (Wu-dialect-exclusive)", "Abao/Husheng/Xiaomao + Huanghe/Jinxian Road geo-character web", "不响 as direct signature usage"]
+  red: [character names, "不响 motif as this book's signature", "Wong Kar-wai series visual assets (must not be re-visualized)"]
+
+video_adaptation:
+  ai_video_value: 7
+  rationale: "period art AI-friendly with proven demand; risk = dense ensemble performance (AI weak spot)"
+  most_transferable_without_ip: [Non-Answer Motif, Huaben Relay]

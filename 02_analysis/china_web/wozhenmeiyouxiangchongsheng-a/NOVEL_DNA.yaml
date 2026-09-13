@@ -1,0 +1,78 @@
+# NOVEL_DNA.yaml — 我真没想重生啊
+source_meta:
+  source_status: MISSING_SOURCE
+  text_coverage: 0%
+  evidence_profile: "RELIABLE_SECONDARY(platform data/reviews) + COMMUNITY_INTERPRETATION + MODEL_INFERENCE"
+  confidence_baseline: "genre mechanics=MEDIUM; book-specific plot detail=LOW"
+  analysis_date: 2026-09-13
+
+basic_info:
+  title: 我真没想重生啊
+  author: 柳岸花又明
+  original_language: Chinese
+  genre: 都市重生 / 日常流
+  publication_period: 2021-2022 (起点中文网), 313万字/1101章 完本
+  popularity_context: "日常流重生文标杆; 起点月票榜历史前列; 高口碑长跑"
+  adaptation_status: "公开报道改编推进"
+
+one_line_core:
+  premise: "A middle-aged man with a successful-but-regret-riddled life wakes up in his college dorm with full memory — not to conquer, but to quietly fix every 'if only'."
+  core_fantasy: "Life's second playthrough — doing everything right this time (the gentle version of rebirth)"
+  central_question: "Can you redo a life without becoming someone else?"  # confidence: LOW-MEDIUM
+  reader_promise: "wholesale repayment of pre-loaded regret debts, in a warm daily-life register"
+
+protagonist_system:
+  starting_position: "college dorm — the point of maximum open options (standard rebirth-site: max choice)"
+  desire: "amends, not conquest"
+  special_advantage: "complete future memory — domesticated use only (major/career/nearby opportunities), no macro-crushing"
+  contradiction: "title = contradiction: rebirth feels like duty, not reward — middle-aged fatigue inside young life"
+  relatability: "precise mirror of the core demographic (30+ men): career okay, life full of regrets"
+
+reader_addiction_loop:
+  primary_loop:
+    name: "Regret-Settlement Loop"
+    shape: "identify a past-life regret node -> pre-position this time -> node arrives -> handled right -> emotional payoff -> next node"
+    why_repeatable: "the regret list is a pre-installed chapter map, distributed across life domains (study/love/family/career) — auto-rotating subjects"
+    confidence: MEDIUM
+  secondary_loop:
+    name: "Omniscient Social Loop — he knows everyone's future, they don't know he knows; every interaction spends the info gap"
+    confidence: MEDIUM
+  long_term_loop:
+    name: "butterfly effect — memory advantage decays as the redrawn life diverges"
+    confidence: MEDIUM
+
+reward_engine:
+  primary_rewards: [emotional_payoff_regret_settlement, romance_warm_register]
+  secondary_rewards: [competence_domesticated, money_modest_note_restraint_as_differentiation]
+  character: "delayed, life-sized payoffs instead of instant face-slaps — lower frequency, higher warmth; this IS the daily-flow product definition"
+  confidence: MEDIUM
+
+relationship_engine:
+  core_mechanism: "unidirectional devotion — 'I've known you a lifetime; you've known me a day' (the genre's strongest info-gap romance)"
+  family_line: "parents — the most painful settlement point for middle-aged readers"
+  principle: "daily-flow relationships run on consideration density instead of conflict density — foresight spent on clearing mines for others"
+
+conflict_engine:
+  obstacle_generation: "weak villains by design; conflict from regret-node complexity + butterfly effects + daily friction"
+  story_renewal_engine: "life-stage progression + domain rotation of the regret list — 3M characters sustained by life itself being long enough"
+  confidence: MEDIUM
+
+groundedness:
+  strategy: "groundedness AS content — campus, dorms, part-time jobs, family dinners, small business; rebirth fantasy landed on fully recognizable life; 2000s-2010s nostalgia objects as anchor system"
+  confidence: HIGH
+
+distinctive_mechanisms:
+  - {name: Regret-List Chapter Architecture, principle: "the protagonist's unfinished-business list doubles as the chapter map — list length is a planning tool for length", confidence: MEDIUM}
+  - {name: Middle-Aged Soul in Young Body, principle: "keep full psychological age after rebirth — dislocation is cheap comedy + tenderness + depth", confidence: MEDIUM}
+  - {name: Domesticated Foresight, principle: "cap the cheat code at life-scale — restraint of the golden finger IS the differentiation", confidence: MEDIUM}
+  - {name: Unidirectional Devotion Structure, principle: "one side of the romance holds the other's entire history — every act of care is reader-witnessed devotion the beloved doesn't know", confidence: MEDIUM}
+
+originality_tiers:
+  green: [all principles above, daily-flow structural config]
+  yellow: ["reborn-to-college x warm romance x daily-flow combo (now a brand; title syntax heavily imitated)"]
+  red: [陈汉升/萧容鱼 names, specific regret plot chains]
+
+video_adaptation:
+  ai_video_value: 6
+  rationale: "lowest production cost class; risk = daily flow lives on performance nuance and pacing, which short-drama format strips"
+  most_transferable_without_ip: [Unidirectional Devotion Structure, Domesticated Foresight — 'I know everything about you' is a native short-drama hook]

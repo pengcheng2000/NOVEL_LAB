@@ -1,0 +1,74 @@
+# NOVEL_DNA.yaml — 我在精神病院学斩神
+source_meta:
+  source_status: MISSING_SOURCE
+  text_coverage: 0%
+  evidence_profile: "RELIABLE_SECONDARY(core setting public-consensus) + COMMUNITY_INTERPRETATION + MODEL_INFERENCE"
+  confidence_baseline: "setting-level=MEDIUM; plot detail=LOW (public retellings vary — treat specifics with care)"
+  analysis_date: 2026-09-13
+
+basic_info:
+  title: 我在精神病院学斩神
+  author: 三九音域
+  original_language: Chinese
+  genre: 都市神话复苏 / 热血燃向
+  publication_period: 2021-2024 (番茄小说), 426万字/2033章 完结
+  popularity_context: "番茄头部; 动画《斩神之凡尘神域》2025"
+  adaptation_status: "Anime aired 2025"
+
+one_line_core:
+  premise: "When mythology descends on the modern world, humanity's safest stronghold is a psychiatric hospital — because the 'patients' there are telling the truth about who they are."
+  core_fantasy: "double inversion — the mad are gods; the least-trusted place is the arsenal; an edge-dweller guarding a world that doesn't believe him"
+  central_question: "Who are the patients, really — and who is the protagonist?"  # confidence: LOW-MEDIUM
+  reader_promise: "myth-identity reveals + patriotic-heat battle climaxes + asylum warmth"
+
+protagonist_system:
+  starting_position: "psychiatric-hospital-affiliated social edge position (community retellings vary: patient/carer — LOW confidence on specifics)"
+  special_advantage: "special bond with the mythic 'patients' — source of god-slaying power"
+  contradiction: "marginal x protector — disbelieved by the world he defends (mythologized underdog)"
+  relatability: "youth 'unrecognized but will prove' structure + national familiarity of myth characters"
+
+reader_addiction_loop:
+  primary_loop:
+    name: "Myth-Reveal & Battle Loop"
+    shape: "new mythic threat -> protagonist + asylum powers respond -> myth identity revealed (cultural payoff) -> power/bond upgrade -> bigger myth tier"
+    why_repeatable: "mythology is a pre-installed character & power database (infinite free IP with built-in recognition); myth rank = power ladder"
+    confidence: MEDIUM
+  secondary_loop:
+    name: "Asylum-Warmth Loop — care-giving daily life + identity fragments = the battle series' shock absorber"
+    confidence: MEDIUM
+  long_term_loop: {name: "truth of the mythic descent + protagonist's own origin", confidence: MEDIUM}
+
+reward_engine:
+  primary_rewards: [power_battle, patriotic_heat_climax, myth_cultural_easter_eggs]
+  secondary_rewards: [family_bond_ensemble, mystery_identity]
+  note: "free-to-read model (fanqie) biases toward instant payoffs and emotion density — page-turn rate IS revenue"
+  confidence: MEDIUM
+
+relationship_engine:
+  protagonist_x_patients: "dual relation — daily caregiving (warmth) and power transmission (growth) bound to the same people"
+  ensemble: "asylum as shelter-ensemble; each patient a myth-identity unit card (character-card pool — optimal for IP/anime)"
+
+conflict_engine:
+  obstacle_generation: "tiered mythic threat ladder (local oddities -> god descent) + intra-human organizational conflict"
+  story_renewal_engine: "swap the god = swap the chapter: mining the public-domain myth database tier by tier sustains 2033 chapters"
+  confidence: MEDIUM
+
+groundedness:
+  strategy: "modern city + mythology; grounding via national myth literacy (readers bring the world-knowledge pre-installed) + asylum as entry point to real social discourse on madness/normality"
+  confidence: MEDIUM
+
+distinctive_mechanisms:
+  - {name: Asylum-of-Gods Inversion, principle: "hide the world's secret in the least-trusted place/population — inversion is suspense and social commentary at once", confidence: MEDIUM}
+  - {name: Myth-Database Renewal, principle: "outsource long-form renewal to a public cultural database (myth/history/folklore) — free, recognizable, infinite", confidence: MEDIUM}
+  - {name: Patient-as-Character-Card, principle: "ensemble as hidden-identity card pool — each reveal is a payoff; collection-game structure is IP-ready", confidence: MEDIUM}
+  - {name: Care-as-Power-Source, principle: "bind the warmth line and the growth line to the same relationships — emotion and payoff co-guarantee", confidence: MEDIUM-LOW}
+
+originality_tiers:
+  green: [all principles above]
+  yellow: ["asylum x myth-revival x god-slaying combo (bound to this book's title-brand)"]
+  red: [林七夜 name, specific patient-myth configuration chains, "斩神" terminology system]
+
+video_adaptation:
+  ai_video_value: 8
+  rationale: "mythic combat is AI-generation's sweet spot; proven anime path; card-pool structure natively serial"
+  most_transferable_without_ip: [Myth-Database Renewal, Patient-as-Character-Card]

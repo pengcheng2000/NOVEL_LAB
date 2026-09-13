@@ -1,0 +1,95 @@
+# NOVEL_DNA.yaml — Lessons in Chemistry
+source_meta:
+  source_status: PARTIAL_SOURCE
+  text_coverage: "mid-Ch1 through end-Ch2 (official Penguin AU extract)"
+  evidence_profile: "TEXTUAL(1.5 chapters) + PRIMARY(publisher) + SECONDARY(high-consistency public plot data + Apple TV series)"
+  confidence_baseline: "voice/opening=HIGH; full structure=MEDIUM; subplots=LOW"
+  analysis_date: 2026-09-13
+
+basic_info:
+  title: Lessons in Chemistry
+  author: Bonnie Garmus
+  original_language: English
+  genre: Historical literary fiction / women's fiction with humor
+  publication_period: 2022 (Doubleday)
+  popularity_context: "Global bestseller; Read-with-Jenna pick; word-of-mouth phenomenon"
+  adaptation_status: "Apple TV series 2023 (Brie Larson)"
+
+one_line_core:
+  premise: "In 1960s America, a chemist pushed out of science becomes a national TV cooking-show host — and teaches chemistry instead of cooking."
+  core_fantasy: "Being accepted by the world without ever softening yourself"
+  central_question: "Can a woman who refuses to please still win — and can a broken family heal?"  # confidence: MEDIUM
+  reader_promise: "Regular competence-payoffs as she converts each humiliation into a lecture podium"
+
+protagonist_system:
+  starting_status: "30s research chemist, career severed by institutional sexism, single mother (at extract's present)"
+  desire: "To do science (a desire that is itself anti-genre)"
+  fear: "Not fear-driven — principle-driven (correctness as engine), a rare protagonist type"
+  weakness: "Treats all human interaction as data — socially catastrophic bluntness"
+  special_advantage: "Unshakeable professional authority + dislocation charm of applying expert language to daily life"
+  social_position: "Double marginal (woman + serious misfit in entertainment) — marginality becomes the differentiator"
+  wish_fulfillment: "I can stay exactly as I am and still be loved; my expertise dominates even in alien territory"
+  relatability: "Anyone too correct in the wrong rooms (esp. working women); lunchbox-note aphorisms as shareable anchors"
+
+reader_addiction_loop:
+  primary_loop:
+    name: "Displacement-Victory Loop"
+    shape: "institutional contempt -> refuses scripted reaction -> short-term cost -> displaced-field victory -> bigger contempt waiting"
+    why_repeatable: "1960s sexism is an infinite scenario generator; her response is always unpredictable yet always reasonable — readers come to hear HOW she says it"
+    confidence: MEDIUM
+  secondary_loop:
+    name: "Family-repair loop (scientist-mother vs genius-daughter)"
+    confidence: MEDIUM
+  long_term_loop:
+    name: "Calvin's past and unfinished death-knots (Madeline's sleuthing)"
+    confidence: LOW
+
+reward_engine:
+  primary_rewards: [competence, social_recognition_delayed_large]
+  secondary_rewards: [emotional_payoff_family, face_slap_variant_fact_based]
+  signature_structure: "compensation, not revenge — the lost science career repaid in another form (national educator influence)"
+  confidence: MEDIUM
+
+relationship_engine:
+  elizabeth_x_calvin:
+    mechanism: "two over-correct people recognizing each other as kin; total intellectual equality; his death sets the book's emotional base rate"
+    confidence: MEDIUM
+  elizabeth_x_madeline:
+    mechanism: "protection by truth (lunchbox notes) instead of comfort — love as dislocated expression"
+    confidence: HIGH
+  elizabeth_x_walter_pine:
+    mechanism: "crushed by her bluntness, converted into most loyal ally — 'recruited by correctness'"
+    confidence: HIGH
+  six_thirty:
+    function: "unconditional-love anchor + POV chapters as grief pressure-release valve"
+    confidence: MEDIUM
+
+conflict_engine:
+  obstacle_generation: "institutional — sexism is environmental rules, not a villain; auto-generates conflict in any scene"
+  story_renewal_engine: "same protagonist, new battlefield (lab -> TV -> court -> publishing): her correctness re-displaced each time — weapon both fails and dominates anew"
+  confidence: MEDIUM
+
+groundedness:
+  textual_anchors: [precise lunchbox contents, Hastings lunch-hour rules, divorced father's neglect, TV casting logic]
+  note: "precise object-listing is the book's core texture; lists double as characterization"
+  confidence: HIGH
+
+distinctive_mechanisms:
+  - {name: Authority Displacement, principle: "carry core competence into an environment where it shouldn't work; conflict and payoff auto-generate from the mismatch", confidence: HIGH}
+  - {name: Unappealing Heroine Paradox, principle: "refusing to please becomes the attraction source — each refusal must be backed by a competence proof", confidence: HIGH}
+  - {name: Grief-First Structure, principle: "front-load the greatest loss; run the book as compensation narrative rather than acquisition narrative", confidence: MEDIUM}
+  - {name: The Absent Anchor, principle: "the heaviest feelings can be carried by a character who never appears; each reappearance (relic/habit/child) is a high-density emotional top-up", confidence: MEDIUM}
+  - {name: Object-List Realism, principle: "let prop inventories define character — cheaper and more credible than psychology", confidence: HIGH}
+  - {name: Serious-Logic Comedy, principle: "write the rigid logic, not the joke — laughter as byproduct keeps the character both funny and dignified", confidence: HIGH}
+  - {name: One-Line Chapter Bomb, principle: "a single name-sentence that opens the biggest love-line + biggest mystery + causal chain at once", confidence: HIGH}
+  - {name: Reverse Discovery Arc, principle: "show the grand result first, then reveal a cause absurdly disproportionate to it — the gap is narrative credit", confidence: HIGH}
+
+originality_tiers:
+  green: [all principles above]
+  yellow: ["chemist x 1960s x cooking show three-element config (fixed by TV series imagery)", "dog-POV chapters in this specific form"]
+  red: [Elizabeth Zott/Calvin Evans/Supper at Six/Hastings Institute/Six-Thirty names, signature sign-off line, lunchbox-note wordings, Calvin's death mechanism chain]
+
+video_adaptation:
+  ai_video_value: 7
+  rationale: "period-piece look is AI-friendly; dialogue-dense; every lunchbox note is pre-made short-video material; main risk = performance density"
+  most_transferable_without_ip: [Authority Displacement, Object-List Realism]

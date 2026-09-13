@@ -1,0 +1,73 @@
+# NOVEL_DNA.yaml — 都重生了谁谈恋爱啊
+source_meta:
+  source_status: MISSING_SOURCE
+  text_coverage: 0%
+  evidence_profile: "RELIABLE_SECONDARY(basic data only — scarcest public material of the 15) + COMMUNITY_INTERPRETATION + MODEL_INFERENCE"
+  confidence_baseline: "genre-structure positions=MEDIUM; book-specific execution=LOW (this file mostly analyzes the genre slot)"
+  analysis_date: 2026-09-13
+
+basic_info:
+  title: 都重生了谁谈恋爱啊
+  author: 错哪儿了
+  original_language: Chinese
+  genre: 都市重生 / 搞钱流 / 轻喜剧
+  publication_period: 2023-2025 (起点中文网), 234万字/774章 完结
+  popularity_context: "起点完本; 女生网分类高分(9.2 QQ阅读) — 男性向内容向女性读者渗透的样本"
+  adaptation_status: "未核实"
+
+one_line_core:
+  premise: "A man who wasted his youth on unrequited love is reborn in college, declares he'll only make money — and the title's irony delivers itself."
+  core_fantasy: "redeeming the 'simp years' — converting all wasted time into money and being loved without chasing"
+  central_question: "who makes him break his own rule (the 'zhen-xiang' bet)"  # confidence: LOW-MEDIUM
+  reader_promise: "instant money payoffs + light 'resist-and-fall' comedy"
+
+protagonist_system:
+  starting_position: "reborn to college — zero wealth, maxed memory (standard rebirth site)"
+  desire: "money (the counter-obsession to a love-brained past life)"
+  contradiction: "public anti-love manifesto x continuously arriving romance — the manifesto is the resistance device"
+  special_advantage: "future memory (era arbitrage: trends/opp ortunities)"
+  relatability: "young male double-desire supply (money+love) + era backlash against 'simp economics'"
+
+reader_addiction_loop:
+  primary_loop:
+    name: "Money-Making Loop"
+    shape: "spot opportunity (past-life memory) -> low-cost entry -> friction (capital/competition/era limits) -> break -> wealth payout -> bigger opportunity"
+    why_repeatable: "the era's opportunity list is a pre-installed chapter map (third appearance of 'checklist-as-structure' in this project)"
+    confidence: MEDIUM
+  secondary_loop:
+    name: "Zhen-Xiang Loop — declare no romance -> high-quality interest appears -> resist -> fall one degree -> re-declare (comedy loop)"
+  long_term_loop: {name: "wealth freedom + emotional belonging converging finale"}
+
+reward_engine:
+  primary_rewards: [money_progress_bar, romance_reverse_supplied]
+  secondary_rewards: [competence_business, face_slap_past_life_crowd]
+  signature_structure: "reverse-supply romance — negate the love narrative in form, double it in content"
+  confidence: MEDIUM
+
+relationship_engine:
+  core_mechanism: "principle-as-barrier — the public no-dating rule pre-loads every romance line with a built-in obstacle (he can't be first to fall)"
+  depth_source: "settling the past life's emotional regret is the only depth channel"
+
+conflict_engine:
+  obstacle_generation: "business friction (capital/competition/information) + self-imposed principle (internal conflict pre-installed in the persona)"
+  story_renewal_engine: "era-checklist progression — real historical opportunities in sequence (nostalgia + 'if only I'd known' double pleasure)"
+
+groundedness:
+  strategy: "era archaeology — campus, startup winds, period objects; the feasibility of the first bucket of money is the genre's groundedness gate"
+  confidence: MEDIUM
+
+distinctive_mechanisms:
+  - {name: Manifesto-Title Contract, principle: "make the title the protagonist's declaration and the plot its refutation — the title pre-installs the whole book's irony (title = tension device + free marketing hook)", confidence: MEDIUM}
+  - {name: Reverse-Supply Romance, principle: "declare against what you will deliver — the resistance device (principle/oath/rule) is a free tension machine for the love line", confidence: MEDIUM}
+  - {name: Era-Arbitrage Checklist, principle: "productize foreknowledge as an enumerable checklist; the checklist doubles as the long-form planning document", confidence: MEDIUM}
+  - {name: Self-Sabotage-as-Barrier, principle: "make the protagonist's own manifesto the biggest obstacle — conflict built into the persona needs no external villain", confidence: MEDIUM}
+
+originality_tiers:
+  green: [all principles above (genre-structure level)]
+  yellow: ["reborn + money-making + anti-love genre slot (red ocean)", "manifesto title syntax (heavily imitated)"]
+  red: [江勤 name, specific plot chains (unlistable without text — defensive note)]
+
+video_adaptation:
+  ai_video_value: 6
+  rationale: "all three elements (rebirth/money/sweet-romance) are short-drama-validated genres with minimal production cost; heavy homogenization — needs structural novelty (Manifesto-Title Contract) to break out"
+  most_transferable_without_ip: [Manifesto-Title Contract, Reverse-Supply Romance]

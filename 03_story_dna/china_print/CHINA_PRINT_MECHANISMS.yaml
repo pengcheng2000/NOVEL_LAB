@@ -1,0 +1,72 @@
+# CHINA_PRINT_MECHANISMS.yaml — 中国传统出版小说跨书机制库
+# 依据: 5 本 STORY_DNA_REPORT (2026-09-13)
+# 证据警告: 全部 5 本 MISSING_SOURCE — 本库为 SECONDARY+INFERENCE 级, 置信度 LOW-MEDIUM
+# 缩写: RSH=人生海海, WC=文城, CA=长安的荔枝, EG=额尔古纳河右岸, FH=繁花
+
+cross_group_shared:  # 与 GLOBAL 组互证的公约数
+  - mechanism: Object-List Realism (物件清单现实主义)
+    appears_in: [RSH, WC, CA, EG, FH, GLOBAL_ALL_5]
+    note: "10/10 命中——15 本中最强跨文化公约数; 纹身/午餐盒并列/白裙子/邮票/驯鹿"
+    originality_risk: LOW
+    video_potential: 7
+  - mechanism: Structural-Underdog Opening
+    appears_in: [RSH, WC, CA, EG, FH]
+    note: "少年窥视者/被骗者/背锅吏/消亡部落/被抄家者"
+    originality_risk: LOW
+    video_potential: 6
+
+group_specific:  # 文学出版签名
+  - mechanism: Time-as-Container Structure
+    appears_in: [EG(一日百年), FH(双时代回声), RSH(证人60年接力), WC(一生一诺)]
+    underlying_psychology: "纯文学用时间结构替代悬念结构——容器刻度即章节, 容器尽头即终局"
+    minimum_components: [一个小的物理时间容器, 容器内的大跨度内容]
+    optional_components: [容器四分法的章节化, 容器将尽时的收敛加速]
+    failure_modes: ["容器与内容尺度失衡(装不下/太空)"]
+    transformations: {都市: 一顿饭讲完创业史, 悬疑: 一夜审讯讲完一生, 爱情: 一场婚礼回放十年, 科幻: 一次冬眠苏醒回望百年}
+    originality_risk: LOW
+    video_potential: 8
+  - mechanism: Transition-Machine Narration
+    appears_in: [FH(饭局八卦), RSH(证人证言), WC(补叙重估)]
+    underlying_psychology: "转场装置维持翻页——文学版的章末钩子"
+    minimum_components: [一个场景内的合法'谈论他人'入口]
+    failure_modes: ["转场痕迹外露", "被谈论者缺乏返回价值"]
+    transformations: {任何群像剧可用}
+    originality_risk: LOW
+    video_potential: 6
+  - mechanism: Anti-Reward Ethics (反爽点伦理)
+    appears_in: [CA(代价账本), WC(好人不胜), EG(救一偿一), RSH(真相致郁)]
+    underlying_psychology: "对网文爽感的系统性反动——reward 被道德化或悬置, 满足感后置到意义重估"
+    minimum_components: [一本同步记录代价的账本, 一个不奖赏好人的世界]
+    failure_modes: ["无顶级资产兜底时=无人问津"]
+    originality_risk: LOW
+    video_potential: 4
+  - mechanism: Era-as-Faceless-Villain
+    appears_in: [RSH, WC, CA, EG, FH]
+    note: "与 GLOBAL 组 Institution-as-Antagonist 同源; 中文版更重: 文革/市场化/现代性是共同压强源"
+    originality_risk: LOW
+    video_potential: 6
+
+signature_micro_mechanisms:
+  - {mechanism: Impossible-Task Decomposition, appears_in: [CA], note: "绝望感的解药是方法论; 爽点在'原来可以这样做到'", originality_risk: LOW, video_potential: 9}
+  - {mechanism: Pre-Revealed Payoff, appears_in: [CA], note: "历史名句锁定终局, 悬念全数转移到过程", originality_risk: LOW, video_potential: 8}
+  - {mechanism: Ancient-Modern Workplace Hologram, appears_in: [CA], note: "历史细节按当代焦虑同构度筛选——出圈半径由此决定", originality_risk: LOW, video_potential: 8}
+  - {mechanism: Quote-as-Character-Elevation, appears_in: [CA], note: "一句台词把求生故事升维为求知故事", originality_risk: LOW, video_potential: 7}
+  - {mechanism: Body-Embedded Secret, appears_in: [RSH], note: "秘密物化在不可切割部位——藏秘成本与生存成本永久绑定", originality_risk: LOW, video_potential: 7}
+  - {mechanism: Witness-Relay Polyphony, appears_in: [RSH], note: "版本差即人物塑造", originality_risk: LOW, video_potential: 6}
+  - {mechanism: Reader-Implication Reversal, appears_in: [RSH], note: "喂养窥视欲, 终局使读者为自己的好奇羞愧", originality_risk: MEDIUM, video_potential: 6}
+  - {mechanism: Fictive-Destination Quest, appears_in: [WC], note: "执念对象从人滑移到地点——获得史诗合法性", originality_risk: LOW, video_potential: 7}
+  - {mechanism: Reader-Knows-Place Gap, appears_in: [WC], note: "信息差反向运行: 每步努力转化为痛感", originality_risk: LOW, video_potential: 7}
+  - {mechanism: Supplement-Side Reveal, appears_in: [WC], note: "终局后用离开者视角回放全书——一次叙事两次消费", originality_risk: LOW, video_potential: 7}
+  - {mechanism: Conservation-Law Magic, appears_in: [EG], note: "刚性代价守恒使力量系统自动生成悲剧, 无需反派", originality_risk: LOW, video_potential: 8}
+  - {mechanism: Calm-Tone Death Density, appears_in: [EG], note: "平静语调x高密度死亡=持续低烧式心碎", originality_risk: LOW, video_potential: 7}
+  - {mechanism: Nature-as-Kinship, appears_in: [EG], note: "自然从资源改写为亲属——治愈的技术来源", originality_risk: LOW, video_potential: 8}
+  - {mechanism: Non-Answer Motif, appears_in: [FH], note: "中性短语重复千次升维为世界观——读者自备潜台词", originality_risk: LOW, video_potential: 7}
+  - {mechanism: Huaben Relay, appears_in: [FH], note: "八卦是免运费的 exposition 与转场", originality_risk: LOW, video_potential: 6}
+  - {mechanism: Class-Sampling Trio, appears_in: [FH], note: "按阶层配额采样而非性格互补", originality_risk: LOW, video_potential: 6}
+  - {mechanism: Dual-Era Echo Structure, appears_in: [FH], note: "回声密度替代悬念密度, 连线权交给读者", originality_risk: LOW, video_potential: 7}
+
+meta_conclusions:
+  - "两组市场成功路径不同: GLOBAL=产品逻辑(公约数可复制), CHINA_PRINT=作品逻辑(单一不可复制资产取胜)——原创 IP 应从 GLOBAL 借机制, 从本组借质感与时间结构"
+  - "时间结构是纯文学对悬念结构的替代品——四种容器全部可移植类型叙事做骨架升级"
+  - "反爽点可成卖点, 但需顶级资产兜底(奖项/名导/渠道情绪——额尔古纳河2023直播爆卖为证)"
+  - "物件清单现实主义 10/10 命中——目前本项目最可靠发现"

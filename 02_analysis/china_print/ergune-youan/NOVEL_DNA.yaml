@@ -1,0 +1,80 @@
+# NOVEL_DNA.yaml — 额尔古纳河右岸
+source_meta:
+  source_status: MISSING_SOURCE
+  text_coverage: 0%
+  evidence_profile: "RELIABLE_SECONDARY(茅盾文学奖作品; criticism/research consistent) + MODEL_INFERENCE"
+  confidence_baseline: LOW-MEDIUM
+  analysis_date: 2026-09-13
+
+basic_info:
+  title: 额尔古纳河右岸
+  author: 迟子建
+  original_language: Chinese
+  genre: 民族志式抒情小说 / 挽歌文学
+  publication_period: 2005 (北京十月文艺/人民文学茅奖版); 茅盾文学奖 2008
+  popularity_context: "2023 经直播推荐再度爆卖数百万册——治愈需求的时代性样本"
+  adaptation_status: "影视化公开报道"
+
+one_line_core:
+  premise: "On the morning her tribe is to be relocated to a modern settlement, the 90-year-old last wife of an Ewenki chief tells a century of reindeer-herding life beside the fire — deaths and births in the same calm voice."
+  core_fantasy: "Exiting modern life — the reverse isekai: living with reindeer, stars, and a world that treats you as kin"
+  central_question: "How does a world end without anyone being guilty?"  # confidence: MEDIUM
+  reader_promise: "soothing animist worldview + the ache of irreversible loss"
+
+protagonist_system:
+  starting_status: "90, among the last refusing relocation, alone by the fire — narrator's time position IS the book's structure"
+  desire: "none (she has exited the desire system) — a desireless narrator is the privilege of healing narrative"
+  contradiction: "the one who stayed — watching everyone leave or die, becoming memory itself"
+  relatability: "not by situation but by narrative posture — every reader rehearses 'looking back on a whole life'"
+
+reader_addiction_loop:
+  primary_loop:
+    name: "Life-Death Daily Loop"
+    shape: "daily herding/hunting/marriage/ritual -> death event (remarkably dense) -> ritual digestion (wind burial / shaman dance) -> new daily life with new people"
+    why_repeatable: "death is a daily constant of nomadic life — each death removes an invested character, each ritual generates new emotional structure"
+    confidence: MEDIUM
+  secondary_loop:
+    name: "Shaman-Cost Loop — Nihau loses one of her own children for every life her dance saves; conservation law as structural suspense (every dance is a pre-announced tragedy)"
+    confidence: MEDIUM
+  long_term_loop:
+    name: "the tribe's ebb (Japanese occupation -> logging -> settlement policy): modernity narrowing the world step by step"
+    confidence: MEDIUM
+
+reward_engine:
+  primary_rewards: [emotional_payoff_dual_channel_healing_and_grief, ethnographic_spectacle]
+  secondary_rewards: [mystery_shamanism, family_ensemble_warmth]
+  character: "no 爽点 engine — rewards are purely emotional/aesthetic; compulsion = the gap between calm tone and death density"
+  confidence: MEDIUM
+
+relationship_engine:
+  narrator_x_two_husbands: "two love samples (ardent/serene), both settled by death — completeness sealed by death"
+  nihau_x_luni: "the tragic axis — universal love (saving others) vs private love (protecting children) in conservation-law mutual destruction"
+  damala_x_nidu_shaman: "forbidden passion ending in madness and dancing to death"
+  engine_note: "all relationships obey natural rhythm — no one can bargain"
+
+conflict_engine:
+  obstacle_generation: "nature (cold/beasts/disease) as constant villain producing tragedy; history (soldiers/loggers/policy) as escalating villain producing extinction — two different conflict registers"
+  story_renewal_engine: "generational turnover (same life-cycle structure, new content) + staged historical intrusion"
+  confidence: MEDIUM
+
+groundedness:
+  strategy: "reverse groundedness — the pre-modern material inventory (reindeer/teepee/birch-bark canoe) works on urban readers exactly like an alien world; defamiliarized detail IS the realism"
+  note: "symmetric opposite of Fourth Wing's strategy: fantasy uses daily anchors; realism uses estranged anchors"
+  confidence: MEDIUM-HIGH
+
+distinctive_mechanisms:
+  - {name: One-Day-Century Frame, principle: "compress a century into one day's four sections; container scale = chapter structure; container's end = narrative's end", confidence: MEDIUM}
+  - {name: Conservation-Law Magic, principle: "attach a rigid conservation cost to power (a life saved costs a life) — the power system auto-generates tragedy without villains", confidence: MEDIUM}
+  - {name: Calm-Tone Death Density, principle: "high death frequency + zero-emotional narration = continuous low-fever heartbreak; reader-supplied emotion beats authorial pathos 10x", confidence: MEDIUM}
+  - {name: Nature-as-Kinship, principle: "rewrite nature from resource to kin in the narrative grammar — instant belonging compensation, the technical source of healing", confidence: MEDIUM}
+  - {name: Modernity-as-Ebbing, principle: "extinction as process not event — the elegy's long-line tension", confidence: MEDIUM}
+
+originality_tiers:
+  green: [all principles above]
+  yellow: ["Ewenki reindeer tribe x shamanism x Argun river subject as a whole (documentary-fidelity: transplant to fiction loses truth)"]
+  red: [妮浩/鲁尼/拉吉达/瓦罗加/达玛拉 characters, "'我是雨和雪的老熟人' opening", "dance-saves-life-costs-child setting chain"]
+
+video_adaptation:
+  ai_video_value: 8
+  rationale: "nature spectacle + few characters + no VFX = AI video's strongest current form; healing docu-drama material where pictures drive, not plot"
+  most_transferable_without_ip: [Nature-as-Kinship, One-Day-Century Frame]

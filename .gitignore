@@ -1,0 +1,34 @@
+# ===== OS / 临时文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+*.swp
+
+# ===== Python / Node =====
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+
+# ===== 环境变量 / 凭证（防护性忽略——本仓库不应存在此类文件）=====
+.env
+.env.*
+*.pem
+id_rsa*
+
+# ===== 受版权保护的参考小说源文本 =====
+# 官方试读摘录与未来采集的完整原著（TXT/EPUB/PDF/MOBI 等）不进入公开仓库，本地保留不删除。
+# metadata / source manifest / 分析结果（.md / .json）不受影响，正常入库。
+01_reference/**/*.txt
+01_reference/**/*.epub
+01_reference/**/*.pdf
+01_reference/**/*.mobi
+01_reference/**/*.azw3
+01_reference/**/*.docx
+
+# ===== 字体文件与抓取缓存（工具链遗留，不进仓库）=====
+*.woff
+*.woff2

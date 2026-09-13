@@ -1,0 +1,756 @@
+# MASTER_MECHANISM_LIBRARY.yaml — 15 本跨书主机制库
+# 生成: 2026-09-13 (Phase 3, MASTER)
+# 依据: 15 份 STORY_DNA_REPORT + 三组 SYNTHESIS/MECHANISMS
+# ⚠️ 永久证据警告: 15 本中 FULL_SOURCE 0 本 (PARTIAL 4 / METADATA 1 / MISSING 10)。
+#    本库全部结论为证据有界结论——开篇级机制可信度较高 (TEXTUAL), 全书/细节级 MEDIUM-LOW。
+#    高风险原创决策前必须以原著复核。后四层证据 (SECONDARY/COMMUNITY/INFERENCE) 均不等于"原著中就是这样"。
+# 缩写: IEWU=It Ends with Us, FW=Fourth Wing, LiC=Lessons in Chemistry, TML=The Midnight Library,
+#       HM=The Housemaid, RSH=人生海海, WC=文城, CAL=长安的荔枝, EGN=额尔古纳河右岸, FH=繁花,
+#       CYS=我真没想重生啊, DF=大奉打更人, ZS=斩神, SRI=十日终焉, DCS=都重生了谁谈恋爱啊
+# 风险级: LOW=原理级可自由用 / MEDIUM=需变形 / HIGH=已与具体 IP 绑定, 只可用原理
+
+meta:
+  strongest_cross_book_finding: "Object-List Realism (物件清单现实主义) — 13/15 命中, 跨三个市场/十个品类, 本项目最可靠发现"
+  second_strongest: "Checklist-as-Structure (清单即结构) — 遗憾/风口/证人/神话/规则清单横跨三组"
+  evidence_layers: [TEXTUAL, PRIMARY_CONTEXT, RELIABLE_SECONDARY, COMMUNITY_INTERPRETATION, MODEL_INFERENCE]
+
+mechanisms:
+
+  # ============ A. 开局与承诺类 ============
+
+  - id: MM01
+    mechanism: Structural-Underdog Opening + Hidden Trump Card (结构性弱势开局 + 底牌预告)
+    appears_in: [IEWU, FW, LiC, TML, HM, RSH, WC, CAL, EGN, FH, CYS, SRI]  # 12/15 显性
+    underlying_psychology: "读者对结构性低位者(非暂时落难)代入最深; 开篇即预告的底牌制造最长线的期待——弱位供代入, 底牌供翻页"
+    minimum_components: [身份/制度性低位开局(非事故性), 文案或开篇内预告一张底牌, 底牌兑现被结构性延迟]
+    optional_components: [底牌的层级拆分(分批兑付), 底牌与弱位的因果关联(弱因牌起)]
+    failure_modes: ["底牌兑现过早→后程无力", "弱位是暂时事故而非结构→代入浅", "底牌与主角人格脱钩→兑付无情感重量"]
+    transformations:
+      都市: 被城市制度排除的外来者持独家技能
+      悬疑: 被误判的嫌疑人持关键真相
+      爱情: 被低估的暗恋者持不可替代的情感史
+      玄幻: 废柴体制内持禁忌血脉
+      科幻: 被系统标记为冗余者持异常权限
+      职场: 背锅小吏持跨界方法论
+      校园: 差生持成人经验(重生/早慧)
+    originality_risk: LOW
+    video_potential: 8
+
+  - id: MM02
+    mechanism: Assert-Then-Invert Delayed Payoff (断言加息 + 反转延迟兑现)
+    appears_in: [IEWU, FW, LiC, TML, HM, CAL, WC, EGN, DCS]  # GLOBAL 5/5 + 跨组
+    underlying_psychology: "先把'所有人都不信'的断言前置(太弱/不可能会/有前科), 兑现时利息=断言强度×延迟时长——期待的字面价值工程"
+    minimum_components: [一个公开的不可能断言, 读者见证断言者的困境, 兑现时刻的旁观者反应镜头]
+    optional_components: [断言者的自我怀疑(利息加息), 多次小额兑现维持信用]
+    failure_modes: ["断言无人见证→兑现无利息", "延迟过长无中间兑付→读者弃书", "兑现靠外力(巧合)→利息清零"]
+    transformations:
+      都市: 债务/阶层断言
+      悬疑: "No one will believe you 式孤证"
+      爱情: 被断言不配的爱
+      玄幻: 被断言废掉的资质
+      科幻: 被断言不可能的实验
+      职场: 被断言必死的项目
+      校园: 被断言考不上的学校
+    originality_risk: LOW
+    video_potential: 9
+
+  - id: MM03
+    mechanism: Manifesto-Title Contract (宣言式标题契约)
+    appears_in: [DCS, TML, CAL]
+    underlying_psychology: "书名/第一句=主角公开宣言, 正文=宣言的持续测试与反讽——标题预装全书期待结构, 且免费获得传播记忆点"
+    minimum_components: [宣言式命题(可转述为一句口号), 正文对宣言的持续压力]
+    optional_components: [宣言最终被打破或被改写(两种兑付方向)]
+    failure_modes: ["宣言无张力(无人反对)→合同作废", "反讽过早揭穿→后程无戏"]
+    transformations:
+      都市: 生活方式宣言
+      悬疑: "我发誓我没杀她式自辩标题"
+      爱情: 反恋爱宣言
+      玄幻: 反杀伐宣言
+      科幻: 反技术宣言
+      职场: 躺平宣言
+      校园: 差生逆袭宣言
+    originality_risk: LOW  # 但 DCS 的具体句式("都X了谁X啊")已被模仿至失效边缘——只用原理, 不用句式
+    video_potential: 8
+
+  - id: MM04
+    mechanism: Double-Ignorance Opening (双重无知开局)
+    appears_in: [SRI, TML(遗憾无知+图书馆无知)]
+    underlying_psychology: "同时剥夺主角的世界知识与自我知识——每一次获取都是双倍奖励; 身份底牌可在生存压力下无限延期兑付"
+    minimum_components: [世界规则未知, 主角身份/过去未知]
+    optional_components: [两条求知线的交叉点(身份即世界真相)]
+    failure_modes: ["长期无知识增量→无知变空洞", "身份揭晓与期待脱钩"]
+    transformations:
+      都市: 失忆归来者
+      悬疑: 本格侦探自带谜(双重谜题)
+      爱情: 不知自己是谁的人被爱
+      玄幻: 无名之辈+封印记忆
+      科幻: 冷冻苏醒者的时代+自我双重错位
+      职场: 空降者不懂公司也不懂自己为何被雇
+      校园: 转学生的双重空白
+    originality_risk: LOW
+    video_potential: 7
+
+  # ============ B. 长篇续航结构类 ============
+
+  - id: MM05
+    mechanism: Dual-Timetable Architecture (单元容器 + 长线底牌双时间表)
+    appears_in: [DF, ZS, SRI, CYS, DCS, CAL(环节容器+官场底牌), TML(平行世界容器+自我真相)]
+    underlying_psychology: "可无限更换的单元容器供血高频奖励; 全书级底牌维持长线张力——长篇可持续性的核心架构, 网文的工业化形态"
+    minimum_components: [标准化单元容器(案件/游戏/试穿/项目), 容器间不变的主角引擎, 全书级底牌/真相线]
+    optional_components: [容器与底牌的层级绑定(破案即开图), 底牌兑付的分级拆分]
+    failure_modes: ["容器同质化(换皮不换玩法)", "底牌兑付过早", "容器线与底牌线长期无交叉→双线脱节"]
+    transformations:
+      都市: 商机/委托制
+      悬疑: 案件制
+      爱情: 对象/关系阶段制
+      玄幻: 副本/秘境制
+      科幻: 任务/远征制
+      职场: 项目制(TML/CAL 证明文学叙事同样适用)
+      校园: 学期/竞赛制
+    originality_risk: LOW
+    video_potential: 9
+
+  - id: MM06
+    mechanism: Checklist-as-Structure (清单即结构)
+    appears_in: [CYS(遗憾), DCS(风口), ZS(神话), DF(案件排期), RSH(证人), TML(遗憾之书)]  # 15 本第二强公约数
+    underlying_psychology: "可枚举清单同时充当三件事: 章节地图 / 体量规划文档 / 读者期待管理器——清单完成度即免费进度条"
+    minimum_components: [一份内容上成立的枚举清单(读者认账的枚举逻辑)]
+    optional_components: [清单项的时代/层级排序, 清单项间耦合(勾掉一项牵动其余)]
+    failure_modes: ["清单项质量方差大", "清单过早耗尽→续作崩塌", "清单为凑数而清单(枚举逻辑不成立)"]
+    transformations:
+      都市: 目标/愿清单
+      悬疑: 嫌疑人/证人清单
+      爱情: 约会清单/理想对象条件单
+      玄幻: 收集/试炼清单
+      科幻: 补给/探索点清单
+      职场: OKR/项目里程碑
+      校园: 考试/申请清单
+    originality_risk: LOW
+    video_potential: 7
+
+  - id: MM07
+    mechanism: Time-as-Container Structure (时间容器结构)
+    appears_in: [EGN(一日百年), FH(双时代回声), RSH(证人60年接力), WC(一生一诺)]
+    underlying_psychology: "纯文学对悬念结构的替代: 用时间形态(一日/双时代/接力/一生)作结构容器——跨度本身即史诗感来源, 读者为'时间将如何收束'翻页"
+    minimum_components: [一个非线性的时间形态设计, 时间容器内的不变量(人物/物件/诺言)]
+    optional_components: [双时代回声(同一物件/地点跨时代对位)]
+    failure_modes: ["时间形态无内容必要性(为结构而结构)", "不变量丢失→容器散架"]
+    transformations:
+      都市: 一夜城市/十年之约
+      悬疑: 跨代悬案的时间接力
+      爱情: 双时空对照爱情
+      玄幻: 转世时间容器
+      科幻: 相对论时间差(星际穿越式)
+      职场: 行业兴衰三十年
+      校园: 毕业十年的重聚
+    originality_risk: LOW
+    video_potential: 7
+
+  - id: MM08
+    mechanism: Meta-Container Grammar Rotation (容器换语法不换皮)
+    appears_in: [SRI(每轮游戏换叙事语法), TML(每个平行世界换人生类型)]
+    underlying_psychology: "单元容器的最高抗疲劳等级: 每轮更换的不止是题材皮, 而是叙事语法(推理/合作/背叛/心理战)——读者每次都是新游戏"
+    minimum_components: [单元容器, 每轮容器的规则层差异(玩法级而非题材级)]
+    optional_components: [语法轮换表(预排各轮类型), 跨轮累积的元规则]
+    failure_modes: ["语法轮换无预告→读者类型期待错位", "轮换节奏过密→无积累感"]
+    transformations:
+      都市: 每个商战单元换博弈类型
+      悬疑: 每案换推理流派(本格/社会/倒叙)
+      爱情: 每段关系换爱情范式
+      玄幻: 每副本换规则体系
+      科幻: 每任务换科幻子类型
+      职场: 每项目换职场困境类型
+      校园: 每学期换成长议题
+    originality_risk: LOW
+    video_potential: 8
+
+  - id: MM09
+    mechanism: Transition-Machine Narration (转场机器叙事)
+    appears_in: [FH(饭局八卦), RSH(证人证言), WC(补叙重估), LiC(场景切换的章节间)]
+    underlying_psychology: "文学长篇不靠章末钩靠'转场装置'维持翻页: 饭局/证言/补叙——每次转场自带信息重组与视角税, 转场本身成为消费对象"
+    minimum_components: [一个可反复启用的叙事转场装置(场合/声部/文体)]
+    optional_components: [转场装置的磨损与升级(证言开始互相矛盾)]
+    failure_modes: ["转场装置信息含量衰减→读者识破为凑结构", "装置使用频率与信息密度不匹配"]
+    transformations:
+      都市: 酒局/群聊/播客转场
+      悬疑: 笔录/庭审/访谈转场
+      爱情: 闺蜜复盘/日记转场
+      玄幻: 说书人/庙会讲述转场
+      科幻: AI 档案/通讯记录转场
+      职场: 会议纪要/复盘会转场
+      校园: 流言/校园论坛转场
+    originality_risk: LOW  # FH 的吴语对白资产除外
+    video_potential: 7
+
+  - id: MM10
+    mechanism: Impossible-Task Decomposition + Deadline (不可能任务分解 + 死线)
+    appears_in: [CAL(荔枝转运), FW(致死日程), SRI(死亡游戏排期)]
+    underlying_psychology: "把一个不可能目标工程化分解为可见环节链, 再加死线倒计时——读者的进度感知被环节完成度接管, 悬念从'能否'变为'哪个环节先断'"
+    minimum_components: [不可能目标, 环节链分解(读者可见), 硬死线]
+    optional_components: [每个环节的专属反派/资源瓶颈, 环节间的连锁风险(一环断全链断)]
+    failure_modes: ["环节无真实阻力→分解变流水账", "死线无牙齿(无代价)→倒计时失效"]
+    transformations:
+      都市: 筹款/移民/维权倒计时
+      悬疑: 侦探自身的破案死线
+      爱情: 婚礼前/出国前的情感死线
+      玄幻: 大赛前/寿元尽的修炼死线
+      科幻: 灾难倒计时任务链
+      职场: 交付死线(最强原位, CAL 已验证出圈)
+      校园: 高考/比赛倒计时
+    originality_risk: LOW
+    video_potential: 8
+
+  # ============ C. 奖励与欲望类 ============
+
+  - id: MM11
+    mechanism: Dual-Layer Desire Structure (双层欲望结构)
+    appears_in: [IEWU, FW, LiC, TML, HM]  # GLOBAL 5/5; CAL/DCS 部分命中
+    underlying_psychology: "表层爽感负责翻页, 深层补偿负责口碑——'这本书改变了我'式推荐语只能由深层产生; 商业与口碑的双引擎分工"
+    minimum_components: [表层欲望(可即时兑付), 深层欲望(全书级兑付), 两层的张力(追表层常阻碍深层)]
+    optional_components: [深层的伪装(以表层面目出现, 如'事业'实为'被承认')]
+    failure_modes: ["只有表层→快餐无口碑", "只有深层→无翻页动力", "两层无张力关系→并行不共振"]
+    transformations:
+      都市: 搞钱表层×尊严深层
+      悬疑: 破案表层×救赎深层
+      爱情: 得到TA表层×自我完整深层
+      玄幻: 变强表层×归属深层
+      科幻: 探索表层×人的定义深层
+      职场: 晋升表层×价值证明深层
+      校园: 分数表层×身份认同深层
+    originality_risk: LOW
+    video_potential: 6
+
+  - id: MM12
+    mechanism: Reward-Economics Selection (五型奖励经济学选型)
+    appears_in: "全部 15 本 (作为选型系统而非单一机制)"
+    underlying_psychology: "奖励曲线决定读者关系: 纯增型训练期待, 递减型驯化阈值, 反转型制造清醒, 补偿型平衡痛感, 悬置型蓄爆结局——选错光谱比执行差更致命"
+    five_types:
+      纯增型: {appears_in: [FW, DF, ZS], 适合: 长篇连载/升级流, 风险: "爽点通胀"}
+      递减型: {appears_in: [TML], 适合: 寓言/治愈, 风险: "读者提前识破循环"}
+      反转型: {appears_in: [IEWU], 适合: 主题文学/女性向, 风险: "两头得罪——需主题深度兜底"}
+      补偿型: {appears_in: [LiC, EGN], 适合: 时代文学/悲剧美学, 风险: "补偿过迟→弃书"}
+      悬置型: {appears_in: [HM], 适合: 惊悚/短篇, 风险: "结局承担全部债务"}
+    minimum_components: [明确的主奖励类型选型 + 全书奖励曲线的一致性]
+    originality_risk: LOW
+    video_potential: 7
+
+  - id: MM13
+    mechanism: Pre-Revealed Payoff (预告式兑付)
+    appears_in: [CAL('一骑红尘妃子笑'结局前置), EGN(萨满跳神=预告的悲剧), TML(遗憾清单)]
+    underlying_psychology: "提前告知终点(读者知道荔枝会到/悲剧会发生), 悬念转移到'代价与路径'——宿命感把期待改写为美学, 读者为'如何抵达'而非'是否抵达'翻页"
+    minimum_components: [终点的提前披露, 代价/路径的不可见性]
+    optional_components: [终点的多重读法(到=失去), 预告者的立场暧昧]
+    failure_modes: ["终点无宿命感→剧透感", "路径无意外→兑现变走流程"]
+    transformations:
+      都市: 逆袭结局前置, 过程为谜
+      悬疑: 开场即尸体(倒叙推理)
+      爱情: 已知结局的老年回望
+      玄幻: 预言体系
+      科幻: 时间旅行者已知未来
+      职场: 项目成败已知, 人事为谜
+      校园: 名校录取通知书开场
+    originality_risk: LOW
+    video_potential: 7
+
+  - id: MM14
+    mechanism: Conservation-Law Power System (守恒律力量系统)
+    appears_in: [EGN(跳神救一人损一亲), CAL(转运成功=道德亏空), SRI(纯智力=零外挂)]
+    underlying_psychology: "一切力量明码标价——能力越强代价越即时; 守恒律把爽点自动转化为悲剧发生器, 是文学版与网文版共同的'金手指正当化'法则"
+    minimum_components: [力量使用规则, 可感知的即时代价, 代价与主角所爱的关联]
+    optional_components: [代价的记账可视化(账本), 代价的延迟爆发]
+    failure_modes: ["代价可被绕过→守恒破产", "代价无情感关联→玩家式麻木"]
+    transformations:
+      都市: 财富/健康/关系的守恒交换
+      悬疑: 每个推理突破牺牲一条关系
+      爱情: 讨好换来的爱必以自我折损计价
+      玄幻: 禁术血偿(最原位)
+      科幻: 技术奇点的社会代价
+      职场: 晋升的家庭成本
+      校园: 成绩的青春交换
+    originality_risk: LOW
+    video_potential: 7
+
+  - id: MM15
+    mechanism: Experience-Sampling Reward (人生试穿型奖励)
+    appears_in: [TML(平行人生), DCS/CYS(重生=前世经验作资产)]
+    underlying_psychology: "一次付费玩遍人生——体验型 reward 全家桶; 平行世界/重生结构让读者在单部作品内消费多种人生模板"
+    minimum_components: [可进入/可退出的体验容器, 体验间的对比结构(试穿后重估)]
+    optional_components: [体验的累积改变选择者本身, 最后一次试穿=真实选择]
+    failure_modes: ["试穿样本无梯度差异", "主角不消化体验→白穿"]
+    transformations:
+      都市: 假设人生模拟
+      悬疑: 进入他人记忆查案
+      爱情: 与不同对象的可能人生
+      玄幻: 前世回溯
+      科幻: 模拟舱/平行宇宙(最原位)
+      职场: 职业互换实验
+      校园: 专业试读
+    originality_risk: LOW  # TML 的'午夜图书馆'具体意象 MEDIUM
+    video_potential: 9
+
+  # ============ D. 关系与情感类 ============
+
+  - id: MM16
+    mechanism: Generational Mirror (世代镜像引擎)
+    appears_in: [IEWU(母女重复), EGN(部落代际), CYS(两世自我)]
+    underlying_psychology: "主角恐惧成为上一代, 却在自己身上认出上一代——遗传既是威胁也是理解通道; 镜像让'逃离'叙事自动携带'和解'债务"
+    minimum_components: [上一代的可见轨迹, 主角与轨迹的相似性证据, 至少一次'我正在变成TA'的时刻]
+    optional_components: [镜像的破除点(差异时刻), 上一代视角章节]
+    failure_modes: ["镜像说教化(作者下场宣判)", "上一代符号化无实感"]
+    transformations:
+      都市: 原生家庭阶层复制
+      悬疑: 罪的父女相传
+      爱情: 择偶复刻父母模式
+      玄幻: 宿命血脉
+      科幻: 克隆/记忆遗传
+      职场: 师徒权力复制
+      校园: 家长期待的下代转嫁
+    originality_risk: LOW
+    video_potential: 7
+
+  - id: MM17
+    mechanism: Object-Borne Intimacy (物证式亲密 / 装备即爱)
+    appears_in: [FW(靴子与龙鳞背心=亲情), LiC(午餐盒纸条), IEWU(照片), CYS(信物)]
+    underlying_psychology: "情感物化为可传递的物件——不可见的关心变成可见的证据; 物件可截图/转述/成为封面, 是亲密关系的最小传播单位"
+    minimum_components: [一个承载关系的物件, 物件的转移/保存事件, 物件被重新解读的时刻]
+    optional_components: [物件的损毁与修复, 物件的双向性(两件成对)]
+    failure_modes: ["物件无获得成本→廉价", "物件只在开场出现→伏笔无回收"]
+    transformations:
+      都市: 房产证/旧手机
+      悬疑: 遗物即线索(亲密与破案合一)
+      爱情: 定情物+转手链
+      玄幻: 师门遗器
+      科幻: 记忆芯片
+      职场: 辞职信/工牌
+      校园: 同桌物件/试卷
+    originality_risk: LOW
+    video_potential: 8
+
+  - id: MM18
+    mechanism: Information-Asymmetry Devotion (单向信息差深情)
+    appears_in: [CYS('我认识你一辈子, 你才认识我一天'), WC(读者知地差距的爱情变体)]
+    underlying_psychology: "信息差把深情变为只有读者能完整看见的结构——单方知晓全部历史的爱情, 温柔与心酸同时最大化, 且读者是唯一证人"
+    minimum_components: [单方持有双方完整历史, 信息差不可直接言说, 至少一次信息差导致的错位行为]
+    optional_components: [信息差的揭露时刻(全书最大兑付之一)]
+    failure_modes: ["信息差可轻松言说而不言→强行憋", "揭露时刻与积累不匹配"]
+    transformations:
+      都市: 隐瞒身份的守护
+      悬疑: 卧底之爱
+      爱情: 追爱者其实早已被爱
+      玄幻: 转世者认出今生的TA
+      科幻: 时间旅行者的单向记忆
+      职场: 前辈隐瞒的栽培
+      校园: 同桌的旧识身份
+    originality_risk: LOW
+    video_potential: 8
+
+  - id: MM19
+    mechanism: Principle-as-Barrier (宣言阻力装置)
+    appears_in: [DCS(不恋爱宣言), FW(纪律誓言), HM(职业守则)]
+    underlying_psychology: "主角的公开原则给每条感情/欲望线预装障碍——冲突内置于人设, 无需外部反派; 原则越被测试, 兑付越甜"
+    minimum_components: [公开宣言的原则, 持续测试原则的诱因, 原则与欲望的真实冲突]
+    optional_components: [原则的来源(创伤/誓言)使测试具备道德重量]
+    failure_modes: ["原则无来源→嘴硬变滑稽", "原则从未真正险胜→测试无张力"]
+    transformations:
+      都市: 不婚主义/极简主义宣言
+      悬疑: "绝不再说谎的侦探"
+      爱情: 恐婚/不恋爱宣言(最原位)
+      玄幻: 不杀誓言
+      科幻: 不干预原则
+      职场: 不站队宣言
+      校园: 不恋爱备考宣言
+    originality_risk: LOW
+    video_potential: 8
+
+  - id: MM20
+    mechanism: Trust-Economics Relationship (可计算信任的关系)
+    appears_in: [SRI(信任=战略资源), DF(地书交易), HM(雇佣关系的契约面)]
+    underlying_psychology: "把关系的经济学明面化——信任有价、背叛在规则内; 情感兑付精确发生在'计算失效、真心出现'的瞬间——算力是深情的放大器"
+    minimum_components: [关系的可计算框架(规则/契约/交易), 计算失效的时刻(真心意外泄露)]
+    optional_components: [双向的算与真错位(A 算 B 真 / B 算 A 真)]
+    failure_modes: ["全程计算无真心→冷血", "真心过早→经济学崩塌无张力"]
+    transformations:
+      都市: 婚前协议/合伙创业
+      悬疑: 证人交易
+      爱情: 契约婚姻(计算→真心是标准弧)
+      玄幻: 敌对门派的暂盟
+      科幻: 人机协作的信任测度
+      职场: 绩效合作
+      校园: 竞争对手的临时组队
+    originality_risk: LOW
+    video_potential: 8
+
+  - id: MM21
+    mechanism: Signal-Contradiction Antagonist (信号矛盾体反派/爱人)
+    appears_in: [FW(Xaden 危险信号×保护行为), IEWU(Ryle 魅力信号×危险行为), HM(女主人慈爱信号×监视行为)]
+    underlying_psychology: "言行信号持续矛盾的人物迫使读者当侦探——'重新解读前文'本身就是再消费; 该装置可造最上头的爱人也可造最恐怖的反派(同一机制两极)"
+    minimum_components: [矛盾信号对(威胁×温柔), 读者可积累的证据链, 迟到的解释(但解释后仍留残余矛盾)]
+    optional_components: [矛盾根源的创伤性(理解≠原谅)]
+    failure_modes: ["矛盾无解释→读者觉得作者乱写", "解释过早→侦探游戏提前结束"]
+    transformations:
+      都市: 忽冷忽热的上司/恋人
+      悬疑: 最不可能的凶手(经典位)
+      爱情: 危险魅力的爱人
+      玄幻: 屠戮恶名×守护行为的魔头
+      科幻: 动机不明的 AI
+      职场: 传闻恶人×暗中提携
+      校园: 校霸×守护者
+    originality_risk: LOW
+    video_potential: 9
+
+  - id: MM22
+    mechanism: Partially-Valid Rationalization (半成立辩护)
+    appears_in: [IEWU(爱与危险并存), CAL(成功的道德账), RSH(时代的辩护)]
+    underlying_psychology: "让'离开/清算/原谅'的理由永远只半成立——读者与主角同步无法宣判; '看清'的延迟与情感爽感直接挂钩, 是最高级的读者绑架"
+    minimum_components: [一个双方都有部分道理的核心矛盾, 证据的持续双向补给]
+    optional_components: [外力裁决(事件替读者宣判)的延迟]
+    failure_modes: ["天平过偏→读者提前站队, 游戏结束", "为平衡而平衡(双方理由都假)"]
+    transformations:
+      都市: 离婚/赡养的两难
+      悬疑: 法理与情理的罪
+      爱情: 分手的对错
+      玄幻: 屠龙者是否成为恶龙
+      科幻: 为救多数牺牲少数
+      职场: 举报同事的正义
+      校园: 举报作弊的朋友
+    originality_risk: LOW
+    video_potential: 7
+
+  # ============ E. 冲突与反派类 ============
+
+  - id: MM23
+    mechanism: Institution-as-Antagonist (制度反派)
+    appears_in: [FW, LiC, TML, HM, DF, ZS, SRI, CAL, FH, EGN, RSH(时代)]  # 15 本最强冲突公约数
+    underlying_psychology: "制度无法被一次性击败→冲突天然无限续期→长篇合法性来源; 且制度反派免作者道德税(打倒制度不需愧疚)"
+    minimum_components: [成文的制度规则, 规则对主角的具体压迫事件, 制度的表面正当性]
+    optional_components: [主角最终接管/戏弄制度(网文版) vs 生存抵抗(GLOBAL 版) vs 被动承受(文学版)——三种文化姿态]
+    failure_modes: ["制度无脸(纯背景板)→压迫无实感", "制度可被一次事件推翻→续期失败"]
+    transformations:
+      都市: 户籍/债务/平台算法
+      悬疑: 司法系统本身(冤案)
+      爱情: 门第/彩礼/职场性别制度
+      玄幻: 宗门戒律/天道(最原位)
+      科幻: AI 治理系统
+      职场: KPI/裁员制度(CAL 全息映射已验证)
+      校园: 升学制度
+    originality_risk: LOW
+    video_potential: 8
+
+  - id: MM24
+    mechanism: Countdown Schedule as Conflict Generator (日程表冲突发生器)
+    appears_in: [FW(致死日程), CAL(转运死线), SRI(游戏排期), DCS(风口时间窗)]
+    underlying_psychology: "把冲突外包给日程表——每章自带倒计时, 紧张感由结构供血而非巧合; 日程的'下一项'即免费章节预告"
+    minimum_components: [公开的时间表, 表项的递进难度, 逾期代价的可视化]
+    optional_components: [日程表与人际线交叉(考期撞上表白日)]
+    failure_modes: ["日程项之间无递进→重复感", "主角可跳项→日程失威"]
+    transformations:
+      都市: 债务还款日历
+      悬疑: 连环案的日子规律
+      爱情: 异地恋的倒计时
+      玄幻: 大考/天劫排期
+      科幻: 灾难时间线
+      职场: 里程碑甘特图
+      校园: 考试周历(最原位)
+    originality_risk: LOW
+    video_potential: 8
+
+  - id: MM25
+    mechanism: Deniable Malice (可否认恶意)
+    appears_in: [HM( gaslighting 家政雇主), FH(市井算计), IEWU(Ryle 的悔意)]
+    underlying_psychology: "所有恶意都以善意面目执行, 且事后总有一个'为你好'的辩解——读者被迫当侦探重读前文, '解读'本身成为再消费; 受害者无法举证的处境制造窒息感"
+    minimum_components: [善意包装的伤害行为, 可两读的关键场景, 受害者的孤立(无处申冤)]
+    optional_components: [旁观者证词的不可用(都被收买/不信)]
+    failure_modes: ["辩解太拙劣→恶意显性, 悬念消失", "全程无可否认性→纯恐怖无智力游戏"]
+    transformations:
+      都市: 职场 PUA
+      悬疑: 完美丈夫的经典位
+      爱情: 以爱为名的控制
+      玄幻: 师门的'为你好'禁锢
+      科幻: 抚育型 AI 的控制
+      职场: "培养你的压榨"
+      校园: 家长的爱之控制
+    originality_risk: LOW
+    video_potential: 9
+
+  - id: MM26
+    mechanism: Architecture-as-Weapon (空间即武器)
+    appears_in: [HM(外锁的门/阁楼), FH(弄堂/饭局座次), EGN(希楞柱)]
+    underlying_psychology: "建筑空间的物理规则(谁能锁门/谁住哪/谁从哪走)直接编码权力关系——空间压迫比语言压迫更可拍、更物化、更无可辩驳"
+    minimum_components: [空间的使用权差(谁有钥匙), 至少一次空间规则揭示权力的时刻]
+    optional_components: [空间的越界事件(闯入/反锁)作为情节扳机]
+    failure_modes: ["空间仅为布景→无编码", "空间规则前后不一"]
+    transformations:
+      都市: 合租房/学区房
+      悬疑: 密室(最原位)
+      爱情: 同居空间的领地
+      玄幻: 洞府/结界的权限
+      科幻: 飞船舱位等级
+      职场: 办公室座次/门禁权限
+      校园: 教室座位/宿舍门禁
+    originality_risk: LOW
+    video_potential: 8
+
+  - id: MM27
+    mechanism: Double-Secret Escalation (双秘密螺旋升级)
+    appears_in: [HM(双向隐瞒), DF(主角双身份), WC(双城谎言), CYS(重生秘密)]
+    underlying_psychology: "主角藏一个秘密, 对手藏另一个——每个秘密的每次险些暴露都抬高另一方暴露的风险; 两条暴露线互相点火, 结构自动供压"
+    minimum_components: [双方各持一个秘密, 秘密间的意外耦合点, 至少一次'暴露A会引爆B'的擦边事件]
+    optional_components: [第三方的意外知情人(压强引入者)]
+    failure_modes: ["两个秘密无耦合→双线平行无螺旋", "暴露节奏失控(连爆)"]
+    transformations:
+      都市: 双重生活的经典位
+      悬疑: 侦探与凶手的互相握柄
+      爱情: 互相隐瞒的过去
+      玄幻: 双重身份(废柴×大佬)
+      科幻: 双重阵营卧底
+      职场: 兼职/跳槽秘密
+      校园: 补习班身份/家世隐瞒
+    originality_risk: LOW
+    video_potential: 8
+
+  - id: MM28
+    mechanism: Era-as-Faceless-Villain (时代无脸反派)
+    appears_in: [RSH, WC, FH, EGN, CAL, CYS, DCS]  # 中文组 7/10 命中, GLOBAL 组 0/5
+    underlying_psychology: "时代变迁本身作为不可对抗的反派——无脸故无法击败, 只能承受/穿越/记录; 中文语境的独有压强来源(文革/市场化/现代性), 接地气与史诗感的合流点"
+    minimum_components: [时代节点的具体化(某一年的某一政策/风潮), 人物选择被时代夹击的具体事件]
+    optional_components: [个体的小胜利与大时代的对照反讽]
+    failure_modes: ["时代只作背景板", "控诉直白说教(应用物件与选择呈现)"]
+    transformations:
+      都市: 行业兴衰周期
+      悬疑: 时代悬案(证据随时代失效)
+      爱情: 阶层流动拆散的爱情
+      玄幻: 灵气退潮的纪元(奇幻化时代)
+      科幻: 技术革命一代
+      职场: 下岗潮/裁员周期(最原位)
+      校园: 教育改革届
+    originality_risk: LOW
+    video_potential: 7
+
+  # ============ F. 接地气与锚点类 ============
+
+  - id: MM29
+    mechanism: Object-List Realism (物件清单现实主义)
+    appears_in: "13/15 (全部 15 本的强公约数; LiC 午餐盒/HM 白裙/IEWU 账单照片/FW 装备/TML 遗憾之书/RSH 纹身邮票/CAL 荔枝保鲜物件/EGN 驯鹿/FH 时代物件/CYS-DCS 年代物件/DF-ZS-SRI 道具)"
+    underlying_psychology: "可数的、有价格的、有用途的物件清单=现实感的物质地基——读者用物件核验世界; 物件可截图/转述, 是传播的最小单位。15 本中最可靠发现"
+    minimum_components: [有价格/用途/来源的具体物件, 物件与人物境况的对应(账单=财务, 锁=权力)]
+    optional_components: [物件清单的时代精确性(年代考古), 物件的复现与变义]
+    failure_modes: ["物件无经济信息(架空价格)→假", "清单堆砌无叙事功能"]
+    transformations:
+      都市: 账单/外卖记录
+      悬疑: 证物链
+      爱情: 礼物与回礼
+      玄幻: 装备/丹药价目(网文已工业化此机制)
+      科幻: 补给清单/设备参数
+      职场: 报销单/工位物品(最原位)
+      校园: 文具/试卷/小卖部价目
+    originality_risk: LOW
+    video_potential: 8
+
+  - id: MM30
+    mechanism: Fable-Premise Reality-Anchor Ratio (寓言前提/现实锚点配比)
+    appears_in: [TML(图书馆寓言+遗憾清单锚点), EGN(萨满奇幻+驯鹿日常), LiC(天才喜剧+性别现实)]
+    underlying_psychology: "幻想度越高的前提, 接入点越要日常——寓言引擎负责新奇, 现实锚点负责'这说的是我'; 配比失衡即劝退(全寓言=鸡汤, 全现实=无想象)"
+    minimum_components: [一个高概念寓言装置, 一个可自我代入的日常锚点(清单/账单/工作), 装置对锚点的直接作用]
+    optional_components: [锚点的可填写性(读者能填自己的清单)]
+    failure_modes: ["寓言与锚点无接触点(各讲各的)", "锚点偷懒(口号式共鸣)"]
+    transformations:
+      都市: 假设装置(如果重来的APP)
+      悬疑: 超自然外壳+社会案件内核
+      爱情: 命定装置+相亲现实
+      玄幻: 魔法体系+生计压力
+      科幻: 高科技+打工人日常
+      职场: 架空公司+真实办公室政治
+      校园: 特殊学校+真实升学压力
+    originality_risk: LOW
+    video_potential: 8
+
+  - id: MM31
+    mechanism: Ancient-Modern Workplace Hologram (古今职场全息映射)
+    appears_in: [CAL(唐代转运=现代项目), DF(古代衙门=现代职场), ZS(神话秩序=社会)]
+    underlying_psychology: "历史/奇幻外壳与当代职场经验的逐点映射——读者在荔枝转运里认出自己的 KPI; '写古人其实是写我'的发现感是出圈第一动因"
+    minimum_components: [古代/架空机构的真实运作逻辑(流程/公文/背锅), 与当代职场经验的一一对应点]
+    optional_components: [古今对照的金句升维('就算失败, 我也想知道自己倒在距离终点多远的地方'式)]
+    failure_modes: ["古壳今芯违和(古人说现代词过滥)", "映射只有一层(开头即猜完)"]
+    transformations:
+      都市: 直接职场(无壳)
+      悬疑: 古代刑名=现代刑侦
+      爱情: 古代婚约制度=现代相亲
+      玄幻: 宗门=公司(网文标配)
+      科幻: 殖民舰队官僚制
+      职场: 行业史叙事(民国商号=当代公司)
+      校园: 古代书院=高考
+    originality_risk: LOW  # CAL 的'荔枝'具体任务 HIGH(已绑定)
+    video_potential: 8
+
+  - id: MM32
+    mechanism: Era Archaeology (时代考古接地法)
+    appears_in: [CYS, DCS, FH, WC, RSH, LiC(60s 美国)]
+    underlying_psychology: "读者的'我经历过/我听说'是终极锚点——年代物件/价格/歌曲/新闻的真实性直接兑换怀旧与信任; 重生文把读者的青春变成作品的免费世界观资产"
+    minimum_components: [年代细节的真实核验级精确(价格/物件/事件), 细节与情节的功能绑定(非布景)]
+    optional_components: [读者的代际差设计(父辈+子辈双入口)]
+    failure_modes: ["细节穿帮→考古变出戏", "怀旧无情节功能→明信片化"]
+    transformations:
+      都市: 近十年城市变迁
+      悬疑: 冷案的年代证据学
+      爱情: 校园年代恋
+      玄幻: 设定界的'旧纪元'考古
+      科幻: 近未来怀旧(2000s 电子味)
+      职场: 行业编年
+      校园: 高考年代志(最原位)
+    originality_risk: LOW
+    video_potential: 7
+
+  # ============ G. 能力系统类 ============
+
+  - id: MM33
+    mechanism: Internalized Cheat Code (金手指内化)
+    appears_in: [CYS(记忆), DF(思维方式), ZS(神话联结), SRI(智力), DCS(记忆)]
+    underlying_psychology: "2020s 头部共识: 金手指必须在人物内部(可被尊重的能力)而非外部系统发放(廉价)——能力自带正当性; 内化到极致即消失(纯智力=无金手指)"
+    minimum_components: [能力的人物内来源(记忆/思维/联结), 能力的边界或代价]
+    optional_components: [能力的成长性(思维方式的迭代), 能力与人格的绑定(能力即人)]
+    failure_modes: ["无边界内化能力→爽点通胀", "能力与人格脱钩→换人也成立"]
+    transformations:
+      都市: 预知/心理侧写
+      悬疑: 微表情识别
+      爱情: 读心(限定条件)
+      玄幻: 特殊体质(传统位)
+      科幻: 脑机接口专长
+      职场: 跨界方法论
+      校园: 超强记忆(限定遗忘代价)
+    originality_risk: LOW
+    video_potential: 5
+
+  - id: MM34
+    mechanism: Public-Domain Database Renewal (公版数据库续航)
+    appears_in: [ZS(神话), DF(历史/志怪), RSH(民间传说质感), EGN(民族志素材)]
+    underlying_psychology: "神话/历史/公版文本=免费无限且读者自带前理解的内容数据库——每个新角色/敌人/谜题都有零学习成本的大众认知背书; '揭晓是哪位神'本身即奖励"
+    minimum_components: [一个大众熟悉的公版体系(神话/历史/传说), 体系内角色的渐进揭示排期]
+    optional_components: [体系的冷门深度(大众认知内做深挖惊喜), 体系间的混搭(东西神话对撞)]
+    failure_modes: ["公版角色的原创化不足→同人感", "只点名不出新解(数据库无加工)"]
+    transformations:
+      都市: 城市传说数据库
+      悬疑: 历史悬案重查
+      爱情: 文学爱情原型重现
+      玄幻: 修真/封神体系(最原位)
+      科幻: 科学史名人 AI 化
+      职场: 商业史案例重演
+      校园: 学科史人物
+    originality_risk: LOW  # 体系本身公版; 但'斩神/精神病院'组合配置 MEDIUM
+    video_potential: 8
+
+  - id: MM35
+    mechanism: Modern-Mind Transfer (现代思维降维喜剧)
+    appears_in: [DF(现代思维×古代), LiC(科学思维×家庭主妇时代), CAL(项目管理×唐代)]
+    underlying_psychology: "把读者自己的思维方式装进不兼容的世界——爽点与笑点共用同一装置; 主角的'常识'在异世界成为超能力, 读者的日常认知被反常化尊重"
+    minimum_components: [思维方式的详细刻画(可复述的方法论), 不兼容的世界, 思维方式的初次降维兑现]
+    optional_components: [思维方式的局限暴露(现代性并非万能→防爽点通胀)]
+    failure_modes: ["思维方式只有名词无方法→降维无实感", "异世界为配合而降智"]
+    transformations:
+      都市: 跨行思维降维(程序员×餐饮)
+      悬疑: 法医思维×民间破案
+      爱情: 理性思维×感性关系
+      玄幻: 现代人×修真界(最原位)
+      科幻: 人文思维×AI 社会
+      职场: 跨界空降者
+      校园: 社会经验×校园规则
+    originality_risk: LOW
+    video_potential: 8
+
+  # ============ H. 信息与悬念类 ============
+
+  - id: MM36
+    mechanism: Rule-as-Text Weaponization (规则文本武器化)
+    appears_in: [SRI(游戏规则字缝藏杀机), CAL(公文'荔枝煎'变'鲜'字陷阱)]
+    underlying_psychology: "把杀机/转机藏在规则文本的字缝里——'重读规则'即入坑时刻, 阅读行为本身被戏剧化; 读者回头翻公文/规则的动作=二次消费+参与感"
+    minimum_components: [一份完整公布的规则/公文文本, 文本内的可被重新解读的关键字缝, 重新解读的扳机事件]
+    optional_components: [规则的多层字缝(初读/二读/三读各有机), 规则制定者的意图伏笔]
+    failure_modes: ["字缝过于隐晦(无人发现→无兑付)", "字缝过于明显(无侦探快感)"]
+    transformations:
+      都市: 合同/条款陷阱
+      悬疑: 遗嘱/法律条文(最原位)
+      爱情: 婚前协议的字缝
+      玄幻: 天道规则的漏洞(修真者的'律师'玩法)
+      科幻: 机器人三定律的漏洞
+      职场: 员工手册/规章的字缝
+      校园: 校规的字缝博弈
+    originality_risk: LOW
+    video_potential: 9
+
+  - id: MM37
+    mechanism: Cross-Space Anonymous Social Layer (跨空间匿名社交层)
+    appears_in: [DF(地书)]  # 15 本中唯一的主角间社交系统发明
+    underlying_psychology: "匿名身份谜题+信息差交易市场合于一装置——社交本身成为游戏: 每个新成员入场自带'TA是谁'的悬念, 每条信息都有交易价值; 唯一被验证的'关系性产品化'样本"
+    minimum_components: [一个跨空间的通讯装置, 匿名规则(身份不可见), 信息的交易机制(为什么说话)]
+    optional_components: [成员身份的逐个揭晓排期(集卡性), 匿名与现实线的行为对照(双秘密螺旋变体)]
+    failure_modes: ["匿名无代价→无人珍惜", "社交层与主线无交易关系→装饰性"]
+    transformations:
+      都市: 匿名群聊/树洞
+      悬疑: 匿名线人网络
+      爱情: 陌生人笔友(老而有效)
+      玄幻: 法器传讯(最原位)
+      科幻: 量子纠缠通讯/跨星际延迟信箱
+      职场: 匿名职场社区(内幕交易)
+      校园: 匿名校园墙
+    originality_risk: MEDIUM  # '地书'具体形式已绑 DF; 装置原理可迁移, 命名与媒介需全新设计
+    video_potential: 9
+
+  - id: MM38
+    mechanism: Rumor-Approximation Narration (传闻逼近叙事)
+    appears_in: [RSH(多版本传闻拼图), FH(饭局八卦), WC(文城传说)]
+    underlying_psychology: "真相被切成互相矛盾的传闻版本逐版逼近——读者当拼图侦探, 每个新版本强制重估前文; 真相的最终形态=全书最大兑付之一"
+    minimum_components: [核心秘密, ≥3 个互相矛盾的传闻版本, 版本间的信息增量(每版都有新碎片)]
+    optional_components: [传闻讲述者各自的立场偏见(版本即人物), 最终真相的反传闻性(最不可能的版本为真)]
+    failure_modes: ["版本无信息增量→重复", "真相弱于传闻积累→兑付泄气"]
+    transformations:
+      都市: 网络谣言的罗生门
+      悬疑: 证人证言互斥(最原位)
+      爱情: 分手原因的各方版本
+      玄幻: 上古之战的多族传说
+      科幻: 失事事件的档案罗生门
+      职场: 离职传闻链
+      校园: 转学生身世的流言版本
+    originality_risk: LOW
+    video_potential: 8
+
+  - id: MM39
+    mechanism: Body-Embedded Secret (身体嵌入型秘密)
+    appears_in: [RSH(纹身/身体秘密), EGN(身体与自然的印记), CAL(身上的荔枝印记式代价)]
+    underlying_psychology: "秘密长在身上——不可丢弃、不可言说、随时可能被看见; 身体同时是证据与刑具, 暴露风险随每一次亲密物理接触指数上升"
+    minimum_components: [身体上的可被看见的秘密标记, 标记的不可移除性, 至少一次'差点被看见'的擦边事件]
+    optional_components: [标记的双义性(耻辱×勋章的转变)]
+    failure_modes: ["标记可轻松遮蔽→无风险", "暴露后无后果→威胁空转"]
+    transformations:
+      都市: 病历/残疾/身份纹身
+      悬疑: 凶手留下的身体印记
+      爱情: 伤疤的来历
+      玄幻: 妖纹/魔印(最原位)
+      科幻: 基因标记/编码纹
+      职场: 工伤痕迹
+      校园: 胎记/伤疤的霸凌线
+    originality_risk: LOW  # RSH 的具体纹身设定 HIGH
+    video_potential: 7
+
+  - id: MM40
+    mechanism: Kill-the-Sympathetic (牺牲可爱者立威胁)
+    appears_in: [FW(同情者的死亡), EGN(亲近者的守恒律死亡), SRI(游戏死亡), HM(宠物线)]
+    underlying_psychology: "杀死一个被充分可爱的角色=最便宜的威胁性兑付——读者在那一页学会'这个世界玩真的'; 但每个作者只有少数几次信用额度, 滥用即破产"
+    minimum_components: [可爱度投资(≥3 个可爱化场景), 死亡的无预警性, 死后世界的持续痕迹(物件/影响)]
+    optional_components: [死亡本可避免的选择性(加重道德债务)]
+    failure_modes: ["可爱度投资不足→死亡无感", "滥用→读者情感脱敏/弃书"]
+    transformations:
+      都市: 恩人/宠物的死亡
+      悬疑: 第二个受害者是读者喜欢的
+      爱情: 阻碍者以死亡退场(悲剧爱情)
+      玄幻: 师父之死(最原位)
+      科幻: 队友的牺牲
+      职场: 被裁的良师
+      校园: 同桌的转学/病故
+    originality_risk: LOW
+    video_potential: 7
+
+# ============ 使用规则 ============
+usage_rules:
+  - "所有机制为 STORY MECHANISM 层——禁止带入任何原书人名/地名/独特术语/标志性剧情链(红线见 05_originality_review 规则与 COPYRIGHT_RULES.md)"
+  - "originality_risk=MEDIUM 以上者, 迁移时必须做'媒介+命名+组合'三重变形"
+  - "高stakes原创决策(立项/大纲定稿)引用本库前, 用 FULL_SOURCE 复核对应原书(优先级: 长安的荔枝→IEWU→十日终焉——见 SOURCE_ACQUISITION_MATRIX P0)"
+  - "本库置信度=各源报告的最低置信度; 单书特异机制(appears_in 仅 1 本)天然低于公约数机制"

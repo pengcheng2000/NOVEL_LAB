@@ -1,0 +1,95 @@
+# NOVEL_DNA.yaml — Fourth Wing
+source_meta:
+  source_status: PARTIAL_SOURCE
+  text_coverage: "Chapters 1-2 partial (official Peek Inside)"
+  evidence_profile: "TEXTUAL(Ch1-2) + PRIMARY(publisher) + SECONDARY(high-consistency public plot data)"
+  confidence_baseline: "opening=HIGH; full-book loops=MEDIUM; chapter detail=LOW"
+  analysis_date: 2026-09-13
+
+basic_info:
+  title: Fourth Wing
+  author: Rebecca Yarros
+  original_language: English
+  genre: Romantasy (dragon-rider military academy)
+  publication_period: 2023 (Red Tower/Entangled)
+  popularity_context: "BookTok phenomenon; romantasy flagship; Empyrean book 1"
+  adaptation_status: "TV adaptation in development"
+
+one_line_core:
+  premise: "A frail scribe's daughter is forced by her general mother into a war college where half the candidates die, and must outsmart death daily under the eyes of the wingleader who has every reason to let her die."
+  core_fantasy: "The weakest proves strongest + being watched by the most dangerous man"
+  central_question: "Will Violet survive Basgiath — and what is the institution hiding?"
+  reader_promise: "One death-defying trial per arc, one attraction escalation per Xaden scene"
+
+protagonist_system:
+  starting_status: "20, chronically frail body, scribe-trained, father dead, brother dead in rebellion, mother = commanding general who consigned her to the Riders Quadrant"
+  desire: "To be a scribe (denied desire — superior to 'wants to be strong')"
+  fear: "Dying weak in her mother's eyes; Mira losing her last sibling"
+  weakness: "Body as physical constant — every action scene carries default risk"
+  special_advantage: "Intellect + scribe knowledge base (banned folklore, history, Codex) = information advantage"
+  information_advantage: "Scribe training: she knows what riders don't read"
+  social_position: "Commander's daughter (hatred magnet) x 'weakest candidate' (public mockery) — double magnetic field"
+  wish_fulfillment: "The underestimated woman winning in a male-designed institution using different resources"
+  contradiction: "Loves her father's world of books (incl. banned knowledge) but must survive the institution that destroyed him"
+
+reader_addiction_loop:
+  primary_loop:
+    name: "Death-Trial Loop"
+    shape: "scheduled lethal trial -> short prep (gear/knowledge/alliance) -> execution exposing weakness -> intellect break -> survival + status/relationship shift -> bigger trial"
+    why_repeatable: "institution generates trials on a public schedule; each survival upgrades resources and enemies"
+    confidence: HIGH
+  secondary_loop:
+    name: "Xaden signal-decode loop (hate-speech vs protective-action gap)"
+    confidence: MEDIUM
+  long_term_loop:
+    name: "Institutional lie (venin truth / border truth / brother's death)"
+    confidence: MEDIUM
+
+reward_engine:
+  primary_rewards: [power_dragon_bond, romance, sexual_tension]
+  secondary_rewards: [competence, social_recognition, mystery_payoff]
+  signature_delayed_payoff: "two-dragon bond — every 'too weak' assertion accrues interest, payoff clears both underdog and genre-maximum debts at once"
+  confidence: MEDIUM
+
+relationship_engine:
+  xaden_x_violet:
+    mechanism: "inherited-feud attraction (neither chose the hate) + status/size gap + signal contradiction (contempt in words, protection in acts)"
+    hook: "readers tally his exceptions — each one refutes his opening declaration of hate"
+    confidence: HIGH(opening)/MEDIUM(trajectory)
+  mira_x_violet:
+    mechanism: "equipment-as-love — care made wearable; groundedness carrier"
+    confidence: HIGH
+  dain_x_violet:
+    function: "safe option made unsympathetic via well-meaning boundary violation (memory-reading signet)"
+    confidence: MEDIUM
+  triangulation: "safety vs excitement lab; real third option = a self that needs no protector"
+
+conflict_engine:
+  obstacle_generation: "3 independent generators: institutional (lethal schedule), peer (zero-sum Threshing odds), feud (Riorson vs Sorrengail)"
+  story_renewal_engine: "rank progression swaps rules/opponents/rights each stage — promotion as map change without travel"
+  confidence: HIGH(opening)/MEDIUM(full)
+
+groundedness:
+  strategy: "fantasy anchored in school-day reality: gym anxiety, gear checklists, mother's favoritism, freshman social dynamics"
+  reality_mirror: "daughter whose life is arranged by mother; woman competing with different resources in male-designed system; the marked kid punished for parents' treason"
+  confidence: HIGH
+
+distinctive_mechanisms:
+  - {name: Physical-Constant Handicap, principle: "make the weakness a non-depreciating physical constant; every scene auto-accrues risk", confidence: HIGH}
+  - {name: Institutional Death Schedule, principle: "outsource conflict generation to an institution's public calendar — no one to blame, nowhere to flee", confidence: HIGH}
+  - {name: Peer-Incentivized Lethality, principle: "zero-sum rules let allies and enemies interchange; relationships carry flip potential", confidence: HIGH}
+  - {name: Inherited-Feud Attraction, principle: "inherited hate gives zero-cost initial tension; love's progress overthrows the parents' narrative", confidence: HIGH}
+  - {name: Countdown First Line, principle: "quantified danger + deadline + abnormal calm in sentence one", confidence: HIGH}
+  - {name: Kill-the-Sympathetic, principle: "death threat credibility comes from killing the likable, not the many", confidence: HIGH}
+  - {name: Equipment-as-Love, principle: "materialize affection as functional gear — one prop charges relationship, world, and foreshadowing", confidence: HIGH}
+  - {name: Signal-Contradiction Antagonist, principle: "word/action gap instead of twist — the prediction process is the reward", confidence: MEDIUM}
+
+originality_tiers:
+  green: [all principles above]
+  yellow: ["frail-rider x dragon academy x two-dragon-bond genre config", "Xaden visual archetype stack (black hair + onyx gold-flecked eyes + rebellion relic + wingleader)"]
+  red: [Basgiath/Navarre/Poromiel/Tairn/Andarna/Xaden Riorson names, Codex article texts, two-dragon bond as specific setting, Brennan-alive reveal chain]
+
+video_adaptation:
+  ai_video_value: 8
+  rationale: "AI generation's cost advantage lands exactly on the book's costliest need (dragons); single-fortress main location controls complexity"
+  most_transferable_without_ip: [Physical-Constant Handicap, Institutional Death Schedule, Kill-the-Sympathetic]

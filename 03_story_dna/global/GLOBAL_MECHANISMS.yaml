@@ -1,0 +1,105 @@
+# GLOBAL_MECHANISMS.yaml — 全球大众小说跨书机制库
+# 依据: 5 本 STORY_DNA_REPORT (2026-09-13)。每条注明 appears_in 与 confidence 继承单本证据基线。
+# 证据缩写: IEWU=It Ends with Us, FW=Fourth Wing, LiC=Lessons in Chemistry, TML=The Midnight Library, HM=The Housemaid
+
+shared_conventions:  # 5/5 命中的公约数机制
+  - mechanism: Structural-Underdog Opening + Hidden Trump
+    appears_in: [IEWU, FW, LiC, TML, HM]
+    underlying_psychology: "deepest identification with structurally low positions; longest anticipation for the trump card"
+    minimum_components: [制度性低位(非暂时落难), 开篇内预告的底牌]
+    optional_components: [底牌的多次部分展示, 底牌与主题的绑定]
+    failure_modes: ["底牌兑现太早→后续无力", "低位靠惨而非靠结构→读者疲惫"]
+    transformations: {都市: 被行业除名者, 悬疑: 有前科者, 爱情: 阶层/年龄低位者, 玄幻: 体质废柴(注意已高度俗套化), 职场: 编制外的临时工}
+    originality_risk: LOW
+    video_potential: 6
+  - mechanism: Institution-as-Antagonist
+    appears_in: [FW, LiC, TML, HM]
+    underlying_psychology: "制度无法被一次性击败→冲突无限续期→长篇合法性"
+    minimum_components: [一套对主角不利的显性规则, 规则的公开性]
+    optional_components: [规则执行者中的同情者, 主角对规则的语言性反讽]
+    failure_modes: ["制度太抽象→无打击对象", "制度太邪恶→讽刺漫画化"]
+    originality_risk: LOW
+    video_potential: 6
+  - mechanism: Dual-Layer Desire (surface page-turner + deep word-of-mouth)
+    appears_in: [IEWU, FW, LiC, TML, HM]
+    underlying_psychology: "表层负责翻页，深层负责'这本书改变了我'式推荐"
+    minimum_components: [可即时兑现的类型爽点, 超越类型的核心命题]
+    failure_modes: ["只有表层→读完即忘", "只有深层→前50页流失"]
+    originality_risk: LOW
+    video_potential: 5
+  - mechanism: Objectified Emotional Anchor (物件即引擎)
+    appears_in: [IEWU(照片), FW(靴子/龙鳞甲), LiC(午餐盒纸条), TML(遗憾之书), HM(白裙子/外锁门)]
+    underlying_psychology: "可截图可转述的物件是口碑传播的最小单位——短视频时代权重持续上升"
+    minimum_components: [一个反复出现的具象物件, 物件与核心情绪的绑定]
+    optional_components: [物件的状态变化标记进度, 物件最终成为终局道具]
+    failure_modes: ["物件过载→无锚点", "物件与情绪绑定靠明说"]
+    originality_risk: LOW
+    video_potential: 9
+  - mechanism: Assert-Then-Invert Delayed Payoff (断言前置加息)
+    appears_in: [IEWU, FW, LiC, TML, HM]
+    underlying_psychology: "'所有人都不信'的断言为大额兑现持续加息"
+    minimum_components: [全书级大额payoff, 前期多方断言其不可能]
+    failure_methods: [payoff过晚, 断言重复无升级]
+    failure_modes: ["兑现与断言不成比例", "断言者与兑现场景脱节"]
+    originality_risk: LOW
+    video_potential: 7
+
+differentiated_engines:  # 各书护城河
+  - mechanism: Reward-Trap Inversion (reward 兑现即危险)
+    appears_in: [IEWU]
+    underlying_psychology: "类型读者的奖励反射被用作误导工具"
+    minimum_components: [类型里程碑事件, 里程碑伴随的危险证据]
+    failure_modes: ["两头得罪: 类型读者觉得被骗/文学读者觉得套路"]
+    transformations: {爱情: 承诺时刻, 职场: 升职时刻, 悬疑: 真相揭晓时刻}
+    originality_risk: MEDIUM
+    video_potential: 7
+  - mechanism: Three-Layer Conflict Generator (日程表/零和/血仇)
+    appears_in: [FW]
+    underlying_psychology: "冲突外包给制度排期+同伴竞争+历史仇恨，三层独立可组合"
+    minimum_components: [公开的致死/考核日程, 同伴间的零和规则]
+    failure_modes: [三层同节奏→疲劳]
+    transformations: {都市: 大厂考核季, 校园: 选拔营, 玄幻: 宗门大比, 科幻: 服役期}
+    originality_risk: LOW
+    video_potential: 8
+  - mechanism: Authority Displacement (权威错位降维)
+    appears_in: [LiC]
+    underlying_psychology: "同一武器在新战场既失效又降维——错位同时生成冲突与爽点"
+    minimum_components: ["核心专业能力", "该能力不该有用的新环境"]
+    failure_modes: ["专家在新环境顺风顺水→无冲突", "专业描写露怯"]
+    transformations: {都市: 法医做美食博主, 悬疑: 会计查凶, 玄幻: 炼丹师开餐厅, 科幻: 语言学家的第一次接触}
+    originality_risk: LOW
+    video_potential: 8
+  - mechanism: Enumerable Life-Trial Container (人生试穿容器)
+    appears_in: [TML]
+    underlying_psychology: "do-over 幻想的单元剧化; 容器内规律性失望递进论证主题"
+    minimum_components: [可枚举的'另一种人生'容器, 每次试穿的固定结构]
+    failure_modes: ["试穿人生无差异化", "主题靠人物说出而非体验出"]
+    transformations: {爱情: 前任们的人生, 科幻: 模拟器, 都市: 职业体验, 悬疑: 受害者们的人生}
+    originality_risk: MEDIUM (图书馆意象已高度识别)
+    video_potential: 9
+  - mechanism: Space-as-Weapon + Double-Secret
+    appears_in: [HM]
+    underlying_psychology: "建筑细节承载全部威胁; 双秘密对撞的dual countdown"
+    minimum_components: [一个可验证的空间事实, 双方各持秘密且权力不对等]
+    failure_modes: ["空间威胁一次性用尽", "双秘密节奏失同步"]
+    transformations: {都市: 合租房, 职场: 高管家庭家教, 悬疑: 疗养院, 爱情: 借住}
+    originality_risk: MEDIUM
+    video_potential: 8
+
+signature_micro_mechanisms:  # 单书独有的高价值微观装置
+  - {mechanism: Sanctioned Confession Ladder, appears_in: [IEWU], note: "规则容器压缩亲密", originality_risk: LOW, video_potential: 8}
+  - {mechanism: Physical-Constant Handicap, appears_in: [FW], note: "弱点不贬值，场景自动计息", originality_risk: LOW, video_potential: 7}
+  - {mechanism: Kill-the-Sympathetic, appears_in: [FW], note: "死亡信用靠敢杀可爱的", originality_risk: LOW, video_potential: 7}
+  - {mechanism: Equipment-as-Love, appears_in: [FW], note: "关心物化为可穿戴装备", originality_risk: LOW, video_potential: 8}
+  - {mechanism: Serious-Logic Comedy, appears_in: [LiC], note: "写死板逻辑不写笑话", originality_risk: LOW, video_potential: 7}
+  - {mechanism: Object-List Realism, appears_in: [LiC], note: "清单即性格", originality_risk: LOW, video_potential: 6}
+  - {mechanism: The Absent Anchor, appears_in: [LiC], note: "不出场的人承担全书情感利率", originality_risk: LOW, video_potential: 7}
+  - {mechanism: Reward-Decay Training, appears_in: [TML], note: "驯化爽点阈值迁移翻页动力到主题", originality_risk: MEDIUM, video_potential: 5}
+  - {mechanism: Fable-Premise Reality-Anchor, appears_in: [TML, FW], note: "设定越抽象，锚点越具体", originality_risk: LOW, video_potential: 7}
+  - {mechanism: Deniable Malice, appears_in: [HM], note: "压迫的不可证明性比压迫更致郁", originality_risk: LOW, video_potential: 8}
+  - {mechanism: Transgression-Token, appears_in: [HM], note: "僭越物一次性按钮", originality_risk: LOW, video_potential: 8}
+
+meta_conclusions:
+  - "当代全球畅销公约数: 第一人称女性视角+结构性弱势开局+制度性障碍+物化锚点+延迟大额兑现——品类是皮公约数是骨"
+  - "reward 经济学五型: 纯增(FW)/递减(TML)/反转(IEWU)/补偿(LiC)/悬置(HM)——选错光谱比执行差更致命"
+  - "传播最小单位: 全部 5 本爆红依赖可转述的单句/单意象——短视频时代选书硬约束"

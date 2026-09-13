@@ -1,0 +1,83 @@
+# NOVEL_DNA.yaml — 长安的荔枝
+source_meta:
+  source_status: MISSING_SOURCE
+  text_coverage: 0%
+  evidence_profile: "RELIABLE_SECONDARY(马伯庸 2022 novella; public material highly consistent incl. TV/film adaptations) + MODEL_INFERENCE"
+  confidence_baseline: MEDIUM (highest among china_print five — structure well documented; detail risk remains)
+  analysis_date: 2026-09-13
+
+basic_info:
+  title: 长安的荔枝
+  author: 马伯庸
+  original_language: Chinese
+  genre: 历史可能性小说 / 职场寓言
+  publication_period: 2022 (湖南文艺/博集天卷); ~7万字
+  popularity_context: "口碑爆款; 2025 剧版+电影版双线改编; 出圈动因=职场共鸣"
+  adaptation_status: "TV series & film released 2025"
+
+one_line_core:
+  premise: "In Tang-dynasty Chang'an, an honest math-trained minor official is tricked into a death-sentence errand: deliver fresh lychees (they spoil in three days) 5,000 li from Lingnan to the capital before the Consort's birthday — and he decides to compute whether it can be done."
+  core_fantasy: "A little man defeating the entire bureaucratic machine with professional competence and his life on the line"
+  central_question: "Can it be done technically — and what kind of man will doing it make him?"
+  reader_promise: "engineering breakthrough per arc + a bitter undertone: every success adds moral debt"
+
+protagonist_system:
+  starting_status: "bottom-tier technical official, just mortgaged a house in the capital, wife and daughter — the middle-aged mortgage holder"
+  desire: "survive; keep family unharmed (exile counts as living)"
+  fear: "not death but joint liability — all his fears are family-sized"
+  weakness: "cannot do office politics — honesty is both social defect and technical virtue (male version of Unappealing Heroine Paradox)"
+  special_advantage: "mathematics + experimental methodology — the only engineer in a political world"
+  contradiction: "completing the task requires the very machine that crushes ordinary people — success and conscience are zero-sum"
+  relatability: "the scapegoated middle manager, the impossible KPI, the 'I just want to do the work right' technician"
+
+reader_addiction_loop:
+  primary_loop:
+    name: "Engineering-Trial Loop"
+    shape: "deadline countdown -> technical obstacle -> verifiable experiment/calculation -> partial breakthrough -> new systemic obstacle -> tighter deadline"
+    why_repeatable: "task decomposed into enumerable engineering links (preservation x route x relay x ice) — episodic unit-drama of engineering"
+    confidence: MEDIUM-HIGH
+  secondary_loop:
+    name: "Bureaucratic bargaining loop — each technical gain needs political resources, each resource costs morality or loyalty, politics bites back"
+    confidence: MEDIUM
+  long_term_loop:
+    name: "the accumulating cost ledger — final moral reckoning about what kind of man he becomes"
+    confidence: MEDIUM
+
+reward_engine:
+  primary_rewards: [competence_engineering, face_slap_variant_make_disbelievers_watch_it_happen]
+  secondary_rewards: [power_temporary_token, emotional_payoff_friendships_sacrificed_or_redeemed]
+  signature_structure: "pre-revealed payoff — '一骑红尘妃子笑' locks the outcome publicly; ALL suspense transfers to 'how', process density = pleasure density"
+  confidence: MEDIUM-HIGH
+
+relationship_engine:
+  su_liang_x_li: "trade-based alliance crushed by the machine — every rung he climbs, someone below is betrayed"
+  a_tong_x_li: "the orchard's pure goodness; final redemption spatialized (exiled back to the lychee orchard)"
+  friends_function: "failure-mode friends provide the moral debate's counterweight"
+
+conflict_engine:
+  obstacle_generation: "three layers — physical (spoilage/distance/time), institutional (buck-passing bureaucracy, enemies), human (betrayal); physics is the constant, institution the amplifier; the true villain is process itself"
+  story_renewal_engine: "engineering-link relay (new map per link: Chang'an -> Lingnan -> relay routes) + political escalation (bureau -> military governor -> chancellor)"
+  confidence: MEDIUM-HIGH
+
+groundedness:
+  strategy: "Tang bureaucracy as hologram of the contemporary workplace — mortgage, KPI, scapegoating; historical craft detail supplies documentary credibility"
+  note: "马伯庸 formula: real history as skeleton, fictional little man as eye — 'so that's what the crack in history looked like' epiphany pleasure"
+  confidence: HIGH
+
+distinctive_mechanisms:
+  - {name: Impossible-Task Decomposition, principle: "translate a death sentence into a solvable engineering checklist — the payoff is not 'he did it' but 'so THAT'S how it could be done'", confidence: HIGH}
+  - {name: Pre-Revealed Payoff, principle: "lock the ending with a universally known historical fact; move all narrative energy into process", confidence: HIGH}
+  - {name: Bureaucracy-as-Final-Boss, principle: "de-personalize the villain — process/institution as final boss, humans as its hostages; no-faced enemies are unbeatable and instantly relatable", confidence: HIGH}
+  - {name: Moral-Cost Accounting, principle: "keep a synchronized ledger of the task's human cost; settle it together with the triumph — the upgrade kit for victory narratives", confidence: MEDIUM}
+  - {name: Ancient-Modern Workplace Hologram, principle: "select historical details by structural resonance with contemporary anxiety; higher isomorphism = wider breakout radius", confidence: HIGH}
+  - {name: Quote-as-Character-Elevation, principle: "one mid-book line upgrades the motive from survival to epistemic hunger — instant character depth +传播弹药", confidence: HIGH}
+
+originality_tiers:
+  green: [all principles above]
+  yellow: ["lychee transport x Tang x '一骑红尘妃子笑' task combo (bound to history+poem, highly identified)", "马伯庸 historical-possibility methodology as brand"]
+  red: [李善德/苏谅/阿僮/何履光 names, specific preservation techniques & route plans, "'就算失败……' line"]
+
+video_adaptation:
+  ai_video_value: 8
+  rationale: "single-line task + link-per-episode + strong period art + proven adaptation path (2025 TV & film)"
+  most_transferable_without_ip: [Impossible-Task Decomposition, Bureaucracy-as-Final-Boss, Quote-as-Character-Elevation]

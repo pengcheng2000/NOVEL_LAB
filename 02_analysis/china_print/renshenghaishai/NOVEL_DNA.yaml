@@ -1,0 +1,72 @@
+# NOVEL_DNA.yaml — 人生海海
+source_meta:
+  source_status: MISSING_SOURCE
+  text_coverage: 0%
+  evidence_profile: "RELIABLE_SECONDARY(public reviews/interviews, high consistency) + MODEL_INFERENCE"
+  confidence_baseline: LOW-MEDIUM
+  warning: "all conclusions are structure-level inference; verify against the novel before high-stakes original use"
+  analysis_date: 2026-09-13
+
+basic_info:
+  title: 人生海海
+  author: 麦家
+  original_language: Chinese
+  genre: 时代传奇 / 文学小说
+  publication_period: 2019 (北京十月文艺)
+  popularity_context: "现象级畅销; 作者为《解密》《风声》作者、茅盾文学奖得主"
+  adaptation_status: "影视改编推进中(公开报道)"
+
+one_line_core:
+  premise: "A legendary village army surgeon's life is defined by a secret tattooed on his body; a boy narrator spends decades circling the truth through hearsay."
+  core_fantasy: "Peering into a man who never explains himself — secret-consumption in ultimate form"
+  central_question: "What is the Colonel's secret?"  # confidence: MEDIUM
+  reader_promise: "curiosity -> shock -> compassion; the reveal crushes rather than delights"
+
+protagonist_system:
+  structure: dual protagonist — the Colonel (the watched riddle) + boy narrator 'I' (the watching eye)
+  narrator_function: "exclusion from the adult world legitimizes ignorance as information control"
+  colonel_contradiction: "revered and destroyed by the same village for the same secret (prestige and shame share one body)"
+
+reader_addiction_loop:
+  primary_loop:
+    name: "Hearsay-Approach Loop"
+    shape: "new witness/rumor -> one fragment of truth (contradicting previous fragments) -> Colonel's situation worsens -> bigger figure arrives -> new version"
+    why_repeatable: "polyphony gives truth N mutually exclusive versions — each telling advances AND misleads"
+    confidence: MEDIUM
+  long_term_loop: {name: "the tattoo truth + who loved/ruined him", confidence: MEDIUM}
+
+reward_engine:
+  primary_rewards: [mystery_ladder_late_reveal, emotional_payoff_compassion]
+  secondary_rewards: [era_spectacle, competence_legend_achievements]
+  confidence: MEDIUM
+
+relationship_engine:
+  colonel_x_village: "collective voyeurism — the village as peeping machine; readers are drafted in and finally shamed for it"
+  colone_x_those_who_love: "love and ruin inseparable — lovers become keepers and revealers of the secret"
+  confidence: MEDIUM
+
+conflict_engine:
+  obstacle_generation: "the era (struggle sessions) institutionalizes peeping into violence — gossip escalates to mortal"
+  story_renewal_engine: "witness relay — each new narrator opens a new era slice (民国/抗战/内战/文革/海外); renew by changing witness, not location"
+  confidence: MEDIUM
+
+groundedness:
+  strategy: "era-materiality — every secret version embedded in a concrete historical machine; legend made credible by period detail"
+  confidence: MEDIUM
+
+distinctive_mechanisms:
+  - {name: Body-Embedded Secret, principle: "materialize the secret in something inseparable from the protagonist (body/memory/identity) — the cost of concealment is permanently bound to the cost of living", confidence: MEDIUM}
+  - {name: Contradiction-Reputation Trap, principle: "3+ public mutual contradictions pre-install the secret's gravity field; the reader starts assembling truth for you", confidence: MEDIUM}
+  - {name: Witness-Relay Narration, principle: "distribute truth among witnesses with conflicting interests — version gaps are characterization", confidence: MEDIUM}
+  - {name: Reader-Implication Reversal, principle: "feed the reader's voyeurism all book, then make the truth's cruelty indict that appetite — the reader pays for their own curiosity", confidence: MEDIUM}
+  - {name: Era-as-Pressure-Valve, principle: "let historical machinery amplify a private secret into mortal drama", confidence: MEDIUM}
+
+originality_tiers:
+  green: [all principles above]
+  yellow: ["eunuch-colonel-surgeon x tattoo-secret x Jiangnan village Cultural-Revolution narrative stack"]
+  red: [上校/蒋正南/小疯子/老保长 characters, the tattoo's specific content and reveal chain, "'人生海海' thematic phrasing"]
+
+video_adaptation:
+  ai_video_value: 6
+  rationale: "period texture is AI-friendly but polyphonic narration is lossy on screen; two iconic reveal scenes carry the adaptation"
+  most_transferable_without_ip: [Contradiction-Reputation Trap, Body-Embedded Secret]
