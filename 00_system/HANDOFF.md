@@ -5,7 +5,7 @@
 LAST_AGENT: Claude Code
 LAST_MODEL: GLM-5.3 Flash
 LAST_DEVICE: Mac mini
-LAST_COMMIT: chore: make NOVEL_LAB portable and multi-agent ready（2026-09-14，首次推送）
+LAST_COMMIT: 5a13830 — chore: make NOVEL_LAB portable and multi-agent ready（2026-09-14，main 分支首次推送 + 状态回写）
 
 COMPLETED:
 - GitHub 跨设备迁移完成：全部项目文件首次推送到 github.com/pengcheng2000/NOVEL_LAB（main 分支）

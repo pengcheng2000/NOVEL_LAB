@@ -1,6 +1,6 @@
 # ACTIVE_TASKS — 当前活动任务
 
-最后更新：2026-09-14（Codex，**Phase 5 COMPLETE**：C05《雨天旧衣店》Story Bible 已建立；等待用户决定是否进入 Phase 6）
+最后更新：2026-09-14（Claude/GLM-5.3 Flash，**GitHub migration completed**：中央真源迁移至 GitHub，多 Agent 协作启动；Phase 5 COMPLETE，等待 Phase 6 指令）
 
 ## 当前
 
@@ -11,7 +11,8 @@
 | Phase 4.5：Finalist 压力测试（C03/C05/C06） | **COMPLETED** | 2026-09-14；产出见下；已提交最终汇报 |
 | 第一部原创 IP 选择 | **COMPLETED** | 用户确认 C05《雨天旧衣店》；C03/C06 保留未来候选 |
 | Phase 5：Story Bible Development | **COMPLETED** | 产出位于 `04_original_project/C05_rainy_old_clothes/`；00–08 设计与 11_reviews 已完成，未写正文 |
-| Phase 6：Novel Production | PENDING（用户指令） | 不自动进入；先遵守 Phase 5 的生产监控指标 |
+| **GitHub 跨设备迁移** | **COMPLETED** | 2026-09-14（Claude/GLM）：138 文件 → `github.com/pengcheng2000/NOVEL_LAB`（main，`5a13830`）；AGENT_PROTOCOL / MODEL_ROLES / HANDOFF 建立；详见 PROJECT_STATUS.md 迁移行 |
+| Phase 6：Novel Production | PENDING（用户指令） | 不自动进入；先遵守 Phase 5 的生产监控指标；主责 GPT-5.6/Codex（见 MODEL_ROLES.md） |
 
 ## Phase 4.5 产出清单（2026-09-14，全部落盘）
 
