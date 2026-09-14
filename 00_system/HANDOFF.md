@@ -56,7 +56,7 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- 无。Final Acceptance 已完成，等待 Gemini Batch Final Patch Ch2–3。
+- Batch 01 Ch02–03 Final Patch Verification（2026-09-14，GPT-5.6 Sol / Codex，Windows）：只验证指定 Patch、范围与 Final/Canon 准入；不执行 Canon Update、不进入 Chapter 004。
 
 NEXT_TASK:
 - Gemini 3.8 Flash 读取 `12_production/editorial/batch_01_ch02_03_final_acceptance.md`，仅执行 Ch2 3 项 + Ch3 5 项 Required Patches，不重新润色整章
