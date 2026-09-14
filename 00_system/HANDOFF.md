@@ -3,11 +3,15 @@
 > 每次重要工作结束时更新本文件；每次开始工作前先读本文件（完整协议见 `00_system/AGENT_PROTOCOL.md`）。
 
 LAST_AGENT: Codex
-LAST_MODEL: GPT-5.6 Sol（Editor-in-Chief / Lead Story Editor）
+LAST_MODEL: GPT-5.6 Sol（Editor-in-Chief / Final Story Editor）
 LAST_DEVICE: Windows
-LAST_COMMIT: review: edit chapter 001 draft（2026-09-14；准确 hash 以 Git 历史为准）
+LAST_COMMIT: review: final check chapter 001 rewrite（2026-09-14；准确 hash 以 Git 历史为准）
 
 COMPLETED:
+- Chapter 001 Final Acceptance 完成（Sol）：完整验收 Gemini 6,058 字第二稿，结论 MINOR FIX，88/100；无需再次整章 Rewrite
+- 上轮全部结构性 MUST FIX 已解决：POV、手工登记/盖章、年龄、1988 信息边界、生日面规则资格、专业细节、唐荔站位、蓝布功能与 Hook 停章均通过
+- 仅余 3 项 Final Patch：五月医院段删除“深冬冷雨”；2024-03-11 删除/修正“周日”并替换“念娣”；蓝布保留颜色但删除“利器撕扯”推断
+- 当前不授权 GLM Canon Update；补丁后先由 Sol 做范围核验。未开始 Chapter 002
 - Chapter 001 Editorial Review 完成（Sol）：产出 `12_production/editorial/chapter_001_editorial_review.md`；结论 MAJOR REVISION / READY FOR GEMINI REWRITE
 - 独立审读 Gemini 8,373 字全文与 GLM Continuity；建议压至 6,000–6,500 字，不拆章、不前移重排异常场景，通过压缩自然降至约 22%–25%
 - 核心裁决：拒绝《承衣簿》自动书写/盖印；生日面表现保留但需改为与黑开衫直接相连、谢念真正回避的一次具体生日；拒绝“衣未还”短信、脑梗死因、水浸硬痕与“澄江市”
@@ -26,14 +30,15 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- Chapter 001 Final Acceptance（2026-09-14，GPT-5.6 Sol / Codex，Windows）：验收 Gemini 第二稿是否达到正式发布/Canon 标准；Review Only，不改正文、不执行 Canon Update、不进入 Chapter 002。
+- 无。Final Acceptance 结论为 MINOR FIX，等待 Gemini Final Patch。
 
 NEXT_TASK:
-- Gemini 3.8 Flash 读取 `chapter_001_editorial_review.md`、Continuity、Brief、Style Guide 与必要 Canon，落实全部 MUST FIX，输出 `09_manuscript/chapters/chapter_001_final.md`
-- 重写后：Sol Approval → GLM Canon Update；未批准、未完成 Canon Update 不得进入 Chapter 002
+- Gemini 3.8 Flash 读取 `12_production/editorial/chapter_001_final_acceptance.md`，仅执行 3 项 Required Local Fixes；不要重写其他段落
+- Patch 后由 Sol 快速核验；通过后才交 GLM Canon Update。未授权进入 Chapter 002
 - 历史遗留待办见 00_system/ACTIVE_TASKS.md 队列（ORIGINAL_PROJECT_DISCOVERY 反向入库等）
 
 FILES_CHANGED:
+- 本轮：新增 `12_production/editorial/chapter_001_final_acceptance.md`；最小更新 `ACTIVE_TASKS.md` 与 `HANDOFF.md`；未修改正文或 Canon
 - 本轮：新增 `12_production/editorial/chapter_001_editorial_review.md`；更新 `ACTIVE_TASKS.md`、`HANDOFF.md`；新增 Codex 编辑日志
 - Phase 6A：`00_system/MODEL_ROLES.md`、`CLAUDE.md`、C05 规则/时间线/前三章相关大纲、`09_manuscript/` 空结构、`12_production/` 全部生产文件、三份状态文件与本次 Codex 日志
 - 新增：00_system/AGENT_PROTOCOL.md、00_system/MODEL_ROLES.md、00_system/HANDOFF.md、.gitattributes、01_reference/README.md
@@ -45,7 +50,11 @@ FILES_TO_READ_NEXT:
 - 当前开发项目：04_original_project/C05_rainy_old_clothes/（00–08 设计文档 + 11_reviews）
 
 IMPORTANT_DECISIONS:
-- Chapter 001 Verdict：MAJOR REVISION / READY FOR GEMINI REWRITE；推荐定稿 6,000–6,500 字
+- Chapter 001 第二稿 Final Verdict：MINOR FIX，88/100；结构与发布质量基本通过，只需 3 项局部补丁
+- 6,058 字节奏通过；异常约 29.6% 出现但前段现实冲突足够，不要求重排或机械前移
+- 生日面代价机制通过；2024 年 3 月谢念 26 岁、黑开衫在场、外婆病后与旧债均自洽，但“周日/念娣”需局部修正
+- 1988 记忆、Ending Hook、POV 与人工登记规则均通过
+- 上一轮 Chapter 001 Editorial Verdict：MAJOR REVISION / READY FOR GEMINI REWRITE；该轮要求已由第二稿完成
 - 《承衣簿》维持人工登记工具，不具有自动书写或盖印能力
 - 生日面代价当前版本不完全符合 Canon：不改规则，改正文，使具体记忆与黑开衫直接相连且为谢念真正回避的未解决记忆
 - 1988 记忆保留两张硬座票、蜂窝煤味和雨停中断；删除“赵母自己要走/带不走赵”的明确结论，完整用途留给 Ch2–3
@@ -60,7 +69,7 @@ IMPORTANT_DECISIONS:
 - 99_logs/ 自本次迁移起进入版本控制（跨设备可见）
 
 KNOWN_RISKS:
-- Rewrite 若只删字不修正记忆谜底边界、生日面资格和三处 POV，则仍不具备 Sol Approval 条件
+- 本地 `chapter_001_rewrite.md` 在本轮开始前已有一个仅增加末尾空白行的未提交差异；无正文语义变化，本轮未覆盖、未暂存
 - 既有 Canon 内部对外婆三通电话内容有相反表述；本轮按优先级采用 `SECRET_MATRIX.md` Ch58，Chapter 001 不定义内容，待获批后的 GLM Canon Update 统一 `RELATIONSHIP_ENGINE.md`
 - 正文期首要质量风险：单元语法重复、主谜场景超过 45%、谢念被动成为记忆播放器、近距离限知对“主动求忘”的叙述作弊；已写入 Workflow、Style Guide、Brief 与 Acceptance Standard
 - 仓库为 PUBLIC：已核查无凭证/密钥/完整版权正文；分析文件对参考书仅做机制级抽象描述，后续贡献者须持续遵守 00_system/COPYRIGHT_RULES.md
