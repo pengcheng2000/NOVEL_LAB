@@ -1,6 +1,6 @@
 # ACTIVE_TASKS — 当前活动任务
 
-最后更新：2026-09-14（GLM-5.3 Flash / Claude Code：**Batch 01（Ch2–3）Canon Update 完成**，3 chapters completed；Ch4–5 Readiness = READY；下一任务 Gemini Draft Chapter 004–005，Ch4 正文尚未开始）
+最后更新：2026-09-14（GLM-5.3 Flash / Claude Code：**Batch B（Ch4–5）Continuity Pass 完成**，结论 PASS WITH NOTES；下一任务 Sol Batch 02 Editorial Review；两章均未 completed，未做 Canon Update）
 
 ## 当前
 
@@ -28,7 +28,8 @@
 | Batch A Final Acceptance（Ch2–3） | **COMPLETED** | Ch2 FINAL VERDICT ACCEPT（89/100）；Ch3 FINAL VERDICT ACCEPT（85/100）；两份 Final 已通过 Sol 范围验证 |
 | Batch A Final Patch（Ch2–3） | **COMPLETED** | Gemini commit `6a7b4d1`；Ch2 3 项、Ch3 5 项补丁全部正确，无超范围修改 |
 | Batch A Canon Update（Ch2–3） | **COMPLETED** | 2026-09-14 GLM 完成：人物（PROTAGONIST / TANG_LI / ZHAO_WEIMIN / ZHOU_XU / 新增 ZHOU_GUIYING）、关系引擎（Ch2–3 Before/Change/After）、Master Timeline（6/8、6/9 事件序列 + 1988 冬按 Final 更新）、旧衣规则 Reveal State、Secret Matrix 六方知识状态（KNOWS/SUSPECTS/DOES NOT KNOW）、伏笔植入登记（两张硬座票第一阶段 Payoff 兑付 + 5 项新登记）均已更新；新增 `09_manuscript/canon/batch_01_ch02_03_canon_summary.md` 与 `12_production/CHAPTER_004_005_READINESS.md`（**READY**）。Chapter 002/003 状态 = CANON_UPDATED |
-| Chapter 004–005 Draft（Batch B） | **PENDING** | 下一任务：Gemini 3.8 Flash 连续生产；读取 `batch_01_ch02_03_canon_summary.md`、`chapter_004_brief.md`、`chapter_005_brief.md` 与必要 Canon；不预写 Ch6 |
+| Chapter 004–005 Draft（Batch B） | **COMPLETED** | 2026-09-14 Gemini 完成（commit `a73b8b2`）：Ch4 4,246 字、Ch5 3,637 字，均落入建议区间 |
+| Batch B Continuity Pass（Ch4–5） | **COMPLETED** | 2026-09-14 GLM 完成，产出 `12_production/editorial/batch_02_ch04_05_continuity.md`；结论 PASS WITH NOTES，无 BLOCKER、无硬 Canon 冲突；8 项 C 类/QUERY 待 Sol（孙正历史包、周父组长身份、蒋妍母亲三版互斥、活人衣规则来源、唐荔八年学徒等）；Ch5→Ch6 边界检查通过；Canon 未更新 |
 
 ## Phase 4.5 产出清单（2026-09-14，全部落盘）
 
@@ -52,8 +53,8 @@
 
 | # | 任务 | 依赖 |
 |---|---|---|
-| 1 | Gemini 3.8 Flash：连续生产 Chapter 004–005 Draft（Batch B） | Ch4–5 Readiness = READY；读取 Batch Canon Summary、两份 Brief、PROSE_STYLE_GUIDE 与必要 Canon；不预写 Ch6 |
-| 2 | GLM Batch B Continuity Pass（Ch4–5） | Ch4–5 Draft 完成后 |
+| 1 | Sol Batch 02 Editorial Review（Ch4–5） | Continuity 已完成；输入 = 两章 Draft + `batch_02_ch04_05_continuity.md`；重点见报告"Recommended Sol Focus"五项（蒋妍母亲设定、孙正历史包、周父口径、Ch5/Ch6 规则分层、口径统一） |
+| 2 | Gemini 重写 Ch4–5 → Sol Approval → GLM Canon Update | Editorial Review 完成后；未批准不得进入 Ch6 |
 | 3 | Phase 6 生产监控：单元语法重复率 / 主谜场景占比 / 谢念主动行动占比 | 随正文生产持续执行 |
 | 4 | ORIGINAL_PROJECT_DISCOVERY 反向入库（C06 负空间数据库 + C08 规则武器职业化） | 用户确认；不影响 C05 |
 | 5 | Schema v1.1 修订裁决 / Source 政策边界裁决（历史遗留） | 用户裁决 |
