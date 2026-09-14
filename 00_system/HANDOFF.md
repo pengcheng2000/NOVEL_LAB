@@ -50,7 +50,7 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- 无。Batch A Editorial Review 已完成，等待 Gemini Batch Rewrite Ch2–3。
+- Batch 01 Ch02–03 Final Acceptance（2026-09-14，GPT-5.6 Sol / Codex，Windows）：完整验收两章 Rewrite 是否可 Finalize/Canonize；不执行 Canon Update、不进入 Chapter 004。
 
 NEXT_TASK:
 - Gemini 3.8 Flash 读取 `12_production/editorial/batch_01_ch02_03_editorial_review.md`，一次性重写 Chapter 002–003，分别输出文件并落实全部 MUST FIX
