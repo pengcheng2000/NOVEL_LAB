@@ -45,7 +45,7 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- 无。Batch A Draft 与 Continuity Pass 已完成，等待 Sol。
+- Batch 01 Ch02–03 Editorial Review（2026-09-14，GPT-5.6 Sol / Codex，Windows）：完整审读两章 Draft、Brief、联合 Continuity 与必要 Canon，输出联合修改意见；不写正文、不执行 Canon Update、不进入 Chapter 004。
 
 NEXT_TASK:
 - GPT-5.6 Sol → Batch A Editorial Review（Ch2–3）：输入 = `09_manuscript/drafts/chapter_002_draft.md`、`chapter_003_draft.md`、`12_production/editorial/batch_01_ch02_03_continuity.md`；Ch3 按 KEY 级精审；五项优先焦点见 Continuity Report"Recommended Sol Focus"（1988 真相边界 / 两项 Hook 节拍纠偏 / Ch2 压缩方案 / 姨母证词开放度与转述规则口径 / 补"暂停清产"节拍）
