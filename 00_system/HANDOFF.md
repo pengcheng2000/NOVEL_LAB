@@ -2,12 +2,13 @@
 
 > 每次重要工作结束时更新本文件；每次开始工作前先读本文件（完整协议见 `00_system/AGENT_PROTOCOL.md`）。
 
-LAST_AGENT: Codex
-LAST_MODEL: GPT-5.6 Sol
+LAST_AGENT: Claude Code
+LAST_MODEL: GLM-5.3 Flash（Continuity Pass 职能）
 LAST_DEVICE: Windows
-LAST_COMMIT: feat: prepare C05 novel production workflow（2026-09-14；准确 hash 以 Git 历史为准）
+LAST_COMMIT: review: check chapter 001 continuity（2026-09-14；准确 hash 以 Git 历史为准）
 
 COMPLETED:
+- Chapter 001 Continuity Pass 完成（GLM）：产出 `12_production/editorial/chapter_001_continuity.md`，结论 PASS WITH NOTES；无 BLOCKER；4 项 ERROR（POV 越界 ×3 处、《承衣簿》自动盖印机制、赵为民年龄内部矛盾、"澄江市"命名）与多项 QUERY 已列明；Gemini 7 项新增全部判定，3 项 C 类新增 + 1 项 CONFLICT 待 Sol 裁决；篇幅 8,373 字超限已标记 EDITORIAL ATTENTION REQUIRED。Canon 未做任何更新，未写入任何 Draft 新增内容
 - PHASE 6A COMPLETE：建立 C05 正式生产链 `Sol Planning → Gemini Draft → GLM Continuity → Sol Editorial → Gemini Rewrite → GLM Canon Update`
 - 更新 `MODEL_ROLES.md`：Sol=总编辑/故事架构/终审，Gemini 3.8 Flash=小说正文主写，GLM=项目管理/连续性/知识维护，Terra=助理编辑/工具任务
 - 新建 `12_production/`：Workflow、Prose Style Guide、Chapter Template、Pre-Production Gap Check、Gemini Writer Instructions、Chapter Acceptance Standard、editorial/production log 规范
@@ -20,11 +21,11 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- 无。Phase 6A 已完成；正文尚未开始。
+- 无。Chapter 001 Draft（Gemini）与 Continuity Pass（GLM）已完成，等待 Sol。
 
 NEXT_TASK:
-- Gemini 3.8 Flash 读取 `12_production/chapter_briefs/chapter_001_brief.md`、`PROSE_STYLE_GUIDE.md`、`GEMINI_WRITER_INSTRUCTIONS.md` 及 Brief 指定 Canon，输出 `09_manuscript/drafts/chapter_001_draft.md`
-- 初稿后依次执行：GLM Continuity Pass → Sol Editorial Review → Gemini Rewrite → Sol Approval → GLM Canon Update；未批准不得进入 Chapter 002
+- GPT-5.6 Sol 对 Chapter 001 执行 Editorial Review：输入为 `09_manuscript/drafts/chapter_001_draft.md` + `12_production/editorial/chapter_001_continuity.md`，按 MUST FIX / SHOULD FIX / OPTIONAL 输出 `chapter_001_editorial_review.md`；重点核对 Continuity Report"Recommendation to Sol"三项（POV 越界、账簿自动盖印、8,373 字压缩方案）
+- 之后依次执行：Gemini Rewrite → Sol Approval → GLM Canon Update；未批准不得进入 Chapter 002
 - 历史遗留待办见 00_system/ACTIVE_TASKS.md 队列（ORIGINAL_PROJECT_DISCOVERY 反向入库等）
 
 FILES_CHANGED:

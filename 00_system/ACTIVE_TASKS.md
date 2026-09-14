@@ -1,6 +1,6 @@
 # ACTIVE_TASKS — 当前活动任务
 
-最后更新：2026-09-14（GPT-5.6 Sol / Codex，**PHASE 6A COMPLETE**：生产体系与 Chapter 001–003 Brief 已完成；正文尚未开始）
+最后更新：2026-09-14（GLM/Claude Code：Chapter 001 Draft 与 Continuity Pass 完成；下一步 Sol Editorial Review，Chapter 001 未 completed）
 
 ## 当前
 
@@ -13,7 +13,8 @@
 | Phase 5：Story Bible Development | **COMPLETED** | 产出位于 `04_original_project/C05_rainy_old_clothes/`；00–08 设计与 11_reviews 已完成，未写正文 |
 | **GitHub 跨设备迁移** | **COMPLETED** | 2026-09-14（Claude/GLM）：138 文件 → `github.com/pengcheng2000/NOVEL_LAB`（main，`5a13830`）；AGENT_PROTOCOL / MODEL_ROLES / HANDOFF 建立；详见 PROJECT_STATUS.md 迁移行 |
 | Phase 6A：Novel Production Setup | **COMPLETED** | `12_production/` 工作流、文风规范、模板、缺口检查、Writer Instructions、验收标准与 Chapter 001–003 Brief 已落盘 |
-| Chapter 001 Draft | **PENDING** | 下一任务：Gemini 3.8 Flash 按 `chapter_001_brief.md` 写初稿；当前无正文 |
+| Chapter 001 Draft | **COMPLETED** | 2026-09-14 Gemini 3.8 Flash 完成 `09_manuscript/drafts/chapter_001_draft.md`（约 8,373 字，超建议区间，待 Sol 裁决压缩） |
+| Chapter 001 Continuity Pass | **COMPLETED** | 2026-09-14 GLM 完成，产出 `12_production/editorial/chapter_001_continuity.md`；结论 PASS WITH NOTES，无 BLOCKER；Canon 未更新 |
 
 ## Phase 4.5 产出清单（2026-09-14，全部落盘）
 
@@ -37,10 +38,12 @@
 
 | # | 任务 | 依赖 |
 |---|---|---|
-| 1 | Gemini 3.8 Flash 根据 `12_production/chapter_briefs/chapter_001_brief.md` 写 Chapter 001 Draft | Phase 6A 已完成；同时读取 Style Guide、Writer Instructions 与 Brief 指定 Canon |
-| 2 | GLM 对 Chapter 001 Draft 做 Continuity Pass | Gemini 初稿完成；只查 Canon，不做文学重写 |
-| 3 | Sol 对 Chapter 001 做 Editorial Review | Draft + Continuity Pass 完成；按 MUST FIX / SHOULD FIX / OPTIONAL 输出 |
-| 4 | Gemini 重写 Chapter 001，Sol 批准后由 GLM Canon Update | Editorial Review 完成；未通过不得进入 Chapter 002 |
+| 1 | Sol 对 Chapter 001 做 Editorial Review | Draft + Continuity Pass 已完成；按 MUST FIX / SHOULD FIX / OPTIONAL 输出；重点见 Continuity Report"Recommendation to Sol" |
+| 2 | Gemini 重写 Chapter 001，Sol 批准后由 GLM Canon Update | Editorial Review 完成；未通过不得进入 Chapter 002 |
+| 3 | Phase 6 生产监控：单元语法重复率 / 主谜场景占比 / 谢念主动行动占比 | 随正文生产持续执行 |
+| 4 | ORIGINAL_PROJECT_DISCOVERY 反向入库（C06 负空间数据库 + C08 规则武器职业化） | 用户确认；不影响 C05 |
+| 5 | Schema v1.1 修订裁决 / Source 政策边界裁决（历史遗留） | 用户裁决 |
+| 6 | Canon 文件内部修正（非本章产物）：`TANG_LI.md` 年龄 28 → 27（8 月满 28），与 Timeline/Cast Index 对齐 | 随下次 Canon Update 一并处理 |
 | 5 | Phase 6 生产监控：单元语法重复率 / 主谜场景占比 / 谢念主动行动占比 | 随正文生产持续执行 |
 | 6 | ORIGINAL_PROJECT_DISCOVERY 反向入库（C06 负空间数据库 + C08 规则武器职业化） | 用户确认；不影响 C05 |
 | 7 | Schema v1.1 修订裁决 / Source 政策边界裁决（历史遗留） | 用户裁决 |
