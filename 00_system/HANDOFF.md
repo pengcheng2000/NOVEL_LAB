@@ -5,9 +5,17 @@
 LAST_AGENT: Gemini 3.8 Flash (Continuity & Canon Agent)
 LAST_MODEL: Gemini 3.8 Flash（MEDIUM；Continuity & Canon Agent）
 LAST_DEVICE: Windows
-LAST_COMMIT: chore: verify and canonize chapters 006 to 008（2026-09-14；准确 hash 以 Git 历史为准）
+LAST_COMMIT: review: check chapters 009 to 011 continuity（2026-09-14；准确 hash 以 Git 历史为准）
 
 COMPLETED:
+- Batch 03B（Ch9–11）Draft Continuity Pass completed（Gemini Continuity，2026-09-14）：
+  - 产出审查报告：`12_production/editorial/batch_03b_ch09_11_continuity.md`；
+  - 判定建议：三章均 **ACCEPT WITH REVISION**；
+  - 字数审计（纯汉字 `[\u4e00-\u9fa5]`）：Ch9 8,097 字（超标 +62.0%）、Ch10 5,600 字（超标 +36.6%）、Ch11 5,546 字（超标 +18.0%），全批次 19,243 字膨胀严重，需 Sol 下达强力削减指标（目标削减 4,500–5,000 字）；
+  - 核心机制核验：Ch9 死者衣物规则与代价完全合规，事了押物工具包带走合规，超自然记忆成功无缝转化为三条世俗劳动仲裁/市政管网公文依据，周序维持理性工程视角；Ch10 晴天无雨不触发，围裙客观尺寸/油污鉴别自洽，唐荔章末坦白“你根本没有昏迷。你醒着，能说话，也能自己走”严格守住核心秘密边界；Ch11 唐荔分权合伙承接自洽，农商行应结 28,140 元利息垫付 21,000 元（数学上与 Ch2 2.4万、Ch5 垫付 2,100 元严丝合缝闭环，但违反负面约束写死具体数值），秦沛出示 2023-04-12 调剂社两万元空白收据成功焊接 8 万异常取现第一笔，信息边界严格受控；
+  - 待 Sol 决策事项：Ch9 压缩指标与记忆回溯地标具象化弱化；Ch11 写死 21,000 元及 7,200 元缺口是否追认；Ch11 周五 17:00 补缴宽限期是否作为第 3 个硬时钟确立；Ch10 纸质记忆卡单次世俗道具性质；余禾日结工钱（Ch8 80 元 vs Ch10/11 120 元）数值统一；手记定性微调；
+  - 严格遵守边界：**未更新 Canon，未修改 Draft 正文，未生成 Final，未开启 Chapter 012**；
+  - 下一任务交付：Sol（GPT-5.6）Batch 03B Editorial Review（Ch9–11）。
 - Batch 03A（Ch6–8）Verification + Final + Canon Update completed（Gemini Continuity，2026-09-14）：
   - 独立核验三章 Rewrite 实际正文，实施 3 项 Mechanical Patch：
     1. Ch7 line 83：将未授权的“数百万关注者”精简为“稳定的线上影响力”；
