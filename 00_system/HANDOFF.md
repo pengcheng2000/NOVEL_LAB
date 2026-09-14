@@ -2,8 +2,8 @@
 
 > 每次重要工作结束时更新本文件；每次开始工作前先读本文件（完整协议见 `00_system/AGENT_PROTOCOL.md`）。
 
-LAST_AGENT: Claude Code
-LAST_MODEL: GLM-5.3 Flash（Continuity Pass 职能）
+LAST_AGENT: Codex
+LAST_MODEL: GPT-5.6 Sol（Editor-in-Chief / Story Architect / Lead Story Editor）
 LAST_DEVICE: Windows
 LAST_COMMIT: review: check chapters 004 and 005 continuity（2026-09-14；准确 hash 以 Git 历史为准）
 
@@ -67,7 +67,7 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- 无。Ch4–5 Draft 与 Continuity Pass 已完成，等待 Sol。
+- GPT-5.6 Sol 正在执行 Batch 02 Editorial Review（Ch4–5）：联合审查两章 Draft，裁决 Continuity 待定事实与 Ch5→Ch6 规则接口；不写正文、不执行 Canon Update、不开始 Chapter 006。
 
 NEXT_TASK:
 - GPT-5.6 Sol → Batch 02 Editorial Review（Ch4–5）：输入 = `09_manuscript/drafts/chapter_004_draft.md`、`chapter_005_draft.md`、`12_production/editorial/batch_02_ch04_05_continuity.md`；五项优先焦点见报告"Recommended Sol Focus"（蒋妍母亲设定三选一并同步 Ch6 Brief / 孙正历史包逐项裁决 / 周父组长口径 / Ch5–Ch6 规则分层与谢念知识来源 / 七格"空白"措辞与工具推断降级）
