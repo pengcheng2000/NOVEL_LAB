@@ -2,12 +2,19 @@
 
 > 每次重要工作结束时更新本文件；每次开始工作前先读本文件（完整协议见 `00_system/AGENT_PROTOCOL.md`）。
 
-LAST_AGENT: Codex
-LAST_MODEL: GPT-5.6 Sol（Editor-in-Chief / Story Architect / Lead Story Editor）
+LAST_AGENT: Gemini Continuity & Canon Agent
+LAST_MODEL: Gemini 3.8 Flash（Continuity / Canon Editor）
 LAST_DEVICE: Windows
-LAST_COMMIT: review: edit chapters 004 and 005（2026-09-14；准确 hash 以 Git 历史为准）
+LAST_COMMIT: chore: verify and canonize chapters 004 and 005（2026-09-14；准确 hash 以 Git 历史为准）
 
 COMPLETED:
+- Batch 02（Ch4–5）Rewrite Verification 与 Canon Update 完成（Gemini Continuity，2026-09-14）：
+  - 核验两章 Rewrite 实际正文：周序姓名唯一正确（无周旭，Writer 报告为 REPORT-ONLY ERROR）；周国梁姓名唯一正确（无周国良，REPORT-ONLY ERROR）；周国梁职业严格为普通维护员、所在组使用过 2016 版式，无组长/变电所/检修工/殉职/封卷（Writer 报告为 REPORT-ONLY ERROR）；无新增死因；金钱链 2,800 应收 - 1,000 实收 + 300 放空费 = 2,100 元缺口，唐荔少收 1,800 元，42 - 11 疑似 = 31 普通化纤件，数学链 100% 正确；七格第二至七格内容不可辨（非空白）；薄锐工具非手术刀；孙正历史收敛；老杜命名统一；蒋妍母亲版本唯一正确（在世失业，无断指/退职/生前/尘肺/骨折）；活人衣规则停在原则层且补足旧账眉批来源。
+  - 实施 2 项最小 Mechanical Patch：Ch4 line 117 修复机械重字笔误“早已改建改建”→“早已改建”；Ch5 line 25 依 Canon 去除未授权长期事实“是他母亲生前亲手交给他留存的”→“是他母亲的遗物”。
+  - 生成两章 Final：`09_manuscript/final/chapter_004_final.md`（3,863 汉字）、`chapter_005_final.md`（3,489 汉字），均落入推荐字数区间。
+  - 完成 Canon Update：更新 `PROTAGONIST.md`、`TANG_LI.md`、`ZHOU_XU.md` 章节状态；更新 `RELATIONSHIP_ENGINE.md` Ch4–5 五组关系；更新 `MASTER_TIMELINE.md` 2025-06-10 实际事件序列 11 步；更新 `SECRET_MATRIX.md` 截至 Ch5 六方快照；更新 `FORESHADOWING_PLAN.md` 伏笔进度与章末物件表；更新 `OLD_CLOTHES_RULES.md` Reveal State 活人衣原则与眉批来源；新增 `09_manuscript/canon/batch_02_ch04_05_canon_summary.md`。
+  - 完成 Chapter 006 兼容性核验：产出 `12_production/CHAPTER_006_READINESS.md`，结论 **READY**（无需 Sol 二次修订）。
+  - 项目正式完成章节数升至 **5 chapters**（Chapter 001–005 全部 FINAL / ACCEPTED / CANONIZED）。
 - Batch 02（Ch4–5）Editorial Review 完成（Sol，2026-09-14）：Ch4 ACCEPT WITH REVISION，建议 3,800–4,200 字；Ch5 ACCEPT WITH REVISION，建议 3,400–3,800 字；结构均成立，无需 MAJOR REVISION
 - Canon 裁决：孙正只保留姓名/回潮桥附近仓库装卸临时工/下落不明；七格第一格可辨、后六格内容不可辨；切页工具降为薄锐工具；周国梁仅为维护员/所在组成员；卷宗号不固化；11 件+3 袋均为疑似/未盘库存；二道贩子老周改老杜
 - 蒋妍母亲唯一版本：仍在世、前第二毛纺厂普通工人、停产/改制后失业，厂宿舍安置与家庭债务经历被余禾未经许可公开；删除断指、退职、生前、尘肺/骨折
@@ -72,14 +79,15 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- 无。Batch 02 Editorial Review 已完成，等待 Gemini Writer。
+- 无。Batch 02 已完整收官。
 
 NEXT_TASK:
-- Gemini 3.8 Flash Writer（Medium）→ 按 `12_production/editorial/batch_02_ch04_05_editorial_review.md` 完成 Ch4–5 Batch Rewrite；不得开始 Ch6
-- 之后：Gemini Continuity → Rewrite Verification + Canon Update Ch4–5；普通 Batch 无需默认返回 Sol，除非出现重大 Canon 新增、秘密越界或结构失败
-- 历史遗留待办见 00_system/ACTIVE_TASKS.md 队列（ORIGINAL_PROJECT_DISCOVERY 反向入库等）
+- GPT-5.6 Sol（Medium）→ Planning Window Ch6–Ch11（确认已有 Ch6 Brief + 新增/校准 Ch7–Ch11，形成 6 章规划窗口）。
+- 之后：Gemini 3.8 Flash Writer 生产 Chapter 006 正文（不得提前开始）。
+- 历史遗留待办见 00_system/ACTIVE_TASKS.md 队列（ORIGINAL_PROJECT_DISCOVERY 反向入库等）。
 
 FILES_CHANGED:
+- 本轮（Batch 02 Canon Update）：`chapter_004_rewrite.md`（最小 patch 重字）、`chapter_005_rewrite.md`（最小 patch 亲手交付）、`final/chapter_004_final.md`（新建）、`final/chapter_005_final.md`（新建）、`01_characters/PROTAGONIST.md`、`TANG_LI.md`、`ZHOU_XU.md`、`02_relationships/RELATIONSHIP_ENGINE.md`、`05_timeline/MASTER_TIMELINE.md`、`06_secrets/SECRET_MATRIX.md`、`07_foreshadowing/FORESHADOWING_PLAN.md`、`03_world/OLD_CLOTHES_RULES.md`、`09_manuscript/canon/batch_02_ch04_05_canon_summary.md`（新建）、`12_production/CHAPTER_006_READINESS.md`（新建）、`99_logs/claude/2026-09-14_C05_batch02_ch04_05_canon_update.md`（新建）、`00_system/PROJECT_STATUS.md`、`ACTIVE_TASKS.md`、`HANDOFF.md`
 - 本轮（Batch 02 Editorial）：新增 `12_production/editorial/batch_02_ch04_05_editorial_review.md` 与 Codex 日志；最小修订 `chapter_005_brief.md` / `chapter_006_brief.md` 的规则接口；按用户最新策略更新 `MODEL_ROLES.md` / `PHASE6_WORKFLOW.md` 为 Workflow V2；更新三份状态文件；**未修改 Ch4/Ch5 Draft、未写正文、未执行 Canon Update、未开始 Ch6**；既有 4 个正文文件末尾空行差异不纳入提交
 - 本轮（Batch B Continuity）：新增 `12_production/editorial/batch_02_ch04_05_continuity.md`、`99_logs/claude/` 新日志；更新 `00_system/ACTIVE_TASKS.md`、`00_system/HANDOFF.md`；**未修改两章 Draft、未修改任何 Canon、未执行 Canon Update**；工作区遗留的 4 个正文文件末尾换行差异未纳入提交（非内容变更）
 - 本轮（Batch Canon Update）：`01_characters/PROTAGONIST.md`、`TANG_LI.md`、`ZHAO_WEIMIN.md`、`ZHOU_XU.md`、`ZHOU_GUIYING.md`（新增）、`02_relationships/RELATIONSHIP_ENGINE.md`、`05_timeline/MASTER_TIMELINE.md`、`03_world/OLD_CLOTHES_RULES.md`、`06_secrets/SECRET_MATRIX.md`、`07_foreshadowing/FORESHADOWING_PLAN.md`、`09_manuscript/canon/batch_01_ch02_03_canon_summary.md`（新增）、`12_production/CHAPTER_004_005_READINESS.md`（新增）、`00_system/PROJECT_STATUS.md`、`ACTIVE_TASKS.md`、`HANDOFF.md`、`99_logs/claude/` 新日志；**未修改 `final/chapter_002_final.md`、`final/chapter_003_final.md` 的正文内容**

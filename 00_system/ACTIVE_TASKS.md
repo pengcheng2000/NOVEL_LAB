@@ -1,6 +1,6 @@
 # ACTIVE_TASKS — 当前活动任务
 
-最后更新：2026-09-14（GPT-5.6 Sol / Codex：**Batch 02（Ch4–5）Editorial Review 完成**；两章均 ACCEPT WITH REVISION；Ch5→Ch6 规则接口已关闭；下一任务 Gemini Writer Medium Batch Rewrite；未做 Canon Update）
+最后更新：2026-09-14（Gemini 3.8 Flash Continuity & Canon Agent：**Batch 02（Ch4–5）Rewrite Verification 与 Canon Update 完成**；Chapter 001–005 全部 FINAL / ACCEPTED / CANONIZED；Ch6 Readiness = READY；下一任务 GPT-5.6 Sol Planning Window Ch6–Ch11）
 
 ## 当前
 
@@ -31,6 +31,8 @@
 | Chapter 004–005 Draft（Batch B） | **COMPLETED** | 2026-09-14 Gemini 完成（commit `a73b8b2`）：Ch4 4,246 字、Ch5 3,637 字，均落入建议区间 |
 | Batch B Continuity Pass（Ch4–5） | **COMPLETED** | 2026-09-14 GLM 完成，产出 `12_production/editorial/batch_02_ch04_05_continuity.md`；结论 PASS WITH NOTES，无 BLOCKER、无硬 Canon 冲突；8 项 C 类/QUERY 待 Sol（孙正历史包、周父组长身份、蒋妍母亲三版互斥、活人衣规则来源、唐荔八年学徒等）；Ch5→Ch6 边界检查通过；Canon 未更新 |
 | Batch 02 Editorial Review（Ch4–5） | **COMPLETED** | 2026-09-14 Sol 完成：Ch4 ACCEPT WITH REVISION，目标 3,800–4,200；Ch5 ACCEPT WITH REVISION，目标 3,400–3,800；裁决孙正/周父/蒋妍母亲/库存/七格/规则来源与 Ch5→Ch6 分层；按 Workflow V2 无需 Sol 二次验收 |
+| Chapter 004–005 Rewrite（Batch B） | **COMPLETED** | 2026-09-14 Gemini 完成（commit `7a6e2a1`） |
+| Batch 02 Verification + Canon Update | **COMPLETED** | 2026-09-14 Gemini Continuity 完成：核验通过（两项最小 Mechanical Patch：Ch4 重字修剪、Ch5 亲手交付修剪）；生成 Final（Ch4 3,863 字、Ch5 3,489 字）；更新人物、关系、Timeline、Secret Matrix、伏笔、规则；新增 `batch_02_ch04_05_canon_summary.md` 与 `CHAPTER_006_READINESS.md`（**READY**）；**Chapter 001–005 全部 FINAL / ACCEPTED / CANONIZED（5 chapters completed）** |
 
 ## Phase 4.5 产出清单（2026-09-14，全部落盘）
 
@@ -54,11 +56,10 @@
 
 | # | 任务 | 依赖 |
 |---|---|---|
-| 1 | Gemini 3.8 Flash Writer（Medium）Batch Rewrite Ch4–5 | 按 `batch_02_ch04_05_editorial_review.md` 一次性修订；不得开始 Ch6 |
-| 2 | Gemini Continuity：Rewrite Verification + Canon Update Ch4–5 | Rewrite 完成后；若无重大新增或结构失败，无需返回 Sol |
-| 3 | Phase 6 生产监控：单元语法重复率 / 主谜场景占比 / 谢念主动行动占比 | 随正文生产持续执行 |
-| 4 | ORIGINAL_PROJECT_DISCOVERY 反向入库（C06 负空间数据库 + C08 规则武器职业化） | 用户确认；不影响 C05 |
-| 5 | Schema v1.1 修订裁决 / Source 政策边界裁决（历史遗留） | 用户裁决 |
+| 1 | GPT-5.6 Sol（Medium）Planning Window Ch6–Ch11 | 确认已有 Ch6 Brief + 新增/校准 Ch7–Ch11，形成 6 章规划窗口 |
+| 2 | Phase 6 生产监控：单元语法重复率 / 主谜场景占比 / 谢念主动行动占比 | 随正文生产持续执行 |
+| 3 | ORIGINAL_PROJECT_DISCOVERY 反向入库（C06 负空间数据库 + C08 规则武器职业化） | 用户确认；不影响 C05 |
+| 4 | Schema v1.1 修订裁决 / Source 政策边界裁决（历史遗留） | 用户裁决 |
 
 ## Phase 3 产出清单（2026-09-13，全部落盘）
 
