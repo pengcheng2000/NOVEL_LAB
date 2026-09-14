@@ -1,17 +1,26 @@
 # Chapter 001 Final Acceptance
 
 - **Reviewer**：GPT-5.6 Sol / Codex（Editor-in-Chief / Final Story Editor）
-- **Reviewed Draft**：`09_manuscript/drafts/chapter_001_rewrite.md`
+- **Reviewed Final**：`09_manuscript/final/chapter_001_final.md`
 - **Length**：6,058 汉字
-- **Verdict**：**MINOR FIX**
+- **FINAL VERDICT**：**ACCEPT**
 - **Overall Score**：**88/100**
-- **Canon Status**：尚未批准进入 Canon Update；完成下列三项局部补丁并经 Sol 快速核验后即可批准
+- **Canon Status**：Chapter 001 Final 已通过总编辑验收；允许 GLM-5.3 Flash 执行 Chapter 001 Canon Update
+
+## Final Patch Verification
+
+Gemini Final Patch commit `e5c3a13` 已逐项验证：
+
+1. **季节修正 — PASS**：五月医院段已将“深冬冷雨”改为“消毒水与走廊里穿堂而过的湿冷空气”，没有新增时间、病因或医疗流程事实。
+2. **日期与称呼 — PASS**：2024-03-11 已正确写为周一；“念娣”已改为自然称呼“阿念”。
+3. **蓝布伏笔 — PASS**：仍保留下摆缺角、陈旧湖蓝滚边；已删除“利器撕扯”及所有形成原因推断。
+4. **Patch Scope — PASS**：Final 与补丁后的 Rewrite 文件哈希一致；Git diff 显示正文仅有以上三项要求对应的四处词句变化。1988 记忆、生日面代价、Ending Hook、旧衣规则、人物关系、篇幅与段落结构均未被改动，未新增长期 Canon。
 
 ## Final Assessment
 
 第二稿已经完成上一轮要求的实质性重写，不需要再次整章 Rewrite。压缩从 8,373 字降至 6,058 字后，开场人物没有变薄，情绪与旧衣奇观没有被削平，场景之间也没有出现逻辑跳跃。现实困境 → 赵为民进入 → 灰衣异常 → 代理选择 → 1988 记忆 → 生日面代价 → 2016“未还”形成连续因果，不再明显像逐项执行大纲。
 
-作为商业小说第一章，它已具备发布所需的故事、人物、悬疑和 Hook 强度。当前仅剩三处可精确定位的事实/表达问题；它们不要求改结构、换场景或重写人物弧。
+作为商业小说第一章，它已具备发布所需的故事、人物、悬疑和 Hook 强度。上轮三处可精确定位的事实/表达问题均已正确修复，没有产生新问题。
 
 ## Six-Point Acceptance Check
 
@@ -27,11 +36,11 @@
 
 谢念同时表现出务实、职业判断、债务压力、对外婆死亡的回避、替别人承担的控制欲和主动选择。她押黑开衫不是作者强迫：她有合法拒收机会，唐荔也提供了退出路径，但外婆的针脚、未接电话的愧疚和“我能控制损失”的错误自信共同驱动她继续。
 
-### 4. Birthday-Noodle Cost — PASS WITH TWO LOCAL FACT FIXES
+### 4. Birthday-Noodle Cost — PASS
 
 核心机制成立：记忆被锁定为去年三月、谢念 26 岁、她确实穿着黑开衫、外婆病后仍为她做面，并与店铺债务和临终愧疚相连。她保留碗、面、动作和哭过的事实，却失去味道与当时情绪的所有权，清楚、有痛感，没有再用多组解释把效果说死。
 
-年龄正确：谢念生于 1998-03-11，2024 年 3 月满 26 岁。需要删除错误的“周日”（2024-03-11 为周一）并修正未经设定的“念娣”称呼。
+年龄与日期正确：谢念生于 1998-03-11，2024 年 3 月满 26 岁，当日为周一；外婆使用自然称呼“阿念”。
 
 ### 5. 1988 Memory — PASS
 
@@ -53,30 +62,33 @@
 | 生日面代价不符合规则 | **RESOLVED**：改为黑开衫在场、谢念真正回避的 2024 年具体生日 |
 | 专业知识炫技 | **RESOLVED**：删除产地、精确克重与缝纫机品牌，只留剧情相关判断 |
 | 唐荔看到 Ending Hook 风险 | **RESOLVED**：唐荔明确进入后堂/后院 |
-| 蓝布伏笔 | **RESOLVED IN FUNCTION**：湖蓝残边已出现；仅需删除过强的利器推断 |
+| 蓝布伏笔 | **RESOLVED**：湖蓝残边与缺角均保留，形成原因未被提前解释 |
 | Hook 后拖尾 | **RESOLVED**：最后停在“未还” |
 
-## Remaining Required Local Fixes
+## Final Patch Requirements — RESOLVED
 
-仅做以下三项，不扩大修改范围：
+以下为上轮要求及本轮验证结果；三项均已完成，不再要求正文修改：
 
 ### 1. Hospital / Black Cardigan Detail
 
 - **Location**：黑开衫介绍段，“吸满了消毒水和深冬冷雨的气味”。
 - **Problem**：三通电话发生于 2025-05-31，“深冬冷雨”与季节冲突。
 - **Required Change**：改为符合五月医院环境的气味/体感，例如消毒水、空调冷气或梅雨湿气；不得新增具体病因、ICU 或医疗金额。
+- **Verification**：**PASS**。已改为医院走廊湿冷空气，无新事实。
 
 ### 2. Birthday Date and Address
 
 - **Location**：“去年三月，我二十六岁生日”及外婆生日对白。
 - **Problem**：2024-03-11 是周一，不是周日；“念娣”不是已批准姓名、昵称或家庭背景，会无意引出重男轻女式命名承诺。
 - **Required Change**：删除星期或改为周一；将“念娣”改为“阿念”“念念”或直接省略称呼。其他生日面内容保持不动。
+- **Verification**：**PASS**。已改为周一与“阿念”，其他生日面内容未动。
 
 ### 3. Blue-Cloth Foreshadowing
 
 - **Location**：试衣帘下摆湖蓝缺口，“像是很久以前被利器撕扯过”。
 - **Problem**：“利器撕扯”把轻量颜色伏笔升级成犯罪/暴力物证感，早于计划要求。
 - **Required Change**：保留“下摆缺角 + 陈旧湖蓝残边”，删除对利器和形成原因的推断；不要增加谢念联想或解释。
+- **Verification**：**PASS**。视觉事实保留，原因推断删除。
 
 ## New-Problem Check
 
@@ -84,7 +96,7 @@
 - 赵为民的对白仍有个人羞耻与照护债，不是纯功能 NPC。
 - 谢念心理量适中：关键选择有动机，其他人物内心未被越界读取。
 - 生日面没有新增必须长期解释的人物事件；“旧债”可与 2023 年后既有店铺抵押相容。
-- 除上述“念娣”和蓝布形成原因外，没有新的长期设定需要接受或拒绝。
+- Final Patch 未新增长期设定，也未产生新的 Canon、Timeline 或 POV 问题。
 
 ## AI-ness Check
 
@@ -103,6 +115,6 @@
 
 ## Next Gate
 
-**Gemini 3.8 Flash → Final Patch。** 只执行以上三项局部修改，不重新润色整章，不改变段落结构、对白目的、记忆内容或 Ending Hook。
+**GLM-5.3 Flash → Chapter 001 Canon Update。** Chapter 001 Final 已获 Sol 正式批准，可以登记人物、关系、时间线、衣物/道具、伏笔、秘密状态与获批 Local Detail。
 
-补丁完成后由 Sol 做一次范围核验；通过后才允许 GLM-5.3 Flash 执行 Chapter 001 Canon Update。当前尚未授权 Canon Update，也不得进入 Chapter 002。
+Canon Update 完成并提交后，Chapter 001 才进入 `CANON_UPDATED` 状态；在此之前不得开始 Chapter 002。
