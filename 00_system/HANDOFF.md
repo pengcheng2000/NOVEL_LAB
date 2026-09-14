@@ -2,12 +2,13 @@
 
 > 每次重要工作结束时更新本文件；每次开始工作前先读本文件（完整协议见 `00_system/AGENT_PROTOCOL.md`）。
 
-LAST_AGENT: Codex
-LAST_MODEL: GPT-5.6 Sol（Editor-in-Chief / Head Writer / Story Architect）
+LAST_AGENT: Claude Code
+LAST_MODEL: GLM-5.3 Flash（Continuity Pass 职能）
 LAST_DEVICE: Windows
-LAST_COMMIT: plan: prepare chapters 002 to 006（2026-09-14；准确 hash 以 Git 历史为准）
+LAST_COMMIT: review: check chapters 002 and 003 continuity（2026-09-14；准确 hash 以 Git 历史为准）
 
 COMPLETED:
+- Batch A（Ch2–3）Continuity Pass 完成（GLM，2026-09-14）：产出 `12_production/editorial/batch_01_ch02_03_continuity.md`，结论 PASS WITH NOTES，无 BLOCKER。按序连读 Ch1 Final → Ch2 Draft（4,814 字）→ Ch3 Draft（4,731 字）；Ch1→Ch2、Ch2→Ch3 跨章连续性 PASS（账簿/开衫/灰衣/唐荔未看页/续读窗口/28.6 万/8 万/9·5 全部对齐）。4 项 ERROR-lite：Ch3 缺"谢念主动暂停清产"Must Include 节拍；纸角改为偶然崩线且缺赵授权（Brief 为授权下主动拆线）；周序认出巡检表未点明"父亲版本"（Batch Plan 承诺的读者信息未完全交付）；Ch2 姨母电话台词超 Brief 设计。7 项 C 类待 Sol 裁决（1988 诱饵计划全貌、鹰潭目的地、"堂堂正正活下去"引文、向非委托人转述的规则口径、劳改犯口径矛盾、繁体收据/腊月十三、1982 旧例登记）。折痕消退经核验有 Canon 规则 11 支撑，非新规则。Ch2 篇幅 +12% 已标 EDITORIAL ATTENTION。Canon 未做任何更新
 - Phase 6 Batch 01 Story Planning 完成（Sol）：建立 Ch2–6 连续 Mini-Arc、信息释放表、节奏图、长期指标与批次生产方案
 - Chapter 002–003 旧 Brief 经 Chapter 001 Final Canon 对照后升级；新增 Chapter 004–006 Brief，五份均达到 Gemini 可直接写作级别
 - 章节分级：Ch2 IMPORTANT / Ch3 KEY / Ch4 IMPORTANT / Ch5 NORMAL / Ch6 IMPORTANT；建议字数分别 3,800–4,300 / 4,800–5,600 / 3,800–4,500 / 3,500–4,100 / 4,500–5,400
@@ -44,14 +45,15 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- 无。Batch 01 Planning 已完成，等待 Gemini 生产 Chapter 002–003 Draft。
+- 无。Batch A Draft 与 Continuity Pass 已完成，等待 Sol。
 
 NEXT_TASK:
-- Gemini 3.8 Flash 读取 `12_production/batches/batch_01_ch02_06_plan.md`、`chapter_002_brief.md`、`chapter_003_brief.md`、Chapter 001 Final/Canon Summary 与两份 Brief 指定 Canon，连续生产 Chapter 002–003 Draft
-- 不得合并两章文件、不得预写 Chapter 004；Batch A 完成后交 GLM 做逐章 + 跨章 Continuity Pass
+- GPT-5.6 Sol → Batch A Editorial Review（Ch2–3）：输入 = `09_manuscript/drafts/chapter_002_draft.md`、`chapter_003_draft.md`、`12_production/editorial/batch_01_ch02_03_continuity.md`；Ch3 按 KEY 级精审；五项优先焦点见 Continuity Report"Recommended Sol Focus"（1988 真相边界 / 两项 Hook 节拍纠偏 / Ch2 压缩方案 / 姨母证词开放度与转述规则口径 / 补"暂停清产"节拍）
+- 之后：Gemini Rewrite → Sol Approval → GLM Canon Update；未批准不得进入 Ch4 / Batch B
 - 历史遗留待办见 00_system/ACTIVE_TASKS.md 队列（ORIGINAL_PROJECT_DISCOVERY 反向入库等）
 
 FILES_CHANGED:
+- 本轮（Batch A Continuity）：新增 `12_production/editorial/batch_01_ch02_03_continuity.md`、`99_logs/claude/` 新日志；更新 `00_system/ACTIVE_TASKS.md`、`00_system/HANDOFF.md`；**未修改两章 Draft、未修改任何 Canon、未执行 Canon Update**
 - 本轮（Batch 01 Planning）：新增 `12_production/batches/batch_01_ch02_06_plan.md`、`chapter_004_brief.md`、`chapter_005_brief.md`、`chapter_006_brief.md`；升级 `chapter_002_brief.md`、`chapter_003_brief.md`；细化 `MASTER_TIMELINE.md` 6/10–6/11；更新三份状态文件与 Codex 日志
 - 本轮（Canon Update）：`01_characters/PROTAGONIST.md`、`01_characters/TANG_LI.md`、`01_characters/ZHAO_WEIMIN.md`（新增）、`02_relationships/RELATIONSHIP_ENGINE.md`、`05_timeline/MASTER_TIMELINE.md`、`03_world/OLD_CLOTHES_RULES.md`、`06_secrets/SECRET_MATRIX.md`、`07_foreshadowing/FORESHADOWING_PLAN.md`、`09_manuscript/canon/chapter_001_canon_summary.md`（新增）、`12_production/CHAPTER_002_READINESS.md`（新增）、`00_system/PROJECT_STATUS.md`、`00_system/ACTIVE_TASKS.md`、`00_system/HANDOFF.md`、`99_logs/claude/` 新日志；**未修改 `09_manuscript/final/chapter_001_final.md`**
 - 本轮：更新 `12_production/editorial/chapter_001_final_acceptance.md` 为 FINAL VERDICT ACCEPT；最小更新 `ACTIVE_TASKS.md` 与 `HANDOFF.md`；未修改正文或 Canon
