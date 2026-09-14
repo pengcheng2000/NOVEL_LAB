@@ -2,12 +2,16 @@
 
 > 每次重要工作结束时更新本文件；每次开始工作前先读本文件（完整协议见 `00_system/AGENT_PROTOCOL.md`）。
 
-LAST_AGENT: Codex
-LAST_MODEL: GPT-5.6 Sol（Editor-in-Chief / Final Verifier）
+LAST_AGENT: Claude Code
+LAST_MODEL: GLM-5.3 Flash（Project Manager / Continuity / Knowledge Maintainer）
 LAST_DEVICE: Windows
-LAST_COMMIT: review: accept chapter 001 final（2026-09-14；准确 hash 以 Git 历史为准）
+LAST_COMMIT: chore: canonize chapter 001（2026-09-14；准确 hash 以 Git 历史为准）
 
 COMPLETED:
+- Chapter 001 Canon Update 完成（GLM，2026-09-14）：Chapter 001 状态 = CANON_UPDATED。更新 `PROTAGONIST.md` / `TANG_LI.md` 章节状态记录、新增 `01_characters/ZHAO_WEIMIN.md`、`RELATIONSHIP_ENGINE.md` 章节状态（Before/Change/After）与三通电话口径统一、`MASTER_TIMELINE.md`（1988 冬周桂珍递票事实、2024-03-11 生日面、6-7 事件序列、头七口径）、`OLD_CLOTHES_RULES.md` 正文 Reveal State、`SECRET_MATRIX.md` 章节知识状态（Reader/谢念/赵为民/唐荔）、`FORESHADOWING_PLAN.md` 植入登记（4 项新长期伏笔 + Local Detail 降级清单）
+- 新增 `09_manuscript/canon/chapter_001_canon_summary.md`（未来 Agent 快速恢复上下文用）与 `12_production/CHAPTER_002_READINESS.md`（结论 **READY**）
+- 顺手完成遗留 Canon 内部修正：`TANG_LI.md` 年龄 28 → 27（8 月满 28）；`RELATIONSHIP_ENGINE.md` 三通电话口径依 `SECRET_MATRIX.md` Ch58 统一（请求终止能力，而非要求守店）
+- 未修改 Chapter 001 Final 正文；未开始 Chapter 002；未写入任何未被 Final 正文确认的真相（票的用途、1988 完整计划等保持未知）
 - Chapter 001 Final Patch Verification 完成（Sol）：FINAL VERDICT ACCEPT；`09_manuscript/final/chapter_001_final.md` 正式通过总编辑验收
 - Gemini commit `e5c3a13` 三项补丁全部正确：五月季节表达、2024-03-11 周一/“阿念”、湖蓝缺角去除形成原因推断
 - Final 与补丁后 Rewrite SHA-256 一致；Patch 未改动 1988 记忆、生日面代价、Ending Hook、旧衣规则、人物关系、段落结构或篇幅，未新增长期 Canon
@@ -34,14 +38,15 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- 无。Chapter 001 Final 已 ACCEPT，等待 GLM Canon Update。
+- 无。Chapter 001 已 CANON_UPDATED，生产链本轮闭环。
 
 NEXT_TASK:
-- GLM-5.3 Flash 执行 Chapter 001 Canon Update：登记人物/关系/时间线/衣物与道具/伏笔/秘密状态及获批 Local Detail
-- Canon Update 完成并提交后才允许进入 Chapter 002；本轮不得启动 Chapter 002
+- GPT-5.6 Sol → Chapter 002 Planning / Chapter Brief：产出 `12_production/chapter_briefs/chapter_002_brief.md`；参考 `12_production/CHAPTER_002_READINESS.md`（READY）与三项非阻塞备注
+- Chapter 002 正文尚未开始；Chapter 002 Brief 完成前 Gemini 不得动笔
 - 历史遗留待办见 00_system/ACTIVE_TASKS.md 队列（ORIGINAL_PROJECT_DISCOVERY 反向入库等）
 
 FILES_CHANGED:
+- 本轮（Canon Update）：`01_characters/PROTAGONIST.md`、`01_characters/TANG_LI.md`、`01_characters/ZHAO_WEIMIN.md`（新增）、`02_relationships/RELATIONSHIP_ENGINE.md`、`05_timeline/MASTER_TIMELINE.md`、`03_world/OLD_CLOTHES_RULES.md`、`06_secrets/SECRET_MATRIX.md`、`07_foreshadowing/FORESHADOWING_PLAN.md`、`09_manuscript/canon/chapter_001_canon_summary.md`（新增）、`12_production/CHAPTER_002_READINESS.md`（新增）、`00_system/PROJECT_STATUS.md`、`00_system/ACTIVE_TASKS.md`、`00_system/HANDOFF.md`、`99_logs/claude/` 新日志；**未修改 `09_manuscript/final/chapter_001_final.md`**
 - 本轮：更新 `12_production/editorial/chapter_001_final_acceptance.md` 为 FINAL VERDICT ACCEPT；最小更新 `ACTIVE_TASKS.md` 与 `HANDOFF.md`；未修改正文或 Canon
 - 本轮：新增 `12_production/editorial/chapter_001_final_acceptance.md`；最小更新 `ACTIVE_TASKS.md` 与 `HANDOFF.md`；未修改正文或 Canon
 - 本轮：新增 `12_production/editorial/chapter_001_editorial_review.md`；更新 `ACTIVE_TASKS.md`、`HANDOFF.md`；新增 Codex 编辑日志
@@ -52,7 +57,7 @@ FILES_CHANGED:
 
 FILES_TO_READ_NEXT:
 - 新 Agent 标准启动序列：CLAUDE.md → 00_system/AGENT_PROTOCOL.md → MODEL_ROLES.md → PROJECT_STATUS.md → ACTIVE_TASKS.md → HANDOFF.md
-- 当前开发项目：04_original_project/C05_rainy_old_clothes/（00–08 设计文档 + 11_reviews）
+- Chapter 002 准备（Sol Planning 必读）：`09_manuscript/final/chapter_001_final.md` → `09_manuscript/canon/chapter_001_canon_summary.md` → `08_outline/OPENING_3_CHAPTERS.md`（Ch2 节）→ `08_outline/FIRST_20_CHAPTERS.md` → `01_characters/`（PROTAGONIST / TANG_LI / ZHAO_WEIMIN 章节状态）→ `05_timeline/MASTER_TIMELINE.md` → `06_secrets/SECRET_MATRIX.md` → `07_foreshadowing/FORESHADOWING_PLAN.md`（植入登记）→ `12_production/CHAPTER_002_READINESS.md`
 
 IMPORTANT_DECISIONS:
 - Chapter 001 Final 已正式 ACCEPT；允许 GLM Canon Update

@@ -1,6 +1,6 @@
 # ACTIVE_TASKS — 当前活动任务
 
-最后更新：2026-09-14（GPT-5.6 Sol / Codex：Chapter 001 Final Patch 验证完成；FINAL VERDICT ACCEPT；已授权 GLM Canon Update）
+最后更新：2026-09-14（GLM-5.3 Flash / Claude Code：**Chapter 001 Canon Update 完成**，Chapter 001 = CANON_UPDATED；下一任务 Sol Chapter 002 Planning/Brief，Ch2 正文尚未开始）
 
 ## 当前
 
@@ -19,7 +19,8 @@
 | Chapter 001 Rewrite | **COMPLETED** | 2026-09-14 Gemini 3.8 Flash 完成 `09_manuscript/drafts/chapter_001_rewrite.md`（6,058 字） |
 | Chapter 001 Final Acceptance | **COMPLETED** | Sol FINAL VERDICT：ACCEPT，88/100；`09_manuscript/final/chapter_001_final.md` 已通过总编辑验收 |
 | Chapter 001 Final Patch | **COMPLETED** | Gemini commit `e5c3a13`；三项补丁全部正确，未超范围修改 |
-| Chapter 001 Canon Update | **PENDING** | 已授权 GLM-5.3 Flash 执行；完成并提交前不得进入 Chapter 002 |
+| Chapter 001 Canon Update | **COMPLETED** | 2026-09-14 GLM 完成：人物（PROTAGONIST / TANG_LI / 新增 ZHAO_WEIMIN）、关系引擎、Master Timeline（含 2024-03-11 / 1988 冬 / 6-7 事件序列）、旧衣规则 Reveal State、Secret Matrix 知识状态、伏笔植入登记均已更新；新增 `09_manuscript/canon/chapter_001_canon_summary.md` 与 `12_production/CHAPTER_002_READINESS.md`（**READY**）。Chapter 001 状态 = CANON_UPDATED |
+| Chapter 002 Planning / Brief | **PENDING** | 下一任务：GPT-5.6 Sol 按 Ch2 大纲（OPENING_3_CHAPTERS / FIRST_20_CHAPTERS）产出 `chapter_002_brief.md`；Ch2 Readiness = READY；Ch2 正文尚未开始 |
 
 ## Phase 4.5 产出清单（2026-09-14，全部落盘）
 
@@ -43,12 +44,10 @@
 
 | # | 任务 | 依赖 |
 |---|---|---|
-| 1 | GLM-5.3 Flash Chapter 001 Canon Update | Final 已获 Sol ACCEPT；登记人物/关系/时间线/衣物/伏笔/秘密状态与获批 Local Detail |
-| 2 | Chapter 002 准入 | 仅在 GLM Canon Update 完成并提交后开放；本轮不启动 |
-| 4 | Canon 文件内部修正：`TANG_LI.md` 年龄 28 → 27；三通电话内容以 `SECRET_MATRIX.md` Ch58 为准，统一 `RELATIONSHIP_ENGINE.md` 相反措辞 | 随 Chapter 001 Canon Update 一并处理，不在本轮编辑审查修改 |
-| 5 | Phase 6 生产监控：单元语法重复率 / 主谜场景占比 / 谢念主动行动占比 | 随正文生产持续执行 |
-| 6 | ORIGINAL_PROJECT_DISCOVERY 反向入库（C06 负空间数据库 + C08 规则武器职业化） | 用户确认；不影响 C05 |
-| 7 | Schema v1.1 修订裁决 / Source 政策边界裁决（历史遗留） | 用户裁决 |
+| 1 | GPT-5.6 Sol：Chapter 002 Planning / Chapter Brief | Chapter 001 Canon Update 已完成并提交；Ch2 Readiness = READY；参考 `CHAPTER_002_READINESS.md` 备注 |
+| 2 | Phase 6 生产监控：单元语法重复率 / 主谜场景占比 / 谢念主动行动占比 | 随正文生产持续执行 |
+| 3 | ORIGINAL_PROJECT_DISCOVERY 反向入库（C06 负空间数据库 + C08 规则武器职业化） | 用户确认；不影响 C05 |
+| 4 | Schema v1.1 修订裁决 / Source 政策边界裁决（历史遗留） | 用户裁决 |
 
 ## Phase 3 产出清单（2026-09-13，全部落盘）
 
