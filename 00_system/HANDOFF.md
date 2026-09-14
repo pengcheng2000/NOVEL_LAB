@@ -38,7 +38,7 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- 无。Chapter 001 已 CANON_UPDATED，生产链本轮闭环。
+- Phase 6 Batch 01 Story Planning（2026-09-14，GPT-5.6 Sol / Codex，Windows）：深化 Chapter 002–006 Mini-Arc 并生成五份可执行 Chapter Brief；不写正文、不修改 Chapter 001 Final、不规划 Chapter 007+。
 
 NEXT_TASK:
 - GPT-5.6 Sol → Chapter 002 Planning / Chapter Brief：产出 `12_production/chapter_briefs/chapter_002_brief.md`；参考 `12_production/CHAPTER_002_READINESS.md`（READY）与三项非阻塞备注
