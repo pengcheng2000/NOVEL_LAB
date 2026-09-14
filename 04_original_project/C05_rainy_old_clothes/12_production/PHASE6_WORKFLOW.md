@@ -1,6 +1,6 @@
 # Phase 6 Novel Production Workflow
 
-> 状态：Phase 6A 定稿。正文尚未开始。适用于《雨天旧衣店》每一章从规划到 Canon 回写的完整生产链。
+> 状态：Phase 6A 定稿；自 Batch 02 起采用 Production Workflow V2。适用于《雨天旧衣店》每一章/批次从规划到 Canon 回写的完整生产链。
 
 ## 1. 生产原则
 
@@ -8,7 +8,15 @@
 2. **正文统一由 Gemini 3.8 Flash 执行。** Sol 控制结构与上限，不通过整章代写夺走 Main Writer 的文风连续性。
 3. **记忆段不是结案。** 读衣通常处于单元中点，真正结案来自现实核验、关系选择和不可逆后果。
 4. **Canon 优先。** Brief 或草稿与硬规则、时间线、秘密释放层级冲突时，暂停生产，由 Sol 裁决；不得在正文中暗改。
-5. **一章一关。** 未经 Sol 批准且未由 GLM 完成 Canon Update，不进入下一章。
+5. **一批一关。** 未完成获批 Rewrite 的独立 Continuity Verification 与 Canon Update，不进入下一生产批次。
+
+### Production Workflow V2（自 Batch 02 起）
+
+- Sol 与 Gemini Writer 默认使用 MEDIUM 推理强度。
+- Writer 与 Continuity / Canon 必须是两个独立 Gemini 会话，不共享未落盘判断。
+- 普通 Batch 经 Sol `ACCEPT WITH REVISION` 且未标 `SOL RECHECK REQUIRED` 后：Gemini Writer Rewrite → 独立 Gemini Continuity 完成 Rewrite Verification + Canon Update；不默认返回 Sol 做第二次 Final Verification。
+- KEY、`MAJOR REVISION`、重大秘密章，或 Rewrite 新增重大 Canon / 越过秘密边界 / 出现结构失败时，必须返回 Sol 二次验收。
+- Continuity / Canon 会话只检查和维护 Canon，不做文学重写，不替 Writer 偷改正文。
 
 ## 2. Canon 优先级
 
@@ -29,9 +37,9 @@
 |---|---|---|
 | Chapter Brief | `12_production/chapter_briefs/` | `chapter_XXX_brief.md` |
 | Gemini 初稿 | `09_manuscript/drafts/` | `chapter_XXX_draft.md` |
-| GLM 连续性报告 | `12_production/editorial/` | `chapter_XXX_continuity.md` |
+| Continuity 报告 | `12_production/editorial/` | `chapter_XXX_continuity.md` 或 Batch 对应文件名 |
 | Sol 编辑审查 | `12_production/editorial/` | `chapter_XXX_editorial_review.md` |
-| Gemini 重写定稿 | `09_manuscript/chapters/` | `chapter_XXX_final.md` |
+| Gemini 重写定稿 | `09_manuscript/final/` | `chapter_XXX_final.md` |
 | 生产日志 | `12_production/production_logs/` | `chapter_XXX_log.md` |
 
 `XXX` 固定为三位数字。Draft 与 Final 文件只放正文及必要元数据；分析、审稿意见和状态变更不得混进正文。
@@ -63,9 +71,9 @@ Gemini 必须读取：
 
 Gemini 可以自由处理场景细节、动作、对白、生活质感、局部幽默和情绪表现；不得擅改核心剧情、人物重大动机、世界规则、秘密层级、时间线、重大伏笔及章末目标。认为 Brief 有严重问题时照可执行部分完成，并在正文后附 `WRITER_NOTE`，不得偷偷另写一套剧情。
 
-### STEP 3 — GLM / Continuity Pass
+### STEP 3 — Independent Continuity Session / Continuity Pass
 
-GLM 对照 Brief、Canon 与最近章节，只检查：
+独立 Continuity 会话对照 Brief、Canon 与最近章节，只检查：
 
 - 时间、日期、天气、地点、年龄。
 - 人物在场条件与知识状态。
@@ -74,7 +82,7 @@ GLM 对照 Brief、Canon 与最近章节，只检查：
 - 世界规则、旧衣规则、代价与触发条件。
 - 伏笔、秘密释放层级与既有 Canon 冲突。
 
-输出 `chapter_XXX_continuity.md`，按 `BLOCKER / ERROR / QUERY / PASS` 标注。GLM 不做文学评价或文学重写。
+输出 `chapter_XXX_continuity.md` 或 Batch 对应报告，按 `BLOCKER / ERROR / QUERY / PASS` 标注。该会话不做文学评价或文学重写。Batch 02 的初稿 Continuity 已按旧安排由 GLM 完成；从本批 Rewrite Verification 起及后续 Batch，依 Workflow V2 由第二个 Gemini 会话承担。
 
 ### STEP 4 — Sol / Editorial Review
 
@@ -90,18 +98,18 @@ Sol 读取 Brief、Draft 与 Continuity Review，输出 `chapter_XXX_editorial_r
 
 Gemini 根据 Editorial Review 与 Continuity Pass 重写，输出 `chapter_XXX_final.md`。所有 `MUST FIX` 必须逐项落实；若某项无法落实，在文末列出未解决项，不得静默忽略。
 
-正文最终文字继续由 Gemini 统一生成。Sol 如仍判定存在 `MUST FIX`，退回同一章继续迭代，不进入下一章。
+正文最终文字继续由 Gemini Writer 统一生成。KEY、`MAJOR REVISION`、重大秘密章或 Sol 明标 `SOL RECHECK REQUIRED` 时，Rewrite 必须返回 Sol；普通 Batch 则直接进入独立 Continuity Verification。
 
-### STEP 6 — GLM / Canon Update
+### STEP 6 — Independent Continuity Session / Rewrite Verification + Canon Update
 
-Sol 批准后，GLM：
+确认 Rewrite 已逐项落实 `MUST FIX` 且无新冲突后，独立 Continuity / Canon 会话：
 
 - 更新人物状态、关系状态、时间线、道具/衣物去向。
 - 更新伏笔 Setup / Reminder / Payoff 状态与秘密披露状态。
 - 记录本章实际发生而 Brief 未预见、且已获 Sol 批准的新 Canon。
 - 更新 `PROJECT_STATUS.md`、`ACTIVE_TASKS.md`、`HANDOFF.md` 与章节生产日志。
 
-Canon Update 完成并提交后，下一章方可进入 STEP 1。
+Canon Update 完成并提交后，下一生产批次方可进入 STEP 1。Batch 01 及更早由 GLM 承担；从 Batch 02 起依 Workflow V2 由第二个 Gemini 会话承担。
 
 ## 5. 章节状态
 

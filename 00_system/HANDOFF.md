@@ -5,9 +5,14 @@
 LAST_AGENT: Codex
 LAST_MODEL: GPT-5.6 Sol（Editor-in-Chief / Story Architect / Lead Story Editor）
 LAST_DEVICE: Windows
-LAST_COMMIT: review: check chapters 004 and 005 continuity（2026-09-14；准确 hash 以 Git 历史为准）
+LAST_COMMIT: review: edit chapters 004 and 005（2026-09-14；准确 hash 以 Git 历史为准）
 
 COMPLETED:
+- Batch 02（Ch4–5）Editorial Review 完成（Sol，2026-09-14）：Ch4 ACCEPT WITH REVISION，建议 3,800–4,200 字；Ch5 ACCEPT WITH REVISION，建议 3,400–3,800 字；结构均成立，无需 MAJOR REVISION
+- Canon 裁决：孙正只保留姓名/回潮桥附近仓库装卸临时工/下落不明；七格第一格可辨、后六格内容不可辨；切页工具降为薄锐工具；周国梁仅为维护员/所在组成员；卷宗号不固化；11 件+3 袋均为疑似/未盘库存；二道贩子老周改老杜
+- 蒋妍母亲唯一版本：仍在世、前第二毛纺厂普通工人、停产/改制后失业，厂宿舍安置与家庭债务经历被余禾未经许可公开；删除断指、退职、生前、尘肺/骨折
+- Ch5→Ch6 接口采用 Plan A：Ch5 只交付“本人未同意，不看/不上簿”，由《承衣簿》活人衣旧例旁眉批提供最小知识来源；Ch6 首次完整实证指定、撤回、零惩罚、重登、押物与读取。Chapter 005/006 Brief 已作最小接口修订，Ch6 核心剧情仍有效
+- Workflow V2 决策：SOL RECHECK REQUIRED = NO；Rewrite 后由 Gemini Continuity 会话执行 Rewrite Verification + Canon Update
 - Batch B（Ch4–5）Continuity Pass 完成（GLM，2026-09-14）：产出 `12_production/editorial/batch_02_ch04_05_continuity.md`，结论 PASS WITH NOTES，无 BLOCKER、无硬 Canon 冲突。按序连读 Ch3 Final → Ch4 Draft（4,246 字）→ Ch5 Draft（3,637 字）；库存承接（11 件疑似扣留 + 3 袋 + 老周清仓，缺口 2,100 元数学正确）、118→121 缺页与七格压痕、POV、Timeline（6/10 周二）、Ch5→Ch6 边界全部通过。8 项 C 类/QUERY 待 Sol：孙正人物历史包、周父"排涝二组组长+遗失封卷"、蒋妍母亲"断指/退职/生前"与 Ch6 Brief"失业/家庭债务"三版互斥且章内自斥、谢念活人衣规则知识来源缺口、唐荔八年学徒、卷宗号、裁切工具推断、老周命名。Ch5 三要素规则台词系 Ch5 Brief 明文授权，Ch6 事件展示空间完整（结构性重叠交 Sol 定分层）。篇幅均在区间内，无需 Editorial Attention。Canon 未做任何更新
 - Batch 01（Ch2–3）Canon Update 完成（GLM，2026-09-14）：Chapter 002/003 状态 = CANON_UPDATED，**3 chapters completed**。依据两章 Final（非 Draft）更新：`PROTAGONIST.md`/`TANG_LI.md`/`ZHAO_WEIMIN.md`/`ZHOU_XU.md` 章节状态 + 新增 `ZHOU_GUIYING.md`；`RELATIONSHIP_ENGINE.md` Ch2–3 三组关系 Before/Change/After；`MASTER_TIMELINE.md` 6/8、6/9 事件序列与 1988 冬条目按 Final 更新（票为周桂英母女准备、周桂珍折返并请求保密；无诱饵/鹰潭/厂工证）；`OLD_CLOTHES_RULES.md` Reveal State 更新（续读旧例全文、折痕消退实证、转述只对委托人）；`SECRET_MATRIX.md` 六方 KNOWS/SUSPECTS/DOES NOT KNOW；`FORESHADOWING_PLAN.md` 植入登记重写（两张硬座票第一阶段 Payoff 兑付；新登记缺页/归还次序/疑似样本/9·5 备注/周父巡检表/唐荔 2016 页反应；校正 Phase 5 表两处过时 Payoff 位置）
 - 新增 `09_manuscript/canon/batch_01_ch02_03_canon_summary.md` 与 `12_production/CHAPTER_004_005_READINESS.md`（结论 **READY**：Ch3 Final 的"整批暂停+1 件墨绿灯芯绒疑似样本"正好承接 Ch4 系统盘点；Ch4/Ch5 Brief 无角色知识冲突）
@@ -67,14 +72,15 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- GPT-5.6 Sol 正在执行 Batch 02 Editorial Review（Ch4–5）：联合审查两章 Draft，裁决 Continuity 待定事实与 Ch5→Ch6 规则接口；不写正文、不执行 Canon Update、不开始 Chapter 006。
+- 无。Batch 02 Editorial Review 已完成，等待 Gemini Writer。
 
 NEXT_TASK:
-- GPT-5.6 Sol → Batch 02 Editorial Review（Ch4–5）：输入 = `09_manuscript/drafts/chapter_004_draft.md`、`chapter_005_draft.md`、`12_production/editorial/batch_02_ch04_05_continuity.md`；五项优先焦点见报告"Recommended Sol Focus"（蒋妍母亲设定三选一并同步 Ch6 Brief / 孙正历史包逐项裁决 / 周父组长口径 / Ch5–Ch6 规则分层与谢念知识来源 / 七格"空白"措辞与工具推断降级）
-- 之后：Gemini Rewrite → Sol Approval → GLM Canon Update；未批准不得进入 Ch6
+- Gemini 3.8 Flash Writer（Medium）→ 按 `12_production/editorial/batch_02_ch04_05_editorial_review.md` 完成 Ch4–5 Batch Rewrite；不得开始 Ch6
+- 之后：Gemini Continuity → Rewrite Verification + Canon Update Ch4–5；普通 Batch 无需默认返回 Sol，除非出现重大 Canon 新增、秘密越界或结构失败
 - 历史遗留待办见 00_system/ACTIVE_TASKS.md 队列（ORIGINAL_PROJECT_DISCOVERY 反向入库等）
 
 FILES_CHANGED:
+- 本轮（Batch 02 Editorial）：新增 `12_production/editorial/batch_02_ch04_05_editorial_review.md` 与 Codex 日志；最小修订 `chapter_005_brief.md` / `chapter_006_brief.md` 的规则接口；按用户最新策略更新 `MODEL_ROLES.md` / `PHASE6_WORKFLOW.md` 为 Workflow V2；更新三份状态文件；**未修改 Ch4/Ch5 Draft、未写正文、未执行 Canon Update、未开始 Ch6**；既有 4 个正文文件末尾空行差异不纳入提交
 - 本轮（Batch B Continuity）：新增 `12_production/editorial/batch_02_ch04_05_continuity.md`、`99_logs/claude/` 新日志；更新 `00_system/ACTIVE_TASKS.md`、`00_system/HANDOFF.md`；**未修改两章 Draft、未修改任何 Canon、未执行 Canon Update**；工作区遗留的 4 个正文文件末尾换行差异未纳入提交（非内容变更）
 - 本轮（Batch Canon Update）：`01_characters/PROTAGONIST.md`、`TANG_LI.md`、`ZHAO_WEIMIN.md`、`ZHOU_XU.md`、`ZHOU_GUIYING.md`（新增）、`02_relationships/RELATIONSHIP_ENGINE.md`、`05_timeline/MASTER_TIMELINE.md`、`03_world/OLD_CLOTHES_RULES.md`、`06_secrets/SECRET_MATRIX.md`、`07_foreshadowing/FORESHADOWING_PLAN.md`、`09_manuscript/canon/batch_01_ch02_03_canon_summary.md`（新增）、`12_production/CHAPTER_004_005_READINESS.md`（新增）、`00_system/PROJECT_STATUS.md`、`ACTIVE_TASKS.md`、`HANDOFF.md`、`99_logs/claude/` 新日志；**未修改 `final/chapter_002_final.md`、`final/chapter_003_final.md` 的正文内容**
 - 本轮（Batch A Patch Verification）：更新 `batch_01_ch02_03_final_acceptance.md` 为双章 FINAL VERDICT ACCEPT；最小更新 `ACTIVE_TASKS.md`、`HANDOFF.md`；未修改正文或 Canon

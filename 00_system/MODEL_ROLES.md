@@ -30,6 +30,10 @@
 
 **原则：小说正文尽量保持 Gemini 为主要执行写手，避免多个模型频繁混写导致文风漂移。** Gemini 可在 Chapter Brief 允许的范围内自由发挥；不得擅自改变主线、人物重大动机、世界规则、秘密、时间线、重大伏笔或章末目标。
 
+### Production Workflow V2：独立 Continuity / Canon 会话
+
+自 Batch 02 起，连续性复核与 Canon Update 由**第二个、独立上下文的 Gemini 会话**承担。该会话只做 Rewrite Verification、人物/关系/时间线/秘密/伏笔状态维护与 Git 交接，不做文学重写，也不得与 Writer 会话合并。Writer 与 Continuity/Canon 虽使用同一模型家族，必须视为两个职责隔离的 Agent 会话。
+
 ## GLM-5.3 Flash
 
 **Role：Project Manager / Continuity Editor / Knowledge Maintainer / Research Agent**
@@ -41,7 +45,7 @@
 - Story Bible 的结构化维护、跨章节连续性检查与 Git 交接。
 - Story DNA 研究及机制库维护。
 
-**原则：GLM 检查 Canon 与状态，不做文学重写。** 章节批准后由 GLM 完成 Canon Update，再允许下一章进入生产。
+**原则：GLM 检查 Canon 与状态，不做文学重写。** 该角色定义继续适用于既有记录与按需项目管理；自 Batch 02 起，小说日常 Continuity / Canon 生产位依 Workflow V2 转交独立 Gemini 会话。
 
 ## GPT-5.6 Terra
 
@@ -56,6 +60,10 @@ Terra 不属于核心创作链的必需角色，不替代 Sol 的终审、Gemini
 
 ## 正式小说生产链
 
-`Sol Chapter Planning → Gemini Draft → GLM Continuity Pass → Sol Editorial Review → Gemini Rewrite → GLM Canon Update`
+Workflow V2（自 Batch 02 起）：
+
+`Sol Chapter Planning → Gemini Writer Draft → Continuity Pass → Sol Editorial Review → Gemini Writer Rewrite → Gemini Continuity Rewrite Verification + Canon Update`
+
+普通 Batch 在 Sol 给出 `ACCEPT WITH REVISION` 且未标 `SOL RECHECK REQUIRED` 时，Rewrite 后不默认返回 Sol；KEY、MAJOR REVISION、重大秘密章或出现新的结构/Canon 风险时，才进入 Sol 二次验收。
 
 任何环节发现 Brief 与 Canon 冲突时先暂停该章，由 Sol 裁决；不得由正文写手暗改设定来绕过问题。
