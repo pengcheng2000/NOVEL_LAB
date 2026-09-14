@@ -1,11 +1,13 @@
 # ACTIVE_TASKS — 当前活动任务
 
-最后更新：2026-09-14（GPT-5.6 Sol / Codex：**Planning Window Ch6–Ch11 完成**；Chapter 001–005 全部 FINAL / ACCEPTED / CANONIZED；Batch A Ch6–Ch8 Readiness = READY；下一任务 Gemini 3.8 Flash Writer Draft Ch6–Ch8，MEDIUM）
+最后更新：2026-09-14（Gemini 3.8 Flash Continuity：**Batch 03A（Ch6–8）Continuity Pass 完成**；产出 `12_production/editorial/batch_03a_ch06_08_continuity.md`；结论 PASS WITH WARNINGS；下一任务 Sol Batch 03A Editorial Review）
 
 ## 当前
 
 | 任务 | 状态 | 备注 |
 |---|---|---|
+| Chapter 006–008 Draft（Batch 03A） | **COMPLETED** | 2026-09-14 Gemini 完成（commit `21a9510`）：Ch6 5,304 字、Ch7 4,437 字、Ch8 3,849 字 |
+| Batch 03A Continuity Pass（Ch6–8） | **COMPLETED** | 2026-09-14 Gemini Continuity 完成，产出 `12_production/editorial/batch_03a_ch06_08_continuity.md`；结论 PASS WITH WARNINGS（Ch8 3,849 字略欠 151 字下限，孙正档案落地字段待 Sol 裁决）；无 BLOCKER；Canon 未更新 |
 | Phase 3：证据有界 Story DNA 提取 | **COMPLETED** | 2026-09-13 |
 | Phase 4：原创 IP 孵化（8 候选 → Top 3） | **COMPLETED** | 2026-09-13 |
 | Phase 4.5：Finalist 压力测试（C03/C05/C06） | **COMPLETED** | 2026-09-14；产出见下；已提交最终汇报 |
@@ -57,7 +59,7 @@
 
 | # | 任务 | 依赖 |
 |---|---|---|
-| 1 | Gemini 3.8 Flash Writer（MEDIUM）Draft Ch6–Ch8 | 按 `batch_03_ch06_11_plan.md` 与三份 Brief 连续写作；先读上一章实际结尾；不得提前写 Ch9 |
+| 1 | Sol（GPT-5.6）Batch 03A Editorial Review（Ch6–8） | 依据 `12_production/editorial/batch_03a_ch06_08_continuity.md` 与三章 Draft 执行审稿；裁决 Ch8 篇幅与孙正档案落地字段 |
 | 2 | Phase 6 生产监控：单元语法重复率 / 主谜场景占比 / 谢念主动行动占比 | 随正文生产持续执行 |
 | 3 | ORIGINAL_PROJECT_DISCOVERY 反向入库（C06 负空间数据库 + C08 规则武器职业化） | 用户确认；不影响 C05 |
 | 4 | Schema v1.1 修订裁决 / Source 政策边界裁决（历史遗留） | 用户裁决 |

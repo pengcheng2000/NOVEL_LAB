@@ -2,12 +2,19 @@
 
 > 每次重要工作结束时更新本文件；每次开始工作前先读本文件（完整协议见 `00_system/AGENT_PROTOCOL.md`）。
 
-LAST_AGENT: GPT-5.6 Sol / Codex
-LAST_MODEL: GPT-5.6 Sol（MEDIUM；Editor-in-Chief / Head Writer / Story Architect）
+LAST_AGENT: Gemini 3.8 Flash (Continuity & Canon Agent)
+LAST_MODEL: Gemini 3.8 Flash（MEDIUM；Continuity & Canon Agent）
 LAST_DEVICE: Windows
-LAST_COMMIT: plan: prepare chapters 006 to 011（2026-09-14；准确 hash 以 Git 历史为准）
+LAST_COMMIT: review: check chapters 006 to 008 continuity（2026-09-14；准确 hash 以 Git 历史为准）
 
 COMPLETED:
+- Batch 03A（Ch6–8）Draft Continuity Pass completed（Gemini Continuity，2026-09-14）：
+  - 产出连续性与规范审计报告：`12_production/editorial/batch_03a_ch06_08_continuity.md`。
+  - 总体结论：**PASS WITH WARNINGS**；无 BLOCKER，无硬性 Canon 冲突，长期事实边界守备严密。
+  - 字数审计（纯汉字 `[\u4e00-\u9fa5]`）：Ch6 5,304 字（记忆段 669 字）、Ch7 4,437 字、Ch8 3,849 字。三章总字数 13,590 字落入计划区间；Ch8 略低于 4,000 字下限（欠 151 字，达成率 96.2%），列为 WARNING 供 Sol 裁决。
+  - 核心机制核验：Ch6 活人衣流程（交付、撤回、零惩罚、再登记、押物、读取、代价、更正、不和解）全链条闭环；Ch7 36 万意向报价非约束性与 48 小时尽调条件严谨，6/16 农商行利息 28,140 元电话咬合，2007 年重订账本与 2016 红色运动外套 Hook 留白得当；Ch8 档案调阅合规、物证来源链专业、余禾试工日结 80 元外堂分区严格、何晴雨衣登场严格停在出示遗物与永福路南段定格，未抢跑 Ch9。
+  - 本轮严格遵守边界：**未更新 Canon，未修改 Draft 正文，未生成 Final，未开启 Chapter 009。**
+  - 下一任务交付：Sol（GPT-5.6）Batch 03A Editorial Review（Ch6–8）。
 - Sol Planning Window Ch6–Ch11 completed（2026-09-14）：
   - 完整复核 Chapter 001–005 Canon、人物/关系/时间线/秘密/伏笔/旧衣规则、全书约 72 章结构与第一部 Ch1–20 功能。
   - `CH6 = CONFIRMED`：现有 `chapter_006_brief.md` 无需修改；活人衣自愿、指定承衣人、雨前撤回、零惩罚、重登、押物、实际读取、现实文件纠错、不强制和解与秦沛 Ending Hook 均保留。
