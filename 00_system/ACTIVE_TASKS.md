@@ -1,6 +1,6 @@
 # ACTIVE_TASKS — 当前活动任务
 
-最后更新：2026-09-14（GLM/Claude Code：Chapter 001 Draft 与 Continuity Pass 完成；下一步 Sol Editorial Review，Chapter 001 未 completed）
+最后更新：2026-09-14（GPT-5.6 Sol / Codex：Chapter 001 Editorial Review 完成；结论 MAJOR REVISION，READY FOR GEMINI REWRITE；未批准、未 Canon Update）
 
 ## 当前
 
@@ -15,6 +15,8 @@
 | Phase 6A：Novel Production Setup | **COMPLETED** | `12_production/` 工作流、文风规范、模板、缺口检查、Writer Instructions、验收标准与 Chapter 001–003 Brief 已落盘 |
 | Chapter 001 Draft | **COMPLETED** | 2026-09-14 Gemini 3.8 Flash 完成 `09_manuscript/drafts/chapter_001_draft.md`（约 8,373 字，超建议区间，待 Sol 裁决压缩） |
 | Chapter 001 Continuity Pass | **COMPLETED** | 2026-09-14 GLM 完成，产出 `12_production/editorial/chapter_001_continuity.md`；结论 PASS WITH NOTES，无 BLOCKER；Canon 未更新 |
+| Chapter 001 Editorial Review | **COMPLETED** | 2026-09-14 Sol 完成 `chapter_001_editorial_review.md`；结论 MAJOR REVISION / READY FOR GEMINI REWRITE；目标 6,000–6,500 字 |
+| Chapter 001 Rewrite | **PENDING** | Gemini 3.8 Flash 按 Editorial Review 重写至 `09_manuscript/chapters/chapter_001_final.md`；未批准不得进入 Chapter 002 |
 
 ## Phase 4.5 产出清单（2026-09-14，全部落盘）
 
@@ -38,12 +40,10 @@
 
 | # | 任务 | 依赖 |
 |---|---|---|
-| 1 | Sol 对 Chapter 001 做 Editorial Review | Draft + Continuity Pass 已完成；按 MUST FIX / SHOULD FIX / OPTIONAL 输出；重点见 Continuity Report"Recommendation to Sol" |
-| 2 | Gemini 重写 Chapter 001，Sol 批准后由 GLM Canon Update | Editorial Review 完成；未通过不得进入 Chapter 002 |
-| 3 | Phase 6 生产监控：单元语法重复率 / 主谜场景占比 / 谢念主动行动占比 | 随正文生产持续执行 |
-| 4 | ORIGINAL_PROJECT_DISCOVERY 反向入库（C06 负空间数据库 + C08 规则武器职业化） | 用户确认；不影响 C05 |
-| 5 | Schema v1.1 修订裁决 / Source 政策边界裁决（历史遗留） | 用户裁决 |
-| 6 | Canon 文件内部修正（非本章产物）：`TANG_LI.md` 年龄 28 → 27（8 月满 28），与 Timeline/Cast Index 对齐 | 随下次 Canon Update 一并处理 |
+| 1 | Gemini 3.8 Flash 重写 Chapter 001 | 读取 `chapter_001_editorial_review.md`；落实全部 MUST FIX，目标 6,000–6,500 字；不进入 Chapter 002 |
+| 2 | Sol Approval Pass | Gemini Rewrite 完成；确认编辑要求与验收标准后决定批准或再次退回 |
+| 3 | GLM Canon Update | 仅在 Sol 批准后执行；登记人物/关系/衣物/伏笔和获批 Local Detail |
+| 4 | Canon 文件内部修正：`TANG_LI.md` 年龄 28 → 27；三通电话内容以 `SECRET_MATRIX.md` Ch58 为准，统一 `RELATIONSHIP_ENGINE.md` 相反措辞 | 随 Chapter 001 Canon Update 一并处理，不在本轮编辑审查修改 |
 | 5 | Phase 6 生产监控：单元语法重复率 / 主谜场景占比 / 谢念主动行动占比 | 随正文生产持续执行 |
 | 6 | ORIGINAL_PROJECT_DISCOVERY 反向入库（C06 负空间数据库 + C08 规则武器职业化） | 用户确认；不影响 C05 |
 | 7 | Schema v1.1 修订裁决 / Source 政策边界裁决（历史遗留） | 用户裁决 |
