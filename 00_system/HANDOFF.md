@@ -2,12 +2,18 @@
 
 > 每次重要工作结束时更新本文件；每次开始工作前先读本文件（完整协议见 `00_system/AGENT_PROTOCOL.md`）。
 
-LAST_AGENT: Claude Code
-LAST_MODEL: GLM-5.3 Flash（Project Manager / Continuity / Knowledge Maintainer）
+LAST_AGENT: Codex
+LAST_MODEL: GPT-5.6 Sol（Editor-in-Chief / Head Writer / Story Architect）
 LAST_DEVICE: Windows
-LAST_COMMIT: chore: canonize chapter 001（2026-09-14；准确 hash 以 Git 历史为准）
+LAST_COMMIT: plan: prepare chapters 002 to 006（2026-09-14；准确 hash 以 Git 历史为准）
 
 COMPLETED:
+- Phase 6 Batch 01 Story Planning 完成（Sol）：建立 Ch2–6 连续 Mini-Arc、信息释放表、节奏图、长期指标与批次生产方案
+- Chapter 002–003 旧 Brief 经 Chapter 001 Final Canon 对照后升级；新增 Chapter 004–006 Brief，五份均达到 Gemini 可直接写作级别
+- 章节分级：Ch2 IMPORTANT / Ch3 KEY / Ch4 IMPORTANT / Ch5 NORMAL / Ch6 IMPORTANT；建议字数分别 3,800–4,300 / 4,800–5,600 / 3,800–4,500 / 3,500–4,100 / 4,500–5,400
+- Mini-Arc：首单现实核验与不和解结案 → 缺页/归还次序/周父巡检表 → 未经同意活人校服拒收 → 活人撤回与混合动机结案 → 秦沛认出承衣簿
+- 时间线最小细化：活人衣单元由 Phase 5 的 6/14 粗占位调整至 6/10，以保持 Ch6 末秦沛到店与既定 6/11 后续收购节点顺序；未改变故事真相
+- 未写任何正文，未修改 Chapter 001 Final，未规划 Chapter 007 正式内容
 - Chapter 001 Canon Update 完成（GLM，2026-09-14）：Chapter 001 状态 = CANON_UPDATED。更新 `PROTAGONIST.md` / `TANG_LI.md` 章节状态记录、新增 `01_characters/ZHAO_WEIMIN.md`、`RELATIONSHIP_ENGINE.md` 章节状态（Before/Change/After）与三通电话口径统一、`MASTER_TIMELINE.md`（1988 冬周桂珍递票事实、2024-03-11 生日面、6-7 事件序列、头七口径）、`OLD_CLOTHES_RULES.md` 正文 Reveal State、`SECRET_MATRIX.md` 章节知识状态（Reader/谢念/赵为民/唐荔）、`FORESHADOWING_PLAN.md` 植入登记（4 项新长期伏笔 + Local Detail 降级清单）
 - 新增 `09_manuscript/canon/chapter_001_canon_summary.md`（未来 Agent 快速恢复上下文用）与 `12_production/CHAPTER_002_READINESS.md`（结论 **READY**）
 - 顺手完成遗留 Canon 内部修正：`TANG_LI.md` 年龄 28 → 27（8 月满 28）；`RELATIONSHIP_ENGINE.md` 三通电话口径依 `SECRET_MATRIX.md` Ch58 统一（请求终止能力，而非要求守店）
@@ -38,14 +44,15 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- Phase 6 Batch 01 Story Planning（2026-09-14，GPT-5.6 Sol / Codex，Windows）：深化 Chapter 002–006 Mini-Arc 并生成五份可执行 Chapter Brief；不写正文、不修改 Chapter 001 Final、不规划 Chapter 007+。
+- 无。Batch 01 Planning 已完成，等待 Gemini 生产 Chapter 002–003 Draft。
 
 NEXT_TASK:
-- GPT-5.6 Sol → Chapter 002 Planning / Chapter Brief：产出 `12_production/chapter_briefs/chapter_002_brief.md`；参考 `12_production/CHAPTER_002_READINESS.md`（READY）与三项非阻塞备注
-- Chapter 002 正文尚未开始；Chapter 002 Brief 完成前 Gemini 不得动笔
+- Gemini 3.8 Flash 读取 `12_production/batches/batch_01_ch02_06_plan.md`、`chapter_002_brief.md`、`chapter_003_brief.md`、Chapter 001 Final/Canon Summary 与两份 Brief 指定 Canon，连续生产 Chapter 002–003 Draft
+- 不得合并两章文件、不得预写 Chapter 004；Batch A 完成后交 GLM 做逐章 + 跨章 Continuity Pass
 - 历史遗留待办见 00_system/ACTIVE_TASKS.md 队列（ORIGINAL_PROJECT_DISCOVERY 反向入库等）
 
 FILES_CHANGED:
+- 本轮（Batch 01 Planning）：新增 `12_production/batches/batch_01_ch02_06_plan.md`、`chapter_004_brief.md`、`chapter_005_brief.md`、`chapter_006_brief.md`；升级 `chapter_002_brief.md`、`chapter_003_brief.md`；细化 `MASTER_TIMELINE.md` 6/10–6/11；更新三份状态文件与 Codex 日志
 - 本轮（Canon Update）：`01_characters/PROTAGONIST.md`、`01_characters/TANG_LI.md`、`01_characters/ZHAO_WEIMIN.md`（新增）、`02_relationships/RELATIONSHIP_ENGINE.md`、`05_timeline/MASTER_TIMELINE.md`、`03_world/OLD_CLOTHES_RULES.md`、`06_secrets/SECRET_MATRIX.md`、`07_foreshadowing/FORESHADOWING_PLAN.md`、`09_manuscript/canon/chapter_001_canon_summary.md`（新增）、`12_production/CHAPTER_002_READINESS.md`（新增）、`00_system/PROJECT_STATUS.md`、`00_system/ACTIVE_TASKS.md`、`00_system/HANDOFF.md`、`99_logs/claude/` 新日志；**未修改 `09_manuscript/final/chapter_001_final.md`**
 - 本轮：更新 `12_production/editorial/chapter_001_final_acceptance.md` 为 FINAL VERDICT ACCEPT；最小更新 `ACTIVE_TASKS.md` 与 `HANDOFF.md`；未修改正文或 Canon
 - 本轮：新增 `12_production/editorial/chapter_001_final_acceptance.md`；最小更新 `ACTIVE_TASKS.md` 与 `HANDOFF.md`；未修改正文或 Canon
@@ -57,9 +64,12 @@ FILES_CHANGED:
 
 FILES_TO_READ_NEXT:
 - 新 Agent 标准启动序列：CLAUDE.md → 00_system/AGENT_PROTOCOL.md → MODEL_ROLES.md → PROJECT_STATUS.md → ACTIVE_TASKS.md → HANDOFF.md
-- Chapter 002 准备（Sol Planning 必读）：`09_manuscript/final/chapter_001_final.md` → `09_manuscript/canon/chapter_001_canon_summary.md` → `08_outline/OPENING_3_CHAPTERS.md`（Ch2 节）→ `08_outline/FIRST_20_CHAPTERS.md` → `01_characters/`（PROTAGONIST / TANG_LI / ZHAO_WEIMIN 章节状态）→ `05_timeline/MASTER_TIMELINE.md` → `06_secrets/SECRET_MATRIX.md` → `07_foreshadowing/FORESHADOWING_PLAN.md`（植入登记）→ `12_production/CHAPTER_002_READINESS.md`
+- Gemini Batch A 必读：`12_production/batches/batch_01_ch02_06_plan.md` → `chapter_002_brief.md` → `chapter_003_brief.md` → Chapter 001 Final/Canon Summary → 两份 Brief 各自 `Required Canon Reading`
 
 IMPORTANT_DECISIONS:
+- Batch A = Ch2–3 连续生产；Batch B = Ch4–5 连续生产；Ch6 单独生产与审查
+- Ch2–6 信息边界以 Batch 01 Plan 表为准：Ch2 不知票对象，Ch3 不知母亲沉默全因，Ch4 只识别七位中的第一格，Ch5 不知删名动机，Ch6 不展开秦沛背景
+- 活人校服单元锁定为双向越界：余禾有设计贡献但擅用蒋妍家庭材料；蒋妍有隐私正当性但主动删除共同署名。记忆只解释动机，现实文件决定更正
 - Chapter 001 Final 已正式 ACCEPT；允许 GLM Canon Update
 - Final Patch 范围验证通过，无超范围修改，无新 Canon / Timeline / POV 问题
 - Chapter 001 第二稿 Final Verdict：MINOR FIX，88/100；结构与发布质量基本通过，只需 3 项局部补丁
