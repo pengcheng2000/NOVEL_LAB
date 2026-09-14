@@ -21,7 +21,7 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- 无。Chapter 001 Draft（Gemini）与 Continuity Pass（GLM）已完成，等待 Sol。
+- Chapter 001 Editorial Review（2026-09-14，GPT-5.6 Sol / Codex，Windows）：完整审读 Brief、Gemini Draft、GLM Continuity 与必要 Canon，输出正式总编辑审稿；不写 Final，不进入 Chapter 002。
 
 NEXT_TASK:
 - GPT-5.6 Sol 对 Chapter 001 执行 Editorial Review：输入为 `09_manuscript/drafts/chapter_001_draft.md` + `12_production/editorial/chapter_001_continuity.md`，按 MUST FIX / SHOULD FIX / OPTIONAL 输出 `chapter_001_editorial_review.md`；重点核对 Continuity Report"Recommendation to Sol"三项（POV 越界、账簿自动盖印、8,373 字压缩方案）
