@@ -3,11 +3,17 @@
 > 每次重要工作结束时更新本文件；每次开始工作前先读本文件（完整协议见 `00_system/AGENT_PROTOCOL.md`）。
 
 LAST_AGENT: Codex
-LAST_MODEL: GPT-5.6 Sol（Editor-in-Chief / Final Batch Reviewer）
+LAST_MODEL: GPT-5.6 Sol（Editor-in-Chief / Final Scope Verifier）
 LAST_DEVICE: Windows
-LAST_COMMIT: review: final check chapters 002 and 003（2026-09-14；准确 hash 以 Git 历史为准）
+LAST_COMMIT: review: accept chapters 002 and 003 final（2026-09-14；准确 hash 以 Git 历史为准）
 
 COMPLETED:
+- Batch 01 Ch02–03 Final Patch Verification 完成（Sol）：Ch2 FINAL VERDICT ACCEPT；Ch3 FINAL VERDICT ACCEPT；正式授权 GLM Batch Canon Update
+- Gemini commit `6a7b4d1` 的 Ch2 3 项、Ch3 5 项补丁全部正确；Rewrite 与 Final 正文一致，未修改 Canon、Brief 结构或 Ending Hook 方向
+- Ch2：猪油/蒜叶、灰衣所有权/位置、唐荔有限 POV 全部通过；“不能留/来不及”为 Ch1 Canon 原话，无“带不走他”错误引用
+- Ch3：姨母证词收口、周桂珍去英雄化、后堂转述隔离、赵情绪降档、失业补偿金/一件疑似样本、周序克制反应与周国梁姓名全部通过
+- 灰衣物件链最终通过：店内续读 → 发现内缝 → 赵授权 → 主动拆线 → 纸角 → 赵带走灰衣和寄存联
+- 未执行 Canon Update，未开始 Chapter 004
 - Batch 01 Ch02–03 Final Acceptance 完成（Sol）：Ch2 MINOR PATCH，89/100；Ch3 MINOR PATCH，85/100；两章结构与商业阅读质量成立，不需 REWRITE AGAIN
 - 实测字数：Ch2 4,392 / Ch3 4,607，均落入上一轮批准范围；Ch1–3 连读 Mini-Arc 成立
 - Ch2 仅余 3 项：生日面麻油→Canon 猪油/删油料；“大衣在他手里”→所有权措辞；唐荔“认得那页”改谢念有限推断
@@ -56,14 +62,15 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- Batch 01 Ch02–03 Final Patch Verification（2026-09-14，GPT-5.6 Sol / Codex，Windows）：只验证指定 Patch、范围与 Final/Canon 准入；不执行 Canon Update、不进入 Chapter 004。
+- 无。Ch2–3 Final 已 ACCEPT，等待 GLM Batch Canon Update。
 
 NEXT_TASK:
-- Gemini 3.8 Flash 读取 `12_production/editorial/batch_01_ch02_03_final_acceptance.md`，仅执行 Ch2 3 项 + Ch3 5 项 Required Patches，不重新润色整章
-- Patch 后交 Sol 做范围验证；两章 ACCEPT 后才生成/确认 Final 并授权 GLM Batch Canon Update。不得进入 Chapter 004 / Batch B
+- GLM-5.3 Flash 执行 Batch Canon Update Chapter 002–003：登记人物/关系/时间线/规则 Reveal/秘密/伏笔与物件状态
+- Canon Update 完成并提交前不得进入 Chapter 004 / Batch B
 - 历史遗留待办见 00_system/ACTIVE_TASKS.md 队列（ORIGINAL_PROJECT_DISCOVERY 反向入库等）
 
 FILES_CHANGED:
+- 本轮（Batch A Patch Verification）：更新 `batch_01_ch02_03_final_acceptance.md` 为双章 FINAL VERDICT ACCEPT；最小更新 `ACTIVE_TASKS.md`、`HANDOFF.md`；未修改正文或 Canon
 - 本轮（Batch A Final Acceptance）：新增 `batch_01_ch02_03_final_acceptance.md` 与 Codex 日志；最小更新 `ACTIVE_TASKS.md`、`HANDOFF.md`；未修改 Rewrite/Final/Canon
 - 本轮（Batch A Editorial）：新增 `12_production/editorial/batch_01_ch02_03_editorial_review.md` 与 Codex 日志；最小更新 `ACTIVE_TASKS.md`、`HANDOFF.md`；未修改 Draft/Canon
 - 本轮（Batch A Continuity）：新增 `12_production/editorial/batch_01_ch02_03_continuity.md`、`99_logs/claude/` 新日志；更新 `00_system/ACTIVE_TASKS.md`、`00_system/HANDOFF.md`；**未修改两章 Draft、未修改任何 Canon、未执行 Canon Update**
@@ -82,8 +89,12 @@ FILES_TO_READ_NEXT:
 - Gemini Batch A 必读：`12_production/batches/batch_01_ch02_06_plan.md` → `chapter_002_brief.md` → `chapter_003_brief.md` → Chapter 001 Final/Canon Summary → 两份 Brief 各自 `Required Canon Reading`
 
 IMPORTANT_DECISIONS:
-- Batch A Final Acceptance：Ch2/Ch3 均为 MINOR PATCH；当前 Ready for Canon Update = NO
-- 周父唯一正确姓名为周国梁；Rewrite 无“周国良”，Final Patch 应在 Hook 中明确正确姓名
+- Ch2/Ch3 Final 正式 ACCEPT；Ready for Canon Update = YES
+- 周桂英后堂物理隔离足够：厚重蓝布门帘 + 前店暴雨环境；谢念只对赵转述，赵再核验姨母
+- 周桂珍复杂性保留：曾想离开、最终返回、承担风险，同时三十七年沉默造成真实伤害；不构成英雄洗白
+- 周父姓名全篇统一为周国梁；Hook 只交付父亲关联，不交事故答案
+- 上一轮 Batch A Final Acceptance 的 MINOR PATCH 要求已由 `6a7b4d1` 全部完成
+- 周父唯一正确姓名为周国梁；Final Hook 已明确正确姓名
 - Ch1 的“不能留”“来不及”确实存在，Ch2 当前引用合法
 - 灰衣物件链与赵授权主动拆线已正确；不得在 Patch 中改回偶然发现
 - Batch A Rewrite 不拆单章：Ch2 ACCEPT WITH REVISION，Ch3 MAJOR REVISION，但结构均成立
@@ -114,8 +125,7 @@ IMPORTANT_DECISIONS:
 - 99_logs/ 自本次迁移起进入版本控制（跨设备可见）
 
 KNOWN_RISKS:
-- 本轮开始前两份 Rewrite 各有一个仅增加文件末尾空白行的未提交差异；无正文语义变化，本轮不覆盖、不暂存
-- Ch3 转述规则尚未真正合规：即使谢念口头说“只对赵复述”，周桂英仍在场听见；Final Patch 必须物理隔离后才可 ACCEPT
+- 本轮开始前两份 Final 各有一个仅增加文件末尾空白行的未提交差异；无正文语义变化，本轮不覆盖、不暂存
 - 既有 Canon 内部对外婆三通电话内容有相反表述；本轮按优先级采用 `SECRET_MATRIX.md` Ch58，Chapter 001 不定义内容，待获批后的 GLM Canon Update 统一 `RELATIONSHIP_ENGINE.md`
 - 正文期首要质量风险：单元语法重复、主谜场景超过 45%、谢念被动成为记忆播放器、近距离限知对“主动求忘”的叙述作弊；已写入 Workflow、Style Guide、Brief 与 Acceptance Standard
 - 仓库为 PUBLIC：已核查无凭证/密钥/完整版权正文；分析文件对参考书仅做机制级抽象描述，后续贡献者须持续遵守 00_system/COPYRIGHT_RULES.md

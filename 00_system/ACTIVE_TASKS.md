@@ -1,6 +1,6 @@
 # ACTIVE_TASKS — 当前活动任务
 
-最后更新：2026-09-14（GPT-5.6 Sol / Codex：Batch A Ch2–3 Final Acceptance 完成；两章均 MINOR PATCH；下一任务 Gemini Batch Final Patch；未 Finalize/Canon Update）
+最后更新：2026-09-14（GPT-5.6 Sol / Codex：Batch A Ch2–3 Final Patch Verification 完成；两章 FINAL VERDICT ACCEPT；已授权 GLM Batch Canon Update）
 
 ## 当前
 
@@ -25,8 +25,9 @@
 | Batch A Continuity Pass（Ch2–3） | **COMPLETED** | 2026-09-14 GLM 完成，产出 `12_production/editorial/batch_01_ch02_03_continuity.md`；结论 PASS WITH NOTES，无 BLOCKER；4 项 ERROR-lite（Ch3 缺"暂停清产"节拍、纸角偶然崩线缺赵授权、周序认出未点明父亲、Ch2 姨母电话超 Brief 台词）+ 7 项 C 类待 Sol 裁决；Canon 未更新 |
 | Batch A Editorial Review（Ch2–3） | **COMPLETED** | Sol 联合审稿：Ch2 ACCEPT WITH REVISION，建议 4,250–4,500；Ch3 MAJOR REVISION，建议 4,500–5,000；允许联合 Batch Rewrite |
 | Batch A Rewrite（Ch2–3） | **COMPLETED** | Gemini commit `f6b12fd`：Ch2 4,392 字，Ch3 4,607 字；均落入 Sol 推荐范围 |
-| Batch A Final Acceptance（Ch2–3） | **COMPLETED** | Ch2 MINOR PATCH（89/100）；Ch3 MINOR PATCH（85/100）；结构均成立，剩余 3+5 项局部补丁 |
-| Batch A Final Patch（Ch2–3） | **PENDING** | Gemini 只执行 `batch_01_ch02_03_final_acceptance.md` 的 Required Patches；不得整章重写或进入 Ch4 |
+| Batch A Final Acceptance（Ch2–3） | **COMPLETED** | Ch2 FINAL VERDICT ACCEPT（89/100）；Ch3 FINAL VERDICT ACCEPT（85/100）；两份 Final 已通过 Sol 范围验证 |
+| Batch A Final Patch（Ch2–3） | **COMPLETED** | Gemini commit `6a7b4d1`；Ch2 3 项、Ch3 5 项补丁全部正确，无超范围修改 |
+| Batch A Canon Update（Ch2–3） | **PENDING** | 已授权 GLM-5.3 Flash；Canon Update 完成前不得进入 Ch4 |
 
 ## Phase 4.5 产出清单（2026-09-14，全部落盘）
 
@@ -50,9 +51,8 @@
 
 | # | 任务 | 依赖 |
 |---|---|---|
-| 1 | Gemini 3.8 Flash：Batch Final Patch Chapter 002–003 | Ch2 3 项、Ch3 5 项局部修改；不得改变结构、Hook 或进入 Ch4 |
-| 2 | Sol Batch Patch Verification | 只核验指定 Patch 范围；通过后生成/确认 Final 并授权 Canon Update |
-| 3 | GLM Batch Canon Update | 仅在 Sol 两章 ACCEPT 后执行；此前不得进入 Ch4 |
+| 1 | GLM-5.3 Flash：Batch Canon Update Chapter 002–003 | 两章 Final 已获 Sol ACCEPT；登记人物/关系/时间线/规则 Reveal/秘密/伏笔/物件状态 |
+| 2 | Chapter 004 准入 | 仅在 GLM Batch Canon Update 完成并提交后开放；本轮不启动 |
 | 4 | Phase 6 生产监控：单元语法重复率 / 主谜场景占比 / 谢念主动行动占比 | 随正文生产持续执行 |
 | 5 | ORIGINAL_PROJECT_DISCOVERY 反向入库（C06 负空间数据库 + C08 规则武器职业化） | 用户确认；不影响 C05 |
 | 6 | Schema v1.1 修订裁决 / Source 政策边界裁决（历史遗留） | 用户裁决 |
