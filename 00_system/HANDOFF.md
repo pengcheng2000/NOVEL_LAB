@@ -15,7 +15,7 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- 无（等待用户在任一设备启动下一阶段任务）
+- Phase 6A — Novel Production Setup（2026-09-14，GPT-5.6 Sol / Codex，Windows）：建立 C05 正式生产流程、统一文风规范、Phase 5→6 缺口检查与 Chapter 001–003 Brief；不写正文，不进入 Chapter 4。
 
 NEXT_TASK:
 - Phase 6：Novel Production——按 `04_original_project/C05_rainy_old_clothes/` Story Bible 开始小说生产（等待用户明确启动；主责：GPT-5.6/Codex）
