@@ -2,12 +2,20 @@
 
 > 每次重要工作结束时更新本文件；每次开始工作前先读本文件（完整协议见 `00_system/AGENT_PROTOCOL.md`）。
 
-LAST_AGENT: Gemini Continuity & Canon Agent
-LAST_MODEL: Gemini 3.8 Flash（Continuity / Canon Editor）
+LAST_AGENT: GPT-5.6 Sol / Codex
+LAST_MODEL: GPT-5.6 Sol（MEDIUM；Editor-in-Chief / Head Writer / Story Architect）
 LAST_DEVICE: Windows
-LAST_COMMIT: chore: verify and canonize chapters 004 and 005（2026-09-14；准确 hash 以 Git 历史为准）
+LAST_COMMIT: plan: prepare chapters 006 to 011（2026-09-14；准确 hash 以 Git 历史为准）
 
 COMPLETED:
+- Sol Planning Window Ch6–Ch11 completed（2026-09-14）：
+  - 完整复核 Chapter 001–005 Canon、人物/关系/时间线/秘密/伏笔/旧衣规则、全书约 72 章结构与第一部 Ch1–20 功能。
+  - `CH6 = CONFIRMED`：现有 `chapter_006_brief.md` 无需修改；活人衣自愿、指定承衣人、雨前撤回、零惩罚、重登、押物、实际读取、现实文件纠错、不强制和解与秦沛 Ending Hook 均保留。
+  - 新增 `12_production/batches/batch_03_ch06_11_plan.md` 与 Chapter 007–011 五份执行级 Brief；六章 Mini-Arc = 活人同意实证 → 秦沛 36 万收购诱惑 → 公开档案合作 → 有限读取转现实申诉 → 无效围裙/普通业务呼吸 → 唐荔部分承认与合伙权限换位。
+  - Level：Ch6 IMPORTANT / Ch7 KEY / Ch8 NORMAL / Ch9 IMPORTANT / Ch10 NORMAL / Ch11 IMPORTANT；全部 `WRITER_REASONING = MEDIUM`，无 HIGH。
+  - 孙正只新增 2016 临时用工备案与原仓库地块号两个现实入口；8 万只推进至一笔 2 万与“栖州旧物调剂服务社”收据日期/金额相合；均不作答案。
+  - 新增长期旧衣规则 = 0；Ch7/Ch8/Ch11 无读取，Ch10 无成功读取，避免单元模板化。
+  - 新增 `12_production/CHAPTER_006_008_READINESS.md`，结论 **READY**。
 - Batch 02（Ch4–5）Rewrite Verification 与 Canon Update 完成（Gemini Continuity，2026-09-14）：
   - 核验两章 Rewrite 实际正文：周序姓名唯一正确（无周旭，Writer 报告为 REPORT-ONLY ERROR）；周国梁姓名唯一正确（无周国良，REPORT-ONLY ERROR）；周国梁职业严格为普通维护员、所在组使用过 2016 版式，无组长/变电所/检修工/殉职/封卷（Writer 报告为 REPORT-ONLY ERROR）；无新增死因；金钱链 2,800 应收 - 1,000 实收 + 300 放空费 = 2,100 元缺口，唐荔少收 1,800 元，42 - 11 疑似 = 31 普通化纤件，数学链 100% 正确；七格第二至七格内容不可辨（非空白）；薄锐工具非手术刀；孙正历史收敛；老杜命名统一；蒋妍母亲版本唯一正确（在世失业，无断指/退职/生前/尘肺/骨折）；活人衣规则停在原则层且补足旧账眉批来源。
   - 实施 2 项最小 Mechanical Patch：Ch4 line 117 修复机械重字笔误“早已改建改建”→“早已改建”；Ch5 line 25 依 Canon 去除未授权长期事实“是他母亲生前亲手交给他留存的”→“是他母亲的遗物”。
@@ -79,14 +87,15 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- 无。Batch 02 已完整收官。
+- 无。Planning Window Ch6–Ch11 已完成。
 
 NEXT_TASK:
-- GPT-5.6 Sol（Medium）→ Planning Window Ch6–Ch11（确认已有 Ch6 Brief + 新增/校准 Ch7–Ch11，形成 6 章规划窗口）。
-- 之后：Gemini 3.8 Flash Writer 生产 Chapter 006 正文（不得提前开始）。
+- Gemini 3.8 Flash Writer（MEDIUM）→ 按 Batch A 连续生产 Chapter 006–008 Draft：先写 Ch6，读取实际结尾后写 Ch7，再读取实际结尾后写 Ch8；不得提前写 Ch9。
+- 完成 Draft 后进入独立 Continuity Pass；Ch7 为 KEY，是否需要 Rewrite 后 Sol 二次验收由当轮 Editorial 明确标记。
 - 历史遗留待办见 00_system/ACTIVE_TASKS.md 队列（ORIGINAL_PROJECT_DISCOVERY 反向入库等）。
 
 FILES_CHANGED:
+- 本轮（Sol Planning Window Ch6–Ch11）：新增 `12_production/batches/batch_03_ch06_11_plan.md`、`chapter_briefs/chapter_007_brief.md`–`chapter_011_brief.md`、`12_production/CHAPTER_006_008_READINESS.md`、`99_logs/claude/2026-09-14_C05_planning_window_ch06_11.md`；更新 `PROJECT_STATUS.md`、`ACTIVE_TASKS.md`、`HANDOFF.md`；**未修改 Ch6 Brief、小说正文、Canon Summary、Character Bible、Master Timeline 或规则文件**。
 - 本轮（Batch 02 Canon Update）：`chapter_004_rewrite.md`（最小 patch 重字）、`chapter_005_rewrite.md`（最小 patch 亲手交付）、`final/chapter_004_final.md`（新建）、`final/chapter_005_final.md`（新建）、`01_characters/PROTAGONIST.md`、`TANG_LI.md`、`ZHOU_XU.md`、`02_relationships/RELATIONSHIP_ENGINE.md`、`05_timeline/MASTER_TIMELINE.md`、`06_secrets/SECRET_MATRIX.md`、`07_foreshadowing/FORESHADOWING_PLAN.md`、`03_world/OLD_CLOTHES_RULES.md`、`09_manuscript/canon/batch_02_ch04_05_canon_summary.md`（新建）、`12_production/CHAPTER_006_READINESS.md`（新建）、`99_logs/claude/2026-09-14_C05_batch02_ch04_05_canon_update.md`（新建）、`00_system/PROJECT_STATUS.md`、`ACTIVE_TASKS.md`、`HANDOFF.md`
 - 本轮（Batch 02 Editorial）：新增 `12_production/editorial/batch_02_ch04_05_editorial_review.md` 与 Codex 日志；最小修订 `chapter_005_brief.md` / `chapter_006_brief.md` 的规则接口；按用户最新策略更新 `MODEL_ROLES.md` / `PHASE6_WORKFLOW.md` 为 Workflow V2；更新三份状态文件；**未修改 Ch4/Ch5 Draft、未写正文、未执行 Canon Update、未开始 Ch6**；既有 4 个正文文件末尾空行差异不纳入提交
 - 本轮（Batch B Continuity）：新增 `12_production/editorial/batch_02_ch04_05_continuity.md`、`99_logs/claude/` 新日志；更新 `00_system/ACTIVE_TASKS.md`、`00_system/HANDOFF.md`；**未修改两章 Draft、未修改任何 Canon、未执行 Canon Update**；工作区遗留的 4 个正文文件末尾换行差异未纳入提交（非内容变更）
