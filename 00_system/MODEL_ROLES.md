@@ -1,16 +1,61 @@
 # MODEL_ROLES — 模型职责分工
 
-> 2026-09-14 起，项目在三个模型/工具链之间协同。职责是"主责"，不是"垄断"——任何 Agent 都可对其他领域提出意见，但最终产出由主责 Agent 审定。当前项目阶段（见 PROJECT_STATUS.md）决定谁的职责最重。
+> 2026-09-14 起按用户最新决策执行。职责是“主责”而非“垄断”，但为防止正文文风漂移，小说正文的日常文字执行固定由 Gemini 3.8 Flash 主责，重大创作决策与最终质量由 GPT-5.6 Sol / Codex 审定。
 
-| 模型 / 工具链 | 角色 | 主要职责 |
-|---|---|---|
-| **GLM-5.3 Flash**（Claude Code） | **Project Manager / Research / Continuity** | 项目状态维护（PROJECT_STATUS / ACTIVE_TASKS / HANDOFF）；Story DNA 研究与机制库维护；人物状态、时间线、伏笔登记；Story Bible 维护；跨章节一致性检查；阶段交接与日志。 |
-| **GPT-5.6 Sol / Codex**（VS Code） | **Story Lead / Main Writer / Story Architect** | 原创 IP 设计；人物与故事结构；大纲；小说正文；重要情节创作；逻辑审查；主要创作工作。 |
-| **Gemini / Antigravity**（VS Code） | **Screenwriter / Visual Adaptation** | 小说转剧本；分集设计；场景化；视觉叙事；AI 视频前期设计（分镜、视觉风格、生成管线方案）。 |
+## GPT-5.6 Sol / Codex
 
-## 协作边界举例
+**Role：Editor-in-Chief / Head Writer / Story Architect / Lead Story Editor**
 
-- 写小说正文/改大纲 → GPT-5.6（Codex）主责；GLM 负责动笔前的一致性检查与动笔后的状态登记。
-- 新章节涉及旧伏笔/旧人物状态 → GLM 先出一致性核查结论，GPT-5.6 再动笔。
-- 正文完成后要转短剧/AI 视频 → Gemini 主责分集与视觉化；GLM 维护"小说 → 剧本"的对应状态表。
-- 研究类任务（拆解参考书、机制库更新）→ GLM 主责。
+主要负责：
+
+- IP 核心方向与 Story Bible 重大决策。
+- 故事框架、卷结构、前 20 章结构与每章 Chapter Brief。
+- 人物弧、人物关系重大节点与 Story Engine。
+- 伏笔、信息释放与兑现设计。
+- 章节结构、连续性逻辑与正文质量审查。
+- 正文编辑意见、重大章节示范稿与最终创作标准。
+
+**原则：Sol 负责控制作品上限，但不是日常正文产量模型。** 审稿优先诊断并给出可执行修改意见；除重大示范外，不默认整章改写。单次示范通常控制在 300–800 字，整章最终重写仍交回 Gemini。
+
+## Gemini 3.8 Flash
+
+**Role：Main Writer / Prose Writer / Screenwriter**
+
+主要负责：
+
+- 小说正文初稿与最终正文文字执行。
+- 场景扩写、人物互动、对白、情绪表达与描写。
+- 根据 Sol 编辑意见完成整章重写。
+- 后续影视剧本正文。
+
+**原则：小说正文尽量保持 Gemini 为主要执行写手，避免多个模型频繁混写导致文风漂移。** Gemini 可在 Chapter Brief 允许的范围内自由发挥；不得擅自改变主线、人物重大动机、世界规则、秘密、时间线、重大伏笔或章末目标。
+
+## GLM-5.3 Flash
+
+**Role：Project Manager / Continuity Editor / Knowledge Maintainer / Research Agent**
+
+主要负责：
+
+- 维护 `PROJECT_STATUS.md`、`ACTIVE_TASKS.md` 与 `HANDOFF.md`。
+- 维护人物状态、时间线、人物关系状态、世界规则、伏笔登记与秘密状态。
+- Story Bible 的结构化维护、跨章节连续性检查与 Git 交接。
+- Story DNA 研究及机制库维护。
+
+**原则：GLM 检查 Canon 与状态，不做文学重写。** 章节批准后由 GLM 完成 Canon Update，再允许下一章进入生产。
+
+## GPT-5.6 Terra
+
+**Role：Assistant Editor / Utility Agent**
+
+按需负责：
+
+- 文件整理、Diff、格式检查与普通工程任务。
+- 重复表达检测、数据统计与剧本格式整理。
+
+Terra 不属于核心创作链的必需角色，不替代 Sol 的终审、Gemini 的正文执行或 GLM 的连续性职责。
+
+## 正式小说生产链
+
+`Sol Chapter Planning → Gemini Draft → GLM Continuity Pass → Sol Editorial Review → Gemini Rewrite → GLM Canon Update`
+
+任何环节发现 Brief 与 Canon 冲突时先暂停该章，由 Sol 裁决；不得由正文写手暗改设定来绕过问题。

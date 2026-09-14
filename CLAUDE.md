@@ -4,7 +4,7 @@
 
 ## 当前阶段
 
-第一部原创 IP 已确认：C05《雨天旧衣店》。**Phase 5 Story Bible 已完成，Phase 6 尚未启动；当前不写原创小说正文。**正式项目目录为 `04_original_project/C05_rainy_old_clothes/`。
+第一部原创 IP 已确认：C05《雨天旧衣店》。**Phase 6A 小说生产前置阶段已完成；Chapter 001 正文尚未开始。**正式项目目录为 `04_original_project/C05_rainy_old_clothes/`。
 
 ## 目录结构
 
@@ -25,7 +25,7 @@
 
 > **GitHub 仓库 `https://github.com/pengcheng2000/NOVEL_LAB.git` 是项目中央真源。**
 > 协作方式见 `00_system/AGENT_PROTOCOL.md`（开始前 git pull + 必读文件序列；完成后更新状态并 push；严禁 force push），
-> 模型分工见 `00_system/MODEL_ROLES.md`（GLM-5.3 Flash=管理/研究/一致性；GPT-5.6/Codex=主创作；Gemini/Antigravity=剧本/视觉）。
+> 模型分工见 `00_system/MODEL_ROLES.md`（GPT-5.6 Sol/Codex=总编辑/故事架构/终审；Gemini 3.8 Flash=小说正文主写；GLM-5.3 Flash=管理/连续性/知识维护；GPT-5.6 Terra=助理编辑/工具任务）。
 > 规则：不无理由覆盖其他 Agent 已完成的输出；如需重新分析，先书面说明旧结果不足的原因。
 > （2026-09-13 的 SINGLE_AGENT_MODE 已随跨设备迁移存档，见 `00_system/HANDOFF_AUDIT.md` §10。）
 

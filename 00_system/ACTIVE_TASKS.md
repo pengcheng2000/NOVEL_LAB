@@ -1,6 +1,6 @@
 # ACTIVE_TASKS — 当前活动任务
 
-最后更新：2026-09-14（Claude/GLM-5.3 Flash，**GitHub migration completed**：中央真源迁移至 GitHub，多 Agent 协作启动；Phase 5 COMPLETE，等待 Phase 6 指令）
+最后更新：2026-09-14（GPT-5.6 Sol / Codex，**PHASE 6A COMPLETE**：生产体系与 Chapter 001–003 Brief 已完成；正文尚未开始）
 
 ## 当前
 
@@ -12,7 +12,8 @@
 | 第一部原创 IP 选择 | **COMPLETED** | 用户确认 C05《雨天旧衣店》；C03/C06 保留未来候选 |
 | Phase 5：Story Bible Development | **COMPLETED** | 产出位于 `04_original_project/C05_rainy_old_clothes/`；00–08 设计与 11_reviews 已完成，未写正文 |
 | **GitHub 跨设备迁移** | **COMPLETED** | 2026-09-14（Claude/GLM）：138 文件 → `github.com/pengcheng2000/NOVEL_LAB`（main，`5a13830`）；AGENT_PROTOCOL / MODEL_ROLES / HANDOFF 建立；详见 PROJECT_STATUS.md 迁移行 |
-| Phase 6：Novel Production | PENDING（用户指令） | 不自动进入；先遵守 Phase 5 的生产监控指标；主责 GPT-5.6/Codex（见 MODEL_ROLES.md） |
+| Phase 6A：Novel Production Setup | **COMPLETED** | `12_production/` 工作流、文风规范、模板、缺口检查、Writer Instructions、验收标准与 Chapter 001–003 Brief 已落盘 |
+| Chapter 001 Draft | **PENDING** | 下一任务：Gemini 3.8 Flash 按 `chapter_001_brief.md` 写初稿；当前无正文 |
 
 ## Phase 4.5 产出清单（2026-09-14，全部落盘）
 
@@ -36,10 +37,13 @@
 
 | # | 任务 | 依赖 |
 |---|---|---|
-| 1 | Phase 6：按 Story Bible 开始小说生产 | 用户明确启动；当前禁止自动写正文 |
-| 2 | Phase 6 生产监控：单元语法重复率 / 主谜场景占比 / 谢念主动行动占比 | Phase 6 启动 |
-| 3 | ORIGINAL_PROJECT_DISCOVERY 反向入库（C06 负空间数据库 + C08 规则武器职业化） | 用户确认；不影响 C05 |
-| 4 | Schema v1.1 修订裁决 / Source 政策边界裁决（历史遗留） | 用户裁决 |
+| 1 | Gemini 3.8 Flash 根据 `12_production/chapter_briefs/chapter_001_brief.md` 写 Chapter 001 Draft | Phase 6A 已完成；同时读取 Style Guide、Writer Instructions 与 Brief 指定 Canon |
+| 2 | GLM 对 Chapter 001 Draft 做 Continuity Pass | Gemini 初稿完成；只查 Canon，不做文学重写 |
+| 3 | Sol 对 Chapter 001 做 Editorial Review | Draft + Continuity Pass 完成；按 MUST FIX / SHOULD FIX / OPTIONAL 输出 |
+| 4 | Gemini 重写 Chapter 001，Sol 批准后由 GLM Canon Update | Editorial Review 完成；未通过不得进入 Chapter 002 |
+| 5 | Phase 6 生产监控：单元语法重复率 / 主谜场景占比 / 谢念主动行动占比 | 随正文生产持续执行 |
+| 6 | ORIGINAL_PROJECT_DISCOVERY 反向入库（C06 负空间数据库 + C08 规则武器职业化） | 用户确认；不影响 C05 |
+| 7 | Schema v1.1 修订裁决 / Source 政策边界裁决（历史遗留） | 用户裁决 |
 
 ## Phase 3 产出清单（2026-09-13，全部落盘）
 

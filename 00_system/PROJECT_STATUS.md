@@ -1,6 +1,6 @@
 # Project Status — 项目状态总表
 
-最后更新：2026-09-14（Claude/GLM-5.3 Flash，**GitHub migration completed**：项目已迁移至 `https://github.com/pengcheng2000/NOVEL_LAB.git` 作为中央真源，多 Agent / 多设备协作启动；Phase 5 COMPLETE，等待 Phase 6 指令）
+最后更新：2026-09-14（GPT-5.6 Sol / Codex，**PHASE 6A COMPLETE**：C05 小说生产工作流、文风规范、章节标准、预生产缺口检查与 Chapter 001–003 Brief 已完成；正文尚未开始）
 数据来源：真实文件系统核验（详见 `00_system/HANDOFF_AUDIT.md`），非旧聊天记录。
 
 ## 总体进度
@@ -9,7 +9,7 @@
 |---|---|---|
 | 项目初始化 | COMPLETED | 目录、Schema、规则、Skill、.gitignore 已建立（Kimi） |
 | 接管审计 | COMPLETED | 2026-09-13 Claude 完成，见 HANDOFF_AUDIT.md |
-| 工作模式 | SINGLE_AGENT_MODE | 原 Kimi/DeepSeek 分区协作规则已存档 |
+| 工作模式 | MULTI_AGENT / MULTI_DEVICE | GitHub 为中央真源；原 Kimi/DeepSeek 分区协作规则已存档，当前按 `AGENT_PROTOCOL.md` 与 `MODEL_ROLES.md` 协作 |
 | 来源获取矩阵 | COMPLETED | `01_reference/SOURCE_ACQUISITION_MATRIX.md` + `source_acquisition.json`（15 本全部实证核验） |
 | Schema 试跑评估 | COMPLETED | `00_system/SCHEMA_PILOT_REVIEW.md`（仅建议，未改 Schema） |
 | IEWU PARTIAL 分析 | COMPLETED | 第 1 章 8 维度 + 12 专项问题 + 4 张 Opening Mechanism Cards |
@@ -21,7 +21,9 @@
 | **Phase 4：原创 IP 孵化** | **COMPLETED** | 8 候选（27 字段/份）+ 8 原创性审查（全部 LOW–MEDIUM，零重构）+ CANDIDATE_MATRIX（100 分制）+ Top 3 Finalists |
 | **Phase 4.5：Finalist 压力测试** | **COMPLETED** | `04_original_project/04_stress_test/`：C03/C05/C06 各 10 项测试 + FINAL_DECISION_MATRIX；历史评分为 C06 82 / C05 81 / C03 80。后续 ASTRA 盲审将 C05 判为 Best First Project，用户已据此完成选择 |
 | **第一部原创 IP 选择** | **COMPLETED** | 用户正式确认 C05《雨天旧衣店》；C03/C06 保留未来候选，不再并行开发 |
-| **Phase 5：Story Bible Development** | **COMPLETED** | 新建 `04_original_project/C05_rainy_old_clothes/` 00–11 目录；完成核心身份、主题、旧衣 20 问规则、主角与核心群像、关系/世界/三层引擎、时间线、秘密/伏笔、全书结构、第一卷、前三章、前 20 章、原创性审查与四视角压力测试。最佳体量 28–32 万字/约 72 章。`09_manuscript/` 与 `10_screenplay/` 保持空白；未进入 Phase 6 |
+| **Phase 5：Story Bible Development** | **COMPLETED** | 新建 `04_original_project/C05_rainy_old_clothes/` 00–11 目录；完成核心身份、主题、旧衣 20 问规则、主角与核心群像、关系/世界/三层引擎、时间线、秘密/伏笔、全书结构、第一卷、前三章、前 20 章、原创性审查与四视角压力测试。最佳体量 28–32 万字/约 72 章。Phase 5 未写正文或剧本 |
+| **Phase 6A：Novel Production Setup** | **COMPLETED** | 建立 `12_production/` 工作流、文风规范、Chapter Brief 模板、Gemini Writer Instructions、章节验收标准与生产目录；完成 Phase 5→6 缺口检查，最小修正前三章重复兑付、店主代理/续读细则与限知视角信息隐藏；生成 Chapter 001–003 Brief。`09_manuscript/` 只有空目录规范，正文尚未开始 |
+| **Chapter 001 Draft** | **PENDING** | 下一任务由 Gemini 3.8 Flash 根据 `12_production/chapter_briefs/chapter_001_brief.md` 写初稿；须遵循 `PROSE_STYLE_GUIDE.md` 与 Canon |
 | **GitHub 跨设备迁移** | **COMPLETED** | 2026-09-14（Claude/GLM）：全部 138 个项目文件首次推送至 `github.com/pengcheng2000/NOVEL_LAB`（main，commit `5a13830`）；建立 `00_system/AGENT_PROTOCOL.md` + `MODEL_ROLES.md` + `HANDOFF.md` 多 Agent 协作基础设施；`.gitignore` 重构（99_logs 入库；版权源文本排除）；`.gitattributes` 换行统一；消除绝对路径；公开仓库安全检查通过（无凭证、无版权正文）。**GitHub = 中央真源** |
 
 ## Phase 4 原创 IP 孵化（04_original_project/）
