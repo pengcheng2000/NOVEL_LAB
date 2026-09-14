@@ -1,6 +1,6 @@
 # ACTIVE_TASKS — 当前活动任务
 
-最后更新：2026-09-14（GLM-5.3 Flash / Claude Code：**Batch A（Ch2–3）Continuity Pass 完成**，结论 PASS WITH NOTES；下一任务 Sol Batch Editorial Review；两章均未 completed，未做 Canon Update）
+最后更新：2026-09-14（GPT-5.6 Sol / Codex：Batch A Ch2–3 Editorial Review 完成；Ch2 ACCEPT WITH REVISION，Ch3 MAJOR REVISION；下一任务 Gemini Batch Rewrite；未 Canon Update）
 
 ## 当前
 
@@ -23,6 +23,8 @@
 | Phase 6 Batch 01 Planning（Ch2–6） | **COMPLETED** | Mini-Arc、信息释放表、节奏/指标/生产组合与 Chapter 002–006 五份执行级 Brief 已落盘；无正文 |
 | Chapter 002–003 Draft（Batch A） | **COMPLETED** | 2026-09-14 Gemini 完成（commit `4aaec0d`）：Ch2 4,814 字（超建议区间，待 Sol 裁决压缩）、Ch3 4,731 字（正常浮动） |
 | Batch A Continuity Pass（Ch2–3） | **COMPLETED** | 2026-09-14 GLM 完成，产出 `12_production/editorial/batch_01_ch02_03_continuity.md`；结论 PASS WITH NOTES，无 BLOCKER；4 项 ERROR-lite（Ch3 缺"暂停清产"节拍、纸角偶然崩线缺赵授权、周序认出未点明父亲、Ch2 姨母电话超 Brief 台词）+ 7 项 C 类待 Sol 裁决；Canon 未更新 |
+| Batch A Editorial Review（Ch2–3） | **COMPLETED** | Sol 联合审稿：Ch2 ACCEPT WITH REVISION，建议 4,250–4,500；Ch3 MAJOR REVISION，建议 4,500–5,000；允许联合 Batch Rewrite |
+| Batch A Rewrite（Ch2–3） | **PENDING** | Gemini 3.8 Flash 按 `batch_01_ch02_03_editorial_review.md` 一次性修改两章；分章输出，不进入 Ch4 |
 
 ## Phase 4.5 产出清单（2026-09-14，全部落盘）
 
@@ -46,11 +48,12 @@
 
 | # | 任务 | 依赖 |
 |---|---|---|
-| 1 | Sol Batch A Editorial Review（Ch2–3） | Continuity 已完成；输入 = 两章 Draft + `batch_01_ch02_03_continuity.md`；Ch3 按 KEY 级重点精审；重点见报告"Recommended Sol Focus"五项 |
-| 2 | Gemini 重写 Ch2–3 → Sol Approval → GLM Canon Update | Editorial Review 完成后；未批准不得进入 Ch4/Batch B |
-| 3 | Phase 6 生产监控：单元语法重复率 / 主谜场景占比 / 谢念主动行动占比 | 随正文生产持续执行 |
-| 4 | ORIGINAL_PROJECT_DISCOVERY 反向入库（C06 负空间数据库 + C08 规则武器职业化） | 用户确认；不影响 C05 |
-| 5 | Schema v1.1 修订裁决 / Source 政策边界裁决（历史遗留） | 用户裁决 |
+| 1 | Gemini 3.8 Flash：Batch Rewrite Chapter 002–003 | 落实联合 Review 全部 MUST FIX；Ch2 4,250–4,500，Ch3 4,500–5,000；不得进入 Ch4 |
+| 2 | GLM Batch Rewrite Continuity | 重点查 Ch1 原话、Ch2→Ch3 信息边界、转述对象、灰衣/寄存联/纸角链与 9/5 时钟 |
+| 3 | Sol Batch A Approval | Rewrite + Continuity 完成后；未批准不得 Canon Update 或进入 Ch4 |
+| 4 | Phase 6 生产监控：单元语法重复率 / 主谜场景占比 / 谢念主动行动占比 | 随正文生产持续执行 |
+| 5 | ORIGINAL_PROJECT_DISCOVERY 反向入库（C06 负空间数据库 + C08 规则武器职业化） | 用户确认；不影响 C05 |
+| 6 | Schema v1.1 修订裁决 / Source 政策边界裁决（历史遗留） | 用户裁决 |
 
 ## Phase 3 产出清单（2026-09-13，全部落盘）
 

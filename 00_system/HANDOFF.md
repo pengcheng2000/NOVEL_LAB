@@ -2,12 +2,17 @@
 
 > 每次重要工作结束时更新本文件；每次开始工作前先读本文件（完整协议见 `00_system/AGENT_PROTOCOL.md`）。
 
-LAST_AGENT: Claude Code
-LAST_MODEL: GLM-5.3 Flash（Continuity Pass 职能）
+LAST_AGENT: Codex
+LAST_MODEL: GPT-5.6 Sol（Editor-in-Chief / Head Writer / Story Architect）
 LAST_DEVICE: Windows
-LAST_COMMIT: review: check chapters 002 and 003 continuity（2026-09-14；准确 hash 以 Git 历史为准）
+LAST_COMMIT: review: edit chapters 002 and 003（2026-09-14；准确 hash 以 Git 历史为准）
 
 COMPLETED:
+- Batch 01 Ch02–03 Editorial Review 完成（Sol）：新增 `batch_01_ch02_03_editorial_review.md`；Ch2 Verdict = ACCEPT WITH REVISION，Ch3 Verdict = MAJOR REVISION；仍允许联合 Batch Rewrite
+- Ch2 建议 4,250–4,500 字：保留代价清单、唐荔合页、1982 旧例、寄存联、8 万与 9/5；删除 Ch1 不存在的“带不走他”、收紧姨母电话、统一九十天时钟、压缩重复警句
+- Ch3 建议 4,500–5,000 字：收束 1988 英雄化，降低赵/姨母苦情强度；严格只向委托人转述；恢复赵授权主动拆线；补谢念暂停清产与周父最小 Hook
+- Canon 裁决：诱饵计划 SIMPLIFY；老赵大衣引保卫科/鹰潭/厂工证/“堂堂正正活下去”REMOVE；判刑/劳改均不立项；腊月十三精确日删除；纸角主动发现；折痕消退保留
+- 未修改 Ch2/Ch3 Draft，未执行 Canon Update，未进入 Chapter 004
 - Batch A（Ch2–3）Continuity Pass 完成（GLM，2026-09-14）：产出 `12_production/editorial/batch_01_ch02_03_continuity.md`，结论 PASS WITH NOTES，无 BLOCKER。按序连读 Ch1 Final → Ch2 Draft（4,814 字）→ Ch3 Draft（4,731 字）；Ch1→Ch2、Ch2→Ch3 跨章连续性 PASS（账簿/开衫/灰衣/唐荔未看页/续读窗口/28.6 万/8 万/9·5 全部对齐）。4 项 ERROR-lite：Ch3 缺"谢念主动暂停清产"Must Include 节拍；纸角改为偶然崩线且缺赵授权（Brief 为授权下主动拆线）；周序认出巡检表未点明"父亲版本"（Batch Plan 承诺的读者信息未完全交付）；Ch2 姨母电话台词超 Brief 设计。7 项 C 类待 Sol 裁决（1988 诱饵计划全貌、鹰潭目的地、"堂堂正正活下去"引文、向非委托人转述的规则口径、劳改犯口径矛盾、繁体收据/腊月十三、1982 旧例登记）。折痕消退经核验有 Canon 规则 11 支撑，非新规则。Ch2 篇幅 +12% 已标 EDITORIAL ATTENTION。Canon 未做任何更新
 - Phase 6 Batch 01 Story Planning 完成（Sol）：建立 Ch2–6 连续 Mini-Arc、信息释放表、节奏图、长期指标与批次生产方案
 - Chapter 002–003 旧 Brief 经 Chapter 001 Final Canon 对照后升级；新增 Chapter 004–006 Brief，五份均达到 Gemini 可直接写作级别
@@ -45,14 +50,15 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- Batch 01 Ch02–03 Editorial Review（2026-09-14，GPT-5.6 Sol / Codex，Windows）：完整审读两章 Draft、Brief、联合 Continuity 与必要 Canon，输出联合修改意见；不写正文、不执行 Canon Update、不进入 Chapter 004。
+- 无。Batch A Editorial Review 已完成，等待 Gemini Batch Rewrite Ch2–3。
 
 NEXT_TASK:
-- GPT-5.6 Sol → Batch A Editorial Review（Ch2–3）：输入 = `09_manuscript/drafts/chapter_002_draft.md`、`chapter_003_draft.md`、`12_production/editorial/batch_01_ch02_03_continuity.md`；Ch3 按 KEY 级精审；五项优先焦点见 Continuity Report"Recommended Sol Focus"（1988 真相边界 / 两项 Hook 节拍纠偏 / Ch2 压缩方案 / 姨母证词开放度与转述规则口径 / 补"暂停清产"节拍）
-- 之后：Gemini Rewrite → Sol Approval → GLM Canon Update；未批准不得进入 Ch4 / Batch B
+- Gemini 3.8 Flash 读取 `12_production/editorial/batch_01_ch02_03_editorial_review.md`，一次性重写 Chapter 002–003，分别输出文件并落实全部 MUST FIX
+- Rewrite 后交 GLM 做联合 Continuity，再由 Sol Approval；未批准、未 Canon Update 不得进入 Chapter 004 / Batch B
 - 历史遗留待办见 00_system/ACTIVE_TASKS.md 队列（ORIGINAL_PROJECT_DISCOVERY 反向入库等）
 
 FILES_CHANGED:
+- 本轮（Batch A Editorial）：新增 `12_production/editorial/batch_01_ch02_03_editorial_review.md` 与 Codex 日志；最小更新 `ACTIVE_TASKS.md`、`HANDOFF.md`；未修改 Draft/Canon
 - 本轮（Batch A Continuity）：新增 `12_production/editorial/batch_01_ch02_03_continuity.md`、`99_logs/claude/` 新日志；更新 `00_system/ACTIVE_TASKS.md`、`00_system/HANDOFF.md`；**未修改两章 Draft、未修改任何 Canon、未执行 Canon Update**
 - 本轮（Batch 01 Planning）：新增 `12_production/batches/batch_01_ch02_06_plan.md`、`chapter_004_brief.md`、`chapter_005_brief.md`、`chapter_006_brief.md`；升级 `chapter_002_brief.md`、`chapter_003_brief.md`；细化 `MASTER_TIMELINE.md` 6/10–6/11；更新三份状态文件与 Codex 日志
 - 本轮（Canon Update）：`01_characters/PROTAGONIST.md`、`01_characters/TANG_LI.md`、`01_characters/ZHAO_WEIMIN.md`（新增）、`02_relationships/RELATIONSHIP_ENGINE.md`、`05_timeline/MASTER_TIMELINE.md`、`03_world/OLD_CLOTHES_RULES.md`、`06_secrets/SECRET_MATRIX.md`、`07_foreshadowing/FORESHADOWING_PLAN.md`、`09_manuscript/canon/chapter_001_canon_summary.md`（新增）、`12_production/CHAPTER_002_READINESS.md`（新增）、`00_system/PROJECT_STATUS.md`、`00_system/ACTIVE_TASKS.md`、`00_system/HANDOFF.md`、`99_logs/claude/` 新日志；**未修改 `09_manuscript/final/chapter_001_final.md`**
@@ -69,6 +75,10 @@ FILES_TO_READ_NEXT:
 - Gemini Batch A 必读：`12_production/batches/batch_01_ch02_06_plan.md` → `chapter_002_brief.md` → `chapter_003_brief.md` → Chapter 001 Final/Canon Summary → 两份 Brief 各自 `Required Canon Reading`
 
 IMPORTANT_DECISIONS:
+- Batch A Rewrite 不拆单章：Ch2 ACCEPT WITH REVISION，Ch3 MAJOR REVISION，但结构均成立
+- 记忆转述规则采用 B：谢念只能向委托人赵为民转述；赵再向姨母核验，不修改 Canon
+- 1988 只交付票为姨母母女准备、林素云为中间人、周桂珍承担风险且选择回赵身边；保留她长期沉默与将孩子置于危险/未知中的伤害
+- 归还纸角必须由赵授权、谢念主动拆线取得；灰衣离店前完成，拒绝偶然崩线
 - Batch A = Ch2–3 连续生产；Batch B = Ch4–5 连续生产；Ch6 单独生产与审查
 - Ch2–6 信息边界以 Batch 01 Plan 表为准：Ch2 不知票对象，Ch3 不知母亲沉默全因，Ch4 只识别七位中的第一格，Ch5 不知删名动机，Ch6 不展开秦沛背景
 - 活人校服单元锁定为双向越界：余禾有设计贡献但擅用蒋妍家庭材料；蒋妍有隐私正当性但主动删除共同署名。记忆只解释动机，现实文件决定更正
