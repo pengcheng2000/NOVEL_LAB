@@ -3,11 +3,17 @@
 > 每次重要工作结束时更新本文件；每次开始工作前先读本文件（完整协议见 `00_system/AGENT_PROTOCOL.md`）。
 
 LAST_AGENT: Codex
-LAST_MODEL: GPT-5.6 Sol（Editor-in-Chief / Head Writer / Story Architect）
+LAST_MODEL: GPT-5.6 Sol（Editor-in-Chief / Final Batch Reviewer）
 LAST_DEVICE: Windows
-LAST_COMMIT: review: edit chapters 002 and 003（2026-09-14；准确 hash 以 Git 历史为准）
+LAST_COMMIT: review: final check chapters 002 and 003（2026-09-14；准确 hash 以 Git 历史为准）
 
 COMPLETED:
+- Batch 01 Ch02–03 Final Acceptance 完成（Sol）：Ch2 MINOR PATCH，89/100；Ch3 MINOR PATCH，85/100；两章结构与商业阅读质量成立，不需 REWRITE AGAIN
+- 实测字数：Ch2 4,392 / Ch3 4,607，均落入上一轮批准范围；Ch1–3 连读 Mini-Arc 成立
+- Ch2 仅余 3 项：生日面麻油→Canon 猪油/删油料；“大衣在他手里”→所有权措辞；唐荔“认得那页”改谢念有限推断
+- Ch3 仅余 5 项：姨母续读前收口；1988/转述去英雄化；真正隔离第三方并降低赵情绪；退职金→失业补偿金且不提前确认四件暗针；周序 Hook 收敛并使用正确父名周国梁
+- 灰衣物件链、主动拆线、谢念暂停清产、澄江地名与日期口径均通过；转述规则尚未完全通过，当前不授权 GLM Canon Update
+- 未生成 Ch2/Ch3 Final，未修改 Rewrite，未执行 Canon Update，未进入 Chapter 004
 - Batch 01 Ch02–03 Editorial Review 完成（Sol）：新增 `batch_01_ch02_03_editorial_review.md`；Ch2 Verdict = ACCEPT WITH REVISION，Ch3 Verdict = MAJOR REVISION；仍允许联合 Batch Rewrite
 - Ch2 建议 4,250–4,500 字：保留代价清单、唐荔合页、1982 旧例、寄存联、8 万与 9/5；删除 Ch1 不存在的“带不走他”、收紧姨母电话、统一九十天时钟、压缩重复警句
 - Ch3 建议 4,500–5,000 字：收束 1988 英雄化，降低赵/姨母苦情强度；严格只向委托人转述；恢复赵授权主动拆线；补谢念暂停清产与周父最小 Hook
@@ -50,14 +56,15 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- Batch 01 Ch02–03 Final Acceptance（2026-09-14，GPT-5.6 Sol / Codex，Windows）：完整验收两章 Rewrite 是否可 Finalize/Canonize；不执行 Canon Update、不进入 Chapter 004。
+- 无。Final Acceptance 已完成，等待 Gemini Batch Final Patch Ch2–3。
 
 NEXT_TASK:
-- Gemini 3.8 Flash 读取 `12_production/editorial/batch_01_ch02_03_editorial_review.md`，一次性重写 Chapter 002–003，分别输出文件并落实全部 MUST FIX
-- Rewrite 后交 GLM 做联合 Continuity，再由 Sol Approval；未批准、未 Canon Update 不得进入 Chapter 004 / Batch B
+- Gemini 3.8 Flash 读取 `12_production/editorial/batch_01_ch02_03_final_acceptance.md`，仅执行 Ch2 3 项 + Ch3 5 项 Required Patches，不重新润色整章
+- Patch 后交 Sol 做范围验证；两章 ACCEPT 后才生成/确认 Final 并授权 GLM Batch Canon Update。不得进入 Chapter 004 / Batch B
 - 历史遗留待办见 00_system/ACTIVE_TASKS.md 队列（ORIGINAL_PROJECT_DISCOVERY 反向入库等）
 
 FILES_CHANGED:
+- 本轮（Batch A Final Acceptance）：新增 `batch_01_ch02_03_final_acceptance.md` 与 Codex 日志；最小更新 `ACTIVE_TASKS.md`、`HANDOFF.md`；未修改 Rewrite/Final/Canon
 - 本轮（Batch A Editorial）：新增 `12_production/editorial/batch_01_ch02_03_editorial_review.md` 与 Codex 日志；最小更新 `ACTIVE_TASKS.md`、`HANDOFF.md`；未修改 Draft/Canon
 - 本轮（Batch A Continuity）：新增 `12_production/editorial/batch_01_ch02_03_continuity.md`、`99_logs/claude/` 新日志；更新 `00_system/ACTIVE_TASKS.md`、`00_system/HANDOFF.md`；**未修改两章 Draft、未修改任何 Canon、未执行 Canon Update**
 - 本轮（Batch 01 Planning）：新增 `12_production/batches/batch_01_ch02_06_plan.md`、`chapter_004_brief.md`、`chapter_005_brief.md`、`chapter_006_brief.md`；升级 `chapter_002_brief.md`、`chapter_003_brief.md`；细化 `MASTER_TIMELINE.md` 6/10–6/11；更新三份状态文件与 Codex 日志
@@ -75,6 +82,10 @@ FILES_TO_READ_NEXT:
 - Gemini Batch A 必读：`12_production/batches/batch_01_ch02_06_plan.md` → `chapter_002_brief.md` → `chapter_003_brief.md` → Chapter 001 Final/Canon Summary → 两份 Brief 各自 `Required Canon Reading`
 
 IMPORTANT_DECISIONS:
+- Batch A Final Acceptance：Ch2/Ch3 均为 MINOR PATCH；当前 Ready for Canon Update = NO
+- 周父唯一正确姓名为周国梁；Rewrite 无“周国良”，Final Patch 应在 Hook 中明确正确姓名
+- Ch1 的“不能留”“来不及”确实存在，Ch2 当前引用合法
+- 灰衣物件链与赵授权主动拆线已正确；不得在 Patch 中改回偶然发现
 - Batch A Rewrite 不拆单章：Ch2 ACCEPT WITH REVISION，Ch3 MAJOR REVISION，但结构均成立
 - 记忆转述规则采用 B：谢念只能向委托人赵为民转述；赵再向姨母核验，不修改 Canon
 - 1988 只交付票为姨母母女准备、林素云为中间人、周桂珍承担风险且选择回赵身边；保留她长期沉默与将孩子置于危险/未知中的伤害
@@ -103,6 +114,8 @@ IMPORTANT_DECISIONS:
 - 99_logs/ 自本次迁移起进入版本控制（跨设备可见）
 
 KNOWN_RISKS:
+- 本轮开始前两份 Rewrite 各有一个仅增加文件末尾空白行的未提交差异；无正文语义变化，本轮不覆盖、不暂存
+- Ch3 转述规则尚未真正合规：即使谢念口头说“只对赵复述”，周桂英仍在场听见；Final Patch 必须物理隔离后才可 ACCEPT
 - 既有 Canon 内部对外婆三通电话内容有相反表述；本轮按优先级采用 `SECRET_MATRIX.md` Ch58，Chapter 001 不定义内容，待获批后的 GLM Canon Update 统一 `RELATIONSHIP_ENGINE.md`
 - 正文期首要质量风险：单元语法重复、主谜场景超过 45%、谢念被动成为记忆播放器、近距离限知对“主动求忘”的叙述作弊；已写入 Workflow、Style Guide、Brief 与 Acceptance Standard
 - 仓库为 PUBLIC：已核查无凭证/密钥/完整版权正文；分析文件对参考书仅做机制级抽象描述，后续贡献者须持续遵守 00_system/COPYRIGHT_RULES.md
