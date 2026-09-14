@@ -26,7 +26,7 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- 无。Chapter 001 已完成 Editorial Review，等待 Gemini Rewrite。
+- Chapter 001 Final Acceptance（2026-09-14，GPT-5.6 Sol / Codex，Windows）：验收 Gemini 第二稿是否达到正式发布/Canon 标准；Review Only，不改正文、不执行 Canon Update、不进入 Chapter 002。
 
 NEXT_TASK:
 - Gemini 3.8 Flash 读取 `chapter_001_editorial_review.md`、Continuity、Brief、Style Guide 与必要 Canon，落实全部 MUST FIX，输出 `09_manuscript/chapters/chapter_001_final.md`
