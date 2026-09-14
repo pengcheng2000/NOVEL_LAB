@@ -1,6 +1,6 @@
 # ACTIVE_TASKS — 当前活动任务
 
-最后更新：2026-09-14（GPT-5.6 Sol / Codex：Batch A Ch2–3 Final Patch Verification 完成；两章 FINAL VERDICT ACCEPT；已授权 GLM Batch Canon Update）
+最后更新：2026-09-14（GLM-5.3 Flash / Claude Code：**Batch 01（Ch2–3）Canon Update 完成**，3 chapters completed；Ch4–5 Readiness = READY；下一任务 Gemini Draft Chapter 004–005，Ch4 正文尚未开始）
 
 ## 当前
 
@@ -27,7 +27,8 @@
 | Batch A Rewrite（Ch2–3） | **COMPLETED** | Gemini commit `f6b12fd`：Ch2 4,392 字，Ch3 4,607 字；均落入 Sol 推荐范围 |
 | Batch A Final Acceptance（Ch2–3） | **COMPLETED** | Ch2 FINAL VERDICT ACCEPT（89/100）；Ch3 FINAL VERDICT ACCEPT（85/100）；两份 Final 已通过 Sol 范围验证 |
 | Batch A Final Patch（Ch2–3） | **COMPLETED** | Gemini commit `6a7b4d1`；Ch2 3 项、Ch3 5 项补丁全部正确，无超范围修改 |
-| Batch A Canon Update（Ch2–3） | **PENDING** | 已授权 GLM-5.3 Flash；Canon Update 完成前不得进入 Ch4 |
+| Batch A Canon Update（Ch2–3） | **COMPLETED** | 2026-09-14 GLM 完成：人物（PROTAGONIST / TANG_LI / ZHAO_WEIMIN / ZHOU_XU / 新增 ZHOU_GUIYING）、关系引擎（Ch2–3 Before/Change/After）、Master Timeline（6/8、6/9 事件序列 + 1988 冬按 Final 更新）、旧衣规则 Reveal State、Secret Matrix 六方知识状态（KNOWS/SUSPECTS/DOES NOT KNOW）、伏笔植入登记（两张硬座票第一阶段 Payoff 兑付 + 5 项新登记）均已更新；新增 `09_manuscript/canon/batch_01_ch02_03_canon_summary.md` 与 `12_production/CHAPTER_004_005_READINESS.md`（**READY**）。Chapter 002/003 状态 = CANON_UPDATED |
+| Chapter 004–005 Draft（Batch B） | **PENDING** | 下一任务：Gemini 3.8 Flash 连续生产；读取 `batch_01_ch02_03_canon_summary.md`、`chapter_004_brief.md`、`chapter_005_brief.md` 与必要 Canon；不预写 Ch6 |
 
 ## Phase 4.5 产出清单（2026-09-14，全部落盘）
 
@@ -51,11 +52,11 @@
 
 | # | 任务 | 依赖 |
 |---|---|---|
-| 1 | GLM-5.3 Flash：Batch Canon Update Chapter 002–003 | 两章 Final 已获 Sol ACCEPT；登记人物/关系/时间线/规则 Reveal/秘密/伏笔/物件状态 |
-| 2 | Chapter 004 准入 | 仅在 GLM Batch Canon Update 完成并提交后开放；本轮不启动 |
-| 4 | Phase 6 生产监控：单元语法重复率 / 主谜场景占比 / 谢念主动行动占比 | 随正文生产持续执行 |
-| 5 | ORIGINAL_PROJECT_DISCOVERY 反向入库（C06 负空间数据库 + C08 规则武器职业化） | 用户确认；不影响 C05 |
-| 6 | Schema v1.1 修订裁决 / Source 政策边界裁决（历史遗留） | 用户裁决 |
+| 1 | Gemini 3.8 Flash：连续生产 Chapter 004–005 Draft（Batch B） | Ch4–5 Readiness = READY；读取 Batch Canon Summary、两份 Brief、PROSE_STYLE_GUIDE 与必要 Canon；不预写 Ch6 |
+| 2 | GLM Batch B Continuity Pass（Ch4–5） | Ch4–5 Draft 完成后 |
+| 3 | Phase 6 生产监控：单元语法重复率 / 主谜场景占比 / 谢念主动行动占比 | 随正文生产持续执行 |
+| 4 | ORIGINAL_PROJECT_DISCOVERY 反向入库（C06 负空间数据库 + C08 规则武器职业化） | 用户确认；不影响 C05 |
+| 5 | Schema v1.1 修订裁决 / Source 政策边界裁决（历史遗留） | 用户裁决 |
 
 ## Phase 3 产出清单（2026-09-13，全部落盘）
 

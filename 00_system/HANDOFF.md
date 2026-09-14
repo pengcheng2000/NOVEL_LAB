@@ -2,12 +2,16 @@
 
 > 每次重要工作结束时更新本文件；每次开始工作前先读本文件（完整协议见 `00_system/AGENT_PROTOCOL.md`）。
 
-LAST_AGENT: Codex
-LAST_MODEL: GPT-5.6 Sol（Editor-in-Chief / Final Scope Verifier）
+LAST_AGENT: Claude Code
+LAST_MODEL: GLM-5.3 Flash（Project Manager / Canon Maintainer）
 LAST_DEVICE: Windows
-LAST_COMMIT: review: accept chapters 002 and 003 final（2026-09-14；准确 hash 以 Git 历史为准）
+LAST_COMMIT: chore: canonize chapters 002 and 003（2026-09-14；准确 hash 以 Git 历史为准）
 
 COMPLETED:
+- Batch 01（Ch2–3）Canon Update 完成（GLM，2026-09-14）：Chapter 002/003 状态 = CANON_UPDATED，**3 chapters completed**。依据两章 Final（非 Draft）更新：`PROTAGONIST.md`/`TANG_LI.md`/`ZHAO_WEIMIN.md`/`ZHOU_XU.md` 章节状态 + 新增 `ZHOU_GUIYING.md`；`RELATIONSHIP_ENGINE.md` Ch2–3 三组关系 Before/Change/After；`MASTER_TIMELINE.md` 6/8、6/9 事件序列与 1988 冬条目按 Final 更新（票为周桂英母女准备、周桂珍折返并请求保密；无诱饵/鹰潭/厂工证）；`OLD_CLOTHES_RULES.md` Reveal State 更新（续读旧例全文、折痕消退实证、转述只对委托人）；`SECRET_MATRIX.md` 六方 KNOWS/SUSPECTS/DOES NOT KNOW；`FORESHADOWING_PLAN.md` 植入登记重写（两张硬座票第一阶段 Payoff 兑付；新登记缺页/归还次序/疑似样本/9·5 备注/周父巡检表/唐荔 2016 页反应；校正 Phase 5 表两处过时 Payoff 位置）
+- 新增 `09_manuscript/canon/batch_01_ch02_03_canon_summary.md` 与 `12_production/CHAPTER_004_005_READINESS.md`（结论 **READY**：Ch3 Final 的"整批暂停+1 件墨绿灯芯绒疑似样本"正好承接 Ch4 系统盘点；Ch4/Ch5 Brief 无角色知识冲突）
+- PROJECT_STATUS：Phase 6 = IN PROGRESS，3 chapters completed；未标 Phase 6 完成
+- 未修改两章 Final 正文；未开始 Chapter 004；工作区遗留的 Final 文件末尾换行差异未纳入本次提交（非内容变更，留给正文负责方处理）
 - Batch 01 Ch02–03 Final Patch Verification 完成（Sol）：Ch2 FINAL VERDICT ACCEPT；Ch3 FINAL VERDICT ACCEPT；正式授权 GLM Batch Canon Update
 - Gemini commit `6a7b4d1` 的 Ch2 3 项、Ch3 5 项补丁全部正确；Rewrite 与 Final 正文一致，未修改 Canon、Brief 结构或 Ending Hook 方向
 - Ch2：猪油/蒜叶、灰衣所有权/位置、唐荔有限 POV 全部通过；“不能留/来不及”为 Ch1 Canon 原话，无“带不走他”错误引用
@@ -62,14 +66,15 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- 无。Ch2–3 Final 已 ACCEPT，等待 GLM Batch Canon Update。
+- 无。Ch2–3 已 CANON_UPDATED，Batch A 生产链闭环。
 
 NEXT_TASK:
-- GLM-5.3 Flash 执行 Batch Canon Update Chapter 002–003：登记人物/关系/时间线/规则 Reveal/秘密/伏笔与物件状态
-- Canon Update 完成并提交前不得进入 Chapter 004 / Batch B
+- Gemini 3.8 Flash → 连续生产 Chapter 004–005 Draft（Batch B）：必读 `09_manuscript/canon/batch_01_ch02_03_canon_summary.md` → `12_production/chapter_briefs/chapter_004_brief.md` → `chapter_005_brief.md` → PROSE_STYLE_GUIDE 与两份 Brief 指定 Canon；Ch4–5 Readiness = READY（4 条非阻塞备注见 Readiness 文件）；不预写 Ch6
+- 之后：GLM Batch B Continuity Pass → Sol Editorial → Rewrite → Approval → Canon Update
 - 历史遗留待办见 00_system/ACTIVE_TASKS.md 队列（ORIGINAL_PROJECT_DISCOVERY 反向入库等）
 
 FILES_CHANGED:
+- 本轮（Batch Canon Update）：`01_characters/PROTAGONIST.md`、`TANG_LI.md`、`ZHAO_WEIMIN.md`、`ZHOU_XU.md`、`ZHOU_GUIYING.md`（新增）、`02_relationships/RELATIONSHIP_ENGINE.md`、`05_timeline/MASTER_TIMELINE.md`、`03_world/OLD_CLOTHES_RULES.md`、`06_secrets/SECRET_MATRIX.md`、`07_foreshadowing/FORESHADOWING_PLAN.md`、`09_manuscript/canon/batch_01_ch02_03_canon_summary.md`（新增）、`12_production/CHAPTER_004_005_READINESS.md`（新增）、`00_system/PROJECT_STATUS.md`、`ACTIVE_TASKS.md`、`HANDOFF.md`、`99_logs/claude/` 新日志；**未修改 `final/chapter_002_final.md`、`final/chapter_003_final.md` 的正文内容**
 - 本轮（Batch A Patch Verification）：更新 `batch_01_ch02_03_final_acceptance.md` 为双章 FINAL VERDICT ACCEPT；最小更新 `ACTIVE_TASKS.md`、`HANDOFF.md`；未修改正文或 Canon
 - 本轮（Batch A Final Acceptance）：新增 `batch_01_ch02_03_final_acceptance.md` 与 Codex 日志；最小更新 `ACTIVE_TASKS.md`、`HANDOFF.md`；未修改 Rewrite/Final/Canon
 - 本轮（Batch A Editorial）：新增 `12_production/editorial/batch_01_ch02_03_editorial_review.md` 与 Codex 日志；最小更新 `ACTIVE_TASKS.md`、`HANDOFF.md`；未修改 Draft/Canon
@@ -86,7 +91,7 @@ FILES_CHANGED:
 
 FILES_TO_READ_NEXT:
 - 新 Agent 标准启动序列：CLAUDE.md → 00_system/AGENT_PROTOCOL.md → MODEL_ROLES.md → PROJECT_STATUS.md → ACTIVE_TASKS.md → HANDOFF.md
-- Gemini Batch A 必读：`12_production/batches/batch_01_ch02_06_plan.md` → `chapter_002_brief.md` → `chapter_003_brief.md` → Chapter 001 Final/Canon Summary → 两份 Brief 各自 `Required Canon Reading`
+- Gemini Batch B（Ch4–5）必读：`09_manuscript/canon/batch_01_ch02_03_canon_summary.md` → `chapter_004_brief.md` → `chapter_005_brief.md` → `01_characters/`（各人物章节状态）→ `05_timeline/MASTER_TIMELINE.md` → `06_secrets/SECRET_MATRIX.md` → `07_foreshadowing/FORESHADOWING_PLAN.md`（植入登记）→ `12_production/PROSE_STYLE_GUIDE.md` → `12_production/CHAPTER_004_005_READINESS.md`
 
 IMPORTANT_DECISIONS:
 - Ch2/Ch3 Final 正式 ACCEPT；Ready for Canon Update = YES
