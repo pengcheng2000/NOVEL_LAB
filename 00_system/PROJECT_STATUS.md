@@ -1,6 +1,6 @@
 # Project Status — 项目状态总表
 
-最后更新：2026-09-14（GPT-5.6 Sol / Codex，**PHASE 6 — NOVEL PRODUCTION 进行中：5 chapters completed**；Chapter 001–005 均 FINAL / ACCEPTED / CANONIZED；Batch 03A Ch6–Ch8 Editorial Review 完成，三章均 ACCEPT WITH REVISION；下一步 Gemini 3.8 Flash Writer MEDIUM Rewrite Ch6–Ch8）
+最后更新：2026-09-14（Gemini 3.8 Flash Continuity，**PHASE 6 — NOVEL PRODUCTION 进行中：8 chapters completed**；Chapter 001–008 均 FINAL / ACCEPTED / CANONIZED；Batch 03A Ch6–Ch8 Verification & Canon Update 完成；CHAPTER_009_011_READINESS = READY；下一步 Gemini 3.8 Flash Writer MEDIUM Draft Ch9–Ch11）
 数据来源：真实文件系统核验（详见 `00_system/HANDOFF_AUDIT.md`），非旧聊天记录。
 
 ## 总体进度
@@ -23,7 +23,7 @@
 | **第一部原创 IP 选择** | **COMPLETED** | 用户正式确认 C05《雨天旧衣店》；C03/C06 保留未来候选，不再并行开发 |
 | **Phase 5：Story Bible Development** | **COMPLETED** | 新建 `04_original_project/C05_rainy_old_clothes/` 00–11 目录；完成核心身份、主题、旧衣 20 问规则、主角与核心群像、关系/世界/三层引擎、时间线、秘密/伏笔、全书结构、第一卷、前三章、前 20 章、原创性审查与四视角压力测试。最佳体量 28–32 万字/约 72 章。Phase 5 未写正文或剧本 |
 | **Phase 6A：Novel Production Setup** | **COMPLETED** | 建立 `12_production/` 工作流、文风规范、Chapter Brief 模板、Gemini Writer Instructions、章节验收标准与生产目录；完成 Phase 5→6 缺口检查，最小修正前三章重复兑付、店主代理/续读细则与限知视角信息隐藏；生成 Chapter 001–003 Brief。`09_manuscript/` 只有空目录规范，正文尚未开始 |
-| **Phase 6：Novel Production** | **IN PROGRESS — 5 chapters completed** | Chapter 001–005 FINAL / ACCEPTED / CANONIZED。Batch 03A Ch6–Ch8 Draft 与 Continuity Pass 已完成；Sol Editorial：Ch6 / Ch7 / Ch8 均 ACCEPT WITH REVISION，`SOL RECHECK REQUIRED = NO`；下一任务 Gemini Writer MEDIUM 联合 Rewrite Ch6–Ch8 |
+| **Phase 6：Novel Production** | **IN PROGRESS — 8 chapters completed** | Chapter 001–008 全部 FINAL / ACCEPTED / CANONIZED。Batch 03A（Ch6–8）Rewrite Verification 完成并生成 Final；完成人物、关系、时间线、秘密、伏笔、旧衣规则 Canon 更新与 Batch Canon Summary；`CHAPTER_009_011_READINESS.md` = **READY**；下一任务 Gemini 3.8 Flash Writer MEDIUM Draft Ch9–Ch11 |
 | **Phase 6 Batch 01 Story Planning（Ch2–6）** | **COMPLETED** | `12_production/batches/batch_01_ch02_06_plan.md` + Chapter 002–006 五份 Brief 已完成；旧 Ch2–3 Brief 经 Chapter 001 Final Canon 校验后升级，Ch4–6 新建。时间细化：活人衣单元由 Phase 5 粗占位 6/14 调整为 6/10，以保持 6/11 秦沛后续节点。下一任务：Gemini 连续生产 Chapter 002–003 Draft；正文尚未开始 |
 | **Phase 6 Planning Window（Ch6–11）** | **COMPLETED** | `12_production/batches/batch_03_ch06_11_plan.md`；Ch6 原 Brief 确认不改；新增 Chapter 007–011 五份执行级 Brief；全章 Writer Reasoning = MEDIUM；仅 Ch7 = KEY；`CHAPTER_006_008_READINESS.md` = READY；下一步 Gemini 3.8 Flash Writer 连续生产 Ch6–Ch8 |
 | **GitHub 跨设备迁移** | **COMPLETED** | 2026-09-14（Claude/GLM）：全部 138 个项目文件首次推送至 `github.com/pengcheng2000/NOVEL_LAB`（main，commit `5a13830`）；建立 `00_system/AGENT_PROTOCOL.md` + `MODEL_ROLES.md` + `HANDOFF.md` 多 Agent 协作基础设施；`.gitignore` 重构（99_logs 入库；版权源文本排除）；`.gitattributes` 换行统一；消除绝对路径；公开仓库安全检查通过（无凭证、无版权正文）。**GitHub = 中央真源** |

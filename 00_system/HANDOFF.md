@@ -2,12 +2,23 @@
 
 > 每次重要工作结束时更新本文件；每次开始工作前先读本文件（完整协议见 `00_system/AGENT_PROTOCOL.md`）。
 
-LAST_AGENT: GPT-5.6 Sol / Codex
-LAST_MODEL: GPT-5.6 Sol（MEDIUM；Editor-in-Chief / Lead Story Editor / Story Architect）
+LAST_AGENT: Gemini 3.8 Flash (Continuity & Canon Agent)
+LAST_MODEL: Gemini 3.8 Flash（MEDIUM；Continuity & Canon Agent）
 LAST_DEVICE: Windows
-LAST_COMMIT: review: edit chapters 006 to 008（2026-09-14；准确 hash 以 Git 历史为准）
+LAST_COMMIT: chore: verify and canonize chapters 006 to 008（2026-09-14；准确 hash 以 Git 历史为准）
 
 COMPLETED:
+- Batch 03A（Ch6–8）Verification + Final + Canon Update completed（Gemini Continuity，2026-09-14）：
+  - 独立核验三章 Rewrite 实际正文，实施 3 项 Mechanical Patch：
+    1. Ch7 line 83：将未授权的“数百万关注者”精简为“稳定的线上影响力”；
+    2. Ch8 line 69：将“那件工装”修正为“那件旧衣”，符合纸角出自灰呢大衣内缝之 Canon 事实；
+    3. Ch8 line 135：将未授权的随机次数“三次申诉全不认”清理为“此前申诉全不认”；
+  - 生成 Final：`09_manuscript/final/chapter_006_final.md`（5,129 汉字）、`chapter_007_final.md`（4,155 汉字）、`chapter_008_final.md`（3,587 汉字），均精准落入推荐区间；
+  - 完成 Canon Update：更新 `PROTAGONIST.md`、`TANG_LI.md`、`ZHOU_XU.md`、`QIN_PEI.md` 章节状态；更新 `RELATIONSHIP_ENGINE.md` 四组关系演进；更新 `OLD_CLOTHES_RULES.md` 活人衣流程闭环与账簿历史；更新 `MASTER_TIMELINE.md` 6/10–6/16 事件序列与利息截点；更新 `SECRET_MATRIX.md` 截至 Ch8 知识快照；更新 `FORESHADOWING_PLAN.md` 伏笔推进与物件表；
+  - 产出高密度基准文档：`09_manuscript/canon/batch_03a_ch06_08_canon_summary.md`；
+  - 检查 Ch9–Ch11 就绪度，产出 `12_production/CHAPTER_009_011_READINESS.md`，结论 **READY**；
+  - **Chapter 001–008 全部 FINAL / ACCEPTED / CANONIZED（8 chapters completed）**；
+  - 下一任务交付：Gemini 3.8 Flash Writer（MEDIUM）Draft Chapter 009–011（按既定规划连续生产，无需再找 Sol）。
 - Batch 03A（Ch6–8）Editorial Review completed（Sol / Codex，2026-09-14）：
   - 亲自连读 Ch5 Final、Ch6–Ch8 Draft，并对照 Ch6–Ch9 Brief、Planning Window、Continuity 与完整 Canon/Story Bible。
   - Verdict：Ch6 ACCEPT WITH REVISION；Ch7 ACCEPT WITH REVISION；Ch8 ACCEPT WITH REVISION。无 MAJOR REVISION；`SOL RECHECK REQUIRED = NO`。

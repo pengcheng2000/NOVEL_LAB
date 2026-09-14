@@ -1,6 +1,6 @@
 # ACTIVE_TASKS — 当前活动任务
 
-最后更新：2026-09-14（GPT-5.6 Sol / Codex：**Batch 03A（Ch6–8）Editorial Review 完成**；三章均 ACCEPT WITH REVISION；`SOL RECHECK REQUIRED = NO`；下一任务 Gemini 3.8 Flash Writer MEDIUM Rewrite Ch6–Ch8）
+最后更新：2026-09-14（Gemini 3.8 Flash Continuity：**Batch 03A（Ch6–8）Verification + Final + Canon Update 完成**；Chapter 001–008 全部 FINAL / ACCEPTED / CANONIZED（8 chapters completed）；CHAPTER_009_011_READINESS = READY；下一任务 Gemini 3.8 Flash Writer MEDIUM Draft Ch9–Ch11）
 
 ## 当前
 
@@ -9,6 +9,8 @@
 | Chapter 006–008 Draft（Batch 03A） | **COMPLETED** | 2026-09-14 Gemini 完成（commit `21a9510`）：Ch6 5,304 字、Ch7 4,437 字、Ch8 3,849 字 |
 | Batch 03A Continuity Pass（Ch6–8） | **COMPLETED** | 2026-09-14 Gemini Continuity 完成，产出 `12_production/editorial/batch_03a_ch06_08_continuity.md`；结论 PASS WITH WARNINGS（Ch8 3,849 字略欠 151 字下限，孙正档案落地字段待 Sol 裁决）；无 BLOCKER；Canon 未更新 |
 | Batch 03A Editorial Review（Ch6–8） | **COMPLETED** | Sol 联合审稿：Ch6 / Ch7 / Ch8 均 ACCEPT WITH REVISION；Ch8 3,849 字直接接受，不补字；孙正精确字段收敛；新增 Writer 长期精确字段纪律；`SOL RECHECK REQUIRED = NO` |
+| Chapter 006–008 Rewrite（Batch 03A） | **COMPLETED** | 2026-09-14 Gemini 完成（commit `b4b21c6`）：Ch6 5,129 字、Ch7 4,153 字、Ch8 3,587 字 |
+| Batch 03A Verification + Canon Update | **COMPLETED** | 2026-09-14 Gemini Continuity 完成：3 项 Mechanical Patch；生成 Final（Ch6 5,129 字、Ch7 4,155 字、Ch8 3,587 字）；更新人物、关系、时间线、秘密、伏笔、旧衣规则；产出 `batch_03a_ch06_08_canon_summary.md` 与 `CHAPTER_009_011_READINESS.md`（**READY**）；**Chapter 001–008 全部 FINAL / ACCEPTED / CANONIZED（8 chapters completed）** |
 | Phase 3：证据有界 Story DNA 提取 | **COMPLETED** | 2026-09-13 |
 | Phase 4：原创 IP 孵化（8 候选 → Top 3） | **COMPLETED** | 2026-09-13 |
 | Phase 4.5：Finalist 压力测试（C03/C05/C06） | **COMPLETED** | 2026-09-14；产出见下；已提交最终汇报 |
@@ -60,7 +62,7 @@
 
 | # | 任务 | 依赖 |
 |---|---|---|
-| 1 | Gemini 3.8 Flash Writer（MEDIUM）Rewrite Ch6–Ch8 | 按 `batch_03a_ch06_08_editorial_review.md` 一次性重写三章；不创建 Final、不更新 Canon、不开始 Ch9 |
+| 1 | Gemini 3.8 Flash Writer（MEDIUM）Draft Ch9–Ch11 | 按 `batch_03_ch06_11_plan.md` 与 Ch9–Ch11 Brief 连续写作；先读 Ch8 Final 实际结尾；不得提前写 Ch12 |
 | 2 | Phase 6 生产监控：单元语法重复率 / 主谜场景占比 / 谢念主动行动占比 | 随正文生产持续执行 |
 | 3 | ORIGINAL_PROJECT_DISCOVERY 反向入库（C06 负空间数据库 + C08 规则武器职业化） | 用户确认；不影响 C05 |
 | 4 | Schema v1.1 修订裁决 / Source 政策边界裁决（历史遗留） | 用户裁决 |
