@@ -2,12 +2,20 @@
 
 > 每次重要工作结束时更新本文件；每次开始工作前先读本文件（完整协议见 `00_system/AGENT_PROTOCOL.md`）。
 
-LAST_AGENT: Gemini 3.8 Flash (Continuity & Canon Agent)
-LAST_MODEL: Gemini 3.8 Flash（MEDIUM；Continuity & Canon Agent）
+LAST_AGENT: GPT-5.6 Sol / Codex
+LAST_MODEL: GPT-5.6 Sol（MEDIUM；Editor-in-Chief / Lead Story Editor / Story Architect）
 LAST_DEVICE: Windows
-LAST_COMMIT: review: check chapters 006 to 008 continuity（2026-09-14；准确 hash 以 Git 历史为准）
+LAST_COMMIT: review: edit chapters 006 to 008（2026-09-14；准确 hash 以 Git 历史为准）
 
 COMPLETED:
+- Batch 03A（Ch6–8）Editorial Review completed（Sol / Codex，2026-09-14）：
+  - 亲自连读 Ch5 Final、Ch6–Ch8 Draft，并对照 Ch6–Ch9 Brief、Planning Window、Continuity 与完整 Canon/Story Bible。
+  - Verdict：Ch6 ACCEPT WITH REVISION；Ch7 ACCEPT WITH REVISION；Ch8 ACCEPT WITH REVISION。无 MAJOR REVISION；`SOL RECHECK REQUIRED = NO`。
+  - Ch6：保留撤回/重登闭环、围裙 Local Detail、有限记忆与秦沛认簿 Hook；要求修复蒋妍 POV 越界、登记动作矛盾、对称式完整纠错、过准代价命名与重复主题总结。
+  - Ch7：秦沛成立、36万诱惑成立；保留2003–2009、6/16、28,140元和红外套目击；要求收回林素云亲手裁当前缺页的过实结论，删除谢念错误履历与随机精确/法律字段。
+  - Ch8：3,849 字直接接受，不补151字；保持周序低信任程序合作与何晴/何川 Hook；修正栖州/澄江、回潮桥、周国梁、周序职位及纸角来源链，压缩手续并把何晴段收回问题入口。
+  - 孙正字段裁决：保留2016临时用工备案与原仓库改建档案入口；删除男性、身份证尾号4712、精确月份、2018年份和港南区07号完整地块号。
+  - 更新 `GEMINI_WRITER_INSTRUCTIONS.md`：新增长期精确字段纪律。
 - Batch 03A（Ch6–8）Draft Continuity Pass completed（Gemini Continuity，2026-09-14）：
   - 产出连续性与规范审计报告：`12_production/editorial/batch_03a_ch06_08_continuity.md`。
   - 总体结论：**PASS WITH WARNINGS**；无 BLOCKER，无硬性 Canon 冲突，长期事实边界守备严密。
@@ -94,14 +102,15 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- 无。Planning Window Ch6–Ch11 已完成。
+- 无。Batch 03A Editorial Review 已完成。
 
 NEXT_TASK:
-- Gemini 3.8 Flash Writer（MEDIUM）→ 按 Batch A 连续生产 Chapter 006–008 Draft：先写 Ch6，读取实际结尾后写 Ch7，再读取实际结尾后写 Ch8；不得提前写 Ch9。
-- 完成 Draft 后进入独立 Continuity Pass；Ch7 为 KEY，是否需要 Rewrite 后 Sol 二次验收由当轮 Editorial 明确标记。
+- Gemini 3.8 Flash Writer（MEDIUM）→ 按 `12_production/editorial/batch_03a_ch06_08_editorial_review.md` 一次性 Rewrite Ch6–Ch8；不创建 Final、不更新 Canon、不开始 Ch9。
+- Rewrite 后直接交独立 Gemini Continuity（MEDIUM）执行 Rewrite Verification + Final + Canon Update；`SOL RECHECK REQUIRED = NO`。
 - 历史遗留待办见 00_system/ACTIVE_TASKS.md 队列（ORIGINAL_PROJECT_DISCOVERY 反向入库等）。
 
 FILES_CHANGED:
+- 本轮（Batch 03A Editorial）：新增 `12_production/editorial/batch_03a_ch06_08_editorial_review.md` 与 `99_logs/claude/2026-09-14_C05_batch03a_ch06_08_editorial.md`；更新 `GEMINI_WRITER_INSTRUCTIONS.md` 与三份状态文件；**未修改 Ch6–Ch8 Draft、Continuity、Canon 或 Ch9 Brief**。
 - 本轮（Sol Planning Window Ch6–Ch11）：新增 `12_production/batches/batch_03_ch06_11_plan.md`、`chapter_briefs/chapter_007_brief.md`–`chapter_011_brief.md`、`12_production/CHAPTER_006_008_READINESS.md`、`99_logs/claude/2026-09-14_C05_planning_window_ch06_11.md`；更新 `PROJECT_STATUS.md`、`ACTIVE_TASKS.md`、`HANDOFF.md`；**未修改 Ch6 Brief、小说正文、Canon Summary、Character Bible、Master Timeline 或规则文件**。
 - 本轮（Batch 02 Canon Update）：`chapter_004_rewrite.md`（最小 patch 重字）、`chapter_005_rewrite.md`（最小 patch 亲手交付）、`final/chapter_004_final.md`（新建）、`final/chapter_005_final.md`（新建）、`01_characters/PROTAGONIST.md`、`TANG_LI.md`、`ZHOU_XU.md`、`02_relationships/RELATIONSHIP_ENGINE.md`、`05_timeline/MASTER_TIMELINE.md`、`06_secrets/SECRET_MATRIX.md`、`07_foreshadowing/FORESHADOWING_PLAN.md`、`03_world/OLD_CLOTHES_RULES.md`、`09_manuscript/canon/batch_02_ch04_05_canon_summary.md`（新建）、`12_production/CHAPTER_006_READINESS.md`（新建）、`99_logs/claude/2026-09-14_C05_batch02_ch04_05_canon_update.md`（新建）、`00_system/PROJECT_STATUS.md`、`ACTIVE_TASKS.md`、`HANDOFF.md`
 - 本轮（Batch 02 Editorial）：新增 `12_production/editorial/batch_02_ch04_05_editorial_review.md` 与 Codex 日志；最小修订 `chapter_005_brief.md` / `chapter_006_brief.md` 的规则接口；按用户最新策略更新 `MODEL_ROLES.md` / `PHASE6_WORKFLOW.md` 为 Workflow V2；更新三份状态文件；**未修改 Ch4/Ch5 Draft、未写正文、未执行 Canon Update、未开始 Ch6**；既有 4 个正文文件末尾空行差异不纳入提交
