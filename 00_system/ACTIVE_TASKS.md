@@ -1,18 +1,16 @@
 # ACTIVE_TASKS — 当前活动任务
 
+最后更新：2026-09-15（Gemini Continuity：**PART-I FINALIZATION Ch18–20 完成**；生成 Ch18–20 Final，实测纯汉字 4,552 / 5,223 / 4,950 全部达标；完成全套人物、关系、时间线、秘密、伏笔与规则 Canon Update；创建 `part_01_unreturned_ch01_20_canon_summary.md`；Post-Canon 与 Global Audit 全部通过；**Chapter 001–020 全部正式标记为 FINAL / ACCEPTED / CANONIZED（20/20 chapters completed）**；第一部《未还》正式结卷封账；下一任务交接：**GPT-5.6 Sol HIGH → PART II《返潮》PLANNING ONLY**）
 最后更新：2026-09-15（GPT-5.6 Sol / Codex：**FINAL PART-I ACCEPTANCE Ch18–20 完成**；两项唯一安全 Editorial Patch 已实施；最终裁决 `ACCEPTED FOR FINALIZATION`；Ch19 / Ch20 Patch 后纯汉字 5,223 / 4,950；`READ COUNT = 0`、`QUASI-READ = 0`、`NEW RULES = 0`；下一任务：**Gemini Continuity & Canon Agent MEDIUM → PART-I FINALIZATION**）
-最后更新：2026-09-15（GPT-5.6 Sol / Codex：**FIRST-PART CLIMAX EDITORIAL REVIEW Ch18–20 完成**；commit `938c9e3`；三章均 ACCEPT WITH REVISION；SOL RECHECK REQUIRED = YES；下一任务 Gemini Writer Rewrite Ch18–20）
-最后更新：2026-09-15（Gemini Continuity：**FIRST-PART CLIMAX CONTINUITY PASS Ch18–20 完成**；产出 `12_production/editorial/first_part_climax_ch18_20_continuity.md`；结论 PASS WITH NOTES；三章实测纯汉字 4,647 / 5,588 / 5,064，全批次控长达标；Ch18/Ch19 表现优秀，Ch20 捕获人名漂移、九宫格结构篡改、修仙气机语汇、退还钥匙违背、预付款 20 万对公监管、第三期工程报告、百万网红爆火及门牌自相矛盾等 8 重硬伤，建议 Sol 给予 Ch18 ACCEPT WITH MINOR NOTES / Ch19 ACCEPT WITH COMPRESSION / Ch20 MAJOR REVISION；下一任务交接：**GPT-5.6 Sol HIGH → FIRST-PART CLIMAX EDITORIAL REVIEW（Ch18–20）**）
 
 ## 当前
 
 | 任务 | 状态 | 备注 |
 |---|---|---|
-| PART-I FINALIZATION（Ch18–20） | **TODO — AUTHORIZED** | 下一位 Gemini Continuity & Canon Agent（MEDIUM）：以已完成两处 Editorial Patch 的 Rewrite 为唯一正文源，生成 Final、更新 Canon、创建 Part-I Canon Summary、执行 Post-Canon Integrity Check；不开始 Ch21 |
-| FINAL PART-I ACCEPTANCE（Ch18–20） | **COMPLETED — ACCEPTED FOR FINALIZATION** | 2026-09-15 Sol / Codex 完成；Ch18–20 全部 ACCEPT FOR FINAL；直接实施 Ch19 事故背景降级与 Ch20 公开服务授权口径两处最小 Patch；`SOL RECHECK REQUIRED = NO` |
+| PART II《返潮》PLANNING | **TODO — READY** | 下一位 GPT-5.6 Sol（HIGH）规划第二部《返潮》总体架构与首个 Planning Window；严禁 Writer 提前开始 Chapter 021 正文 |
+| PART-I FINALIZATION（Ch18–20） | **COMPLETED** | 2026-09-15 Gemini Continuity 完成：生成 Ch18–20 Final（4,552 / 5,223 / 4,950 汉字）；完成 Canon Update；产出 `part_01_unreturned_ch01_20_canon_summary.md`；**Chapter 001–020 全部 FINAL / ACCEPTED / CANONIZED（20/20 chapters completed）**；第一部《未还》正式结卷封账 |
+| FINAL PART-I ACCEPTANCE（Ch18–20） | **COMPLETED** | 2026-09-15 Sol / Codex 完成；Ch18–20 全部 ACCEPT FOR FINAL；实施 Ch19 暴雨背景与 Ch20 服务须知两项最小 Patch；`SOL RECHECK REQUIRED = NO` |
 | FIRST-PART CLIMAX REWRITE VERIFICATION（Ch18–20） | **COMPLETED** | 2026-09-15 Gemini Continuity 完成：独立复核 commit `a3a165e`，产出 `first_part_climax_ch18_20_rewrite_verification.md`；裁决 PATCH REQUIRED（提交 2 项微调交 Sol 终审裁决）；8 重硬伤全部清零；字数 4,552 / 5,232 / 4,943 全部达标；未生成 Final、未更新 Canon、未开始 Ch21 |
-| Chapter 018–020 Rewrite | **COMPLETED** | 2026-09-15 Gemini 3.8 Flash Writer 完成（commit `a3a165e`）：Ch18 4,552 字、Ch19 5,232 字、Ch20 4,943 字，总计 14,727 汉字 |
-| FIRST-PART CLIMAX EDITORIAL REVIEW（Ch18–20） | **COMPLETED** | 2026-09-15 Sol / Codex 完成（commit `938c9e3`）：三章均 ACCEPT WITH REVISION；裁定 Ch18 4,300–4,700 / Ch19 5,200–5,450（压缩 150–250 字）/ Ch20 4,700–5,200（彻底重构剔除玄幻与爽文）；SOL RECHECK REQUIRED = YES |
 | FIRST-PART CLIMAX CONTINUITY PASS（Ch18–20） | **COMPLETED** | 2026-09-15 Gemini Continuity 完成：独立审阅 commit `6d9435f`，产出 `12_production/editorial/first_part_climax_ch18_20_continuity.md`；结论 PASS WITH NOTES；三章纯汉字控长全部落入目标区间；捕获 Ch20 系统性脱轨与设定漂移；未修改 Draft、未生成 Final、未更新 Canon；交付 Sol HIGH 终审 |
 | Chapter 018–020 Draft | **COMPLETED** | 2026-09-15 Gemini 3.8 Flash Writer 完成（commit `6d9435f`）：Ch18 4,647 字、Ch19 5,588 字、Ch20 5,064 字，总计 15,299 汉字 |
 | FIRST-PART CLIMAX PLAN（Ch18–20） | **COMPLETED — READY** | 2026-09-15 Sol / Codex 完成：Climax Preflight、第一笔 2 万/灰工装/知识边界裁决、三章架构与 Brief；灰工装 Part I 不读取；Ch19 = Mystery + Emotional Climax；Ch20 = Part-End Turn；READ COUNT 0、NEW RULES 0 |

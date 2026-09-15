@@ -2,15 +2,37 @@
 
 > 每次重要工作结束时更新本文件；每次开始工作前先读本文件（完整协议见 `00_system/AGENT_PROTOCOL.md`）。
 
-LAST_AGENT: GPT-5.6 Sol / Codex
-LAST_MODEL: GPT-5.6 Sol（HIGH；Final Acceptance Authority）
-LAST_COMMIT: review: accept first-part climax for finalization（2026-09-15；准确 hash 以 Git 历史为准）
+LAST_AGENT: Gemini Continuity & Canon Agent
+LAST_MODEL: Gemini 3.8 Flash（MEDIUM；Continuity & Canon Agent）
+LAST_COMMIT: canon: finalize part one chapters 018 to 020（2026-09-15；准确 hash 以 Git 历史为准）
 LAST_DEVICE: Windows
 
-NEXT_AGENT: Gemini Continuity & Canon Agent
-NEXT_TASK: PART-I FINALIZATION（MEDIUM；生成 Ch18–20 Final、Canon Update、Part-I Canon Summary 与 Post-Canon Integrity Check；不开始 Ch21）
+NEXT_AGENT: GPT-5.6 Sol / Codex
+NEXT_TASK: PART II《返潮》PLANNING（HIGH；第二部整体架构设计与首个 Planning Window 规划；严禁 Writer 提前开写 Chapter 021）
+
+HARD_LOCKS_FOR_PART_II:
+1. 姓名唯一性：谢念、唐荔、周序、秦沛、林素云、周国梁、孙正、余禾、蒋妍，严格无错字；
+2. 秦沛代词：第三人称代词全文严格为女性“她”；
+3. 时间线跨度：2016 暴雨事故至 2025 主线严格统一为“九年”，禁止出现“八年”；
+4. 账簿结构铁律：《承衣簿》严格为“七格”体系，严禁任何九宫格、修仙气机与光斑异象；
+5. 钥匙与分工铁律：后堂大锁钥匙由谢念独管，唐荔端阳春面表态留下做工但绝不分担后堂，两人私交彻底冻结，不和好、不原谅；
+6. 局外人知识铁律：周序与秦沛对超自然读衣异能、《承衣簿》及七格体系绝对未知（DOES NOT KNOW）；
+7. 商业防线定性：《寄雨行服务须知》（说明来源、相应授权、必要隐私同意）为世俗商业经营政策，用于保护现实边界，不作为内部超自然规则；
+8. 物件状态锁定：第一格候选灰工装重新装袋退回秦沛控制的第三方仓储链，定性为 CANDIDATE LOCATED / ELIGIBILITY UNRESOLVED / UNREAD，第一格维持“仍未还”；
+9. 金融与时钟刚性：长期债务 28.6 万元，首期预付款仅用于构建短期差额覆盖路径，9/5 腾退时限刚性不变；
+10. 全第一部正式读取固定为 3 次，Ch18–20 READ COUNT = 0，NEW RULES = 0，Memory Segment = NONE。
 
 COMPLETED:
+- PART-I FINALIZATION Ch18–20 completed（Gemini Continuity，2026-09-15）：
+  - 验证最终 Rewrite 包含两项 Editorial Patch（Ch19 暴雨背景、Ch20 服务须知）；
+  - 复制生成 `chapter_018_final.md`、`chapter_019_final.md`、`chapter_020_final.md`；
+  - 篇幅实测：纯中文汉字 Ch18 4,552 字、Ch19 5,223 字、Ch20 4,950 字，全批次 14,725 汉字，100% 精准落入目标区间；
+  - 全套人物、关系、时间线、秘密、伏笔与旧衣规则 Canon 文件同步更新完成；
+  - 创建完整 Part I Canon 汇总大纲文件：`09_manuscript/canon/part_01_unreturned_ch01_20_canon_summary.md`；
+  - Post-Canon Integrity Check 与 Global Part-I Integrity Audit 全部通过，无硬冲突；
+  - **Chapter 001–020 全部正式标记为 FINAL / ACCEPTED / CANONIZED（20/20 chapters completed）**；
+  - 第一部《未还》正式结卷封账（COMPLETE）；Part II《返潮》NOT YET PLANNED；
+  - 下一任务交付：**GPT-5.6 Sol HIGH → PART II《返潮》PLANNING ONLY**。
 - FINAL PART-I ACCEPTANCE Ch18–20 completed（GPT-5.6 Sol / Codex，2026-09-15）：
   - 两项唯一安全 Editorial Patch 已直接实施：Ch19 降级为“二〇一六年那场暴雨的三天里”；Ch20 收敛为“说明来源 / 相应授权 / 必要隐私同意”；
   - Final Verdict：**ACCEPTED FOR FINALIZATION**；Ch18 / Ch19 / Ch20 全部 ACCEPT FOR FINAL；
