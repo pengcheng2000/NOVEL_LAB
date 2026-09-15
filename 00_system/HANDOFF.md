@@ -4,10 +4,20 @@
 
 LAST_AGENT: Gemini Continuity
 LAST_MODEL: Gemini 3.8 Flash（MEDIUM；Continuity & Canon Agent）
-LAST_COMMIT: chore: verify and canonize chapters 012 to 014（2026-09-15；准确 hash 以 Git 历史为准）
+LAST_COMMIT: fix: repair batch 04a canon integrity（2026-09-15；准确 hash 以 Git 历史为准）
 LAST_DEVICE: Windows
 
 COMPLETED:
+- Batch 04A（Ch12–14）Post-Canon Integrity Hotfix completed（Gemini Continuity，2026-09-15）：
+  - 针对 Final 正文、Canon Summary 及 Story Bible 实施高精机械补丁，消除 10 项污染与事实越级；
+  - Ch12 Final：删除对唐荔动机及外婆指令/誓言的假定，降级为谢念不知道真实原因、追问收窄至三天未言事实；字数 4,303 汉字；
+  - Ch13 Final：删除鲜红指印、统一稿纸载体、删除“官方通报”与能力夸大、替换“署名画押”为“亲笔署名”、删除“无派工单/无调度记录”负面事实断言、规范 2 万元匹配表述、删除拆迁“秋天”季节；字数 4,583 汉字；
+  - Ch14 Final：纠正谢念职业为“做过平台运营的人”、删除未授权“老匠人”、规范 2 万元匹配表述、中性化经手明细表述；字数 3,695 汉字；
+  - Canon Summary：清理唐荔“不可撤回”、录音后半段“离岗与去向”、何川“管网真相”、利息“已被扣划”、清册“暂缓司法保全”、唐荔陈述“周序（复印件）”、拆迁卷宗“受理回执单”等 9 处不当升级；
+  - Story Bible：同步修正 `SECRET_MATRIX.md`、`PROTAGONIST.md`、`TANG_LI.md`、`ZHOU_XU.md`、`QIN_PEI.md`、`FORESHADOWING_PLAN.md`；
+  - 篇幅审计：Ch12 4,303 / Ch13 4,583 / Ch14 3,695，总计 12,581 纯汉字，全部达标；
+  - 重新核验 `CHAPTER_015_017_READINESS.md`，确认结论为 **READY**；保持 14 chapters completed；
+  - 下一任务交付：**Gemini 3.8 Flash Writer（MEDIUM）Draft Chapter 015–017（Batch 04B）**。
 - Batch 04A（Ch12–14）Rewrite Verification + Final + Canon Update completed（Gemini Continuity，2026-09-15）：
   - 独立验证 Ch12–14 Rewrite 正文（commit `0307e7c`）：
     - 篇幅审计（纯汉字 `[\u4e00-\u9fa5]`）：Ch12 4,308 字（4,000–4,400）、Ch13 4,610 字（4,300–4,800）、Ch14 3,689 字（3,500–3,900），全批次 12,607 汉字（11,800–13,100），三章 100% 精准落入区间，**LENGTH CONTROL PASS**；

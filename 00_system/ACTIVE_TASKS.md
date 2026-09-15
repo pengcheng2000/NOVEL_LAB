@@ -1,17 +1,23 @@
 # ACTIVE_TASKS — 当前活动任务
 
+最后更新：2026-09-15（Gemini Continuity：**Batch 04A Post-Canon Integrity Hotfix 完成**；修复 Ch12 唐荔动机假定、Ch13 红手印/画押/负面推论、Ch14 谢念职业/老匠人/20k 表述；清理 Canon Summary 9 处污染；三章字数 4,303 / 4,583 / 3,695 全部达标；Chapter 001–014 维持 FINAL / ACCEPTED / CANONIZED（14 chapters completed）；CHAPTER_015_017_READINESS 确认 **READY**；下一任务 Gemini 3.8 Flash Writer（MEDIUM）Draft Chapter 015–017）
 最后更新：2026-09-15（Gemini Continuity：**Batch 04A Verification + Canon Update 完成**；Chapter 001–014 全部 FINAL / ACCEPTED / CANONIZED（14 chapters completed）；生成 `batch_04a_ch12_14_canon_summary.md` 与 `CHAPTER_015_017_READINESS.md`（**READY**）；下一任务 Gemini 3.8 Flash Writer（MEDIUM）Draft Chapter 015–017）
-最后更新：2026-09-15（GPT-5.6 Sol / Codex：**Batch 04A Ch12–14 Editorial Review 完成**；三章均 ACCEPT WITH REVISION；下一任务 Gemini 3.8 Flash Writer（MEDIUM）一次性 Rewrite Ch12–Ch14；`SOL RECHECK REQUIRED = NO`）
-最后更新：2026-09-15（GPT-5.6 Sol / Codex：**Planning Window Ch12–Ch17 完成**；Chapter 001–011 维持 FINAL / ACCEPTED / CANONIZED（11 chapters completed）；Chapter 012–014 Readiness = READY；下一任务 Gemini 3.8 Flash Writer（MEDIUM）Draft Ch12–Ch14）
 
 ## 当前
 
 | 任务 | 状态 | 备注 |
 |---|---|---|
-| Batch 04A Verification + Canon Update（Ch12–14） | **COMPLETED** | 2026-09-15 Gemini Continuity 完成：核验通过，2 项最小 Mechanical Patch（Ch12 删重复段落与多余引语前缀、Ch14 消除“封存”词汇歧义）；生成 Final（Ch12 4,308 字、Ch13 4,610 字、Ch14 3,689 字，共 12,607 汉字全部达标）；完成 Canon 核心文件同步更新；产出 `batch_04a_ch12_14_canon_summary.md` 与 `CHAPTER_015_017_READINESS.md`（**READY**）；**Chapter 001–014 全部 FINAL / ACCEPTED / CANONIZED（14 chapters completed）** |
+| Batch 04A Post-Canon Integrity Hotfix | **COMPLETED** | 2026-09-15 Gemini Continuity 完成：修复 Ch12 唐荔动机预设、Ch13 红手印/画押/负面断言/资金表述、Ch14 职业/老匠人/经手提走/资金表述；同步清理 Canon Summary 与 Bible 污染；Final 字数 4,303 / 4,583 / 3,695（总计 12,581 汉字全部达标）；`CHAPTER_015_017_READINESS.md` 重新确认为 **READY**；**Chapter 001–014 维持 FINAL / ACCEPTED / CANONIZED（14 chapters completed）** |
 | Chapter 015–017 Draft（Batch 04B） | **TODO — READY** | 下一位 Gemini 3.8 Flash Writer（MEDIUM）一次性生产；逐章按纯中文汉字数控长（Ch15 4,100–4,600 / Ch16 4,300–4,900 / Ch17 4,200–4,700）；全窗口成功读取 0、新规则 0、Memory Segment Budget = NONE；严守信息预算与知识边界 |
+| Batch 04A Verification + Canon Update（Ch12–14） | **COMPLETED** | 2026-09-15 Gemini Continuity 完成：核验通过，2 项最小 Mechanical Patch；生成 Final（12,607 汉字全部达标）；完成 Canon 核心文件同步更新；产出 `batch_04a_ch12_14_canon_summary.md` 与 `CHAPTER_015_017_READINESS.md`（**READY**） |
+
 | Chapter 012–014 Rewrite（Batch 04A） | **COMPLETED** | 2026-09-15 Gemini Writer 完成（commit `0307e7c`）：Ch12 4,324 字、Ch13 4,610 字、Ch14 3,689 字；均落入 Sol 推荐区间 |
 | Batch 04A Editorial Review（Ch12–14） | **COMPLETED** | 2026-09-15 Sol / Codex 完成：三章均 ACCEPT WITH REVISION；Ch12 收敛银行/证词法律化并纠正谢念职业；Ch13 封死录音后半段、删“急料”并修正纸角来源；Ch14 恢复暗红生丝/桑皮纸衬/极细生蚕丝线；`SOL RECHECK REQUIRED = NO` |
+| Chapter 012–014 Rewrite（Batch 04A） | **TODO** | 下一位 Gemini 3.8 Flash Writer（MEDIUM）一次性 Rewrite；以 Git HEAD 的 4,329 / 4,727 / 3,708 汉字 Draft 为底稿，不使用工作区 Ch12 历史膨胀版；不开始 Ch15、不更新 Canon |
+| Chapter 012–014 Draft（Batch 04A） | **COMPLETED** | 2026-09-15 Gemini Writer 完成（commit `487a0fc`）：Ch12 4,329 字、Ch13 4,727 字、Ch14 3,708 字（HEAD 版本全部落入控长区间） |
+| Batch 04A Continuity Pass（Ch12–14） | **COMPLETED** | 2026-09-15 Gemini Continuity 完成，产出 `12_production/editorial/batch_04a_ch12_14_continuity.md`；结论 PASS WITH NOTES；无主线 BLOCKER；三章纯汉字控长全部达标（LENGTH CONTROL PASS）；Ch14 账簿材质与 Ch7 发生严重冲突（深蓝土布/过蜡麻线 vs 暗红生丝/生蚕丝线）列为 MUST FIX；Canon 未更新 |
+| Planning Window Ch12–Ch17 | **COMPLETED** | 2026-09-15 Sol / Codex 完成：`batch_04_ch12_17_plan.md`、Ch12–17 六份执行 Brief 与 `CHAPTER_012_014_READINESS.md`；六章全部 MEDIUM；KEY = Ch13 / Ch16；成功读取 0、新规则 0；Ch17 停在第一格灰工装候选实物与权属/资格门槛 |
+| Chapter 012–014 Draft（Batch 04A） | **TODO — READY** | 下一位 Gemini 3.8 Flash Writer（MEDIUM）一次性生产；逐章按纯中文汉字数控长；不得开始 Ch15、创建 Final 或更新 Canon |
 
 | Chapter 009–011 Draft（Batch 03B） | **COMPLETED** | 2026-09-14 Gemini 完成（commit `7dfee1b`）：Ch9 8,097 字、Ch10 5,600 字、Ch11 5,546 字（全章超长，需 Sol 裁决压缩） |
 | Batch 03B Continuity Pass（Ch9–11） | **COMPLETED** | 2026-09-14 Gemini Continuity 完成，产出 `12_production/editorial/batch_03b_ch09_11_continuity.md`；建议三章均 ACCEPT WITH REVISION；Ch9 严重超长+62%、Ch10 呼吸章超长+36.6%、Ch11 违背负面约束写死 21,000 与 7,200 缺口并引入周五 17:00 截点待 Sol 裁决；全员知识边界严格守住；无 BLOCKER；Canon 未更新 |

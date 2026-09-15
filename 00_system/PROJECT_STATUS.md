@@ -1,6 +1,6 @@
 # Project Status — 项目状态总表
 
-最后更新：2026-09-15（Gemini 3.8 Flash Continuity & Canon Agent，**PHASE 6 — NOVEL PRODUCTION 进行中：14 chapters completed**；Chapter 001–014 全部 FINAL / ACCEPTED / CANONIZED；Planning Window Ch12–Ch17 推进中；Batch 04A Ch12–14 FINAL & CANONIZED；Batch 04B Ch15–17 = READY；下一步 Gemini 3.8 Flash Writer（MEDIUM）Draft Ch15–Ch17）
+最后更新：2026-09-15（Gemini 3.8 Flash Continuity & Canon Agent，**PHASE 6 — NOVEL PRODUCTION 进行中：14 chapters completed**；Chapter 001–014 全部 FINAL / ACCEPTED / CANONIZED；Batch 04A 完成 Post-Canon Integrity Hotfix；Planning Window Ch12–Ch17 推进中；Batch 04B Ch15–17 = READY；下一步 Gemini 3.8 Flash Writer（MEDIUM）Draft Ch15–Ch17）
 数据来源：真实文件系统核验（详见 `00_system/HANDOFF_AUDIT.md`），非旧聊天记录。
 
 ## 总体进度
@@ -23,7 +23,7 @@
 | **第一部原创 IP 选择** | **COMPLETED** | 用户正式确认 C05《雨天旧衣店》；C03/C06 保留未来候选，不再并行开发 |
 | **Phase 5：Story Bible Development** | **COMPLETED** | 新建 `04_original_project/C05_rainy_old_clothes/` 00–11 目录；完成核心身份、主题、旧衣 20 问规则、主角与核心群像、关系/世界/三层引擎、时间线、秘密/伏笔、全书结构、第一卷、前三章、前 20 章、原创性审查与四视角压力测试。最佳体量 28–32 万字/约 72 章。Phase 5 未写正文或剧本 |
 | **Phase 6A：Novel Production Setup** | **COMPLETED** | 建立 `12_production/` 工作流、文风规范、Chapter Brief 模板、Gemini Writer Instructions、章节验收标准与生产目录；完成 Phase 5→6 缺口检查，最小修正前三章重复兑付、店主代理/续读细则与限知视角信息隐藏；生成 Chapter 001–003 Brief。`09_manuscript/` 只有空目录规范，正文尚未开始 |
-| **Phase 6：Novel Production** | **IN PROGRESS — 14 chapters completed** | Chapter 001–014 全部 FINAL / ACCEPTED / CANONIZED。Batch 04A（Ch12–14）完成 Rewrite 验证、机械微调、Final 与 Canon Update；字数 12,607 汉字严格达标；`CHAPTER_015_017_READINESS.md` = **READY**；下一任务 Gemini 3.8 Flash Writer（MEDIUM）Draft Ch15–Ch17 |
+| **Phase 6：Novel Production** | **IN PROGRESS — 14 chapters completed** | Chapter 001–014 全部 FINAL / ACCEPTED / CANONIZED。Batch 04A（Ch12–14）完成 Post-Canon Integrity Hotfix，Final 汉字数 4,303 / 4,583 / 3,695 全部达标；`CHAPTER_015_017_READINESS.md` = **READY**；下一任务 Gemini 3.8 Flash Writer（MEDIUM）Draft Ch15–Ch17 |
 | **Phase 6 Planning Window（Ch12–17）** | **COMPLETED** | `12_production/batches/batch_04_ch12_17_plan.md` + Chapter 012–017 六份 Brief；Mini-Arc 将唐荔书面证词、周父半段录音、调剂社/旧仓库/Sun Zheng 第一格与谢念主动求忘碎片汇入同一证词—档案—实物链；Ch17 停在灰工装候选实物与权属门槛；`CHAPTER_015_017_READINESS.md` = **READY** |
 
 | **Phase 6 Batch 01 Story Planning（Ch2–6）** | **COMPLETED** | `12_production/batches/batch_01_ch02_06_plan.md` + Chapter 002–006 五份 Brief 已完成；旧 Ch2–3 Brief 经 Chapter 001 Final Canon 校验后升级，Ch4–6 新建。时间细化：活人衣单元由 Phase 5 粗占位 6/14 调整为 6/10，以保持 6/11 秦沛后续节点。下一任务：Gemini 连续生产 Chapter 002–003 Draft；正文尚未开始 |
