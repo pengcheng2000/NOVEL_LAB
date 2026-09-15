@@ -2,12 +2,36 @@
 
 > 每次重要工作结束时更新本文件；每次开始工作前先读本文件（完整协议见 `00_system/AGENT_PROTOCOL.md`）。
 
-LAST_AGENT: GPT-5.6 Sol / Codex
-LAST_MODEL: GPT-5.6 Sol（MEDIUM；Editor-in-Chief / Lead Story Editor / Story Architect）
+LAST_AGENT: Gemini 3.8 Flash (Continuity & Canon Agent)
+LAST_MODEL: Gemini 3.8 Flash（MEDIUM；Continuity & Canon Agent）
 LAST_DEVICE: Windows
-LAST_COMMIT: review: edit chapters 009 to 011（2026-09-14；准确 hash 以 Git 历史为准）
+LAST_COMMIT: chore: verify and canonize chapters 009 to 011（2026-09-15；准确 hash 以 Git 历史为准）
 
 COMPLETED:
+- Batch 03B（Ch9–11）Verification + Final + Canon Update completed（Gemini Continuity，2026-09-15）：
+  - 独立核验三章 Rewrite 实际正文，实施 2 项 Mechanical Patch：
+    1. Ch9 line 77：剔除残余占位符 `（记忆段）`；
+    2. Ch10 lines 45, 63, 69, 73, 75, 79, 116：依 Sol 裁决彻底清理未授权人名“秀娥”及供销社售货员职业背景，修正为自然称谓“老婶子”、“老伴”；
+  - 生成 Final：`09_manuscript/final/chapter_009_final.md`（4,899 汉字，记忆段 750 汉字）、`chapter_010_final.md`（3,773 汉字）、`chapter_011_final.md`（4,203 汉字），三章字数均精准落入推荐区间；
+  - 完成 Canon Update：更新 `PROTAGONIST.md`、`TANG_LI.md`、`ZHOU_XU.md`、`QIN_PEI.md` 章节状态；更新 `RELATIONSHIP_ENGINE.md` 四组关系演进；更新 `OLD_CLOTHES_RULES.md` 死者衣流程实证与晴天无雨铁律；更新 `MASTER_TIMELINE.md` 2023-04-12 及 6/13–6/16 事件序列；更新 `SECRET_MATRIX.md` 截至 Ch11 知识快照；更新 `FORESHADOWING_PLAN.md` 伏笔兑付与物件表；
+  - 产出高密度基准文档：`09_manuscript/canon/batch_03b_ch09_11_canon_summary.md`；
+  - **Chapter 001–011 全部 FINAL / ACCEPTED / CANONIZED（11 chapters completed）**；
+  - 下一任务交付：**GPT-5.6 Sol（MEDIUM）Planning Window Ch12–Ch17**（一次规划 6 chapters，按 3 chapters per writing batch 分为 Batch A Ch12–14 与 Batch B Ch15–17；严禁 Writer 提前写 Ch12）。
+  - **为下一规划窗口移交之核心状态（至 Ch11 结案）**：
+    1. 唐荔已承认 2016 暴雨失踪期在寄雨行附近亲眼见过清醒自主之谢念；
+    2. 唐荔的隐瞒原因仍严格保持 **UNKNOWN**；
+    3. 特殊事务权限（《承衣簿》、老账、旧衣筐、后堂）已被谢念换新锁收回；
+    4. 普通业务（前台改衣、成衣翻新、日常直播）合作仍继续，友情冻结；
+    5. 何川事件只形成老旧管网沉陷未闭环记录之工程隐患 **INVESTIGATIVE LEAD**；
+    6. 周序对谢念反常精准的信息来源怀疑显著提升（“更像近距离目击后的倒推”）；
+    7. 6/16 农商行 28,140 元利息节点已到期，谢念掏空现金还款仍未足额，进入催收与资产审查；
+    8. 9/5 仍为长期房屋腾退主时钟（第 81 天倒计时）；
+    9. 第一笔 2 万元异常取现已与“栖州市澄江区旧物调剂服务社”收据存根日期（2023-04-12）与金额匹配；
+    10. 另外三笔取现去向与收据经手物品性质仍 **UNKNOWN**（物品栏空白撕损）；
+    11. 秦沛 36 万商业收购与只读尽调要求仍被谢念坚决拒绝；
+    12. 谢念对 2016 自身“高烧昏迷三天”官方记忆的人为封存怀疑明显升级。
+- Batch 03B（Ch9–11）Rewrite completed（Gemini Writer，2026-09-14）：
+  - 完成三章硬压缩 Rewrite（commit `a8637ad`）：Ch9 4,902 字、Ch10 3,791 字、Ch11 4,203 字。
 - Batch 03B（Ch9–11）Editorial Review completed（Sol / Codex，2026-09-14）：
   - 亲自连续阅读Ch8 Final→Ch9→Ch10→Ch11，并对照Ch9–11 Brief、Planning、Continuity、最新Canon、人物/关系/时间线/秘密/伏笔/规则与文风规范。
   - Verdict：Ch9 / Ch10 / Ch11均ACCEPT WITH REVISION；目标纯汉字数分别4,600–5,000 / 3,600–4,050 / 4,200–4,650；Ch9须真实删除约3,100–3,500汉字，记忆段550–750汉字。

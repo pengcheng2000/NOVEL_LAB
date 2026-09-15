@@ -1,6 +1,6 @@
 # ACTIVE_TASKS — 当前活动任务
 
-最后更新：2026-09-14（GPT-5.6 Sol / Codex：**Batch 03B（Ch9–11）Editorial Review 完成**；三章均 ACCEPT WITH REVISION；已下达硬压缩与长期事实裁决；下一任务 Gemini 3.8 Flash Writer MEDIUM Rewrite Ch9–Ch11）
+最后更新：2026-09-15（Gemini 3.8 Flash Continuity：**Batch 03B（Ch9–11）Verification + Final + Canon Update 完成**；Chapter 001–011 全部 FINAL / ACCEPTED / CANONIZED（11 chapters completed）；产出 `batch_03b_ch09_11_canon_summary.md`；下一任务 GPT-5.6 Sol 规划 Planning Window Ch12–Ch17）
 
 ## 当前
 
@@ -9,6 +9,8 @@
 | Chapter 009–011 Draft（Batch 03B） | **COMPLETED** | 2026-09-14 Gemini 完成（commit `7dfee1b`）：Ch9 8,097 字、Ch10 5,600 字、Ch11 5,546 字（全章超长，需 Sol 裁决压缩） |
 | Batch 03B Continuity Pass（Ch9–11） | **COMPLETED** | 2026-09-14 Gemini Continuity 完成，产出 `12_production/editorial/batch_03b_ch09_11_continuity.md`；建议三章均 ACCEPT WITH REVISION；Ch9 严重超长+62%、Ch10 呼吸章超长+36.6%、Ch11 违背负面约束写死 21,000 与 7,200 缺口并引入周五 17:00 截点待 Sol 裁决；全员知识边界严格守住；无 BLOCKER；Canon 未更新 |
 | Batch 03B Editorial Review（Ch9–11） | **COMPLETED** | Sol 联合审稿：三章均 ACCEPT WITH REVISION；目标 Ch9 4,600–5,000 / Ch10 3,600–4,050 / Ch11 4,200–4,650纯汉字；C-09降为调查线索、财务数字收敛、唐荔动机保持UNKNOWN；`SOL RECHECK REQUIRED = NO` |
+| Chapter 009–011 Rewrite（Batch 03B） | **COMPLETED** | 2026-09-14 Gemini 完成（commit `a8637ad`）：Ch9 4,902 字、Ch10 3,791 字、Ch11 4,203 字 |
+| Batch 03B Verification + Canon Update | **COMPLETED** | 2026-09-15 Gemini Continuity 完成：2 项 Mechanical Patch（Ch9 剔除残余占位符、Ch10 清理未授权秀娥及供销社职业）；生成 Final（Ch9 4,899 字、Ch10 3,773 字、Ch11 4,203 字）；更新人物、关系、时间线、秘密、伏笔、旧衣规则；产出 `batch_03b_ch09_11_canon_summary.md`；**Chapter 001–011 全部 FINAL / ACCEPTED / CANONIZED（11 chapters completed）** |
 | Chapter 006–008 Draft（Batch 03A） | **COMPLETED** | 2026-09-14 Gemini 完成（commit `21a9510`）：Ch6 5,304 字、Ch7 4,437 字、Ch8 3,849 字 |
 | Batch 03A Continuity Pass（Ch6–8） | **COMPLETED** | 2026-09-14 Gemini Continuity 完成，产出 `12_production/editorial/batch_03a_ch06_08_continuity.md`；结论 PASS WITH WARNINGS（Ch8 3,849 字略欠 151 字下限，孙正档案落地字段待 Sol 裁决）；无 BLOCKER；Canon 未更新 |
 | Batch 03A Editorial Review（Ch6–8） | **COMPLETED** | Sol 联合审稿：Ch6 / Ch7 / Ch8 均 ACCEPT WITH REVISION；Ch8 3,849 字直接接受，不补字；孙正精确字段收敛；新增 Writer 长期精确字段纪律；`SOL RECHECK REQUIRED = NO` |
@@ -65,7 +67,7 @@
 
 | # | 任务 | 依赖 |
 |---|---|---|
-| 1 | Gemini 3.8 Flash Writer（MEDIUM）Rewrite Ch9–Ch11 | 按 `batch_03b_ch09_11_editorial_review.md` 一次性重写；逐章按纯汉字硬控长度；不创建Final、不更新Canon、不开始Ch12 |
+| 1 | GPT-5.6 Sol（MEDIUM）Planning Window Ch12–Ch17 | 一次规划 6 chapters（Ch12–Ch17）；分为 Batch A（Ch12–14）与 Batch B（Ch15–17）；产出六份执行 Brief 与 Planning 文件；严禁 Writer 提前写 Ch12 |
 | 2 | Phase 6 生产监控：单元语法重复率 / 主谜场景占比 / 谢念主动行动占比 | 随正文生产持续执行 |
 | 3 | ORIGINAL_PROJECT_DISCOVERY 反向入库（C06 负空间数据库 + C08 规则武器职业化） | 用户确认；不影响 C05 |
 | 4 | Schema v1.1 修订裁决 / Source 政策边界裁决（历史遗留） | 用户裁决 |
