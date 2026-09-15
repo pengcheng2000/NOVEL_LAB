@@ -2,15 +2,24 @@
 
 > 每次重要工作结束时更新本文件；每次开始工作前先读本文件（完整协议见 `00_system/AGENT_PROTOCOL.md`）。
 
-LAST_AGENT: Gemini 3.8 Flash Continuity
-LAST_MODEL: Gemini 3.8 Flash（MEDIUM；Continuity & Canon Agent）
-LAST_COMMIT: chore: verify and canonize chapters 015 to 017（2026-09-15；准确 hash 以 Git 历史为准）
+LAST_AGENT: GPT-5.6 Sol / Codex
+LAST_MODEL: GPT-5.6 Sol（HIGH；Editor-in-Chief / Head Writer / Story Architect / Lead Story Editor）
+LAST_COMMIT: plan: design first-part climax chapters 018 to 020（2026-09-15；准确 hash 以 Git 历史为准）
 LAST_DEVICE: Windows
 
-NEXT_AGENT: GPT-5.6 Sol / Codex
-NEXT_TASK: FIRST-PART CLIMAX PLAN Ch18–20（HIGH；第一部高潮规划；不写正文）
+NEXT_AGENT: Gemini 3.8 Flash Writer
+NEXT_TASK: Draft Ch18–Ch20（Ch18 MEDIUM / Ch19 HIGH / Ch20 HIGH；不开始 Ch21）
 
 COMPLETED:
+- FIRST-PART CLIMAX PLAN Ch18–20 completed（Sol / Codex，2026-09-15）：
+  - 完整执行 Canon Preflight；第一笔 2 万裁决为“外部存根确认林素云付款，事由/品名与灰工装因果仍 UNKNOWN”；候选灰工装 Ch17 末仍由秦沛第三方仓储封袋锁管；
+  - 解决 Knowledge State 漂移：唐荔知道旧衣能力，秦沛知道《承衣簿》存在但不知道第一格/七格，周序仍完全不知道账本与超自然；
+  - 比较灰工装三种架构后选择 Part I 不读取；以 Ch19 真实雨窗下拒绝登记/押物/穿衣/读取完成规则高潮；
+  - Ch18 = 受限检视交易与候选衣临时入店；Ch19 = 实物阶段验证 + 唐荔最低在场事实 + 拒读（Mystery/Emotional Climax）；Ch20 = 金融喘息 + 关系定级 + 公开化（Part-End Turn）；
+  - 章节配置：Ch18 IMPORTANT / MEDIUM / 4,300–4,700；Ch19 CLIMAX / HIGH / 5,000–5,600；Ch20 KEY / HIGH / 4,700–5,300；
+  - READ COUNT = 0；NEW RULES = 0；三章 Memory Segment = NONE；
+  - 第一部“未还”主层意义裁决为未被归还的选择权/处置权；Part II Engine = 公开曝光后的同意与来源战争 + 9/5 + 第一格资格调查；
+  - 新增 `first_part_climax_ch18_20_plan.md`、Ch18–20 Brief、`CHAPTER_018_020_READINESS.md`（READY）与工作日志；未写正文、未修改 Ch1–17 Final/Canon、未开始 Ch21。
 - Batch 04B（Ch15–17）Verification + Final + Canon Update completed（Gemini Continuity，2026-09-15）：
   - 独立全面复核 Ch15–17 Rewrite 正文（commit `8ed6fbe`）：
     - 篇幅控长：纯中文汉字 `[\u4e00-\u9fa5]` Ch15 4,173 字（4,100–4,600）、Ch16 4,633 字（4,300–4,900）、Ch17 4,505 字（4,200–4,700），全批次 13,311 汉字（12,600–14,200），三章逐章 100% 精准落入区间，**LENGTH CONTROL PASS**；
@@ -277,16 +286,16 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- 无。Batch 04B（Ch15–17）Verification + Final + Canon Update 已完成。
+- 无。FIRST-PART CLIMAX PLAN Ch18–20 已完成。
 
 NEXT_TASK:
-- GPT-5.6 Sol / Codex（HIGH）→ 制作 Ch18–Ch20 FIRST-PART CLIMAX PLAN（第一部收官与高潮规划）；
-  - 承接 Ch17 核心钩子：第一格候选灰工装入场、秦沛持有入场门槛、权属与资格未清、林素云 2016 隐瞒真相；
-  - 严禁 Writer 直接编写 Chapter 018 正文，必须先由 Sol 规划第一部高潮（Ch18–20）；
-  - 核心边界：保持 READ COUNT = 0、NEW RULES = 0 或严格受控。
+- Gemini 3.8 Flash Writer → 按 `12_production/batches/first_part_climax_ch18_20_plan.md` 与三份 Brief 一次性 Draft Ch18–Ch20。
+- Writer Reasoning：Ch18 MEDIUM；Ch19 HIGH；Ch20 HIGH。逐章执行 Pure Han / Information / Exact Detail / Rule / Hold Back Budget。
+- 不生成 Final、不更新 Canon、不开始 Ch21；Draft 后交独立 Gemini Continuity 执行 Ch18–20 Continuity Pass。
 - 历史遗留待办见 00_system/ACTIVE_TASKS.md 队列（ORIGINAL_PROJECT_DISCOVERY 反向入库等）。
 
 FILES_CHANGED:
+- 本轮（FIRST-PART CLIMAX PLAN Ch18–20）：新增 `12_production/batches/first_part_climax_ch18_20_plan.md`、`chapter_briefs/chapter_018_brief.md`–`chapter_020_brief.md`、`12_production/CHAPTER_018_020_READINESS.md`、`99_logs/claude/2026-09-15_C05_first_part_climax_ch18_20.md`；更新 `PROJECT_STATUS.md`、`ACTIVE_TASKS.md`、`HANDOFF.md`；**未修改 Ch1–17 Final/Canon，未写 Ch18 正文，未开始 Ch21**。
 - 本轮（Batch 04B Verification + Final + Canon Update）：新增 `09_manuscript/final/chapter_015_final.md`、`chapter_016_final.md`、`chapter_017_final.md`、`09_manuscript/canon/batch_04b_ch15_17_canon_summary.md`；修改 `09_manuscript/drafts/chapter_017_rewrite.md`（最小 Mechanical Patch）；同步更新 `01_characters/PROTAGONIST.md`、`TANG_LI.md`、`ZHOU_XU.md`、`QIN_PEI.md`、`02_relationships/RELATIONSHIP_ENGINE.md`、`03_world/OLD_CLOTHES_RULES.md`、`05_timeline/MASTER_TIMELINE.md`、`06_secrets/SECRET_MATRIX.md`、`07_foreshadowing/FORESHADOWING_PLAN.md`、`00_system/PROJECT_STATUS.md`、`00_system/ACTIVE_TASKS.md`、`00_system/HANDOFF.md`；**未修改 Ch001–014 Final，未开始 Ch018**。
 - 本轮（Batch 04B Editorial Review）：新增 `12_production/editorial/batch_04b_ch15_17_editorial_review.md` 与 `99_logs/claude/2026-09-15_C05_batch04b_ch15_17_editorial.md`；最小更新 `ACTIVE_TASKS.md`、`HANDOFF.md`；**未修改 Ch15–17 Draft、Final、Canon 或 Ch18**。
 - 本轮（Batch 04A Editorial Review）：新增 `12_production/editorial/batch_04a_ch12_14_editorial_review.md` 与 `99_logs/claude/2026-09-15_C05_batch04a_ch12_14_editorial.md`；最小更新 `ACTIVE_TASKS.md`、`HANDOFF.md`；**未修改 Ch12–14 Draft、Ch15–17 Brief、Final 或 Canon**。

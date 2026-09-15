@@ -1,6 +1,6 @@
 # ACTIVE_TASKS — 当前活动任务
 
-最后更新：2026-09-15（Gemini Continuity：**Batch 04B Verification + Canon Update 完成**；Chapter 001–017 全部 FINAL / ACCEPTED / CANONIZED（17 chapters completed）；执行 1 项单解 Mechanical Patch（修润唐荔台词“特殊事务”彻底隔离账本隐密）；生成 Final（Ch15 4,173 字、Ch16 4,633 字、Ch17 4,505 字，共 13,311 汉字全部达标）；完成 Canon 核心文件同步更新；产出 `batch_04b_ch15_17_canon_summary.md`；下一任务交付 GPT-5.6 Sol（HIGH）规划 FIRST-PART CLIMAX PLAN Ch18–20）
+最后更新：2026-09-15（GPT-5.6 Sol / Codex：**FIRST-PART CLIMAX PLAN Ch18–20 完成**；Chapter 001–017 维持 FINAL / ACCEPTED / CANONIZED；Ch18–20 Readiness = READY；下一任务 Gemini 3.8 Flash Writer 按 Ch18 MEDIUM / Ch19 HIGH / Ch20 HIGH 一次性 Draft）
 最后更新：2026-09-15（GPT-5.6 Sol / Codex：**Batch 04B Ch15–17 Editorial Review 完成**；三章均 ACCEPT WITH REVISION；READ COUNT = 0，NEW RULES = 0，Memory Segment = NONE；下一任务 Gemini 3.8 Flash Writer（MEDIUM）一次性 Rewrite Ch15–Ch17；`SOL RECHECK REQUIRED = NO`）
 
 ## 当前
@@ -8,7 +8,8 @@
 | 任务 | 状态 | 备注 |
 |---|---|---|
 | Batch 04B Verification + Canon Update（Ch15–17） | **COMPLETED** | 2026-09-15 Gemini Continuity 完成：核验通过，1 项单解 Mechanical Patch（修润唐荔台词“特殊事务”）；生成 Final（Ch15 4,173 字、Ch16 4,633 字、Ch17 4,505 字，共 13,311 汉字全部达标）；完成 Canon 核心文件同步更新；产出 `batch_04b_ch15_17_canon_summary.md`；**Chapter 001–017 全部 FINAL / ACCEPTED / CANONIZED（17 chapters completed）** |
-| FIRST-PART CLIMAX PLAN（Ch18–20） | **TODO — READY** | 下一位 GPT-5.6 Sol（HIGH）规划第一部《未还》阶段高潮冲刺；多线汇合、重大信息兑现、关系转折与第二部接口设计；Ch18–20 尚未规划正文，不得由 Writer 直接开写 |
+| FIRST-PART CLIMAX PLAN（Ch18–20） | **COMPLETED — READY** | 2026-09-15 Sol / Codex 完成：Climax Preflight、第一笔 2 万/灰工装/知识边界裁决、三章架构与 Brief；灰工装 Part I 不读取；Ch19 = Mystery + Emotional Climax；Ch20 = Part-End Turn；READ COUNT 0、NEW RULES 0 |
+| Chapter 018–020 Draft | **TODO — READY** | Gemini 3.8 Flash Writer 一次性 Draft；Ch18 MEDIUM（4,300–4,700）、Ch19 HIGH（5,000–5,600）、Ch20 HIGH（4,700–5,300）；不生成 Final、不更新 Canon、不开始 Ch21 |
 | Chapter 015–017 Rewrite（Batch 04B） | **COMPLETED** | 2026-09-15 Gemini Writer 完成（commit `8ed6fbe`）：Ch15 4,173 字、Ch16 4,633 字、Ch17 4,505 字；均落入目标区间 |
 | Batch 04B Editorial Review（Ch15–17） | **COMPLETED** | 2026-09-15 Sol / Codex 完成：三章均 ACCEPT WITH REVISION；清理周序/秦沛“第一格”泄密、主动求忘场景化、2 万元用途坐实、秦沛性别漂移、法务/身份/法律术语与过量精确细节；`SOL RECHECK REQUIRED = NO` |
 | Batch 04B Continuity Pass（Ch15–17） | **COMPLETED** | 2026-09-15 Gemini Continuity 完成，产出 `12_production/editorial/batch_04b_ch15_17_continuity.md`；结论 PASS WITH NOTES；三章纯汉字控长全部达标（LENGTH CONTROL PASS） |
@@ -83,7 +84,7 @@
 
 | # | 任务 | 依赖 |
 |---|---|---|
-| 1 | Gemini 3.8 Flash Writer（MEDIUM）Rewrite Ch15–Ch17 | 按 `batch_04b_ch15_17_editorial_review.md` 一次性 Rewrite；保持 READ COUNT 0、NEW RULES 0、Memory Segment NONE；不开始 Ch18 |
+| 1 | Gemini 3.8 Flash Writer Draft Ch18–Ch20 | 逐章推理 Ch18 MEDIUM / Ch19 HIGH / Ch20 HIGH；按 FIRST-PART CLIMAX PLAN 与三份 Brief 一次性生产；不开始 Ch21 |
 | 2 | Phase 6 生产监控：单元语法重复率 / 主谜场景占比 / 谢念主动行动占比 | 随正文生产持续执行 |
 | 3 | ORIGINAL_PROJECT_DISCOVERY 反向入库（C06 负空间数据库 + C08 规则武器职业化） | 用户确认；不影响 C05 |
 | 4 | Schema v1.1 修订裁决 / Source 政策边界裁决（历史遗留） | 用户裁决 |
