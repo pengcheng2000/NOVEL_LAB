@@ -1,13 +1,14 @@
 # ACTIVE_TASKS — 当前活动任务
 
-最后更新：2026-09-15（Gemini Continuity：**PART-I FINALIZATION Ch18–20 完成**；生成 Ch18–20 Final，实测纯汉字 4,552 / 5,223 / 4,950 全部达标；完成全套人物、关系、时间线、秘密、伏笔与规则 Canon Update；创建 `part_01_unreturned_ch01_20_canon_summary.md`；Post-Canon 与 Global Audit 全部通过；**Chapter 001–020 全部正式标记为 FINAL / ACCEPTED / CANONIZED（20/20 chapters completed）**；第一部《未还》正式结卷封账；下一任务交接：**GPT-5.6 Sol HIGH → PART II《返潮》PLANNING ONLY**）
+最后更新：2026-09-15（GPT-5.6 Sol / Codex：**PART II《返潮》ARCHITECTURE + OPENING ARC PLAN Ch21–23 完成**；Readiness = READY；Opening Case 建立现实所有权 / 公开同意 / 内部资格三线冲突；第一格下一路径锁定工装发放/回收经手链；Ch21–23 READ COUNT 0、NEW RULES 0；下一任务：**Gemini Writer → Draft Ch21–23（MEDIUM / HIGH / MEDIUM）**）
 最后更新：2026-09-15（GPT-5.6 Sol / Codex：**FINAL PART-I ACCEPTANCE Ch18–20 完成**；两项唯一安全 Editorial Patch 已实施；最终裁决 `ACCEPTED FOR FINALIZATION`；Ch19 / Ch20 Patch 后纯汉字 5,223 / 4,950；`READ COUNT = 0`、`QUASI-READ = 0`、`NEW RULES = 0`；下一任务：**Gemini Continuity & Canon Agent MEDIUM → PART-I FINALIZATION**）
 
 ## 当前
 
 | 任务 | 状态 | 备注 |
 |---|---|---|
-| PART II《返潮》PLANNING | **TODO — READY** | 下一位 GPT-5.6 Sol（HIGH）规划第二部《返潮》总体架构与首个 Planning Window；严禁 Writer 提前开始 Chapter 021 正文 |
+| Chapter 021–023 Draft（Part II Opening Arc） | **TODO — READY** | 下一位 Gemini Writer 一次性生产：Ch21 IMPORTANT / MEDIUM / 3,800–4,300；Ch22 NORMAL / HIGH / 4,000–4,600；Ch23 KEY / MEDIUM / 4,200–4,800；不得开始 Ch24、生成 Final 或更新 Canon |
+| PART II《返潮》ARCHITECTURE + OPENING ARC PLAN（Ch21–23） | **COMPLETED — READY** | 2026-09-15 Sol / Codex 完成：Part II Contract、Opening Case、A/B/C 三线、第一格经手链、三份 Brief 与 Readiness；READ COUNT 0、NEW RULES 0；Ch24+ 采用 Conditional Expansion Gate |
 | PART-I FINALIZATION（Ch18–20） | **COMPLETED** | 2026-09-15 Gemini Continuity 完成：生成 Ch18–20 Final（4,552 / 5,223 / 4,950 汉字）；完成 Canon Update；产出 `part_01_unreturned_ch01_20_canon_summary.md`；**Chapter 001–020 全部 FINAL / ACCEPTED / CANONIZED（20/20 chapters completed）**；第一部《未还》正式结卷封账 |
 | FINAL PART-I ACCEPTANCE（Ch18–20） | **COMPLETED** | 2026-09-15 Sol / Codex 完成；Ch18–20 全部 ACCEPT FOR FINAL；实施 Ch19 暴雨背景与 Ch20 服务须知两项最小 Patch；`SOL RECHECK REQUIRED = NO` |
 | FIRST-PART CLIMAX REWRITE VERIFICATION（Ch18–20） | **COMPLETED** | 2026-09-15 Gemini Continuity 完成：独立复核 commit `a3a165e`，产出 `first_part_climax_ch18_20_rewrite_verification.md`；裁决 PATCH REQUIRED（提交 2 项微调交 Sol 终审裁决）；8 重硬伤全部清零；字数 4,552 / 5,232 / 4,943 全部达标；未生成 Final、未更新 Canon、未开始 Ch21 |
@@ -95,7 +96,7 @@
 
 | # | 任务 | 依赖 |
 |---|---|---|
-| 1 | Gemini Continuity & Canon Agent PART-I FINALIZATION | MEDIUM；生成 Ch18–20 Final、Canon Update、Part-I Canon Summary 与 Post-Canon Integrity Check；通过后标记 Ch001–020 FINAL / ACCEPTED / CANONIZED；不开始 Ch21 |
+| 1 | Gemini Writer Draft Ch21–Ch23 | Ch21 MEDIUM / Ch22 HIGH / Ch23 MEDIUM；按 Part II Architecture、Opening Arc Plan 与三份 Brief 一次性生产；READ COUNT 0、NEW RULES 0；不开始 Ch24 |
 | 2 | Phase 6 生产监控：单元语法重复率 / 主谜场景占比 / 谢念主动行动占比 | 随正文生产持续执行 |
 | 3 | ORIGINAL_PROJECT_DISCOVERY 反向入库（C06 负空间数据库 + C08 规则武器职业化） | 用户确认；不影响 C05 |
 | 4 | Schema v1.1 修订裁决 / Source 政策边界裁决（历史遗留） | 用户裁决 |
