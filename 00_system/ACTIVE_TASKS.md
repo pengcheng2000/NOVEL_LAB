@@ -1,13 +1,14 @@
 # ACTIVE_TASKS — 当前活动任务
 
-最后更新：2026-09-15（Gemini Continuity：**PART II《返潮》OPENING ARC CONTINUITY PASS Ch21–23 完成**；产出 `12_production/editorial/part_02_opening_arc_ch21_23_continuity.md`；结论 PASS WITH NOTES；三章实测纯汉字 4,223 / 4,315 / 4,267，全批次控长达标（12,805 汉字）；捕获“脑梗母亲”健康大词违规、“中南机械厂”硬性 Canon 漂移、“防汛调拨经手人”新增 2016 事实及“中立争议托管”业务政策冲突等 4 项关键硬伤；READ COUNT = 0，NEW RULES = 0，Memory Segment = NONE；13 项核心绝密全部受保护；草稿未修改、Canon 未更新、未开始 Ch24；建议 Expansion Gate 维持 HOLD；下一任务交接：**GPT-5.6 Sol HIGH → PART II OPENING ARC EDITORIAL REVIEW（Ch21–23）**）
+最后更新：2026-09-15（GPT-5.6 Sol / Codex：**PART II OPENING ARC EDITORIAL REVIEW Ch21–23 完成**；Ch21/22 ACCEPT WITH REVISION，Ch23 MAJOR REVISION；恢复回潮桥货运仓库 Canon，删除疾病/法律化/防汛调拨/中立托管及额外红外套漂移；Expansion Gate = HOLD；`SOL RECHECK REQUIRED = YES`；下一任务：**Gemini Writer → Rewrite Ch21–23（MEDIUM / MEDIUM / HIGH）**）
 最后更新：2026-09-15（Gemini Continuity：**PART-I FINALIZATION Ch18–20 完成**；生成 Ch18–20 Final，实测纯汉字 4,552 / 5,223 / 4,950 全部达标；完成全套人物、关系、时间线、秘密、伏笔与规则 Canon Update；创建 `part_01_unreturned_ch01_20_canon_summary.md`；Post-Canon 与 Global Audit 全部通过；**Chapter 001–020 全部正式标记为 FINAL / ACCEPTED / CANONIZED（20/20 chapters completed）**；第一部《未还》正式结卷封账；下一任务交接：**GPT-5.6 Sol HIGH → PART II《返潮》PLANNING ONLY**）
 
 ## 当前
 
 | 任务 | 状态 | 备注 |
 |---|---|---|
-| PART II OPENING ARC EDITORIAL REVIEW（Ch21–23） | **TODO — READY** | 下一位 GPT-5.6 Sol（HIGH）联合审稿与裁决；重点裁决 8 项 NEEDS SOL DECISION（脑梗母亲、中南机械厂、防汛调拨、中立托管等），下达修稿指令；Expansion Gate 维持 3 章窗口，不提前放开六章 |
+| Chapter 021–023 Rewrite（Part II Opening Arc） | **TODO — READY** | 下一位 Gemini Writer 一次性 Rewrite：Ch21 MEDIUM / 3,900–4,250；Ch22 MEDIUM / 4,100–4,500；Ch23 HIGH / 4,200–4,650；不修改 Part I Final/Canon，不开始 Ch24 |
+| PART II OPENING ARC EDITORIAL REVIEW（Ch21–23） | **COMPLETED** | 2026-09-15 Sol / Codex：Ch21/22 ACCEPT WITH REVISION；Ch23 MAJOR REVISION（保留结构）；Engine 结构成立，Expansion Gate HOLD；SOL RECHECK REQUIRED = YES |
 | PART II OPENING ARC CONTINUITY PASS（Ch21–23） | **COMPLETED** | 2026-09-15 Gemini Continuity 完成：独立审阅 commit `43dc935`，产出 `12_production/editorial/part_02_opening_arc_ch21_23_continuity.md`；结论 PASS WITH NOTES；三章纯汉字控长全线达标（12,805 字）；捕获 4 项关键连续性硬伤；未修改 Draft、未生成 Final、未更新 Canon；交付 Sol HIGH 审稿 |
 | PART II《返潮》PLANNING | **TODO — READY** | 下一位 GPT-5.6 Sol（HIGH）规划第二部《返潮》总体架构与首个 Planning Window；严禁 Writer 提前开始 Chapter 021 正文 |
 | PART-I FINALIZATION（Ch18–20） | **COMPLETED** | 2026-09-15 Gemini Continuity 完成：生成 Ch18–20 Final（4,552 / 5,223 / 4,950 汉字）；完成 Canon Update；产出 `part_01_unreturned_ch01_20_canon_summary.md`；**Chapter 001–020 全部 FINAL / ACCEPTED / CANONIZED（20/20 chapters completed）**；第一部《未还》正式结卷封账 |
@@ -99,7 +100,7 @@
 
 | # | 任务 | 依赖 |
 |---|---|---|
-| 1 | Gemini Continuity & Canon Agent PART-I FINALIZATION | MEDIUM；生成 Ch18–20 Final、Canon Update、Part-I Canon Summary 与 Post-Canon Integrity Check；通过后标记 Ch001–020 FINAL / ACCEPTED / CANONIZED；不开始 Ch21 |
+| 1 | Gemini Writer Rewrite Ch21–Ch23 | Ch21 MEDIUM / Ch22 MEDIUM / Ch23 HIGH；按 Part II Opening Arc Editorial Review 一次性修订；其后 Continuity Verification → Sol Opening Arc Acceptance；Expansion Gate 继续 HOLD，不开始 Ch24 |
 | 2 | Phase 6 生产监控：单元语法重复率 / 主谜场景占比 / 谢念主动行动占比 | 随正文生产持续执行 |
 | 3 | ORIGINAL_PROJECT_DISCOVERY 反向入库（C06 负空间数据库 + C08 规则武器职业化） | 用户确认；不影响 C05 |
 | 4 | Schema v1.1 修订裁决 / Source 政策边界裁决（历史遗留） | 用户裁决 |
