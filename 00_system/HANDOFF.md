@@ -2,23 +2,36 @@
 
 > 每次重要工作结束时更新本文件；每次开始工作前先读本文件（完整协议见 `00_system/AGENT_PROTOCOL.md`）。
 
-LAST_AGENT: GPT-5.6 Sol / Codex
-LAST_MODEL: GPT-5.6 Sol（HIGH；Editor-in-Chief / Head Writer / Story Architect / Lead Story Editor）
-LAST_COMMIT: review: edit first-part climax chapters 018 to 020（2026-09-15；准确 hash 以 Git 历史为准）
+LAST_AGENT: Gemini 3.8 Flash Continuity
+LAST_MODEL: Gemini 3.8 Flash（MEDIUM；Continuity & Canon Agent）
+LAST_COMMIT: review: verify first-part climax rewrite（2026-09-15；准确 hash 以 Git 历史为准）
 LAST_DEVICE: Windows
 
-NEXT_AGENT: Gemini Writer
-NEXT_TASK: Rewrite Ch18–20（Ch18 MEDIUM / Ch19 HIGH / Ch20 HIGH；不写 Ch21、不生成 Final、不更新 Canon）
+NEXT_AGENT: GPT-5.6 Sol / Codex
+NEXT_TASK: FINAL PART-I ACCEPTANCE Ch18–20（HIGH；第一部收官终审验收与裁决；裁定 2 项微调项并授权 Final / Canon Update）
 
 COMPLETED:
-- FIRST-PART CLIMAX EDITORIAL REVIEW Ch18–20 completed（GPT-5.6 Sol / Codex，2026-09-15）：
-  - 独立连读 Ch18–20 Draft、Continuity、Climax Plan/Brief/Readiness 与 Ch17 Final/最新 Canon；
-  - 裁决：Ch18 **ACCEPT WITH REVISION**；Ch19 **ACCEPT WITH REVISION**；Ch20 **MAJOR REVISION**；
-  - 最终目标：Ch18 4,300–4,700；Ch19 5,200–5,450（净压缩 150–250）；Ch20 4,700–5,200 纯中文汉字；
-  - Ch19 保留“现实验证 + 唐荔最低事实 + 自然雨窗 + 谢念拒读”，删除动机泄漏、知识越界和一切 Quasi-read；
-  - Ch20 保留“拒读后果 + 关系落位 + 商业喘息 + 公共入口 + Part II Engine”，清除九宫格、玄幻光效、母亲身世、虚假金融/工程升级、全国爆红与超自然门牌；
-  - 最终锁定 `READ COUNT = 0`、`QUASI-READ = 0`、`NEW RULES = 0`；`SOL RECHECK REQUIRED = YES`；
-  - 新增 Editorial Review 与工作日志；未修改 Draft、Final、Canon 或 Chapter 021。
+- FIRST-PART CLIMAX REWRITE VERIFICATION Ch18–20 completed（Gemini Continuity，2026-09-15）：
+  - 独立全面复核 commit `a3a165e` 三章 Rewrite 正文；产出报告 `12_production/editorial/first_part_climax_ch18_20_rewrite_verification.md`；
+  - 结论：**PATCH REQUIRED（提交 2 项信息强度/商业政策微调项交 Sol 终审裁决裁定）**；
+  - 篇幅实测：纯中文汉字 `[\u4e00-\u9fa5]` Ch18 4,552 字（4,300–4,700）、Ch19 5,232 字（5,200–5,450）、Ch20 4,943 字（4,700–5,200），全批次 14,727 汉字（14,200–15,350），逐章 100% 精准落入目标区间，**LENGTH CONTROL PASS**；
+  - 8 重硬伤彻底清零核验：
+    1. 主键人名纠正：`唐俪` = 0、`周旭` = 0、`林素芸` = 0，秦沛第三人称代词全文为女性“她”；
+    2. 结构篡改清除：`九宫格` = 0、`九格` = 0、`光斑` = 0、`点亮` = 0，严格保持《承衣簿》七格秩序，谢念普通笔记本定性为私有线索表；
+    3. 文风修仙化清除：`气机` = 0、`祖师` = 0、`身世` = 0、`母亲恩怨` = 0，无任何修仙灵异语汇；
+    4. 钥匙情节纠正：全文 0 处钥匙交接，唐荔端阳春面冷硬表态，维持分工合作；
+    5. 金融虚构清除：无 20 万元整，无对公监管账户，无司法拍卖告知书，无 28.6 万本金；首期预付款仅用于覆盖短期欠息差额；
+    6. 工程虚构清除：无第三期报告，无断水断电与 75 天，9/5 腾退时限刚性保持；
+    7. 传播尺度收敛：无百万播放、全网沸腾、名牌衣与包场直播，视频标题修正为写实的《回潮里旧衣修补记：老街拆迁前，一间还在守着旧手艺的裁缝铺》；
+    8. 门牌告示重写：清除“晴日不迎，非雨不语，百年来，不占卜”，替换为守诚修物之普通服务须知；
+  - 核心机制严格守备：`READ COUNT = 0`，`QUASI-READ = 0`，`NEW RULES = 0`，Memory Segment = NONE；
+  - 提出 2 项提交 Sol HIGH 裁决的微调点：
+    1. Ch19 Line 29 唐荔台词“暴雨大水冲垮北面防汛设施”（分类为 OVERREACH，建议降级）；
+    2. Ch20 Line 207 服务须知“须提供原权利人书面同意”（与过世长辈遗物翻新存在微小概念摩擦，建议 Sol 裁决优化）；
+  - Chapter 001–017 保持 FINAL / ACCEPTED / CANONIZED；未生成 Final、未更新 Canon、未开始 Ch21；
+  - 下一任务交付：**GPT-5.6 Sol HIGH → FINAL PART-I ACCEPTANCE（Ch18–20）**。
+
+COMPLETED:
 - FIRST-PART CLIMAX CONTINUITY PASS Ch18–20 completed（Gemini Continuity，2026-09-15）：
   - 独立连读核验 commit `6d9435f` 三章 Draft；产出报告 `12_production/editorial/first_part_climax_ch18_20_continuity.md`；
   - 结论：**PASS WITH NOTES（建议 Sol：Ch18 ACCEPT WITH MINOR NOTES / Ch19 ACCEPT WITH COMPRESSION / Ch20 MAJOR REVISION）**；
@@ -312,19 +325,45 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- Chapter 018–020 Rewrite 待 Gemini Writer 执行；当前 Draft 仍非 Final/Canon。
+- 无。FIRST-PART CLIMAX PLAN Ch18–20 已完成。
+- 无。Batch 04B Editorial Review 已完成。
+- 无。Batch 04A Editorial Review 已完成。
+- 无。Planning Window Ch12–Ch17 已完成。
+- 无。Batch 04A（Ch12–14）Continuity Pass 已完成。
+- 无。Batch 04B（Ch15–17）Verification + Final + Canon Update 已完成。
+- 无。FIRST-PART CLIMAX CONTINUITY PASS Ch18–20 已完成。
 
 NEXT_TASK:
-- Gemini Writer → 一次性 Rewrite Ch18–20：
-  - Ch18 MEDIUM：MINOR REVISION；目标 4,300–4,700 纯中文汉字；
-  - Ch19 HIGH：COMPRESSION + TARGETED REVISION；目标 5,200–5,450，净压缩 150–250 纯中文汉字；
-  - Ch20 HIGH：MAJOR REVISION；目标 4,700–5,200；保留既定后果结构，重建关系落位、商业喘息、公共入口与 Part II Engine；
-  - 严格执行 Editorial Review：`READ COUNT = 0`、`QUASI-READ = 0`、`NEW RULES = 0`；不写 Ch21、不生成 Final、不更新 Canon；
-  - Rewrite 后：Gemini Continuity MEDIUM → Rewrite Verification；若无硬错误，再由 GPT-5.6 Sol HIGH → FINAL PART-I ACCEPTANCE；通过后才可 Final + Canon Update。
+- Gemini 3.8 Flash Writer → 按 `12_production/batches/first_part_climax_ch18_20_plan.md` 与三份 Brief 一次性 Draft Ch18–Ch20。
+- Writer Reasoning：Ch18 MEDIUM；Ch19 HIGH；Ch20 HIGH。逐章执行 Pure Han / Information / Exact Detail / Rule / Hold Back Budget。
+- 不生成 Final、不更新 Canon、不开始 Ch21；Draft 后交独立 Gemini Continuity 执行 Ch18–20 Continuity Pass。
+- Gemini 3.8 Flash Writer（MEDIUM）→ 按 `12_production/editorial/batch_04b_ch15_17_editorial_review.md` 一次性 Rewrite Ch15–Ch17；DELETE > REPLACE > COMPRESS。
+- 保持 Ch15 4,100–4,600 / Ch16 4,300–4,900 / Ch17 4,200–4,700 纯中文汉字；READ COUNT = 0；NEW RULES = 0；Memory Segment = NONE。
+- 不开始 Ch18；不修改 Final/Canon/Brief；Rewrite 后直接交独立 Gemini Continuity（MEDIUM）执行 Verification → Final → Canon Update。
+- Ch1–17 全部完成 Canon 后，下一位为 GPT-5.6 Sol，单独制作 Ch18–20 FIRST-PART CLIMAX PLAN；不得让 Writer 直接写 Ch18。
+- Gemini 3.8 Flash Writer（MEDIUM）→ 按 `12_production/editorial/batch_04a_ch12_14_editorial_review.md` 一次性 Rewrite Ch12–Ch14；必须从 Git HEAD 权威 Draft 生成 Rewrite，禁止使用工作区 Ch12 6,042 汉字历史膨胀版。
+- 保持 Ch12 4,000–4,400 / Ch13 4,300–4,800 / Ch14 3,500–3,900 纯中文汉字；READ COUNT = 0；NEW RULES = 0。
+- 不开始 Ch15；不修改 Final/Canon/Brief；Rewrite 后直接交独立 Gemini Continuity（MEDIUM）执行 Verification → Final → Canon Update → Ch15–17 Compatibility / Readiness。
+- Gemini 3.8 Flash Writer（MEDIUM）→ 按 `12_production/chapter_briefs/chapter_012_brief.md` 至 `chapter_014_brief.md` 一次性 Draft Ch12–Ch14；逐章统计纯中文汉字数；严格执行 Exact Detail / Information / Memory Segment Budget。
+- 不开始 Ch15；不创建 Final；不更新 Canon；不修改 Ch1–Ch11。
+- Draft 后交独立 Gemini Continuity（MEDIUM）执行 Ch12–Ch14 Continuity Pass，再交 Sol Editorial Review。
+- GPT-5.6 Sol / Codex（HIGH）→ 制作 Ch18–Ch20 FIRST-PART CLIMAX PLAN（第一部收官与高潮规划）；
+  - 承接 Ch17 核心钩子：第一格候选灰工装入场、秦沛持有入场门槛、权属与资格未清、林素云 2016 隐瞒真相；
+  - 严禁 Writer 直接编写 Chapter 018 正文，必须先由 Sol 规划第一部高潮（Ch18–20）；
+  - 核心边界：保持 READ COUNT = 0、NEW RULES = 0 或严格受控。
+- GPT-5.6 Sol / Codex（HIGH）→ 实施 FIRST-PART CLIMAX EDITORIAL REVIEW（Ch18–20 第一部收官终审与高潮裁决）；
+  - 审稿基准为 commit `6d9435f` 三章 Draft 与 `12_production/editorial/first_part_climax_ch18_20_continuity.md`；
+  - 重点裁决：批准 Ch18（ACCEPT）与 Ch19（ACCEPT WITH COMPRESSION，压缩 150–250 字）；
+  - 对 Ch20 下达 MAJOR REVISION 指令：全面清除“九宫格”与修仙“气机”语汇、回滚唐荔退还钥匙情节、降温 20 万预付款/对公监管/司法拍卖/第三期工程报告、遏制两小时百万播放网红爽文漂移、彻底重构自相矛盾的门牌告示、纠正唐俪/周旭/林素芸姓名；
+  - 严禁开始 Chapter 021 正文。
 - 历史遗留待办见 00_system/ACTIVE_TASKS.md 队列（ORIGINAL_PROJECT_DISCOVERY 反向入库等）。
+- GPT-5.6 Sol（MEDIUM）→ Batch 04A Editorial Review（Ch12–Ch14）；
+  - 重点裁决：Ch14 账簿封面/订线物证材质修正（回归暗红生丝/极细生蚕丝线）；Ch12 篇幅与工作区遗留膨胀版本清理确认（以 HEAD 4,329 字为准）；周国梁录音具象化字段（急料通行等）；调剂社“清算封存”与“无主工装”措辞风险；Ch14 信息密度与唐荔取消试播合作之经营影响。
+- Sol 审稿后由 Gemini Writer 完成 Batch 04A Rewrite；
+- Rewrite 后交由独立 Gemini Continuity 执行 Rewrite Verification + Canon Update；
+- 严禁提前开始 Ch15 或更新 Canon。
 
 FILES_CHANGED:
-- 本轮（FIRST-PART CLIMAX EDITORIAL REVIEW Ch18–20）：新增 `12_production/editorial/first_part_climax_ch18_20_editorial_review.md` 与 `99_logs/claude/2026-09-15_C05_first_part_climax_ch18_20_editorial.md`；最小更新 `00_system/ACTIVE_TASKS.md`、`00_system/HANDOFF.md`；**未修改 Ch18–20 Draft、Final、Canon 或 Ch21**。
 - 本轮（FIRST-PART CLIMAX CONTINUITY PASS Ch18–20）：新增 `12_production/editorial/first_part_climax_ch18_20_continuity.md`；更新 `00_system/ACTIVE_TASKS.md`、`00_system/HANDOFF.md`；**未修改小说正文 Draft、未生成 Final、未更新任何 Canon、未开始 Ch21**。
 - 本轮（FIRST-PART CLIMAX PLAN Ch18–20）：新增 `12_production/batches/first_part_climax_ch18_20_plan.md`、`chapter_briefs/chapter_018_brief.md`–`chapter_020_brief.md`、`12_production/CHAPTER_018_020_READINESS.md`、`99_logs/claude/2026-09-15_C05_first_part_climax_ch18_20.md`；更新 `PROJECT_STATUS.md`、`ACTIVE_TASKS.md`、`HANDOFF.md`；**未修改 Ch1–17 Final/Canon，未写 Ch18 正文，未开始 Ch21**。
 - 本轮（FIRST-PART CLIMAX PLAN Ch18–20）：新增 `12_production/batches/first_part_climax_ch18_20_plan.md`、`chapter_briefs/chapter_018_brief.md`–`chapter_020_brief.md`、`12_production/CHAPTER_018_020_READINESS.md`、`99_logs/claude/2026-09-15_C05_first_part_climax_ch18_20.md`；更新 `PROJECT_STATUS.md`、`ACTIVE_TASKS.md`、`HANDOFF.md`；**未修改 Ch1–17 Final/Canon，未写 Ch18 正文，未开始 Ch21**。
