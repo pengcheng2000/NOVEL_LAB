@@ -2,15 +2,23 @@
 
 > 每次重要工作结束时更新本文件；每次开始工作前先读本文件（完整协议见 `00_system/AGENT_PROTOCOL.md`）。
 
-LAST_AGENT: Gemini 3.8 Flash Continuity
-LAST_MODEL: Gemini 3.8 Flash（MEDIUM；Continuity & Canon Agent）
-LAST_COMMIT: review: check first-part climax chapters 018 to 020（2026-09-15；准确 hash 以 Git 历史为准）
+LAST_AGENT: GPT-5.6 Sol / Codex
+LAST_MODEL: GPT-5.6 Sol（HIGH；Editor-in-Chief / Head Writer / Story Architect / Lead Story Editor）
+LAST_COMMIT: review: edit first-part climax chapters 018 to 020（2026-09-15；准确 hash 以 Git 历史为准）
 LAST_DEVICE: Windows
 
-NEXT_AGENT: GPT-5.6 Sol / Codex
-NEXT_TASK: FIRST-PART CLIMAX EDITORIAL REVIEW Ch18–20（HIGH；第一部高潮终审与裁决；不写正文）
+NEXT_AGENT: Gemini Writer
+NEXT_TASK: Rewrite Ch18–20（Ch18 MEDIUM / Ch19 HIGH / Ch20 HIGH；不写 Ch21、不生成 Final、不更新 Canon）
 
 COMPLETED:
+- FIRST-PART CLIMAX EDITORIAL REVIEW Ch18–20 completed（GPT-5.6 Sol / Codex，2026-09-15）：
+  - 独立连读 Ch18–20 Draft、Continuity、Climax Plan/Brief/Readiness 与 Ch17 Final/最新 Canon；
+  - 裁决：Ch18 **ACCEPT WITH REVISION**；Ch19 **ACCEPT WITH REVISION**；Ch20 **MAJOR REVISION**；
+  - 最终目标：Ch18 4,300–4,700；Ch19 5,200–5,450（净压缩 150–250）；Ch20 4,700–5,200 纯中文汉字；
+  - Ch19 保留“现实验证 + 唐荔最低事实 + 自然雨窗 + 谢念拒读”，删除动机泄漏、知识越界和一切 Quasi-read；
+  - Ch20 保留“拒读后果 + 关系落位 + 商业喘息 + 公共入口 + Part II Engine”，清除九宫格、玄幻光效、母亲身世、虚假金融/工程升级、全国爆红与超自然门牌；
+  - 最终锁定 `READ COUNT = 0`、`QUASI-READ = 0`、`NEW RULES = 0`；`SOL RECHECK REQUIRED = YES`；
+  - 新增 Editorial Review 与工作日志；未修改 Draft、Final、Canon 或 Chapter 021。
 - FIRST-PART CLIMAX CONTINUITY PASS Ch18–20 completed（Gemini Continuity，2026-09-15）：
   - 独立连读核验 commit `6d9435f` 三章 Draft；产出报告 `12_production/editorial/first_part_climax_ch18_20_continuity.md`；
   - 结论：**PASS WITH NOTES（建议 Sol：Ch18 ACCEPT WITH MINOR NOTES / Ch19 ACCEPT WITH COMPRESSION / Ch20 MAJOR REVISION）**；
@@ -304,17 +312,19 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- 无。FIRST-PART CLIMAX CONTINUITY PASS Ch18–20 已完成。
+- Chapter 018–020 Rewrite 待 Gemini Writer 执行；当前 Draft 仍非 Final/Canon。
 
 NEXT_TASK:
-- GPT-5.6 Sol / Codex（HIGH）→ 实施 FIRST-PART CLIMAX EDITORIAL REVIEW（Ch18–20 第一部收官终审与高潮裁决）；
-  - 审稿基准为 commit `6d9435f` 三章 Draft 与 `12_production/editorial/first_part_climax_ch18_20_continuity.md`；
-  - 重点裁决：批准 Ch18（ACCEPT）与 Ch19（ACCEPT WITH COMPRESSION，压缩 150–250 字）；
-  - 对 Ch20 下达 MAJOR REVISION 指令：全面清除“九宫格”与修仙“气机”语汇、回滚唐荔退还钥匙情节、降温 20 万预付款/对公监管/司法拍卖/第三期工程报告、遏制两小时百万播放网红爽文漂移、彻底重构自相矛盾的门牌告示、纠正唐俪/周旭/林素芸姓名；
-  - 严禁开始 Chapter 021 正文。
+- Gemini Writer → 一次性 Rewrite Ch18–20：
+  - Ch18 MEDIUM：MINOR REVISION；目标 4,300–4,700 纯中文汉字；
+  - Ch19 HIGH：COMPRESSION + TARGETED REVISION；目标 5,200–5,450，净压缩 150–250 纯中文汉字；
+  - Ch20 HIGH：MAJOR REVISION；目标 4,700–5,200；保留既定后果结构，重建关系落位、商业喘息、公共入口与 Part II Engine；
+  - 严格执行 Editorial Review：`READ COUNT = 0`、`QUASI-READ = 0`、`NEW RULES = 0`；不写 Ch21、不生成 Final、不更新 Canon；
+  - Rewrite 后：Gemini Continuity MEDIUM → Rewrite Verification；若无硬错误，再由 GPT-5.6 Sol HIGH → FINAL PART-I ACCEPTANCE；通过后才可 Final + Canon Update。
 - 历史遗留待办见 00_system/ACTIVE_TASKS.md 队列（ORIGINAL_PROJECT_DISCOVERY 反向入库等）。
 
 FILES_CHANGED:
+- 本轮（FIRST-PART CLIMAX EDITORIAL REVIEW Ch18–20）：新增 `12_production/editorial/first_part_climax_ch18_20_editorial_review.md` 与 `99_logs/claude/2026-09-15_C05_first_part_climax_ch18_20_editorial.md`；最小更新 `00_system/ACTIVE_TASKS.md`、`00_system/HANDOFF.md`；**未修改 Ch18–20 Draft、Final、Canon 或 Ch21**。
 - 本轮（FIRST-PART CLIMAX CONTINUITY PASS Ch18–20）：新增 `12_production/editorial/first_part_climax_ch18_20_continuity.md`；更新 `00_system/ACTIVE_TASKS.md`、`00_system/HANDOFF.md`；**未修改小说正文 Draft、未生成 Final、未更新任何 Canon、未开始 Ch21**。
 - 本轮（FIRST-PART CLIMAX PLAN Ch18–20）：新增 `12_production/batches/first_part_climax_ch18_20_plan.md`、`chapter_briefs/chapter_018_brief.md`–`chapter_020_brief.md`、`12_production/CHAPTER_018_020_READINESS.md`、`99_logs/claude/2026-09-15_C05_first_part_climax_ch18_20.md`；更新 `PROJECT_STATUS.md`、`ACTIVE_TASKS.md`、`HANDOFF.md`；**未修改 Ch1–17 Final/Canon，未写 Ch18 正文，未开始 Ch21**。
 - 本轮（FIRST-PART CLIMAX PLAN Ch18–20）：新增 `12_production/batches/first_part_climax_ch18_20_plan.md`、`chapter_briefs/chapter_018_brief.md`–`chapter_020_brief.md`、`12_production/CHAPTER_018_020_READINESS.md`、`99_logs/claude/2026-09-15_C05_first_part_climax_ch18_20.md`；更新 `PROJECT_STATUS.md`、`ACTIVE_TASKS.md`、`HANDOFF.md`；**未修改 Ch1–17 Final/Canon，未写 Ch18 正文，未开始 Ch21**。

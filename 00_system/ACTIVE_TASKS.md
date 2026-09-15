@@ -1,13 +1,14 @@
 # ACTIVE_TASKS — 当前活动任务
 
-最后更新：2026-09-15（Gemini Continuity：**FIRST-PART CLIMAX CONTINUITY PASS Ch18–20 完成**；产出 `12_production/editorial/first_part_climax_ch18_20_continuity.md`；结论 PASS WITH NOTES；三章实测纯汉字 4,647 / 5,588 / 5,064，全批次控长达标；Ch18/Ch19 表现优秀，Ch20 捕获人名漂移、九宫格结构篡改、修仙气机语汇、退还钥匙违背、预付款 20 万对公监管、第三期工程报告、百万网红爆火及门牌自相矛盾等 8 重硬伤，建议 Sol 给予 Ch18 ACCEPT WITH MINOR NOTES / Ch19 ACCEPT WITH COMPRESSION / Ch20 MAJOR REVISION；下一任务交接：**GPT-5.6 Sol HIGH → FIRST-PART CLIMAX EDITORIAL REVIEW（Ch18–20）**）
+最后更新：2026-09-15（GPT-5.6 Sol / Codex：**FIRST-PART CLIMAX EDITORIAL REVIEW Ch18–20 完成**；裁决 Ch18 ACCEPT WITH REVISION、Ch19 ACCEPT WITH REVISION、Ch20 MAJOR REVISION；READ COUNT / QUASI-READ / NEW RULES 均为 0；下一任务：**Gemini Writer → Rewrite Ch18–20（Ch18 MEDIUM / Ch19 HIGH / Ch20 HIGH）**；Rewrite 后必须经 Continuity Verification 与 Sol HIGH Final Part-I Acceptance）
 最后更新：2026-09-15（GPT-5.6 Sol / Codex：**FIRST-PART CLIMAX PLAN Ch18–20 完成**；Chapter 001–017 维持 FINAL / ACCEPTED / CANONIZED；Ch18–20 Readiness = READY；下一任务 Gemini 3.8 Flash Writer 按 Ch18 MEDIUM / Ch19 HIGH / Ch20 HIGH 一次性 Draft）
 
 ## 当前
 
 | 任务 | 状态 | 备注 |
 |---|---|---|
-| FIRST-PART CLIMAX EDITORIAL REVIEW（Ch18–20） | **TODO — READY** | 下一位 GPT-5.6 Sol（HIGH）第一部收官终审与高潮裁决；审稿基准为 commit `6d9435f` Draft 与 Continuity 报告；重点裁决 Ch20 重构范围、Ch19 篇幅压缩、清除九宫格与修仙气机语汇、纠正人名与钥匙归还 |
+| Chapter 018–020 Rewrite | **TODO — READY** | 下一位 Gemini Writer 一次性 Rewrite：Ch18 MINOR REVISION（MEDIUM）、Ch19 COMPRESSION + TARGETED REVISION（HIGH）、Ch20 MAJOR REVISION（HIGH）；不写 Ch21、不生成 Final、不更新 Canon；完成后交 Gemini Continuity Verification，再交 Sol HIGH Final Part-I Acceptance |
+| FIRST-PART CLIMAX EDITORIAL REVIEW（Ch18–20） | **COMPLETED** | 2026-09-15 Sol / Codex 完成：Ch18 ACCEPT WITH REVISION；Ch19 ACCEPT WITH REVISION，净压缩 150–250 汉字；Ch20 MAJOR REVISION，保留后果/关系/商业/Part II 骨架并清除 Canon 污染；SOL RECHECK REQUIRED = YES |
 | FIRST-PART CLIMAX CONTINUITY PASS（Ch18–20） | **COMPLETED** | 2026-09-15 Gemini Continuity 完成：独立审阅 commit `6d9435f`，产出 `12_production/editorial/first_part_climax_ch18_20_continuity.md`；结论 PASS WITH NOTES；三章纯汉字控长全部落入目标区间；捕获 Ch20 系统性脱轨与设定漂移；未修改 Draft、未生成 Final、未更新 Canon；交付 Sol HIGH 终审 |
 | Chapter 018–020 Draft | **COMPLETED** | 2026-09-15 Gemini 3.8 Flash Writer 完成（commit `6d9435f`）：Ch18 4,647 字、Ch19 5,588 字、Ch20 5,064 字，总计 15,299 汉字 |
 | FIRST-PART CLIMAX PLAN（Ch18–20） | **COMPLETED — READY** | 2026-09-15 Sol / Codex 完成：Climax Preflight、第一笔 2 万/灰工装/知识边界裁决、三章架构与 Brief；灰工装 Part I 不读取；Ch19 = Mystery + Emotional Climax；Ch20 = Part-End Turn；READ COUNT 0、NEW RULES 0 |
@@ -91,7 +92,7 @@
 
 | # | 任务 | 依赖 |
 |---|---|---|
-| 1 | Gemini 3.8 Flash Writer Draft Ch18–Ch20 | 逐章推理 Ch18 MEDIUM / Ch19 HIGH / Ch20 HIGH；按 FIRST-PART CLIMAX PLAN 与三份 Brief 一次性生产；不开始 Ch21 |
+| 1 | Gemini Writer Rewrite Ch18–Ch20 | Ch18 MEDIUM / Ch19 HIGH / Ch20 HIGH；按 Editorial Review 一次性修订；其后 Gemini Continuity MEDIUM 验证，再由 Sol HIGH 做 FINAL PART-I ACCEPTANCE；不开始 Ch21 |
 | 2 | Phase 6 生产监控：单元语法重复率 / 主谜场景占比 / 谢念主动行动占比 | 随正文生产持续执行 |
 | 3 | ORIGINAL_PROJECT_DISCOVERY 反向入库（C06 负空间数据库 + C08 规则武器职业化） | 用户确认；不影响 C05 |
 | 4 | Schema v1.1 修订裁决 / Source 政策边界裁决（历史遗留） | 用户裁决 |
