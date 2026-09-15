@@ -1,23 +1,19 @@
 # ACTIVE_TASKS — 当前活动任务
 
-最后更新：2026-09-15（GPT-5.6 Sol / Codex：**PART II OPENING ARC FINAL ACCEPTANCE + EXPANSION GATE DECISION 完成**；Ch21–23 全部 ACCEPT FOR FINAL；Part II Engine / Anti-Anthology / Anti-Proceduralization / Canon Restoration 全部 PASS；Expansion Gate = PASS，生效条件为 Ch21–23 Final/Canon 完成；下一任务：**Gemini Continuity MEDIUM → OPENING ARC FINALIZATION**；当前不得开始 Ch24）
-最后更新：2026-09-15（Gemini Continuity：**PART II《返潮》OPENING ARC CONTINUITY PASS Ch21–23 完成**；产出 `12_production/editorial/part_02_opening_arc_ch21_23_continuity.md`；结论 PASS WITH NOTES；三章实测纯汉字 4,223 / 4,315 / 4,267，全批次控长达标（12,805 汉字）；捕获“脑梗母亲”健康大词违规、“中南机械厂”硬性 Canon 漂移、“防汛调拨经手人”新增 2016 事实及“中立争议托管”业务政策冲突等 4 项关键硬伤；READ COUNT = 0，NEW RULES = 0，Memory Segment = NONE；13 项核心绝密全部受保护；草稿未修改、Canon 未更新、未开始 Ch24；建议 Expansion Gate 维持 HOLD；下一任务交接：**GPT-5.6 Sol HIGH → PART II OPENING ARC EDITORIAL REVIEW（Ch21–23）**）
-最后更新：2026-09-15（Gemini Continuity：**PART-I FINALIZATION Ch18–20 完成**；生成 Ch18–20 Final，实测纯汉字 4,552 / 5,223 / 4,950 全部达标；完成全套人物、关系、时间线、秘密、伏笔与规则 Canon Update；创建 `part_01_unreturned_ch01_20_canon_summary.md`；Post-Canon 与 Global Audit 全部通过；**Chapter 001–020 全部正式标记为 FINAL / ACCEPTED / CANONIZED（20/20 chapters completed）**；第一部《未还》正式结卷封账；下一任务交接：**GPT-5.6 Sol HIGH → PART II《返潮》PLANNING ONLY**）
-最后更新：2026-09-15（GPT-5.6 Sol / Codex：**FINAL PART-I ACCEPTANCE Ch18–20 完成**；两项唯一安全 Editorial Patch 已实施；最终裁决 `ACCEPTED FOR FINALIZATION`；Ch19 / Ch20 Patch 后纯汉字 5,223 / 4,950；`READ COUNT = 0`、`QUASI-READ = 0`、`NEW RULES = 0`；下一任务：**Gemini Continuity & Canon Agent MEDIUM → PART-I FINALIZATION**）
-最后更新：2026-09-15（GPT-5.6 Sol / Codex：**FIRST-PART CLIMAX EDITORIAL REVIEW Ch18–20 完成**；commit `938c9e3`；三章均 ACCEPT WITH REVISION；SOL RECHECK REQUIRED = YES；下一任务 Gemini Writer Rewrite Ch18–20）
-最后更新：2026-09-15（Gemini Continuity：**FIRST-PART CLIMAX CONTINUITY PASS Ch18–20 完成**；产出 `12_production/editorial/first_part_climax_ch18_20_continuity.md`；结论 PASS WITH NOTES；三章实测纯汉字 4,647 / 5,588 / 5,064，全批次控长达标；Ch18/Ch19 表现优秀，Ch20 捕获人名漂移、九宫格结构篡改、修仙气机语汇、退还钥匙违背、预付款 20 万对公监管、第三期工程报告、百万网红爆火及门牌自相矛盾等 8 重硬伤，建议 Sol 给予 Ch18 ACCEPT WITH MINOR NOTES / Ch19 ACCEPT WITH COMPRESSION / Ch20 MAJOR REVISION；下一任务交接：**GPT-5.6 Sol HIGH → FIRST-PART CLIMAX EDITORIAL REVIEW（Ch18–20）**）
+最后更新：2026-09-15（Gemini Continuity：**PART II《返潮》OPENING ARC FINALIZATION Ch21–23 完成**；生成 Ch21–23 Final，实测纯汉字 4,210 / 4,282 / 4,252 全部达标（共 12,744 汉字）；完成全套人物、关系、时间线、秘密、伏笔与规则 Canon Update；创建 `part_02_opening_arc_ch21_23_canon_summary.md`；Post-Canon 与 Global Audit 全部通过；**Chapter 001–023 全部正式标记为 FINAL / ACCEPTED / CANONIZED（23/23 chapters completed）**；**EXPANSION GATE = PASS / ACTIVE**；下一任务交接：**GPT-5.6 Sol MEDIUM → PART II Ch24–29 PLANNING ONLY**）
+最后更新：2026-09-15（Gemini Continuity：**PART II《返潮》OPENING ARC REWRITE VERIFICATION Ch21–23 完成**；产出 `12_production/editorial/part_02_opening_arc_ch21_23_rewrite_verification.md`；结论 **VERIFIED**；三章纯中文汉字实测 4,210 / 4,282 / 4,252 字（共 12,744 字），全线精准达标；四大硬伤全部清零：脑梗母亲=0、中南机械厂=0、防汛调拨=0、中立保管=0；法律术语全线清零；沈薇姓名=0；回潮桥货运仓库 Canon 严密恢复；READ COUNT = 0，NEW RULES = 0，Memory Segment = NONE；13 项核心绝密 100% 保护；0 Mechanical Patch；Expansion Gate 维持 **HOLD**；未生成 Final、未更新 Canon、未开始 Ch24；下一任务交接：**GPT-5.6 Sol HIGH → PART II OPENING ARC FINAL ACCEPTANCE + EXPANSION GATE DECISION**）
 
 ## 当前
 
 | 任务 | 状态 | 备注 |
 |---|---|---|
-| PART II OPENING ARC FINALIZATION（Ch21–23） | **TODO — AUTHORIZED** | 下一位 Gemini Continuity & Canon Agent（MEDIUM）：生成 Final、更新 Canon、创建 Opening Arc Canon Summary、执行 Post-Canon Integrity Check；不得改写正文或开始 Ch24 |
-| PART II OPENING ARC FINAL ACCEPTANCE + EXPANSION GATE | **COMPLETED — ACCEPTED** | Ch21–23 全部 ACCEPT FOR FINAL；Expansion Gate PASS，ONLY EFFECTIVE AFTER Ch21–23 FINAL / CANONIZED；SOL RECHECK REQUIRED = NO |
+| PART II《返潮》PLANNING WINDOW（Ch24–29） | **TODO — READY** | 下一位 GPT-5.6 Sol（MEDIUM）规划第二部 Ch24–29 六章窗口与执行 Brief；严禁 Writer 提前开写 Chapter 024 正文 |
+| PART II OPENING ARC FINALIZATION（Ch21–23） | **COMPLETED** | 2026-09-15 Gemini Continuity 完成：Ch21–23 生成 Final（4,210 / 4,282 / 4,252 纯汉字）；完成全套 Canon 核心文件同步更新；产出 `part_02_opening_arc_ch21_23_canon_summary.md`；Post-Canon Integrity Check 全部通过；**EXPANSION GATE = PASS / ACTIVE**；**Chapter 001–023 全部 FINAL / ACCEPTED / CANONIZED（23/23 chapters completed）** |
+| PART II OPENING ARC FINAL ACCEPTANCE | **COMPLETED** | 2026-09-15 Sol / Codex 完成（commit `b7e7a9b`）：终审验收 Ch21–23 Rewrite（commit `322157a`）；最终裁决 `OPENING ARC ACCEPTED FOR FINALIZATION`；Expansion Gate 裁决 PASS；`SOL RECHECK REQUIRED = NO` |
 | PART II OPENING ARC REWRITE VERIFICATION（Ch21–23） | **COMPLETED** | 2026-09-15 Gemini Continuity 完成：独立复核 commit `322157a`，产出 `part_02_opening_arc_ch21_23_rewrite_verification.md`；裁决 **VERIFIED**（0 Mechanical Patch）；四大硬伤彻底清零，篇幅 12,744 纯汉字全线达标；Expansion Gate 维持 HOLD；交付 Sol HIGH 终审 |
 | Chapter 021–023 Rewrite | **COMPLETED** | 2026-09-15 Gemini 3.8 Flash Writer 完成（commit `322157a`）：Ch21 4,210 字、Ch22 4,282 字、Ch23 4,252 字，总计 12,744 纯汉字全部精准达标 |
 | PART II OPENING ARC EDITORIAL REVIEW（Ch21–23） | **COMPLETED** | 2026-09-15 Sol / Codex 完成（commit `41774da`）：Ch21 / Ch22 ACCEPT WITH REVISION，Ch23 MAJOR REVISION；下达四大硬伤清洗指令；`SOL RECHECK REQUIRED = YES` |
 | PART II OPENING ARC CONTINUITY PASS（Ch21–23） | **COMPLETED** | 2026-09-15 Gemini Continuity 完成：独立审阅 commit `43dc935`，产出 `12_production/editorial/part_02_opening_arc_ch21_23_continuity.md`；结论 PASS WITH NOTES；三章纯汉字控长全线达标（12,805 字）；捕获 4 项关键连续性硬伤；未修改 Draft、未生成 Final、未更新 Canon；交付 Sol HIGH 审稿 |
-| PART II《返潮》PLANNING | **TODO — READY** | 下一位 GPT-5.6 Sol（HIGH）规划第二部《返潮》总体架构与首个 Planning Window；严禁 Writer 提前开始 Chapter 021 正文 |
 | PART-I FINALIZATION（Ch18–20） | **COMPLETED** | 2026-09-15 Gemini Continuity 完成：生成 Ch18–20 Final（4,552 / 5,223 / 4,950 汉字）；完成 Canon Update；产出 `part_01_unreturned_ch01_20_canon_summary.md`；**Chapter 001–020 全部 FINAL / ACCEPTED / CANONIZED（20/20 chapters completed）**；第一部《未还》正式结卷封账 |
 | FINAL PART-I ACCEPTANCE（Ch18–20） | **COMPLETED** | 2026-09-15 Sol / Codex 完成；Ch18–20 全部 ACCEPT FOR FINAL；实施 Ch19 暴雨背景与 Ch20 服务须知两项最小 Patch；`SOL RECHECK REQUIRED = NO` |
 | FIRST-PART CLIMAX REWRITE VERIFICATION（Ch18–20） | **COMPLETED** | 2026-09-15 Gemini Continuity 完成：独立复核 commit `a3a165e`，产出 `first_part_climax_ch18_20_rewrite_verification.md`；裁决 PATCH REQUIRED（提交 2 项微调交 Sol 终审裁决）；8 重硬伤全部清零；字数 4,552 / 5,232 / 4,943 全部达标；未生成 Final、未更新 Canon、未开始 Ch21 |
@@ -107,7 +103,7 @@
 
 | # | 任务 | 依赖 |
 |---|---|---|
-| 1 | Gemini Continuity & Canon Agent OPENING ARC FINALIZATION | MEDIUM；以 commit `322157a` Rewrite 为唯一正文源生成 Ch21–23 Final、Canon Update、Opening Arc Canon Summary 与 Post-Canon Integrity Check；当前不得开始 Ch24 |
+| 1 | Gemini Continuity & Canon Agent PART-I FINALIZATION | MEDIUM；生成 Ch18–20 Final、Canon Update、Part-I Canon Summary 与 Post-Canon Integrity Check；通过后标记 Ch001–020 FINAL / ACCEPTED / CANONIZED；不开始 Ch21 |
 | 2 | Phase 6 生产监控：单元语法重复率 / 主谜场景占比 / 谢念主动行动占比 | 随正文生产持续执行 |
 | 3 | ORIGINAL_PROJECT_DISCOVERY 反向入库（C06 负空间数据库 + C08 规则武器职业化） | 用户确认；不影响 C05 |
 | 4 | Schema v1.1 修订裁决 / Source 政策边界裁决（历史遗留） | 用户裁决 |
