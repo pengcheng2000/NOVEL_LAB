@@ -2,15 +2,22 @@
 
 > 每次重要工作结束时更新本文件；每次开始工作前先读本文件（完整协议见 `00_system/AGENT_PROTOCOL.md`）。
 
-LAST_AGENT: Gemini 3.8 Flash Continuity
-LAST_MODEL: Gemini 3.8 Flash（MEDIUM；Continuity & Canon Agent）
-LAST_COMMIT: review: verify first-part climax rewrite（2026-09-15；准确 hash 以 Git 历史为准）
+LAST_AGENT: GPT-5.6 Sol / Codex
+LAST_MODEL: GPT-5.6 Sol（HIGH；Final Acceptance Authority）
+LAST_COMMIT: review: accept first-part climax for finalization（2026-09-15；准确 hash 以 Git 历史为准）
 LAST_DEVICE: Windows
 
-NEXT_AGENT: GPT-5.6 Sol / Codex
-NEXT_TASK: FINAL PART-I ACCEPTANCE Ch18–20（HIGH；第一部收官终审验收与裁决；裁定 2 项微调项并授权 Final / Canon Update）
+NEXT_AGENT: Gemini Continuity & Canon Agent
+NEXT_TASK: PART-I FINALIZATION（MEDIUM；生成 Ch18–20 Final、Canon Update、Part-I Canon Summary 与 Post-Canon Integrity Check；不开始 Ch21）
 
 COMPLETED:
+- FINAL PART-I ACCEPTANCE Ch18–20 completed（GPT-5.6 Sol / Codex，2026-09-15）：
+  - 两项唯一安全 Editorial Patch 已直接实施：Ch19 降级为“二〇一六年那场暴雨的三天里”；Ch20 收敛为“说明来源 / 相应授权 / 必要隐私同意”；
+  - Final Verdict：**ACCEPTED FOR FINALIZATION**；Ch18 / Ch19 / Ch20 全部 ACCEPT FOR FINAL；
+  - Patch 后纯中文汉字：Ch19 5,223；Ch20 4,950，均在 Sol 目标区间；
+  - 锁定 `READ COUNT = 0`、`QUASI-READ = 0`、`PLEDGE = 0`、`NEW RULES = 0`、Memory Segment = NONE；
+  - `SOL RECHECK REQUIRED = NO`；授权 Gemini Continuity & Canon Agent MEDIUM 执行 PART-I FINALIZATION；
+  - 本轮未生成 Final、未更新 Canon、未开始 Chapter 021。
 - FIRST-PART CLIMAX REWRITE VERIFICATION Ch18–20 completed（Gemini Continuity，2026-09-15）：
   - 独立全面复核 commit `a3a165e` 三章 Rewrite 正文；产出报告 `12_production/editorial/first_part_climax_ch18_20_rewrite_verification.md`；
   - 结论：**PATCH REQUIRED（提交 2 项信息强度/商业政策微调项交 Sol 终审裁决裁定）**；
@@ -325,6 +332,7 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
+- PART-I FINALIZATION 待 Gemini Continuity & Canon Agent 执行；Ch18–20 已验收，但 Final 文件与 Canon Update 仍未生成。
 - 无。FIRST-PART CLIMAX PLAN Ch18–20 已完成。
 - 无。Batch 04B Editorial Review 已完成。
 - 无。Batch 04A Editorial Review 已完成。
@@ -334,9 +342,12 @@ IN_PROGRESS:
 - 无。FIRST-PART CLIMAX CONTINUITY PASS Ch18–20 已完成。
 
 NEXT_TASK:
-- Gemini 3.8 Flash Writer → 按 `12_production/batches/first_part_climax_ch18_20_plan.md` 与三份 Brief 一次性 Draft Ch18–Ch20。
-- Writer Reasoning：Ch18 MEDIUM；Ch19 HIGH；Ch20 HIGH。逐章执行 Pure Han / Information / Exact Detail / Rule / Hold Back Budget。
-- 不生成 Final、不更新 Canon、不开始 Ch21；Draft 后交独立 Gemini Continuity 执行 Ch18–20 Continuity Pass。
+- Gemini Continuity & Canon Agent（MEDIUM）→ 执行 PART-I FINALIZATION：
+  - 以 Ch18–20 Rewrite（含 Sol 两处最小 Editorial Patch）为唯一正文源生成 Final；
+  - 执行 Canon Update、创建 Part-I Canon Summary 并完成 Post-Canon Integrity Check；
+  - 核验通过后标记 Chapter 001–020 FINAL / ACCEPTED / CANONIZED；
+  - 仅做机械一致性、Final 复制、Canon 抽取与 Integrity Check；除非发现新 Hard Conflict，不再返回 Sol；
+  - 不开始 Chapter 021，不规划 Part II。
 - Gemini 3.8 Flash Writer（MEDIUM）→ 按 `12_production/editorial/batch_04b_ch15_17_editorial_review.md` 一次性 Rewrite Ch15–Ch17；DELETE > REPLACE > COMPRESS。
 - 保持 Ch15 4,100–4,600 / Ch16 4,300–4,900 / Ch17 4,200–4,700 纯中文汉字；READ COUNT = 0；NEW RULES = 0；Memory Segment = NONE。
 - 不开始 Ch18；不修改 Final/Canon/Brief；Rewrite 后直接交独立 Gemini Continuity（MEDIUM）执行 Verification → Final → Canon Update。
@@ -364,6 +375,7 @@ NEXT_TASK:
 - 严禁提前开始 Ch15 或更新 Canon。
 
 FILES_CHANGED:
+- 本轮（FINAL PART-I ACCEPTANCE Ch18–20）：最小修改 `chapter_019_rewrite.md`、`chapter_020_rewrite.md`；新增 `12_production/editorial/first_part_final_acceptance.md` 与 `99_logs/claude/2026-09-15_C05_first_part_final_acceptance.md`；最小更新 `00_system/ACTIVE_TASKS.md`、`00_system/HANDOFF.md`；**未生成 Final、未更新 Canon、未开始 Ch21**。
 - 本轮（FIRST-PART CLIMAX CONTINUITY PASS Ch18–20）：新增 `12_production/editorial/first_part_climax_ch18_20_continuity.md`；更新 `00_system/ACTIVE_TASKS.md`、`00_system/HANDOFF.md`；**未修改小说正文 Draft、未生成 Final、未更新任何 Canon、未开始 Ch21**。
 - 本轮（FIRST-PART CLIMAX PLAN Ch18–20）：新增 `12_production/batches/first_part_climax_ch18_20_plan.md`、`chapter_briefs/chapter_018_brief.md`–`chapter_020_brief.md`、`12_production/CHAPTER_018_020_READINESS.md`、`99_logs/claude/2026-09-15_C05_first_part_climax_ch18_20.md`；更新 `PROJECT_STATUS.md`、`ACTIVE_TASKS.md`、`HANDOFF.md`；**未修改 Ch1–17 Final/Canon，未写 Ch18 正文，未开始 Ch21**。
 - 本轮（FIRST-PART CLIMAX PLAN Ch18–20）：新增 `12_production/batches/first_part_climax_ch18_20_plan.md`、`chapter_briefs/chapter_018_brief.md`–`chapter_020_brief.md`、`12_production/CHAPTER_018_020_READINESS.md`、`99_logs/claude/2026-09-15_C05_first_part_climax_ch18_20.md`；更新 `PROJECT_STATUS.md`、`ACTIVE_TASKS.md`、`HANDOFF.md`；**未修改 Ch1–17 Final/Canon，未写 Ch18 正文，未开始 Ch21**。
