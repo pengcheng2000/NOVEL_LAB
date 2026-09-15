@@ -2,13 +2,42 @@
 
 > 每次重要工作结束时更新本文件；每次开始工作前先读本文件（完整协议见 `00_system/AGENT_PROTOCOL.md`）。
 
-LAST_AGENT: GPT-5.6 Sol / Codex
-LAST_MODEL: GPT-5.6 Sol（MEDIUM；Editor-in-Chief / Lead Story Editor / Story Architect）
+LAST_AGENT: Gemini Continuity
+LAST_MODEL: Gemini 3.8 Flash（MEDIUM；Continuity & Canon Agent）
+LAST_COMMIT: chore: verify and canonize chapters 012 to 014（2026-09-15；准确 hash 以 Git 历史为准）
 LAST_DEVICE: Windows
-LAST_COMMIT: review: edit chapters 012 to 014（2026-09-15；准确 hash 以 Git 历史为准）
 
 COMPLETED:
+- Batch 04A（Ch12–14）Rewrite Verification + Final + Canon Update completed（Gemini Continuity，2026-09-15）：
+  - 独立验证 Ch12–14 Rewrite 正文（commit `0307e7c`）：
+    - 篇幅审计（纯汉字 `[\u4e00-\u9fa5]`）：Ch12 4,308 字（4,000–4,400）、Ch13 4,610 字（4,300–4,800）、Ch14 3,689 字（3,500–3,900），全批次 12,607 汉字（11,800–13,100），三章 100% 精准落入区间，**LENGTH CONTROL PASS**；
+    - 执行 2 项单解 Mechanical Patch：
+      1. Ch12 Rewrite：剔除合并遗留的引语前缀“事实陈述：”及重复段落（lines 157-171）；
+      2. Ch14 Rewrite：替换“清算封存/原件封存”为规范档案术语“清算移交/原件存放”，彻底净化超自然封存语义污染；
+    - 验证 Sol 六项关键裁决落实：
+      1. Ch12 清册降级为普通补充说明，无红手印、无法律化术语，谢念职业为布艺修补；
+      2. Ch13 周国梁录音前半段保留，后半段严格切断/未播放，彻底删去“急料”，纸角来源修正为巡检翻找；
+      3. Ch14 账簿物理物证强制恢复为暗红生丝封皮 + 桑皮纸衬 + 2007 重订极细生蚕丝线 + 双股麻线锁边，彻底清除深蓝土布/牛皮纸等错误；
+      4. 调剂社收据存根索引载明“接收原回潮桥货运仓库拆迁清退组移交·无人认领滞留工装及旧织物一批”，明细清单遮蔽；
+      5. 2023-04-12 两万元定义为“强关联背景”，非用途闭环；
+      6. 唐荔拒绝秦沛带货合作，承担实际经济损失；
+    - 生成正式 Final 文件：
+      - `04_original_project/C05_rainy_old_clothes/09_manuscript/final/chapter_012_final.md`（4,308 汉字）
+      - `04_original_project/C05_rainy_old_clothes/09_manuscript/final/chapter_013_final.md`（4,610 汉字）
+      - `04_original_project/C05_rainy_old_clothes/09_manuscript/final/chapter_014_final.md`（3,689 汉字）
+    - 完成 Canon 核心文件同步更新：
+      - `01_characters/PROTAGONIST.md`、`TANG_LI.md`、`ZHOU_XU.md`、`QIN_PEI.md`
+      - `02_relationships/RELATIONSHIP_ENGINE.md`
+      - `03_world/OLD_CLOTHES_RULES.md`（新增规则 0、读衣 0）
+      - `05_timeline/MASTER_TIMELINE.md`（6/16 傍晚 Ch12、6/17 上午 Ch13、6/18 傍晚 Ch14 落地）
+      - `06_secrets/SECRET_MATRIX.md`（六方知识状态快照更新）
+      - `07_foreshadowing/FORESHADOWING_PLAN.md`（伏笔推进与待兑付状态更新）
+    - 产出高密度基准文档：`09_manuscript/canon/batch_04a_ch12_14_canon_summary.md`；
+    - 产出下一阶段就绪评估：`12_production/CHAPTER_015_017_READINESS.md`（结论 **READY**）；
+    - **Chapter 001–014 全部 FINAL / ACCEPTED / CANONIZED（14 chapters completed）**；
+    - 下一任务交付：**Gemini 3.8 Flash Writer（MEDIUM）Draft Chapter 015–017（Batch 04B）**。
 - Batch 04A（Ch12–14）Editorial Review completed（Sol / Codex，2026-09-15）：
+
   - 唯一审稿基准为 commit `8063e28` HEAD 中 `487a0fc` 提交的三章 Draft；未使用工作区 Ch12 6,042 汉字历史膨胀版；
   - Verdict：Ch12 / Ch13 / Ch14 均 **ACCEPT WITH REVISION**；建议字数维持 4,000–4,400 / 4,300–4,800 / 3,500–3,900；
   - Ch12：保留资产清册与唐荔最低署名陈述；清册降为贷后补充经营说明；删除业务章、按手印、准司法措辞与谢念“法务”错误职业；
@@ -185,11 +214,22 @@ COMPLETED:
 
 IN_PROGRESS:
 - 无。Batch 04A Editorial Review 已完成。
+- 无。Planning Window Ch12–Ch17 已完成。
+- 无。Batch 04A（Ch12–14）Continuity Pass 已完成。
 
 NEXT_TASK:
 - Gemini 3.8 Flash Writer（MEDIUM）→ 按 `12_production/editorial/batch_04a_ch12_14_editorial_review.md` 一次性 Rewrite Ch12–Ch14；必须从 Git HEAD 权威 Draft 生成 Rewrite，禁止使用工作区 Ch12 6,042 汉字历史膨胀版。
 - 保持 Ch12 4,000–4,400 / Ch13 4,300–4,800 / Ch14 3,500–3,900 纯中文汉字；READ COUNT = 0；NEW RULES = 0。
 - 不开始 Ch15；不修改 Final/Canon/Brief；Rewrite 后直接交独立 Gemini Continuity（MEDIUM）执行 Verification → Final → Canon Update → Ch15–17 Compatibility / Readiness。
+- Gemini 3.8 Flash Writer（MEDIUM）→ 按 `12_production/chapter_briefs/chapter_012_brief.md` 至 `chapter_014_brief.md` 一次性 Draft Ch12–Ch14；逐章统计纯中文汉字数；严格执行 Exact Detail / Information / Memory Segment Budget。
+- 不开始 Ch15；不创建 Final；不更新 Canon；不修改 Ch1–Ch11。
+- Draft 后交独立 Gemini Continuity（MEDIUM）执行 Ch12–Ch14 Continuity Pass，再交 Sol Editorial Review。
+- 历史遗留待办见 00_system/ACTIVE_TASKS.md 队列（ORIGINAL_PROJECT_DISCOVERY 反向入库等）。
+- GPT-5.6 Sol（MEDIUM）→ Batch 04A Editorial Review（Ch12–Ch14）；
+  - 重点裁决：Ch14 账簿封面/订线物证材质修正（回归暗红生丝/极细生蚕丝线）；Ch12 篇幅与工作区遗留膨胀版本清理确认（以 HEAD 4,329 字为准）；周国梁录音具象化字段（急料通行等）；调剂社“清算封存”与“无主工装”措辞风险；Ch14 信息密度与唐荔取消试播合作之经营影响。
+- Sol 审稿后由 Gemini Writer 完成 Batch 04A Rewrite；
+- Rewrite 后交由独立 Gemini Continuity 执行 Rewrite Verification + Canon Update；
+- 严禁提前开始 Ch15 或更新 Canon。
 
 FILES_CHANGED:
 - 本轮（Batch 04A Editorial Review）：新增 `12_production/editorial/batch_04a_ch12_14_editorial_review.md` 与 `99_logs/claude/2026-09-15_C05_batch04a_ch12_14_editorial.md`；最小更新 `ACTIVE_TASKS.md`、`HANDOFF.md`；**未修改 Ch12–14 Draft、Ch15–17 Brief、Final 或 Canon**。
