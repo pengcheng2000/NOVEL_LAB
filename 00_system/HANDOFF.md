@@ -4,10 +4,28 @@
 
 LAST_AGENT: Gemini Continuity
 LAST_MODEL: Gemini 3.8 Flash（MEDIUM；Continuity & Canon Agent）
-LAST_COMMIT: fix: repair batch 04a canon integrity（2026-09-15；准确 hash 以 Git 历史为准）
+LAST_COMMIT: review: check chapters 015 to 017 continuity（2026-09-15；准确 hash 以 Git 历史为准）
 LAST_DEVICE: Windows
 
+NEXT_AGENT: GPT-5.6 Sol / Codex
+NEXT_TASK: Batch 04B Editorial Review Ch15–Ch17（MEDIUM；审稿与裁决）
+
 COMPLETED:
+- Batch 04B（Ch15–17）Continuity Pass completed（Gemini Continuity，2026-09-15）：
+  - 独立全面复核 Draft Ch15–Ch17（commit `ca29e91`）；产出报告 `12_production/editorial/batch_04b_ch15_17_continuity.md`；
+  - 结论：**PASS WITH NOTES**（建议 Sol 给予 **ACCEPT WITH REVISION**）；
+  - 篇幅控长：纯中文汉字 Ch15 4,540 / Ch16 4,854 / Ch17 4,665，总计 14,059 汉字，三章逐章 100% 精准达标，全批次通过 `LENGTH CONTROL PASS`；
+  - 规则硬约束：`READ COUNT = 0`，`NEW RULES = 0`，`Memory Segment Budget = NONE`；
+  - 捕获 2 项角色台词穿帮泄密（HARD CONTINUITY ERRORS）：
+    1. 周序台词穿帮（Ch16 L231）：“第一格在账本上写的是‘归还’”，周序从未见账簿，严重穿帮；
+    2. 秦沛台词穿帮（Ch17 L179, L195）：“第一格的线索”、“第一格的门”，秦沛不知内部代号，严重穿帮；
+  - 捕获 2 项重大信息过度释放：
+    1. 谢念自白场景化过度释放（Ch16 L147：包含时间、后堂、煤油灯下、站立、亲手递衣动作，超纲需降级）；
+    2. 2 万元用途与存根印文过度坐实（Ch17 L73, L81, L179：存根直接印保管整理费、秦沛宣称特约封存，击穿品名空白红线）；
+  - 捕获多处语汇与概念污染：“法务”四次泛滥（Ch15 L55, Ch16 L123/191, Ch17 L119）、唐荔自称“署名合伙人”（Ch17 L11）、“越权无因管理”概念误用（Ch17 L121）、“特约封存/无主资产”生造词汇；
+  - 整理 7 项待 Sol 裁决事项（NEEDS SOL DECISION）与 5 项重点关注项；
+  - 保持 Chapter 001–014 FINAL / ACCEPTED / CANONIZED（14 chapters completed）；Canon 核心文件未变动；
+  - 下一任务交付：**GPT-5.6 Sol MEDIUM → Batch 04B Editorial Review Ch15–Ch17**。
 - Batch 04A（Ch12–14）Post-Canon Integrity Hotfix completed（Gemini Continuity，2026-09-15）：
   - 针对 Final 正文、Canon Summary 及 Story Bible 实施高精机械补丁，消除 10 项污染与事实越级；
   - Ch12 Final：删除对唐荔动机及外婆指令/誓言的假定，降级为谢念不知道真实原因、追问收窄至三天未言事实；字数 4,303 汉字；
