@@ -2,12 +2,21 @@
 
 > 每次重要工作结束时更新本文件；每次开始工作前先读本文件（完整协议见 `00_system/AGENT_PROTOCOL.md`）。
 
-LAST_AGENT: GPT-5.6 Sol / Codex
-LAST_MODEL: GPT-5.6 Sol（MEDIUM；Editor-in-Chief / Head Writer / Story Architect）
+LAST_AGENT: Gemini Continuity
+LAST_MODEL: Gemini 3.8 Flash（MEDIUM；Continuity & Canon Agent）
 LAST_DEVICE: Windows
-LAST_COMMIT: plan: prepare chapters 012 to 017（2026-09-15；准确 hash 以 Git 历史为准）
+LAST_COMMIT: draft: write chapters 012 to 014（commit 487a0fc；准确 hash 以 Git 历史为准）
 
 COMPLETED:
+- Batch 04A（Ch12–14）Continuity Pass completed（Gemini Continuity，2026-09-15）：
+  - 独立连读 Ch11 Final → Ch12 → Ch13 → Ch14 Draft（对照 Ch12–15 Brief、Batch 04 Plan、最新 Canon、Story Bible）；
+  - 产出审查报告：`12_production/editorial/batch_04a_ch12_14_continuity.md`；总体结论 **PASS WITH NOTES**（建议状态：**ACCEPT WITH REVISION**）；
+  - 篇幅审计（纯汉字 `[\u4e00-\u9fa5]`）：HEAD commit `487a0fc` 版本为 Ch12 4,329 字（4,000–4,400）、Ch13 4,727 字（4,300–4,800）、Ch14 3,708 字（3,500–3,900），全批次 12,764 字，三章全部 100% 精准达标，明确记录 **LENGTH CONTROL PASS**；同时警示工作区任务前遗留的历史未提交差异存在 6,042 字膨胀版，后续严禁误合；
+  - 核心机制核验：零读取预算（0 次）严格遵守，无任何形式的变相读取；新增旧衣规则 = 0；周序、秦沛、余禾严格处于 DOES NOT KNOW 超自然状态；谢念有限视角守备严密；时间线 6/16 正午至 6/18 午后连续无缝；6/16 利息节点已结且挂账数千元，未新增银行硬时钟或精确余额；唐荔动机维持 UNKNOWN，书面签署最低证词并按手印；周序交出父亲录音前半段（口头指令移动北口设施），后半段严格 WITHHELD，谢念强调其为违规非洗白；秦沛窄交易只看装订结构，未翻内页、未看七格、未给尽调；调剂社索引明细涂黑，孙正线与 2 万元边界未破；Batch B（红外套照片、求忘碎片、第一格实物、资格门槛）完全受保护未提前消费；
+  - 关键硬伤查明（MUST FIX）：Ch14 出现严重物理物证冲突——《承衣簿》封面被误写为“深蓝土布封皮”（Canon 明确为暗红生丝），2007 重订装订线被误写为“三股深褐色过蜡麻线”且衬纸写为“牛皮纸夹层”（Ch7 Final 明确为“极细生蚕丝线”与“桑皮纸衬”），须在 Rewrite 中由 Writer 纠正；
+  - 待 Sol 裁决与关注项：周国梁录音具象化（抢救室、旧录音笔、急料通行）；调剂社“清算封存”用词语义风险；“无主工装”措辞与后续权属门槛；Ch14 静态信息稠密度；唐荔取消试播合作的经营影响；
+  - 严格遵守角色红线：**未修改正文 Draft，未生成 Final，未更新 Canon，未开启 Chapter 015**；
+  - 下一任务交付：**GPT-5.6 Sol（MEDIUM）Batch 04A Editorial Review（Ch12–Ch14）**。
 - Sol Planning Window Ch12–Ch17 completed（2026-09-15）：
   - 完整恢复 commit `2cf6b17` Canon、Batch 03A/03B Canon Summary、Ch11 Final 及人物/关系/时间线/秘密/伏笔/旧衣规则/总结构；未修改 Ch1–11 Final 或 Canon；
   - 新增 `12_production/batches/batch_04_ch12_17_plan.md` 与 Chapter 012–017 六份执行 Brief；
@@ -165,15 +174,17 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- 无。Planning Window Ch12–Ch17 已完成。
+- 无。Batch 04A（Ch12–14）Continuity Pass 已完成。
 
 NEXT_TASK:
-- Gemini 3.8 Flash Writer（MEDIUM）→ 按 `12_production/chapter_briefs/chapter_012_brief.md` 至 `chapter_014_brief.md` 一次性 Draft Ch12–Ch14；逐章统计纯中文汉字数；严格执行 Exact Detail / Information / Memory Segment Budget。
-- 不开始 Ch15；不创建 Final；不更新 Canon；不修改 Ch1–Ch11。
-- Draft 后交独立 Gemini Continuity（MEDIUM）执行 Ch12–Ch14 Continuity Pass，再交 Sol Editorial Review。
-- 历史遗留待办见 00_system/ACTIVE_TASKS.md 队列（ORIGINAL_PROJECT_DISCOVERY 反向入库等）。
+- GPT-5.6 Sol（MEDIUM）→ Batch 04A Editorial Review（Ch12–Ch14）；
+  - 重点裁决：Ch14 账簿封面/订线物证材质修正（回归暗红生丝/极细生蚕丝线）；Ch12 篇幅与工作区遗留膨胀版本清理确认（以 HEAD 4,329 字为准）；周国梁录音具象化字段（急料通行等）；调剂社“清算封存”与“无主工装”措辞风险；Ch14 信息密度与唐荔取消试播合作之经营影响。
+- Sol 审稿后由 Gemini Writer 完成 Batch 04A Rewrite；
+- Rewrite 后交由独立 Gemini Continuity 执行 Rewrite Verification + Canon Update；
+- 严禁提前开始 Ch15 或更新 Canon。
 
 FILES_CHANGED:
+- 本轮（Batch 04A Continuity Pass）：新增 `12_production/editorial/batch_04a_ch12_14_continuity.md`；更新 `00_system/ACTIVE_TASKS.md`、`00_system/HANDOFF.md`；**未修改小说正文 Draft、未生成 Final、未更新任何 Canon、未开始 Ch15**；工作区历史遗留差异不纳入提交。
 - 本轮（Sol Planning Window Ch12–Ch17）：新增 `12_production/batches/batch_04_ch12_17_plan.md`、`chapter_briefs/chapter_012_brief.md`–`chapter_017_brief.md`、`12_production/CHAPTER_012_014_READINESS.md`、`99_logs/claude/2026-09-15_C05_planning_window_ch12_17.md`；更新 `PROJECT_STATUS.md`、`ACTIVE_TASKS.md`、`HANDOFF.md`；**未修改 Ch1–Ch11 Final、Canon Summary、Character Bible、Timeline、Secret、Foreshadowing 或 Rules**。
 - 本轮（Batch 03B Editorial）：新增`12_production/editorial/batch_03b_ch09_11_editorial_review.md`与`99_logs/claude/2026-09-14_C05_batch03b_ch09_11_editorial.md`；更新`GEMINI_WRITER_INSTRUCTIONS.md`、`ACTIVE_TASKS.md`、`HANDOFF.md`；**未修改Ch1–8、Ch9–11 Draft、Continuity、Canon或Ch12+**。
 - 本轮（Batch 03A Editorial）：新增 `12_production/editorial/batch_03a_ch06_08_editorial_review.md` 与 `99_logs/claude/2026-09-14_C05_batch03a_ch06_08_editorial.md`；更新 `GEMINI_WRITER_INSTRUCTIONS.md` 与三份状态文件；**未修改 Ch6–Ch8 Draft、Continuity、Canon 或 Ch9 Brief**。
