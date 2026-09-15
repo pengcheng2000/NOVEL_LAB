@@ -1,11 +1,13 @@
 # ACTIVE_TASKS — 当前活动任务
 
-最后更新：2026-09-15（Gemini 3.8 Flash Continuity：**Batch 03B（Ch9–11）Verification + Final + Canon Update 完成**；Chapter 001–011 全部 FINAL / ACCEPTED / CANONIZED（11 chapters completed）；产出 `batch_03b_ch09_11_canon_summary.md`；下一任务 GPT-5.6 Sol 规划 Planning Window Ch12–Ch17）
+最后更新：2026-09-15（GPT-5.6 Sol / Codex：**Planning Window Ch12–Ch17 完成**；Chapter 001–011 维持 FINAL / ACCEPTED / CANONIZED（11 chapters completed）；Chapter 012–014 Readiness = READY；下一任务 Gemini 3.8 Flash Writer（MEDIUM）Draft Ch12–Ch14）
 
 ## 当前
 
 | 任务 | 状态 | 备注 |
 |---|---|---|
+| Planning Window Ch12–Ch17 | **COMPLETED** | 2026-09-15 Sol / Codex 完成：`batch_04_ch12_17_plan.md`、Ch12–17 六份执行 Brief 与 `CHAPTER_012_014_READINESS.md`；六章全部 MEDIUM；KEY = Ch13 / Ch16；成功读取 0、新规则 0；Ch17 停在第一格灰工装候选实物与权属/资格门槛 |
+| Chapter 012–014 Draft（Batch 04A） | **TODO — READY** | 下一位 Gemini 3.8 Flash Writer（MEDIUM）一次性生产；逐章按纯中文汉字数控长；不得开始 Ch15、创建 Final 或更新 Canon |
 | Chapter 009–011 Draft（Batch 03B） | **COMPLETED** | 2026-09-14 Gemini 完成（commit `7dfee1b`）：Ch9 8,097 字、Ch10 5,600 字、Ch11 5,546 字（全章超长，需 Sol 裁决压缩） |
 | Batch 03B Continuity Pass（Ch9–11） | **COMPLETED** | 2026-09-14 Gemini Continuity 完成，产出 `12_production/editorial/batch_03b_ch09_11_continuity.md`；建议三章均 ACCEPT WITH REVISION；Ch9 严重超长+62%、Ch10 呼吸章超长+36.6%、Ch11 违背负面约束写死 21,000 与 7,200 缺口并引入周五 17:00 截点待 Sol 裁决；全员知识边界严格守住；无 BLOCKER；Canon 未更新 |
 | Batch 03B Editorial Review（Ch9–11） | **COMPLETED** | Sol 联合审稿：三章均 ACCEPT WITH REVISION；目标 Ch9 4,600–5,000 / Ch10 3,600–4,050 / Ch11 4,200–4,650纯汉字；C-09降为调查线索、财务数字收敛、唐荔动机保持UNKNOWN；`SOL RECHECK REQUIRED = NO` |
@@ -67,7 +69,7 @@
 
 | # | 任务 | 依赖 |
 |---|---|---|
-| 1 | GPT-5.6 Sol（MEDIUM）Planning Window Ch12–Ch17 | 一次规划 6 chapters（Ch12–Ch17）；分为 Batch A（Ch12–14）与 Batch B（Ch15–17）；产出六份执行 Brief 与 Planning 文件；严禁 Writer 提前写 Ch12 |
+| 1 | Gemini 3.8 Flash Writer（MEDIUM）Draft Ch12–Ch14 | `CHAPTER_012_014_READINESS.md` = READY；一次生产 3 chapters；严格执行 Exact Detail / Information / Memory Segment Budget；不开始 Ch15 |
 | 2 | Phase 6 生产监控：单元语法重复率 / 主谜场景占比 / 谢念主动行动占比 | 随正文生产持续执行 |
 | 3 | ORIGINAL_PROJECT_DISCOVERY 反向入库（C06 负空间数据库 + C08 规则武器职业化） | 用户确认；不影响 C05 |
 | 4 | Schema v1.1 修订裁决 / Source 政策边界裁决（历史遗留） | 用户裁决 |

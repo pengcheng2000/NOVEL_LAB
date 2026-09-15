@@ -2,12 +2,23 @@
 
 > 每次重要工作结束时更新本文件；每次开始工作前先读本文件（完整协议见 `00_system/AGENT_PROTOCOL.md`）。
 
-LAST_AGENT: Gemini 3.8 Flash (Continuity & Canon Agent)
-LAST_MODEL: Gemini 3.8 Flash（MEDIUM；Continuity & Canon Agent）
+LAST_AGENT: GPT-5.6 Sol / Codex
+LAST_MODEL: GPT-5.6 Sol（MEDIUM；Editor-in-Chief / Head Writer / Story Architect）
 LAST_DEVICE: Windows
-LAST_COMMIT: chore: verify and canonize chapters 009 to 011（2026-09-15；准确 hash 以 Git 历史为准）
+LAST_COMMIT: plan: prepare chapters 012 to 017（2026-09-15；准确 hash 以 Git 历史为准）
 
 COMPLETED:
+- Sol Planning Window Ch12–Ch17 completed（2026-09-15）：
+  - 完整恢复 commit `2cf6b17` Canon、Batch 03A/03B Canon Summary、Ch11 Final 及人物/关系/时间线/秘密/伏笔/旧衣规则/总结构；未修改 Ch1–11 Final 或 Canon；
+  - 新增 `12_production/batches/batch_04_ch12_17_plan.md` 与 Chapter 012–017 六份执行 Brief；
+  - 六章 Mini-Arc = 权限冻结后的共同营业 → 唐荔署名最低证词 → 周序交父亲半段录音 → 秦沛受限装订/档案交换 → 孙正/旧仓库/调剂社现实交叉 → 谢念公开主动求忘碎片 → 第一格灰工装候选实物进入权属门槛；
+  - Level = Ch12 IMPORTANT / Ch13 KEY / Ch14 NORMAL / Ch15 IMPORTANT / Ch16 KEY / Ch17 IMPORTANT；全部 Writer Reasoning = MEDIUM；
+  - 新增旧衣规则 = 0；成功读取次数 = 0；六章 Memory Segment Budget 均 NONE；
+  - 8 万仅推进第一笔 2 万至“与仓库遗留工装代存/取回强关联但未证实”；另三笔 UNKNOWN；红外套只到独立照片确认谢念穿过；缺页只到晚于 2007 重订；
+  - 唐荔以签署证词、拒绝秦沛侧面扩权、在双向隐瞒冲击后不撤证词完成行动推进；友情不修复；
+  - 周序只知谢念有未公开来源，不知超自然能力；周父录音保留后半段与离岗事实；
+  - Ch17 以“第一格灰工装候选实物 + 秦沛控制入口 + 权属/关系资格未清”作为第一部末三章冲刺钩子；不提前规划 Ch18–20 正文；
+  - 新增 `12_production/CHAPTER_012_014_READINESS.md`，结论 **READY**；下一位 Gemini 3.8 Flash Writer（MEDIUM）Draft Ch12–Ch14。
 - Batch 03B（Ch9–11）Verification + Final + Canon Update completed（Gemini Continuity，2026-09-15）：
   - 独立核验三章 Rewrite 实际正文，实施 2 项 Mechanical Patch：
     1. Ch9 line 77：剔除残余占位符 `（记忆段）`；
@@ -154,14 +165,16 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- 无。Batch 03B Editorial Review 已完成。
+- 无。Planning Window Ch12–Ch17 已完成。
 
 NEXT_TASK:
-- Gemini 3.8 Flash Writer（MEDIUM）→ 按 `12_production/editorial/batch_03b_ch09_11_editorial_review.md` 一次性 Rewrite Ch9–Ch11；逐章统计纯中文汉字数；不创建Final、不更新Canon、不开始Ch12。
-- Rewrite后直接交独立Gemini Continuity（MEDIUM）执行Rewrite Verification + Final + Canon Update；`SOL RECHECK REQUIRED = NO`。
+- Gemini 3.8 Flash Writer（MEDIUM）→ 按 `12_production/chapter_briefs/chapter_012_brief.md` 至 `chapter_014_brief.md` 一次性 Draft Ch12–Ch14；逐章统计纯中文汉字数；严格执行 Exact Detail / Information / Memory Segment Budget。
+- 不开始 Ch15；不创建 Final；不更新 Canon；不修改 Ch1–Ch11。
+- Draft 后交独立 Gemini Continuity（MEDIUM）执行 Ch12–Ch14 Continuity Pass，再交 Sol Editorial Review。
 - 历史遗留待办见 00_system/ACTIVE_TASKS.md 队列（ORIGINAL_PROJECT_DISCOVERY 反向入库等）。
 
 FILES_CHANGED:
+- 本轮（Sol Planning Window Ch12–Ch17）：新增 `12_production/batches/batch_04_ch12_17_plan.md`、`chapter_briefs/chapter_012_brief.md`–`chapter_017_brief.md`、`12_production/CHAPTER_012_014_READINESS.md`、`99_logs/claude/2026-09-15_C05_planning_window_ch12_17.md`；更新 `PROJECT_STATUS.md`、`ACTIVE_TASKS.md`、`HANDOFF.md`；**未修改 Ch1–Ch11 Final、Canon Summary、Character Bible、Timeline、Secret、Foreshadowing 或 Rules**。
 - 本轮（Batch 03B Editorial）：新增`12_production/editorial/batch_03b_ch09_11_editorial_review.md`与`99_logs/claude/2026-09-14_C05_batch03b_ch09_11_editorial.md`；更新`GEMINI_WRITER_INSTRUCTIONS.md`、`ACTIVE_TASKS.md`、`HANDOFF.md`；**未修改Ch1–8、Ch9–11 Draft、Continuity、Canon或Ch12+**。
 - 本轮（Batch 03A Editorial）：新增 `12_production/editorial/batch_03a_ch06_08_editorial_review.md` 与 `99_logs/claude/2026-09-14_C05_batch03a_ch06_08_editorial.md`；更新 `GEMINI_WRITER_INSTRUCTIONS.md` 与三份状态文件；**未修改 Ch6–Ch8 Draft、Continuity、Canon 或 Ch9 Brief**。
 - 本轮（Sol Planning Window Ch6–Ch11）：新增 `12_production/batches/batch_03_ch06_11_plan.md`、`chapter_briefs/chapter_007_brief.md`–`chapter_011_brief.md`、`12_production/CHAPTER_006_008_READINESS.md`、`99_logs/claude/2026-09-14_C05_planning_window_ch06_11.md`；更新 `PROJECT_STATUS.md`、`ACTIVE_TASKS.md`、`HANDOFF.md`；**未修改 Ch6 Brief、小说正文、Canon Summary、Character Bible、Master Timeline 或规则文件**。
