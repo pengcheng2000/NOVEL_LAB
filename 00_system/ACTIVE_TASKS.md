@@ -1,6 +1,6 @@
 # ACTIVE_TASKS — 当前活动任务
 
-最后更新：2026-09-15（Gemini Continuity：**Batch 04A Ch12–14 Continuity Pass 完成**；Chapter 001–011 维持 FINAL / ACCEPTED / CANONIZED；产出 `batch_04a_ch12_14_continuity.md`，PASS WITH NOTES；下一任务 GPT-5.6 Sol MEDIUM Batch 04A Editorial Review Ch12–Ch14）
+最后更新：2026-09-15（GPT-5.6 Sol / Codex：**Batch 04A Ch12–14 Editorial Review 完成**；三章均 ACCEPT WITH REVISION；下一任务 Gemini 3.8 Flash Writer（MEDIUM）一次性 Rewrite Ch12–Ch14；`SOL RECHECK REQUIRED = NO`）
 
 ## 当前
 
@@ -8,6 +8,8 @@
 |---|---|---|
 | Chapter 012–014 Draft（Batch 04A） | **COMPLETED** | 2026-09-15 Gemini Writer 完成（commit `487a0fc`）：Ch12 4,329 字、Ch13 4,727 字、Ch14 3,708 字（HEAD 版本全部落入控长区间） |
 | Batch 04A Continuity Pass（Ch12–14） | **COMPLETED** | 2026-09-15 Gemini Continuity 完成，产出 `12_production/editorial/batch_04a_ch12_14_continuity.md`；结论 PASS WITH NOTES；无主线 BLOCKER；三章纯汉字控长全部达标（LENGTH CONTROL PASS）；Ch14 账簿材质与 Ch7 发生严重冲突（深蓝土布/过蜡麻线 vs 暗红生丝/生蚕丝线）列为 MUST FIX；Canon 未更新 |
+| Batch 04A Editorial Review（Ch12–14） | **COMPLETED** | 2026-09-15 Sol / Codex 完成：三章均 ACCEPT WITH REVISION；Ch12 收敛银行/证词法律化并纠正谢念职业；Ch13 封死录音后半段、删“急料”并修正纸角来源；Ch14 恢复暗红生丝/桑皮纸衬/极细生蚕丝线；`SOL RECHECK REQUIRED = NO` |
+| Chapter 012–014 Rewrite（Batch 04A） | **TODO** | 下一位 Gemini 3.8 Flash Writer（MEDIUM）一次性 Rewrite；以 Git HEAD 的 4,329 / 4,727 / 3,708 汉字 Draft 为底稿，不使用工作区 Ch12 历史膨胀版；不开始 Ch15、不更新 Canon |
 | Planning Window Ch12–Ch17 | **COMPLETED** | 2026-09-15 Sol / Codex 完成：`batch_04_ch12_17_plan.md`、Ch12–17 六份执行 Brief 与 `CHAPTER_012_014_READINESS.md`；六章全部 MEDIUM；KEY = Ch13 / Ch16；成功读取 0、新规则 0；Ch17 停在第一格灰工装候选实物与权属/资格门槛 |
 | Batch 03A Continuity Pass（Ch6–8） | **COMPLETED** | 2026-09-14 Gemini Continuity 完成，产出 `12_production/editorial/batch_03a_ch06_08_continuity.md`；结论 PASS WITH WARNINGS（Ch8 3,849 字略欠 151 字下限，孙正档案落地字段待 Sol 裁决）；无 BLOCKER；Canon 未更新 |
 | Batch 03A Editorial Review（Ch6–8） | **COMPLETED** | Sol 联合审稿：Ch6 / Ch7 / Ch8 均 ACCEPT WITH REVISION；Ch8 3,849 字直接接受，不补字；孙正精确字段收敛；新增 Writer 长期精确字段纪律；`SOL RECHECK REQUIRED = NO` |
@@ -64,7 +66,7 @@
 
 | # | 任务 | 依赖 |
 |---|---|---|
-| 1 | Gemini 3.8 Flash Writer（MEDIUM）Draft Ch12–Ch14 | `CHAPTER_012_014_READINESS.md` = READY；一次生产 3 chapters；严格执行 Exact Detail / Information / Memory Segment Budget；不开始 Ch15 |
+| 1 | Gemini 3.8 Flash Writer（MEDIUM）Rewrite Ch12–Ch14 | 按 `batch_04a_ch12_14_editorial_review.md` 一次性 Rewrite；保持字数区间、READ COUNT 0、NEW RULES 0；不开始 Ch15 |
 | 2 | Phase 6 生产监控：单元语法重复率 / 主谜场景占比 / 谢念主动行动占比 | 随正文生产持续执行 |
 | 3 | ORIGINAL_PROJECT_DISCOVERY 反向入库（C06 负空间数据库 + C08 规则武器职业化） | 用户确认；不影响 C05 |
 | 4 | Schema v1.1 修订裁决 / Source 政策边界裁决（历史遗留） | 用户裁决 |

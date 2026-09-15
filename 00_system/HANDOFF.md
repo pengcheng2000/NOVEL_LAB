@@ -2,12 +2,22 @@
 
 > 每次重要工作结束时更新本文件；每次开始工作前先读本文件（完整协议见 `00_system/AGENT_PROTOCOL.md`）。
 
-LAST_AGENT: Gemini Continuity
-LAST_MODEL: Gemini 3.8 Flash（MEDIUM；Continuity & Canon Agent）
+LAST_AGENT: GPT-5.6 Sol / Codex
+LAST_MODEL: GPT-5.6 Sol（MEDIUM；Editor-in-Chief / Lead Story Editor / Story Architect）
 LAST_DEVICE: Windows
-LAST_COMMIT: draft: write chapters 012 to 014（commit 487a0fc；准确 hash 以 Git 历史为准）
+LAST_COMMIT: review: edit chapters 012 to 014（2026-09-15；准确 hash 以 Git 历史为准）
 
 COMPLETED:
+- Batch 04A（Ch12–14）Editorial Review completed（Sol / Codex，2026-09-15）：
+  - 唯一审稿基准为 commit `8063e28` HEAD 中 `487a0fc` 提交的三章 Draft；未使用工作区 Ch12 6,042 汉字历史膨胀版；
+  - Verdict：Ch12 / Ch13 / Ch14 均 **ACCEPT WITH REVISION**；建议字数维持 4,000–4,400 / 4,300–4,800 / 3,500–3,900；
+  - Ch12：保留资产清册与唐荔最低署名陈述；清册降为贷后补充经营说明；删除业务章、按手印、准司法措辞与谢念“法务”错误职业；
+  - Ch13：保留临终录音前半段和对称证据交换；删除“急料通行”、医疗环境与未授权精确量；修复巡检纸角来源；彻底封住录音后半段；
+  - Ch14：强制恢复《承衣簿》暗红生丝封面、桑皮纸衬、极细生蚕丝线；删除四孔订线、过蜡麻线、牛皮纸夹层；裁切只推出 AFTER REBINDING；
+  - 统一现实档案术语为清算移交台账/受限移交索引，“无主”改“无人认领”；第一笔 2 万定义为 STRONGLY ASSOCIATED CONTEXT，非用途确认；
+  - 唐荔取消原先谈好的试播合作保留，职业信用小幅上升，私人信用、钥匙与特殊权限不恢复；
+  - Batch B Ch15–17 完全兼容；READ COUNT = 0；NEW RULES = 0；`SOL RECHECK REQUIRED = NO`；
+  - 下一任务：Gemini 3.8 Flash Writer（MEDIUM）一次性 Rewrite Ch12–Ch14；不开始 Ch15、不生成 Final、不更新 Canon。
 - Batch 04A（Ch12–14）Continuity Pass completed（Gemini Continuity，2026-09-15）：
   - 独立连读 Ch11 Final → Ch12 → Ch13 → Ch14 Draft（对照 Ch12–15 Brief、Batch 04 Plan、最新 Canon、Story Bible）；
   - 产出审查报告：`12_production/editorial/batch_04a_ch12_14_continuity.md`；总体结论 **PASS WITH NOTES**（建议状态：**ACCEPT WITH REVISION**）；
@@ -174,16 +184,15 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- 无。Batch 04A（Ch12–14）Continuity Pass 已完成。
+- 无。Batch 04A Editorial Review 已完成。
 
 NEXT_TASK:
-- GPT-5.6 Sol（MEDIUM）→ Batch 04A Editorial Review（Ch12–Ch14）；
-  - 重点裁决：Ch14 账簿封面/订线物证材质修正（回归暗红生丝/极细生蚕丝线）；Ch12 篇幅与工作区遗留膨胀版本清理确认（以 HEAD 4,329 字为准）；周国梁录音具象化字段（急料通行等）；调剂社“清算封存”与“无主工装”措辞风险；Ch14 信息密度与唐荔取消试播合作之经营影响。
-- Sol 审稿后由 Gemini Writer 完成 Batch 04A Rewrite；
-- Rewrite 后交由独立 Gemini Continuity 执行 Rewrite Verification + Canon Update；
-- 严禁提前开始 Ch15 或更新 Canon。
+- Gemini 3.8 Flash Writer（MEDIUM）→ 按 `12_production/editorial/batch_04a_ch12_14_editorial_review.md` 一次性 Rewrite Ch12–Ch14；必须从 Git HEAD 权威 Draft 生成 Rewrite，禁止使用工作区 Ch12 6,042 汉字历史膨胀版。
+- 保持 Ch12 4,000–4,400 / Ch13 4,300–4,800 / Ch14 3,500–3,900 纯中文汉字；READ COUNT = 0；NEW RULES = 0。
+- 不开始 Ch15；不修改 Final/Canon/Brief；Rewrite 后直接交独立 Gemini Continuity（MEDIUM）执行 Verification → Final → Canon Update → Ch15–17 Compatibility / Readiness。
 
 FILES_CHANGED:
+- 本轮（Batch 04A Editorial Review）：新增 `12_production/editorial/batch_04a_ch12_14_editorial_review.md` 与 `99_logs/claude/2026-09-15_C05_batch04a_ch12_14_editorial.md`；最小更新 `ACTIVE_TASKS.md`、`HANDOFF.md`；**未修改 Ch12–14 Draft、Ch15–17 Brief、Final 或 Canon**。
 - 本轮（Batch 04A Continuity Pass）：新增 `12_production/editorial/batch_04a_ch12_14_continuity.md`；更新 `00_system/ACTIVE_TASKS.md`、`00_system/HANDOFF.md`；**未修改小说正文 Draft、未生成 Final、未更新任何 Canon、未开始 Ch15**；工作区历史遗留差异不纳入提交。
 - 本轮（Sol Planning Window Ch12–Ch17）：新增 `12_production/batches/batch_04_ch12_17_plan.md`、`chapter_briefs/chapter_012_brief.md`–`chapter_017_brief.md`、`12_production/CHAPTER_012_014_READINESS.md`、`99_logs/claude/2026-09-15_C05_planning_window_ch12_17.md`；更新 `PROJECT_STATUS.md`、`ACTIVE_TASKS.md`、`HANDOFF.md`；**未修改 Ch1–Ch11 Final、Canon Summary、Character Bible、Timeline、Secret、Foreshadowing 或 Rules**。
 - 本轮（Batch 03B Editorial）：新增`12_production/editorial/batch_03b_ch09_11_editorial_review.md`与`99_logs/claude/2026-09-14_C05_batch03b_ch09_11_editorial.md`；更新`GEMINI_WRITER_INSTRUCTIONS.md`、`ACTIVE_TASKS.md`、`HANDOFF.md`；**未修改Ch1–8、Ch9–11 Draft、Continuity、Canon或Ch12+**。
