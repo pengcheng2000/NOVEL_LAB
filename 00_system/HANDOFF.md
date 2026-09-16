@@ -2,14 +2,14 @@
 
 > 每次重要工作结束时更新本文件；每次开始工作前先读本文件（完整协议见 `00_system/AGENT_PROTOCOL.md`）。
 
-LAST_AGENT: Gemini Continuity & Canon Agent
-LAST_MODEL: Gemini 3.8 Flash（MEDIUM；Continuity & Canon Agent）
-LAST_COMMIT: canon: repair part two opening arc canonization（2026-09-16；准确 hash 以 Git 历史为准）
+LAST_AGENT: GPT-5.6 Sol / Codex
+LAST_MODEL: GPT-5.6 Sol（MEDIUM；Final Canon Gate Authority）
+LAST_COMMIT: review: hold part two expansion gate for residual canon patch（2026-09-16；准确 hash 以 Git 历史为准）
 LAST_DEVICE: Windows
 
-NEXT_AGENT: GPT-5.6 Sol / Codex
-NEXT_MODEL: GPT-5.6 Sol（MEDIUM；Final Gate Recheck Authority）
-NEXT_TASK: OPENING ARC CANON REPAIR FINAL GATE RECHECK（MEDIUM；核验 Canon Repair Manifest 闭环后恢复 Expansion Gate ACTIVE；在恢复前严禁规划 Ch24–29 或开写 Ch24）
+NEXT_AGENT: Gemini Continuity & Canon Agent
+NEXT_MODEL: Gemini Continuity & Canon Agent（MEDIUM）
+NEXT_TASK: APPLY RESIDUAL CANON PATCH（仅3文件4窄项）+ INTEGRITY VERIFICATION；Expansion Gate HOLD；不得规划/写 Ch24
 
 HARD_LOCKS_FOR_PART_II:
 1. 姓名唯一性：谢念、唐荔、周序、秦沛、林素云、周国梁、孙正、余禾、蒋妍，严格无错字；
@@ -26,6 +26,11 @@ HARD_LOCKS_FOR_PART_II:
 12. 规则与读取预算：Ch21–23 READ COUNT = 0，QUASI-READ = 0，PLEDGE = 0，NEW RULES = 0，Memory Segment = NONE；累计正式读衣次数保持 3。
 
 COMPLETED:
+- OPENING ARC CANON REPAIR FINAL GATE RECHECK completed（GPT-5.6 Sol / Codex，2026-09-16）：
+  - Final Text SAFE / FROZEN / UNCHANGED；三份Final与0596eeb blob一致；
+  - Repair主体通过；残留3文件4窄项：唐荔永久化措辞、私人证言范围、日志污染词与过时Gate描述；
+  - Final Verdict：HOLD；Expansion Gate继续 PASS SUSPENDED / TEMP HOLD；Ch24–29 NOT AUTHORIZED；
+  - 下一位 Gemini Continuity MEDIUM 只做 residual patch 与简短Integrity Verification。
 - PART II OPENING ARC CANON REPAIR Ch21–23 completed（Gemini Continuity，2026-09-16）：
   - 严格依据 `part_02_opening_arc_canon_recovery_audit.md` 中的 Canon Repair Manifest，对 12 个受污染文件完成定点事实级清洗；
   - Ch21–23 三份 Final 正文 100% 冻结保护（CONTENT SAFE / FROZEN，未删改任何字符或末尾 LF）；
@@ -395,7 +400,7 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- PART-I FINALIZATION 待 Gemini Continuity & Canon Agent 执行；Ch18–20 已验收，但 Final 文件与 Canon Update 仍未生成。
+- Residual Canon Patch待执行；Expansion Gate TEMP HOLD；Ch24继续冻结。
 - 无。FIRST-PART CLIMAX PLAN Ch18–20 已完成。
 - 无。Batch 04B Editorial Review 已完成。
 - 无。Batch 04A Editorial Review 已完成。
@@ -405,12 +410,11 @@ IN_PROGRESS:
 - 无。FIRST-PART CLIMAX CONTINUITY PASS Ch18–20 已完成。
 
 NEXT_TASK:
-- Gemini Continuity & Canon Agent（MEDIUM）→ 执行 PART-I FINALIZATION：
-  - 以 Ch18–20 Rewrite（含 Sol 两处最小 Editorial Patch）为唯一正文源生成 Final；
-  - 执行 Canon Update、创建 Part-I Canon Summary 并完成 Post-Canon Integrity Check；
-  - 核验通过后标记 Chapter 001–020 FINAL / ACCEPTED / CANONIZED；
-  - 仅做机械一致性、Final 复制、Canon 抽取与 Integrity Check；除非发现新 Hard Conflict，不再返回 Sol；
-  - 不开始 Chapter 021，不规划 Part II。
+- Gemini Continuity & Canon Agent（MEDIUM）→ APPLY RESIDUAL CANON PATCH：
+  - 仅修改 `part_02_opening_arc_ch21_23_canon_summary.md`、`RELATIONSHIP_ENGINE.md`、Opening Arc Finalization Log；
+  - 将唐荔“绝不参与读取”改为“本弧未参与特殊读取”；将“不提供私人证言”改为“本弧不提供新增私人证言”；
+  - 清除日志中的¥120污染词，修正顶部过时Gate激活描述；
+  - 出具简短Integrity Verification；不得修改Final或其他Canon，不得规划/写Ch24。
 - Gemini 3.8 Flash Writer（MEDIUM）→ 按 `12_production/editorial/batch_04b_ch15_17_editorial_review.md` 一次性 Rewrite Ch15–Ch17；DELETE > REPLACE > COMPRESS。
 - 保持 Ch15 4,100–4,600 / Ch16 4,300–4,900 / Ch17 4,200–4,700 纯中文汉字；READ COUNT = 0；NEW RULES = 0；Memory Segment = NONE。
 - 不开始 Ch18；不修改 Final/Canon/Brief；Rewrite 后直接交独立 Gemini Continuity（MEDIUM）执行 Verification → Final → Canon Update。
@@ -438,6 +442,7 @@ NEXT_TASK:
 - 严禁提前开始 Ch15 或更新 Canon。
 
 FILES_CHANGED:
+- 本轮（OPENING ARC CANON REPAIR FINAL GATE RECHECK）：新增 `12_production/editorial/part_02_opening_arc_canon_repair_final_gate_recheck.md` 与 `99_logs/claude/2026-09-16_C05_part02_opening_arc_canon_repair_final_gate_recheck.md`；更新三份状态文件；**未修改Final/Canon，未规划或写Ch24**。
 - 本轮（FINAL PART-I ACCEPTANCE Ch18–20）：最小修改 `chapter_019_rewrite.md`、`chapter_020_rewrite.md`；新增 `12_production/editorial/first_part_final_acceptance.md` 与 `99_logs/claude/2026-09-15_C05_first_part_final_acceptance.md`；最小更新 `00_system/ACTIVE_TASKS.md`、`00_system/HANDOFF.md`；**未生成 Final、未更新 Canon、未开始 Ch21**。
 - 本轮（FIRST-PART CLIMAX CONTINUITY PASS Ch18–20）：新增 `12_production/editorial/first_part_climax_ch18_20_continuity.md`；更新 `00_system/ACTIVE_TASKS.md`、`00_system/HANDOFF.md`；**未修改小说正文 Draft、未生成 Final、未更新任何 Canon、未开始 Ch21**。
 - 本轮（FIRST-PART CLIMAX PLAN Ch18–20）：新增 `12_production/batches/first_part_climax_ch18_20_plan.md`、`chapter_briefs/chapter_018_brief.md`–`chapter_020_brief.md`、`12_production/CHAPTER_018_020_READINESS.md`、`99_logs/claude/2026-09-15_C05_first_part_climax_ch18_20.md`；更新 `PROJECT_STATUS.md`、`ACTIVE_TASKS.md`、`HANDOFF.md`；**未修改 Ch1–17 Final/Canon，未写 Ch18 正文，未开始 Ch21**。

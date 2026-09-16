@@ -1,13 +1,14 @@
 # ACTIVE_TASKS — 当前活动任务
 
-最后更新：2026-09-16（Gemini Continuity：**PART II《返潮》OPENING ARC CANON REPAIR COMPLETE**；依据 `part_02_opening_arc_canon_recovery_audit.md` 修复全部 12 个受污染文件；Ch21–23 Final 正文冻结未改；梁女士案事实收敛、三栏政策 V1 还原、唐荔/周序/秦沛/余禾知识与动作边界归位、经手链调查假设净化；**EXPANSION GATE = PASS SUSPENDED / TEMP HOLD**；Ch24–29 严禁规划，Ch24 严禁开写；下一任务交接：**GPT-5.6 Sol MEDIUM → OPENING ARC CANON REPAIR FINAL GATE RECHECK**）
+最后更新：2026-09-16（GPT-5.6 Sol / Codex：**OPENING ARC CANON REPAIR FINAL GATE RECHECK 完成**；Final Text SAFE；Claim/Finance/Object/Policy/Knowledge/First-Slot/2016主体均PASS；发现3文件4个窄残留项，Final Verdict HOLD；Expansion Gate继续TEMP HOLD；下一任务 Gemini Continuity MEDIUM定点Patch，Ch24–29禁止规划）
 最后更新：2026-09-15（Gemini Continuity：**PART II《返潮》OPENING ARC FINALIZATION Ch21–23 完成**；生成 Ch21–23 Final，实测纯汉字 4,210 / 4,282 / 4,252 全部达标（共 12,744 汉字）；产出 `part_02_opening_arc_ch21_23_canon_summary.md`；待定点清洗抽取污染）
 
 ## 当前
 
 | 任务 | 状态 | 备注 |
 |---|---|---|
-| OPENING ARC CANON REPAIR FINAL GATE RECHECK | **TODO — READY** | 下一位 GPT-5.6 Sol（MEDIUM）终审检查 Canon Repair Manifest 闭环情况，确认后恢复 Expansion Gate ACTIVE；通过前严禁规划 Ch24–29 或开写 Ch24 |
+| OPENING ARC RESIDUAL CANON PATCH | **TODO — READY** | 下一位 Gemini Continuity & Canon Agent（MEDIUM）只修复 Canon Summary、Relationship Engine、Finalization Log 三文件4个窄项；保护Final与其他Canon；完成简短Integrity Verification |
+| OPENING ARC CANON REPAIR FINAL GATE RECHECK | **COMPLETED — HOLD** | Repair主体通过；残留唐荔永久化措辞/私人证言范围与日志污染词/过时Gate描述；Expansion Gate TEMP HOLD |
 | PART II OPENING ARC CANON REPAIR | **COMPLETED** | 2026-09-16 Gemini Continuity 完成：按 Manifest 定点修复 12 个受污染文件；Ch21–23 Final 正文严格未动；梁女士案材料/三栏 Policy V1/知识边界/物件状态全面净化；产出 `part_02_opening_arc_canon_repair_verification.md`；Expansion Gate 维持 **PASS SUSPENDED / TEMP HOLD** |
 | PART II《返潮》PLANNING WINDOW（Ch24–29） | **HOLD — NOT AUTHORIZED YET** | 须待 Sol 完成 Final Gate Recheck 激活 Gate 后方可启动；严禁 Writer 提前开写 Chapter 024 正文 |
 | PART II OPENING ARC FINALIZATION（Ch21–23） | **COMPLETED（PROSE FROZEN / CANON REPAIRED）** | 2026-09-15 Gemini Continuity 生成 Final（4,210 / 4,282 / 4,252 纯汉字，正文安全）；2026-09-16 完成 Canon Repair 修复抽取污染 |
@@ -105,7 +106,7 @@
 
 | # | 任务 | 依赖 |
 |---|---|---|
-| 1 | Gemini Continuity & Canon Agent PART-I FINALIZATION | MEDIUM；生成 Ch18–20 Final、Canon Update、Part-I Canon Summary 与 Post-Canon Integrity Check；通过后标记 Ch001–020 FINAL / ACCEPTED / CANONIZED；不开始 Ch21 |
+| 1 | Gemini Continuity APPLY RESIDUAL CANON PATCH | MEDIUM；只修3文件4窄项并做Integrity Verification；不得修改Final/其他Canon，不得规划或写Ch24 |
 | 2 | Phase 6 生产监控：单元语法重复率 / 主谜场景占比 / 谢念主动行动占比 | 随正文生产持续执行 |
 | 3 | ORIGINAL_PROJECT_DISCOVERY 反向入库（C06 负空间数据库 + C08 规则武器职业化） | 用户确认；不影响 C05 |
 | 4 | Schema v1.1 修订裁决 / Source 政策边界裁决（历史遗留） | 用户裁决 |
