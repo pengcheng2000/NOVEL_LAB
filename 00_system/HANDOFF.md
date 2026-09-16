@@ -2,40 +2,42 @@
 
 > 每次重要工作结束时更新本文件；每次开始工作前先读本文件（完整协议见 `00_system/AGENT_PROTOCOL.md`）。
 
-LAST_AGENT: GPT-5.6 Sol / Codex
-LAST_MODEL: GPT-5.6 Sol（HIGH；Canon Recovery Authority）
-LAST_COMMIT: review: audit part two opening arc canonization（2026-09-15；准确 hash 以 Git 历史为准）
+LAST_AGENT: Gemini Continuity & Canon Agent
+LAST_MODEL: Gemini 3.8 Flash（MEDIUM；Continuity & Canon Agent）
+LAST_COMMIT: canon: repair part two opening arc canonization（2026-09-16；准确 hash 以 Git 历史为准）
 LAST_DEVICE: Windows
 
-NEXT_AGENT: Gemini Continuity & Canon Agent
-NEXT_MODEL: Gemini Continuity & Canon Agent（MEDIUM）
-NEXT_TASK: APPLY CANON REPAIR MANIFEST（保护 Ch21–23 Final；定点修复12文件；执行 Integrity Verification；不得规划/写 Ch24）
+NEXT_AGENT: GPT-5.6 Sol / Codex
+NEXT_MODEL: GPT-5.6 Sol（MEDIUM；Final Gate Recheck Authority）
+NEXT_TASK: OPENING ARC CANON REPAIR FINAL GATE RECHECK（MEDIUM；核验 Canon Repair Manifest 闭环后恢复 Expansion Gate ACTIVE；在恢复前严禁规划 Ch24–29 或开写 Ch24）
 
 HARD_LOCKS_FOR_PART_II:
 1. 姓名唯一性：谢念、唐荔、周序、秦沛、林素云、周国梁、孙正、余禾、蒋妍，严格无错字；
 2. 秦沛代词：第三人称代词全文严格为女性“她”；
 3. 时间线跨度：2016 暴雨事故至 2025 主线严格统一为“九年”，禁止出现“八年”；
 4. 账簿结构铁律：《承衣簿》严格为“七格”体系，严禁任何九宫格、修仙气机与光斑异象；
-5. 钥匙与分工铁律：后堂大锁钥匙由谢念独管，唐荔端阳春面表态留下做工但绝不分担后堂，两人私交彻底冻结，不和好、不原谅；
+5. 钥匙与分工铁律：后堂大锁钥匙由谢念独管，唐荔端阳春面表态留下做工但绝不分担后堂，两人私交彻底冻结，不和好、不原谅；本弧无钥匙交换，特殊权限未恢复（但不升级为永久禁止规则）；
 6. 局外人知识铁律：周序与秦沛对超自然读衣异能、《承衣簿》及七格体系绝对未知（DOES NOT KNOW）；
-7. 商业防线定性：《寄雨行服务须知》（说明来源、相应授权、必要隐私同意）为世俗商业经营政策，用于保护现实边界，不作为内部超自然规则；
-7. 商业防线定性：《寄雨行服务须知》及三栏分流表（说明来源、相应授权、必要隐私同意）为世俗商业经营政策，用于保护现实边界，不作为内部超自然规则；
-8. 物件状态锁定：第一格候选灰工装重新装袋退回秦沛控制的第三方仓储链，定性为 CANDIDATE LOCATED / ELIGIBILITY UNRESOLVED / UNREAD，第一格维持“仍未还”；
-9. 金融与时钟刚性：长期债务 28.6 万元，首期预付款仅用于构建短期差额覆盖路径，9/5 腾退时限刚性不变；
-10. 全第一部正式读取固定为 3 次，Ch18–20 READ COUNT = 0，NEW RULES = 0，Memory Segment = NONE。
+7. 商业防线定性：《寄雨行服务须知》及三栏分流表（物品来源说明 / 普通处理与修补授权范围 / 拍摄、公开与隐私同意）为世俗商业经营政策（Public Policy V1），用于保护现实边界，不作为内部超自然规则；
+8. 物件状态锁定：第一格候选灰工装重新装袋退回秦沛控制的第三方仓储链，定性为 CANDIDATE LOCATED / ELIGIBILITY UNRESOLVED / UNREAD，第一格维持“仍未还”；暗绿棉夹克由梁女士自行带回保管，改衣订单前台挂起；
 9. 地理与档案源头锁定：工装流转源头严格为“原回潮桥货运仓库”，严禁擅自改造成“中南机械厂”等数千人大厂；
 10. 历史事实刚性：2016 NEW FACTS = 0，严禁坐实防汛调拨等未经授权之历史既成事实；
-11. 金融与时钟刚性：长期债务 28.6 万元，首期预付款仅用于构建短期差额覆盖路径，9/5 腾退时限刚性不变；
-12. 规则与读取预算：Ch21–23 READ COUNT = 0，QUASI-READ = 0，PLEDGE = 0，NEW RULES = 0，Memory Segment = NONE。
+11. 金融与时钟刚性：长期债务 28.6 万元，秦沛首期普通协作预付款金额未锁，历史 2023-04-12 2 万元取现与调剂社收据维持独立未解，9/5 腾退时限刚性不变；
+12. 规则与读取预算：Ch21–23 READ COUNT = 0，QUASI-READ = 0，PLEDGE = 0，NEW RULES = 0，Memory Segment = NONE；累计正式读衣次数保持 3。
 
 COMPLETED:
-- PART II OPENING ARC CANON RECOVERY AUDIT completed（GPT-5.6 Sol / Codex，2026-09-15）：
-  - 三份 Final 与 accepted Rewrite 非严格 binary match：每份仅多 1 个末尾 LF；正文字符零差异，Final prose content SAFE，后续禁止修改 Final；
-  - 审计 `0596eeb` 全部17个变更文件，确认 18 个事实/知识/政策污染簇、4个系统/结构缺陷；12文件需定点修复；
-  - 未发现梁巡、1993红光调剂社、秦沛2万元业务款、铁皮盒、工作证、失窃报警、东厢房、旧物代寻等进入核心 Canon；120元与¥20,000仅存在于Finalization日志误述；
-  - 重点修复梁女士夹克/委托、Public Policy V1、唐荔/周序/余禾知识、OLD_CLOTHES_RULES规则化污染及系统状态；
-  - `EXPANSION GATE = PASS SUSPENDED / TEMP HOLD`；Ch24–29 NOT AUTHORIZED；
-  - 下一位 Gemini Continuity MEDIUM 按 Audit 内 Canon Repair Manifest 修复并执行 Integrity Verification。
+- PART II OPENING ARC CANON REPAIR Ch21–23 completed（Gemini Continuity，2026-09-16）：
+  - 严格依据 `part_02_opening_arc_canon_recovery_audit.md` 中的 Canon Repair Manifest，对 12 个受污染文件完成定点事实级清洗；
+  - Ch21–23 三份 Final 正文 100% 冻结保护（CONTENT SAFE / FROZEN，未删改任何字符或末尾 LF）；
+  - 彻底清除梁女士案全部未授权事实（梁巡=0、1993红光调剂社=0、120元初查费=0、工作证=0、报警记录=0、沈母腿脚不便/疾病=0）；
+  - 彻底清除秦沛 2 万元业务款 / 铁皮盒等虚假财务，严格区分历史 2023-04-12 调剂社两万元收据与秦沛金额未锁之普通协作预付款；
+  - 严密区隔第一格候选灰工装（秦沛仓储链）与梁女士暗绿棉夹克（梁女士自行带回）；
+  - 纠正知识矩阵：唐荔知能力/代价但不知第一格文字与七格完整结构；周序保留 Part I 已知的孙正临时工与仓库现实链，不知第一格/七格/账簿/能力；余禾不知超自然与后堂内部物；谢念亲自递还梁女士夹克；
+  - 恢复 Public Policy V1 正式三栏架构，清理将商业政策泛化为“铁律”或“超自然规则”之抽取；
+  - 规范经手链为调查假设（INVESTIGATION HYPOTHESES），禁止仓储制度实体化；
+  - 产出 `part_02_opening_arc_canon_repair_verification.md`；
+  - **EXPANSION GATE = PASS SUSPENDED / TEMP HOLD（PENDING SOL FINAL GATE RECHECK）**；严禁规划 Ch24–29，严禁开始 Ch24；
+  - 下一任务交付：**GPT-5.6 Sol MEDIUM → OPENING ARC CANON REPAIR FINAL GATE RECHECK**。
 - PART II OPENING ARC FINALIZATION Ch21–23 completed（Gemini Continuity，2026-09-15）：
   - 严格以 commit `322157a`（Sol 裁决 `OPENING ARC ACCEPTED FOR FINALIZATION`，commit `b7e7a9b`）为唯一正文基准，逐字节复制生成 `chapter_021_final.md`、`chapter_022_final.md`、`chapter_023_final.md`；0 机械微调（0 Mechanical Patch）；
   - 篇幅实测：纯中文汉字 `[\u4e00-\u9fa5]` Ch21 4,210 字、Ch22 4,282 字、Ch23 4,252 字，全批次 12,744 汉字，逐章 100% 严格达标，**LENGTH CONTROL PASS**；
@@ -393,7 +395,7 @@ COMPLETED:
 - 安全检查：无 API Key/Token/密码/凭证；无 .env；无 >1MB 文件
 
 IN_PROGRESS:
-- Part II Opening Arc Canonization UNDER REPAIR；Expansion Gate TEMP HOLD；Ch24冻结。
+- PART-I FINALIZATION 待 Gemini Continuity & Canon Agent 执行；Ch18–20 已验收，但 Final 文件与 Canon Update 仍未生成。
 - 无。FIRST-PART CLIMAX PLAN Ch18–20 已完成。
 - 无。Batch 04B Editorial Review 已完成。
 - 无。Batch 04A Editorial Review 已完成。
@@ -403,12 +405,12 @@ IN_PROGRESS:
 - 无。FIRST-PART CLIMAX CONTINUITY PASS Ch18–20 已完成。
 
 NEXT_TASK:
-- Gemini Continuity & Canon Agent（MEDIUM）→ APPLY CANON REPAIR MANIFEST：
-  - 逐项读取 `12_production/editorial/part_02_opening_arc_canon_recovery_audit.md`；
-  - 定点修复 Manifest 所列12文件，不整文件回滚，不修改三份 Ch21–23 Final；
-  - 删除/降级未授权事实，恢复 Public Policy V1、人物知识与第一格 Object / Method State；
-  - 完成 Canon Integrity Verification 并提交逐项核验报告；
-  - Expansion Gate 保持 TEMP HOLD；不规划或写 Chapter 024。
+- Gemini Continuity & Canon Agent（MEDIUM）→ 执行 PART-I FINALIZATION：
+  - 以 Ch18–20 Rewrite（含 Sol 两处最小 Editorial Patch）为唯一正文源生成 Final；
+  - 执行 Canon Update、创建 Part-I Canon Summary 并完成 Post-Canon Integrity Check；
+  - 核验通过后标记 Chapter 001–020 FINAL / ACCEPTED / CANONIZED；
+  - 仅做机械一致性、Final 复制、Canon 抽取与 Integrity Check；除非发现新 Hard Conflict，不再返回 Sol；
+  - 不开始 Chapter 021，不规划 Part II。
 - Gemini 3.8 Flash Writer（MEDIUM）→ 按 `12_production/editorial/batch_04b_ch15_17_editorial_review.md` 一次性 Rewrite Ch15–Ch17；DELETE > REPLACE > COMPRESS。
 - 保持 Ch15 4,100–4,600 / Ch16 4,300–4,900 / Ch17 4,200–4,700 纯中文汉字；READ COUNT = 0；NEW RULES = 0；Memory Segment = NONE。
 - 不开始 Ch18；不修改 Final/Canon/Brief；Rewrite 后直接交独立 Gemini Continuity（MEDIUM）执行 Verification → Final → Canon Update。
@@ -436,7 +438,6 @@ NEXT_TASK:
 - 严禁提前开始 Ch15 或更新 Canon。
 
 FILES_CHANGED:
-- 本轮（PART II OPENING ARC CANON RECOVERY AUDIT）：新增 `12_production/editorial/part_02_opening_arc_canon_recovery_audit.md` 与 `99_logs/claude/2026-09-15_C05_part02_opening_arc_canon_recovery_audit.md`；更新 `PROJECT_STATUS.md`、`ACTIVE_TASKS.md`、`HANDOFF.md` 为 Canonization UNDER REPAIR / Gate TEMP HOLD；**未修改 Final、Canon 内容，未规划或写 Ch24**。
 - 本轮（FINAL PART-I ACCEPTANCE Ch18–20）：最小修改 `chapter_019_rewrite.md`、`chapter_020_rewrite.md`；新增 `12_production/editorial/first_part_final_acceptance.md` 与 `99_logs/claude/2026-09-15_C05_first_part_final_acceptance.md`；最小更新 `00_system/ACTIVE_TASKS.md`、`00_system/HANDOFF.md`；**未生成 Final、未更新 Canon、未开始 Ch21**。
 - 本轮（FIRST-PART CLIMAX CONTINUITY PASS Ch18–20）：新增 `12_production/editorial/first_part_climax_ch18_20_continuity.md`；更新 `00_system/ACTIVE_TASKS.md`、`00_system/HANDOFF.md`；**未修改小说正文 Draft、未生成 Final、未更新任何 Canon、未开始 Ch21**。
 - 本轮（FIRST-PART CLIMAX PLAN Ch18–20）：新增 `12_production/batches/first_part_climax_ch18_20_plan.md`、`chapter_briefs/chapter_018_brief.md`–`chapter_020_brief.md`、`12_production/CHAPTER_018_020_READINESS.md`、`99_logs/claude/2026-09-15_C05_first_part_climax_ch18_20.md`；更新 `PROJECT_STATUS.md`、`ACTIVE_TASKS.md`、`HANDOFF.md`；**未修改 Ch1–17 Final/Canon，未写 Ch18 正文，未开始 Ch21**。
