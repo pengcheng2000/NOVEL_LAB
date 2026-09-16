@@ -1,6 +1,6 @@
 # Project Status — 项目状态总表
 
-最后更新：2026-09-16（GPT-5.6 Sol / Codex：**OPENING ARC CANON REPAIR FINAL GATE RECHECK 完成**；Final Text SAFE；Repair主体通过但3文件仍有4个窄残留项，Gate裁决 HOLD；`EXPANSION GATE = PASS SUSPENDED / TEMP HOLD`；Ch24–29仍未授权；下一任务 Gemini Continuity MEDIUM APPLY RESIDUAL CANON PATCH）
+最后更新：2026-09-16（GPT-5.6 Sol / Codex：**PART II OPENING ARC CANON RECOVERY CLOSED / EXPANSION GATE REOPENED**；4/4 residual items闭环，Final Text SAFE，Canon可信，Hard Conflict NONE；Chapter001–023 FINAL / ACCEPTED / CANONIZED；Expansion Gate PASS / ACTIVE；下一任务 GPT-5.6 Sol → Ch24–29 SIX-CHAPTER PLANNING WINDOW；Writer仍不得直接写Ch24）
 最后更新：2026-09-15（Gemini 3.8 Flash Continuity & Canon Agent，**PHASE 6 — NOVEL PRODUCTION：PART I《未还》COMPLETE（20/20 chapters）**；Chapter 001–020 全部 FINAL / ACCEPTED / CANONIZED；产出 `part_01_unreturned_ch01_20_canon_summary.md`；第一部《未还》正式结卷封账；Part II《返潮》NOT YET PLANNED；下一任务 GPT-5.6 Sol HIGH PART II PLANNING）
 数据来源：真实文件系统核验（详见 `00_system/HANDOFF_AUDIT.md`），非旧聊天记录。
 
@@ -24,8 +24,8 @@
 | **第一部原创 IP 选择** | **COMPLETED** | 用户正式确认 C05《雨天旧衣店》；C03/C06 保留未来候选，不再并行开发 |
 | **Phase 5：Story Bible Development** | **COMPLETED** | 新建 `04_original_project/C05_rainy_old_clothes/` 00–11 目录；完成核心身份、主题、旧衣 20 问规则、主角与核心群像、关系/世界/三层引擎、时间线、秘密/伏笔、全书结构、第一卷、前三章、前 20 章、原创性审查与四视角压力测试。最佳体量 28–32 万字/约 72 章。Phase 5 未写正文或剧本 |
 | **Phase 6A：Novel Production Setup** | **COMPLETED** | 建立 `12_production/` 工作流、文风规范、Chapter Brief 模板、Gemini Writer Instructions、章节验收标准与生产目录；完成 Phase 5→6 缺口检查，最小修正前三章重复兑付、店主代理/续读细则与限知视角信息隐藏；生成 Chapter 001–003 Brief。`09_manuscript/` 只有空目录规范，正文尚未开始 |
-| **Phase 6：Novel Production** | **IN PROGRESS — 23 chapters completed** | **Chapter 001–023 Final 正文全部 ACCEPTED / SAFE（23/23）**。Part I《未还》（Ch01–20）完整结卷；Part II《返潮》Opening Arc（Ch21–23）完成 Canon Repair 定点净化，清除过度抽取与事实污染；全批次纯汉字 12,744 控长达标；READ COUNT = 0、NEW RULES = 0、Memory Segment = NONE；产出 `part_02_opening_arc_ch21_23_canon_summary.md`（已修复）；**EXPANSION GATE = PASS SUSPENDED / TEMP HOLD（PENDING SOL FINAL GATE RECHECK）**；当前禁止规划 Ch24–29 与开写 Ch24；等待 Sol 终审确认 |
-| **Phase 6 Part II《返潮》Planning Window（Ch24–29）** | **HOLD — NOT AUTHORIZED YET** | 等待 GPT-5.6 Sol（MEDIUM）完成 Opening Arc Canon Final Gate Recheck 后恢复；严禁 Writer 提前开写 Ch24 |
+| **Phase 6：Novel Production** | **IN PROGRESS — 23 chapters completed** | **Chapter 001–023 FINAL / ACCEPTED / CANONIZED（23/23）**。Part I《未还》COMPLETE；Part II《返潮》Opening Arc COMPLETE；Canon Recovery CLOSED；Expansion Gate PASS / ACTIVE；下一阶段只授权Sol规划Ch24–29，正文未授权 |
+| **Phase 6 Part II《返潮》Planning Window（Ch24–29）** | **TODO — PLANNING AUTHORIZED** | 下一位GPT-5.6 Sol；默认MEDIUM，先做SHORT PREFLIGHT；仅规划、Brief与Readiness，严禁Writer提前开写Ch24 |
 
 | **Phase 6 Batch 01 Story Planning（Ch2–6）** | **COMPLETED** | `12_production/batches/batch_01_ch02_06_plan.md` + Chapter 002–006 五份 Brief 已完成；旧 Ch2–3 Brief 经 Chapter 001 Final Canon 校验后升级，Ch4–6 新建。时间细化：活人衣单元由 Phase 5 粗占位 6/14 调整为 6/10，以保持 6/11 秦沛后续节点。下一任务：Gemini 连续生产 Chapter 002–003 Draft；正文尚未开始 |
 | **Phase 6 Planning Window（Ch6–11）** | **COMPLETED** | `12_production/batches/batch_03_ch06_11_plan.md`；Ch6 原 Brief 确认不改；新增 Chapter 007–011 五份执行级 Brief；全章 Writer Reasoning = MEDIUM；仅 Ch7 = KEY；`CHAPTER_006_008_READINESS.md` = READY；下一步 Gemini 3.8 Flash Writer 连续生产 Ch6–Ch8 |

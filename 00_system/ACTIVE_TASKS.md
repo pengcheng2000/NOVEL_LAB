@@ -1,17 +1,15 @@
 # ACTIVE_TASKS — 当前活动任务
 
-最后更新：2026-09-16（GPT-5.6 Sol / Codex：**OPENING ARC CANON REPAIR FINAL GATE RECHECK 完成**；Final Text SAFE；Claim/Finance/Object/Policy/Knowledge/First-Slot/2016主体均PASS；发现3文件4个窄残留项，Final Verdict HOLD；Expansion Gate继续TEMP HOLD；下一任务 Gemini Continuity MEDIUM定点Patch，Ch24–29禁止规划）
+最后更新：2026-09-16（GPT-5.6 Sol / Codex：**FINAL EXPANSION GATE REOPEN CHECK 完成**；b97cbe4 4/4 residual items闭环，三份Final零修改，新污染0，Hard Conflict NONE；Canon Recovery CLOSED；Expansion Gate PASS / ACTIVE；下一任务 GPT-5.6 Sol Ch24–29 PLANNING ONLY；Writer不得直接开始Ch24）
 最后更新：2026-09-15（Gemini Continuity：**PART II《返潮》OPENING ARC FINALIZATION Ch21–23 完成**；生成 Ch21–23 Final，实测纯汉字 4,210 / 4,282 / 4,252 全部达标（共 12,744 汉字）；产出 `part_02_opening_arc_ch21_23_canon_summary.md`；待定点清洗抽取污染）
 
 ## 当前
 
 | 任务 | 状态 | 备注 |
 |---|---|---|
-| OPENING ARC RESIDUAL CANON PATCH | **TODO — READY** | 下一位 Gemini Continuity & Canon Agent（MEDIUM）只修复 Canon Summary、Relationship Engine、Finalization Log 三文件4个窄项；保护Final与其他Canon；完成简短Integrity Verification |
-| OPENING ARC CANON REPAIR FINAL GATE RECHECK | **COMPLETED — HOLD** | Repair主体通过；残留唐荔永久化措辞/私人证言范围与日志污染词/过时Gate描述；Expansion Gate TEMP HOLD |
-| PART II OPENING ARC CANON REPAIR | **COMPLETED** | 2026-09-16 Gemini Continuity 完成：按 Manifest 定点修复 12 个受污染文件；Ch21–23 Final 正文严格未动；梁女士案材料/三栏 Policy V1/知识边界/物件状态全面净化；产出 `part_02_opening_arc_canon_repair_verification.md`；Expansion Gate 维持 **PASS SUSPENDED / TEMP HOLD** |
-| PART II《返潮》PLANNING WINDOW（Ch24–29） | **HOLD — NOT AUTHORIZED YET** | 须待 Sol 完成 Final Gate Recheck 激活 Gate 后方可启动；严禁 Writer 提前开写 Chapter 024 正文 |
-| PART II OPENING ARC FINALIZATION（Ch21–23） | **COMPLETED（PROSE FROZEN / CANON REPAIRED）** | 2026-09-15 Gemini Continuity 生成 Final（4,210 / 4,282 / 4,252 纯汉字，正文安全）；2026-09-16 完成 Canon Repair 修复抽取污染 |
+| PART II《返潮》PLANNING WINDOW（Ch24–29） | **TODO — PLANNING AUTHORIZED** | 下一位 GPT-5.6 Sol；默认MEDIUM，开始前SHORT PREFLIGHT；仅规划6章、Brief与Readiness，Writer不得直接开写Ch24 |
+| PART II OPENING ARC（Ch21–23） | **COMPLETE — FINAL / ACCEPTED / CANONIZED** | Final Text SAFE；Canon Repair与Residual Patch全部验证闭环；Expansion Gate PASS / ACTIVE |
+| OPENING ARC CANON RECOVERY INCIDENT | **CLOSED** | 8149d44 Audit → 820c88b Repair → 7f2db6f Recheck → b97cbe4 Residual Patch → Final Gate PASS |
 | PART II OPENING ARC FINAL ACCEPTANCE | **COMPLETED** | 2026-09-15 Sol / Codex 完成（commit `b7e7a9b`）：终审验收 Ch21–23 Rewrite（commit `322157a`）；最终裁决 `OPENING ARC ACCEPTED FOR FINALIZATION`；Expansion Gate 裁决 PASS；`SOL RECHECK REQUIRED = NO` |
 | PART II OPENING ARC REWRITE VERIFICATION（Ch21–23） | **COMPLETED** | 2026-09-15 Gemini Continuity 完成：独立复核 commit `322157a`，产出 `part_02_opening_arc_ch21_23_rewrite_verification.md`；裁决 **VERIFIED**（0 Mechanical Patch）；四大硬伤彻底清零，篇幅 12,744 纯汉字全线达标；Expansion Gate 维持 HOLD；交付 Sol HIGH 终审 |
 | Chapter 021–023 Rewrite | **COMPLETED** | 2026-09-15 Gemini 3.8 Flash Writer 完成（commit `322157a`）：Ch21 4,210 字、Ch22 4,282 字、Ch23 4,252 字，总计 12,744 纯汉字全部精准达标 |
@@ -106,7 +104,7 @@
 
 | # | 任务 | 依赖 |
 |---|---|---|
-| 1 | Gemini Continuity APPLY RESIDUAL CANON PATCH | MEDIUM；只修3文件4窄项并做Integrity Verification；不得修改Final/其他Canon，不得规划或写Ch24 |
+| 1 | GPT-5.6 Sol PLAN Ch24–29 SIX-CHAPTER WINDOW | 默认MEDIUM；先做SHORT PREFLIGHT；完成Plan、6份Brief与Readiness前，Writer不得开始Ch24 |
 | 2 | Phase 6 生产监控：单元语法重复率 / 主谜场景占比 / 谢念主动行动占比 | 随正文生产持续执行 |
 | 3 | ORIGINAL_PROJECT_DISCOVERY 反向入库（C06 负空间数据库 + C08 规则武器职业化） | 用户确认；不影响 C05 |
 | 4 | Schema v1.1 修订裁决 / Source 政策边界裁决（历史遗留） | 用户裁决 |
