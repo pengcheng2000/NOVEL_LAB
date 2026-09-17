@@ -1,8 +1,8 @@
 # 《雨天旧衣店》75 秒 Concept Trailer — Prop & Costume Asset Specifications
 
-## PROP / COSTUME ASSET SPECS v1.0
+## PROP / COSTUME ASSET SPECS v1.1
 
-Status: SPECIFIED — TEXTUAL SOURCE OF TRUTH
+Status: APPROVED — TEXTUAL SOURCE OF TRUTH
 
 本文件定义 8 套服装资产与 7 套道具资产。七件核心 Hero Assets 使用完整物理规格；其余资产负责人物服装连续性和 Shot 依赖闭环。
 
@@ -139,7 +139,7 @@ Status: SPECIFIED — TEXTUAL SOURCE OF TRUTH
 
 ### Wear
 
-全衣颜色因多次洗涤呈不均匀软黑，肘部略薄，袖口和下摆轻微松弛；一处袖口可以有极淡、几乎看不出的旧酱油色痕迹，但不得成为显眼污渍或新增剧情焦点。
+全衣颜色因多次洗涤呈不均匀软黑，肘部略薄，袖口和下摆轻微松弛。
 
 ### Color
 

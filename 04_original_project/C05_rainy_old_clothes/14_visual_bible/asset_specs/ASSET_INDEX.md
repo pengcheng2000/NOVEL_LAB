@@ -1,8 +1,8 @@
 # 《雨天旧衣店》75 秒 Concept Trailer — Asset Registry
 
-## ASSET INDEX v1.0
+## ASSET INDEX v1.1
 
-Status: SPECIFIED — TEXTUAL SOURCE OF TRUTH
+Status: APPROVED — TEXTUAL SOURCE OF TRUTH
 
 - **用途**：为 `concept_trailer_screenplay_v1.0.md` 与 `concept_trailer_shot_list_v1.1.md` 提供可复用、可组合、与单张生成图解耦的稳定资产身份。
 - **范围**：当前 75 秒 Concept Trailer；不自动扩展为小说全局视觉 Canon。
@@ -104,7 +104,7 @@ SHOT 006 左胸内袋内的硬质塑料旧物保持 **UNKNOWN**：只生成隔�
 | 013 | 00:48–00:52 | CHAR-ZG-1988-001; CHAR-LSY-1988-001 | LOC-JYX-1988-INT-001 | COST-ZG-COAT-001; COST-LSY-1988-001 | PROP-TICKETS-1988-001 | 票未落入掌心即中断；极近手部，不增加答案 |
 | 014 | 00:52–00:55.5 | CHAR-XN-001; CHAR-ZWM-001 | LOC-JYX-FIT-001; LOC-JYX-2025-FRONT-001 | COST-XN-BASE-001; COST-ZG-COAT-001; COST-ZWM-WORK-001 | PROP-GLOVES-XN-001 | 谢念 Costume B 外套灰呢大衣；雨骤停 |
 | 015 | 00:55.5–01:00 | CHAR-XN-001 | LOC-JYX-2025-FRONT-001 | COST-XN-BASE-001; COST-XN-CARDIGAN-001 | PROP-MEMORY-MEAL-001 | 黑开衫只在柜台；老年林素云不出完整正脸 |
-| 016 | 01:00–01:04 | CHAR-XN-001（手部可见） | LOC-JYX-2025-CUT-001 | COST-XN-BASE-001; COST-SZ-WORKWEAR-001 | PROP-GLOVES-XN-001 | 裁床在店堂正中；“孙正”文字后期覆盖 |
+| 016 | 01:00–01:04 | — | LOC-JYX-2025-CUT-001 | COST-SZ-WORKWEAR-001 | — | 裁床在店堂正中；灰工装平铺；“孙正”文字后期覆盖；镜头由左胸移动至右腰暗针 |
 | 017 | 01:04–01:10 | CHAR-TL-001; CHAR-XN-001 | LOC-JYX-2025-CUT-001 | COST-TL-WORK-001; COST-XN-BASE-001; COST-SZ-WORKWEAR-001 | PROP-TAPE-TL-001; PROP-GLOVES-XN-001; PROP-GUTTER-001 | 唐荔为裸手，谢念仍戴白手套；暗针→唐荔→谢念反应 |
 | 018 | 01:10–01:15 | — | LOC-HCL-2025-EXT-001 | — | PROP-GUTTER-001 | 复用 001 建筑身份；夜雨；卷帘门半卷；标题后期合成 |
 

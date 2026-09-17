@@ -1,8 +1,8 @@
 # 《雨天旧衣店》75 秒 Concept Trailer — Location Asset Specifications
 
-## LOCATION ASSET SPECS v1.0
+## LOCATION ASSET SPECS v1.1
 
-Status: SPECIFIED — TEXTUAL SOURCE OF TRUTH
+Status: APPROVED — TEXTUAL SOURCE OF TRUTH
 
 本文件定义六个稳定场景身份。精确尺寸、平面位置和未被原作锁定的陈设均标为 **DIRECTOR VISUAL DECISION — Trailer Spatial Lock**；它们只服务当前 Trailer，不是小说建筑测绘 Canon。
 
@@ -100,7 +100,7 @@ Status: SPECIFIED — TEXTUAL SOURCE OF TRUTH
 - 临街卷帘门与玻璃门面连接店内。
 - 店内有长条实木柜台、老式长条日光灯、木算盘、衣架、老樟木箱、试衣布帘。
 - 柜台内侧堆有三只加厚纸箱，最上层可见涤纶防尘袋。
-- 柜台深抽屉存放《承衣簿》、木柄铜头印章与朱砂色印泥。
+- 柜台深抽屉存放《承衣簿》、铜章与朱砂色 / 红色印泥。
 - 通往试衣间／后堂处有厚重深色粗布帘。
 
 ## Spatial Structure

@@ -1,8 +1,8 @@
 # 《雨天旧衣店》75 秒 Concept Trailer — Character Asset Specifications
 
-## CHARACTER ASSET SPECS v1.0
+## CHARACTER ASSET SPECS v1.1
 
-Status: SPECIFIED — TEXTUAL SOURCE OF TRUTH
+Status: APPROVED — TEXTUAL SOURCE OF TRUTH
 
 本文件定义本片实际需要的五名人物资产。四名需要稳定正脸的人物——谢念、唐荔、赵为民、年轻林素云——使用完整 `FACIAL IDENTITY SPEC`。周桂珍仅锁侧背、手部、体态与服装轮廓，不建立正面 Hero Portrait。
 
